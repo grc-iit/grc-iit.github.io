@@ -1,8 +1,8 @@
 ---
-title: Resources
+title: Hardware Overview
 ---
 
-# Resources
+# Hardware Overview
 
 Our members enjoy access to several resources, including:
 
@@ -22,20 +22,20 @@ cluster by starting batch jobs or interactive jobs. Interactive jobs give you ac
 of the nodes, from which you can execute commands by hand, whereas batch jobs run from a given shell
 script in the background and automatically terminate when finished.
 
-If you encounter any problems using the cluster, please send us a request via scslab@iit.edu and be as
+If you encounter any problems using the cluster, please send us a request via grc@iit.edu and be as
 specific as you can when describing your issue.
 
 ### Usage Policy
 
 Regular members of the GRC enjoy access to the resources. If you wish to gain access to the cluster
-and you do not belong to the core team, please submit and request via scslab@iit.edu and state the following:
+and you do not belong to the core team, please submit and request via grc@iit.edu and state the following:
 (i) your CS login ID, (ii) name of professor you're working with (and put him under cc on the form) (iii)
 reasons for requesting access (i.e., research project description) (iv) projected time period for which you
 would need access (v) resources that you may interfere other uses significantly (e.g., global file system,
 network) (vi) commands that you need to run as root privilege.
 
 If we have any trouble with your job, we will try to get in touch with you but we reserve the right to kill
-your jobs at any time. If you have questions about the cluster, send us a request at scslab@iit.edu.
+your jobs at any time. If you have questions about the cluster, send us a request at grc@iit.edu.
 
 ### Local Computing Resources
 
@@ -46,16 +46,15 @@ adapters. You can find the detailed hardware configurations below.
 
 #### _Ares Cluster_
 
-The Ares cluster is composed of one rack of compute nodes and one rack of storage nodes. All the nodes share a
-48TB RAID-5 storage pool comprised of eight 8TB 7200K SAS hard drives. Nodes in each rack are connected with
+The Ares cluster is composed of one rack of compute nodes. All the nodes share a 48TB RAID-5 storage pool comprised of eight 8TB 7200K SAS hard drives. Nodes in each rack are connected with
 40Gbps Ethernet with RoCE support. One 200Gbps uplink connects two racks of nodes. The compute rack consists of
 one ThinkSystem SR650 master node, 32 ThinkSystem SR630 compute nodes. In total, the compute rack has 66 2.2GHz
 Xeon Scalable Silver 4114 processors with boosted frequency up to 3.0GHz, which leads to 660 cores and 1320 threads.
 The master node and the compute nodes are equipped with 96GB and 48GB DDR4-2400 memory, 128GB and 32GB M.2 SSD for
 OS, respectively. 24 compute nodes are equipped with one 250GB M.2 Samsung 960 Evo SSD. The other eight are equipped
-with one 256GB M.2 Toshiba RD400 SSD. The storage rack is an upgraded Sun rack with 32 Sun Fire X2200 nodes. Each
-storage node is equipped with two quad-core Opteron 2376 processors running at 2.3GHz, 32GB DDR2-667 memory, one
-250GB Samsung 860 Evo SATA SSD, and one 1TB Seagate 7200K SATA hard drive.
+with one 256 GB M.2 Toshiba RD400 SSD. 
+
+Read more in the [Ares User Guide](../resources/ares/user-guide)
 
 #### _HEC Cluster_
 

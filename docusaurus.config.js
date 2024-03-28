@@ -139,10 +139,6 @@ const config = {
                 to: "/research/patents",
                 label: "Patents",
               },
-              {
-                to: "/research/resources",
-                label: "Resources",
-              },
             ],
           },
           {
@@ -151,9 +147,18 @@ const config = {
             position: "left",
           },
           {
-            to: "/jobs",
-            label: "Job Opportunities",
-            position: "left",
+            label: "Resources",
+            position: "right",
+            items: [
+              {
+                to: "/resources/hardware-overview",
+                label: "Hardware Overview",
+              },
+              {
+                to: "/resources/ares/user-guide",
+                label: "Ares User Guide",
+              },
+            ],
           },
           // {
           //   to: "/blog",
