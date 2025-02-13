@@ -124,12 +124,7 @@ docker compose down  # Only for recent dockers
 docker-compose down  # Only for older dockers
 ```
 
-NOTE: Do all ``git clone`` commands outside of the container and mount as volumes.
-The above docker-compose assumes you have placed hermes-shm, iowarp-runtime, and
-content-transfer-engine in your home directory. If you didn't, then please update
-the volumes in the above file to be their actual locations.
-
-NOTE: ``shm_size`` and ``memory`` are set to 8GB. Feel free to increase or decrease
+NOTE: ``shm_size`` and ``mem_limit`` are set to 8GB. Feel free to increase or decrease
 that value.
 
 ### For Pull Requests
