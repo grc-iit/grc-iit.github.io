@@ -66,11 +66,7 @@ their Linux machine.
 To install iowarp dependencies:
 ```bash
 spack install iowarp +nocompile
-spack load iowarp
 ```
-NOTE: spack load is only for a specific terminal. You
-must call this command every time you open a new terminal
-or login to your machine.
 
 For developer installations, we will use a tool named scspkg.
 scspkg is installed automatically by iowarp. It is a tool for
@@ -135,6 +131,16 @@ gh repo set-default
 gh pr create --title "Your pull request title" --body "Your pull request description"
 ```
 
+### Load Basic Packages
+
+```bash
+spack load iowarp
+```
+
+Make sure to understand your environment. If you get errors
+like ``package X was not found``, it is most likely you forgot
+to do either ``spack load X`` or ``module load X``.
+
 ### Hermes-SHM
 ```bash
 cd ${IOWARP_PKGS}/cte-hermes-shm
@@ -163,7 +169,8 @@ git pull iowarp
 ```bash
 cd ${IOWARP_PKGS}/iowarp-runtime
 scspkg create iowarp_runtime
-module load hermes_shm
+module unload iowarp_runtime
+module load hermes_shm  
 mkdir build
 cd build
 cmake ../ \
@@ -184,6 +191,7 @@ git pull iowarp
 ```bash
 cd ${IOWARP_PKGS}/content-transfer-engine
 scspkg create cte
+module unload cte
 module load hermes_shm iowarp_runtime
 mkdir build
 cd build
@@ -200,3 +208,26 @@ cd ${IOWARP_PKGS}/content-transfer-engine
 git remote add iowarp https://github.com/iowarp/content-transfer-engine.git
 git pull iowarp
 ```
+
+### Another note on environments
+
+By the end of this installation, you will have the following spack:
+```bash
+spack load iowarp
+```
+
+And the following modules:
+```bash
+module load hermes_shm iowarp_runtime cte
+```
+
+Understanding how your environment works is important. When
+compiling you must make sure that only the necessary modules
+are loaded. For example, the iowarp_runtime install only
+requires ``spack load iowarp`` and ``module load hermes_shm``.
+
+If you have ``module load iowarp_runtime`` as well, 
+there is a chance the compiler will find header files
+in the module's directory, instead of the build directory.
+This can lead to compilation errors since the module directory
+will likely be outdated compared to the code you just wrote.

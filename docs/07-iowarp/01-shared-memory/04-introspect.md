@@ -51,3 +51,5 @@ to the ability to get and set CPU frequency. This
 is useful for various reasons. For example,
 energy efficiency algorithms can lower CPU frequency
 to handle low priority tasks.
+
+
