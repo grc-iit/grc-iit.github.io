@@ -12,15 +12,15 @@ Pipeline indexes are stored within repos as a subdirectory named
 
 Below is an example structure of a jarvis repo containing a pipeline index.
 ```bash
-jarvis_chimaera
-├── jarvis_chimaera
+jarvis_chimaera # Repo
+├── jarvis_chimaera  # Jarvis Packages
 │   ├── chimaera_bw_bench
 │   ├── chimaera_docker
 │   ├── chimaera_latency_bench
 │   ├── chimaera_run
 │   ├── chimaera_unit_tests
 │   └── chimaera_zlib_bench
-└── pipelines
+└── pipelines  # Pipeline Index
     ├── bench_bw_ipc.yaml
     ├── bench_latency_ipc.yaml
     ├── test_bdev_io.yaml
@@ -74,9 +74,7 @@ jarvis_hermes  # Repo
         └── test_vfd_python.yaml
 ```
 
-## Pipeline Index Usage
-
-### List indexes
+## List indexes
 
 Since pipeline indexes are stored in repos, just list
 the repos
@@ -84,7 +82,7 @@ the repos
 jarvis repo list
 ```
 
-### Index Queries
+## Index Queries
 
 In the commands below, many commands have the parameter ``[index_query]``.
 An index query is a dotted string in the following format:
@@ -100,7 +98,7 @@ jarvis_hermes.hermes.test_hermes
 
 NOTE: index queries do not include file extensions.
 
-### Use a script from an index
+## Use a script from an index
 To call a pipeline script stored in an index directly, you
 can do:
 
@@ -114,7 +112,7 @@ jarvis ppl index load jarvis_chimaera.bench_bw_ipc
 jarvis ppl index load jarvis_hermes.hermes.test_hermes
 ```
 
-### Copy a script from an index
+## Copy a script from an index
 
 You can copy a pipeline script from an index to your current
 directory or some other directory. You can then edit the
