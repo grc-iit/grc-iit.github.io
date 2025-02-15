@@ -103,7 +103,7 @@ client.Create(
 ```
 
 ``Create`` will create a ChiPool. This pool will span all nodes 
-(`chi::DomainQuery::GetGlobalBcast()``) and will
+(``chi::DomainQuery::GetGlobalBcast()``) and will
 be registered first by Chimaera Admin's first container 
 (``chi::DomainQuery::GetDirectHash(chi::SubDomainId::kGlobalContainers, 0)``).
 By default, there will be one container per node in the provided domain.
