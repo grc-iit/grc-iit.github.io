@@ -18,11 +18,11 @@ echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Clone the GRC Spack Repo
+### Clone the IoWarp Spack Repo
 ```bash
 cd ${HOME}
-git clone https://github.com/grc-iit/grc-repo
-spack repo add grc-repo
+git clone https://github.com/iowarp/iowarp-install.git
+spack repo add iowarp-install/iowarp-spack
 ```
 
 ## Install IOWARP: USERS

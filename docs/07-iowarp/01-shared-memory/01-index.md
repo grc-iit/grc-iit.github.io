@@ -4,23 +4,29 @@ This library contains a variety of data structures and synchronization primitive
 
 [![Coverage Status](https://coveralls.io/repos/github/lukemartinlogan/hermes_shm/badge.svg?branch=master)](https://coveralls.io/github/lukemartinlogan/hermes_shm?branch=master)
 
-## Installation: Users
+## Spack Install
+
+### Clone the IoWarp Spack Repo
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+spack repo add iowarp-install/iowarp-spack
+```
+
+### Installation: Users
 
 For those installing this component (rather than all of iowarp):
 ```bash
-git clone https://github.com/grc-iit/grc-repo.git
-spack repo add grc-repo
-spack install hermes_shm
+spack install cte-hermes-shm
+spack load cte-hermes-shm
 ```
 
-## Installation: Devs
+### Installation: Devs
 
 This will install dependencies of hermes-shm:
 ```bash
-git clone https://github.com/grc-iit/grc-repo.git
-spack repo add grc-repo
-spack install hermes_shm +nocompile
-spack load hermes_shm +nocompile
+spack install cte-hermes-shm +nocompile
+spack load cte-hermes-shm
 ```
 
 NOTE: spack load needs to be done for each new terminal.
