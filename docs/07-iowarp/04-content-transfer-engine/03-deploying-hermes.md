@@ -165,82 +165,73 @@ with Hermes. This will automatically set environment variables
 (e.g., LD_PRELOAD) that will be necessary for the application to
 run. This assumes the application is integrated with Jarvis.
 
+This example, the application is the IOR benchmark.
+
 ### Build an Environment
 
 We will now load all necessary environment variables and build a
 Jarvis environment named hermes:
 
 ```bash
-spack load hermes
+spack install ior
+```
+
+```bash
+spack load iowarp
 spack load ior
-jarvis env build hermes_ior_env
+jarvis env build hermes
 ```
 
-hermes_ior_env will store all important environment variables, including PATH,
-LD_LIBRARY_PATH, etc. in a YAML file.
-
-### Create an empty pipeline
-
+### Copy the IOR Pipeline
 ```bash
-jarvis ppl create hermes_ior
+jarvis ppl index copy jarvis_hermes.test_ior
 ```
 
-### Copy the environment cache
+This will create a pipeline script named ``test_ior.yaml`` in your
+current working directory that contains the following:
+```yaml
+name: hermes_unit_ior
+env: hermes
+pkgs:
+  # Launch IOWarp runtime
+  - pkg_type: chimaera_run
+    pkg_name: chimaera_run
+    sleep: 5
+    do_dbg: false
+    dbg_port: 4000
+    port: 6000
+    modules: ['hermes_core']
+  # Add hermes to the runtime
+  - pkg_type: hermes_run
+    pkg_name: hermes_run
+    do_dbg: false
+    dbg_port: 4000
+  # Intercept client I/O calls
+  - pkg_type: hermes_api
+    pkg_name: hermes_api
+    mpi: true
+  # Launch IOR
+  - pkg_type: ior
+    pkg_name: ior
+    api: mpiio
+    out: /tmp/test_hermes/ior.bin  # Output directory
+    xfer: 1m
+    block: 32g
+    nprocs: 4  # Total number of processes
+    ppn: 1  # Process per node
+```
 
+You can edit the parameters to this script. E.g., change number
+of processes in IOR, buffering locations, etc. This file does not
+demonstrate every single parameter of iowarp, but gives some
+configuration options.
+
+### Load the pipeline
+
+Load the IOR yaml:
 ```bash
-jarvis ppl env copy hermes_ior_env
+jarvis ppl load yaml test_ior.yaml
 ```
-
-### Set the active hostfile
-
-```bash
-jarvis hostfile set /path/to/hostfile
-```
-
-### Add Hermes runtime
-
-```bash
-jarvis ppl append hermes_run
-jarvis pkg configure hermes_run \
-sleep=5 \
-include=${HOME}/ior_data
-```
-
-This will ensure that if a Hermes interceptor is used, it will intercept
-all paths in `${HOME}/ior_data`.
-
-### Add Hermes MPI-IO interceptor
-
-```bash
-jarvis ppl append hermes_api +mpi
-```
-
-This will automatically locate the interceptor library by
-traversing various environment variables. This will ensure
-that MPI-IO is intercepted by Hermes.
-
-hermes_api includes other interceptors that can be used: posix, stdio, vfd. To view the set of options:
-```bash
-jarvis pkg help hermes_run
-```
-
-### Add IOR
-
-```bash
-jarvis ppl append ior
-jarvis pkg configure ior \
-xfer=1m \
-block=1g \
-nprocs=1 \
-ppn=16 \
-+write +read \
-out=${HOME}/ior_data/ior.bin \
-api=mpiio
-```
-
-This IOR will perform 1GB of I/O per-process (block) in units of 1m (xfer) and
-produce a single output file `${HOME}/ior_data/ior.bin`(out) using MPI-IO
-(api). The total amount of I/O performed will be 64GB spread across 4 nodes.
 
 ### Run the Pipeline
 
