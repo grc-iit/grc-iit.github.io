@@ -216,7 +216,7 @@ pkgs:
     api: mpiio
     out: /tmp/test_hermes/ior.bin  # Output directory
     xfer: 1m
-    block: 32g
+    block: 32m
     nprocs: 4  # Total number of processes
     ppn: 1  # Process per node
 ```
@@ -225,6 +225,12 @@ You can edit the parameters to this script. E.g., change number
 of processes in IOR, buffering locations, etc. This file does not
 demonstrate every single parameter of iowarp, but gives some
 configuration options.
+
+To view the arguments for the cte and iowarp runtime:
+```bash
+jarvis pkg help hermes_run
+jarvis pkg help chimaera_run
+```
 
 ### Load the pipeline
 
