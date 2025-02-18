@@ -4,15 +4,8 @@
 
 The Hermes daemon is responsible for tracking various metadata, and it is
 required to be launched before your application. There should only be
-one Hermes daemon per node. We recommend
-[Jarvis](https://github.com/grc-iit/jarvis-cd.git) for deploying Hermes.
-Jarvis is a framework that configures and deploys complex applications and
-services. Jarvis will automatically set various environment variables
-that Hermes expects in order for applications to be deployed. We have
-also integrated several applications into Jarvis that can be seamlessly
-deployed with Hermes.
-
-Jarvis is automatically installed as a dependency in GRC's spack repo.
+one Hermes daemon per node. We use the platform plugin interface's
+Jarvis-CD to deploy hermes, which is installed automatically.
 
 ## Building the Jarvis Configuration
 
@@ -62,7 +55,7 @@ For a personal machine, these directories can be the same directory.
 
 In addition to initializing the jarvis conf file, you must also build a resource graph.
 
-## Set the active Hostfile
+## Set or Change the active Hostfile
 
 The hostfile contains the set of nodes that the pipeline will run over.
 This is structured the same way as a traditional MPI hostfile.
@@ -99,7 +92,9 @@ uses this to identify valid networks and buffering locations.
 jarvis rg build
 ```
 
-## Building an Environment
+## An Example Unit Test Deployment
+
+### Building an Environment
 
 We will now load all necessary environment variables and build a
 Jarvis environment named hermes:
@@ -119,6 +114,16 @@ jarvis ppl index load jarvis_hermes.hermes.test_hermes
 ```
 This pipeline assumes the environment "hermes" exists from
 the previous step.
+
+Alternatively, you could do:
+```
+jarvis ppl index copy jarvis_hermes.hermes.test_hermes
+jarvis ppl load yaml test_hermes.yaml
+```
+
+This will copy the test_hermes pipeline script to the current
+directory as test_hermes.yaml. You could then play with
+the parameters from there.
 
 ### Run the pipeline
 ```bash
@@ -151,18 +156,6 @@ To destroy the pipeline:
 
 ```bash
 jarvis ppl destroy
-```
-
-## Changing the active Hostfile
-
-You may want to change the hostfile at some point. This can 
-be done using the same command as before. 
-
-However, note that every time you change the hostfile, you will need to update the
-pipeline. Jarvis does not automatically detect changes to this file.
-
-```bash
-jarvis ppl update
 ```
 
 ## Configuring + Deploying Hermes with an Application
