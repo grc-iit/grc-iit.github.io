@@ -11,22 +11,23 @@ To see demonstrations of the API, check out our [API tests](https://github.com/H
 This example will place a blob into the DMSH and then retrieve that blob.
 
 ```cpp
-#include <hermes.h>
-#include <bucket.h>
+#include <cassert>
+
+#include "hermes/hermes.h"
 
 int main() {
   TRANSPARENT_HERMES();
-  Bucket bkt = HERMES->GetBucket("hello");
+  hermes::Bucket bkt("hello");
   size_t blob_size = KILOBYTES(4);
-  Context ctx;
+  hermes::Context ctx;
 
-  std::vector<int> data_put(1024, i);
+  std::vector<int> data_put(1024, 0);
   bkt.Put<std::vector<int>>("0", data_put, ctx);
 
-  std::vector<int> data_get(1024, i);
+  std::vector<int> data_get(1024, 1);
   bkt.Get<std::vector<int>>("0", data_get, ctx);
 
-  REQUIRE(data_put == data_get);
+  assert(data_put == data_get);
 }
 ```
 
@@ -44,3 +45,22 @@ int main() {
 - ``bkt.Put`` will put a blob into the bucket. Put replaces all content
   if the blob previously existed.
 - ``bkt.Get`` will get the contents of an entire blob.
+
+# Linking with CMake
+
+Below is an example CMakeLists.txt to link with hermes.
+
+```cmake
+project(hermes_external)
+cmake_minimum_required(VERSION 3.25)
+
+set(CMAKE_CXX_STANDARD 17)
+
+find_package(Hermes REQUIRED)
+message("Found hermes at ${HERMES_LIB_DIR}")
+add_executable(test_hermes_external_compile
+        external.cc
+)
+target_link_libraries(test_hermes_external_compile
+        hermes::core_client)
+```
