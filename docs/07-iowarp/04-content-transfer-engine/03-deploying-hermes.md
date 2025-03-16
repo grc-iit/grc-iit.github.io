@@ -38,7 +38,7 @@ jarvis bootstrap list
 
 A configuration can be generated as follows:
 ```bash
-jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR (optional)]
+jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR]
 ```
 
 * **CONFIG_DIR:** A directory where jarvis metadata for pkgs and pipelines
@@ -47,9 +47,7 @@ are stored. This directory can be anywhere that the current user can access.
 stores data locally to the machine. Some jarvis pkgs require certain data to
 be stored per-machine. OrangeFS is an example.
 * **SHARED_DIR:** A directory which is common across all machines, where
-each machine has the same view of data in the directory. Most jarvis pkgs
-require this, but on machines without a global filesystem (e.g., Chameleon Cloud),
-this parameter can be set later.
+each machine has the same view of data in the directory.
 
 For a personal machine, these directories can be the same directory. 
 
@@ -91,6 +89,9 @@ uses this to identify valid networks and buffering locations.
 ```bash
 jarvis rg build
 ```
+
+This command only needs to be run once for the duration of Jarvis (or whenever your resources change).
+For example, if you get a new hard drive, you should re-run this command.
 
 ## An Example Unit Test Deployment
 

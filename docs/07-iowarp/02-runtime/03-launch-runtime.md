@@ -36,8 +36,8 @@ jarvis ppl load yaml test_ipc.yaml
 
 This will take a snapshot of your current environment:
 ```bash
-jarvis env build iowarp
-jarvis ppl env copy iowarp
+jarvis env build chimaera
+jarvis ppl env copy chimaera
 ```
 
 ## Run the Pipeline
