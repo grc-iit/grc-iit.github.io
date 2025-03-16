@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgrc=self.webpackChunkgrc||[]).push([[3931],{42408:e=>{e.exports=JSON.parse('{"blogBasePath":"/newsletter","blogTitle":"Blog","authorsListPath":"/newsletter/authors"}')}}]);
