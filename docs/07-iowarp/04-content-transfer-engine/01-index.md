@@ -1,4 +1,4 @@
-# Main Scenario
+# The Content Transfer Engine: Hermes
 
 ![Deep Memory and Storage Hierarchy (DMSH)](images/Hermes_hierachy.jpg)
 

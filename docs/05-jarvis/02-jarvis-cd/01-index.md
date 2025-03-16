@@ -9,22 +9,24 @@ We refer to applications as "jarivs pkgs" which can be connected to form
 
 ## Installation
 
-Get the GRC spack repo (if you haven't already):
+### Clone the IoWarp Spack Repo
 ```bash
-git clone https://github.com/grc-iit/grc-repo
-spack repo add grc-repo
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+spack repo add iowarp-install/iowarp-spack
 ```
 
-Install jarvis-cd:
+
+### Install Jarvis
 ```bash
 spack external find python
-spack install py-jarvis-cd
+spack install py-ppi-jarvis-cd
 ```
 
 Spack packages must be loaded to use them.
 You'll have to do this for each new terminal.
 ```bash
-spack load py-jarvis-cd
+spack load py-ppi-jarvis-cd
 ```
 
 ## Building the Jarvis Configuration
