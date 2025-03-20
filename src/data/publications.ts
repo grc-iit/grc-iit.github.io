@@ -3,6 +3,28 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 const publications: Publication[] = [
   {
     authors: [
+      "I. Yildirim",
+      "H. Devarajan",
+      "A. Kougkas",
+      "X.-H. Sun",
+      "K. Mohror",
+    ],
+    title:
+      "WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows",
+    venue: "The 39th ACM International Conference on Supercomputing (ICS 2025)",
+    type: "Conference",
+    date: "June, 2025",
+    tags: [
+      "HPC",
+      "Workflows",
+      "I/O Analysis",
+      "I/O Bottleneck Detection",
+      "WisIO",
+    ],
+    links: {},
+  },
+  {
+    authors: [
       "J. Ye",
       "J. Cernuda",
       "A. Maurya",
