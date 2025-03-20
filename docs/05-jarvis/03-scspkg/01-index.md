@@ -87,6 +87,24 @@ scspkg init
 This will create a directory ``~/.scspkg``, which is
 where your modulefiles will all be stored.
 
+## EXAMPLE: Creating a modulefile
+Say you want to install zlib manually:
+```bash
+scspkg create zlib
+cd $(scspkg pkg src zlib)
+wget https://www.zlib.net/zlib-1.3.tar.gz
+tar -xzf zlib-1.3.tar.gz
+cd zlib-1.3
+./configure --prefix=$(scspkg pkg root zlib)
+make -j8 install
+```
+
+You can now run the following, and your environment
+will be updated:
+```bash
+module load zlib
+```
+
 ## Using the modulefiles
 
 ```bash
