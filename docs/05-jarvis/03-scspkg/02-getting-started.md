@@ -13,9 +13,9 @@ scspkg create zlib
 ```
 
 Packages have two important directories and one file:
-1. The root directory: where the compiled objects will be installed. It will be created at ``${SCSPKG_ROOT}/packages/${PACKAGE_NAME}``
-2. The source directory: where compilation will occur and where source code is stored. It will be created at ``${SCSPKG_ROOT}/pacakges/${PACKAGE_NAME}/src``
-3. The modulefile: the modulefile for this package. It will be created at ``${SCSPKG_ROOT}/modulefiles/${PACKAGE_NAME}``
+1. The root directory: where the compiled objects will be installed. It will be created at ``~/.scspkg/packages/${PACKAGE_NAME}``
+2. The source directory: where compilation will occur and where source code is stored. It will be created at ``~/.scspkg/pacakges/${PACKAGE_NAME}/src``
+3. The modulefile: the modulefile for this package. It will be created at ``~/.scspkg/modulefiles/${PACKAGE_NAME}``
 
 ## Download, Compile, and Install Source Code
 
