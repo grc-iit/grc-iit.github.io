@@ -1,21 +1,27 @@
-A simple tool for building modulefiles and testing build scripts before building 
-a spack script. It's also useful for when spack fails. 
-More detailed doucmentation for its usage is [here](https://github.com/scs-lab/scspkg/wiki).
+# SCSPKG
 
-# 0.1. Dependencies
+SCSPKG provides an infrastructures for installing packages manually.
+It provides a structure to modulefiles so that you don't have to build them manually.
+It's useful for when you're developing things or when spack fails.
+We will go through an example which installs zlib.
 
-## 0.1.1. Jarvis-Util
-SCSPKG depends on [jarvis-util](https://github.com/scs-lab/jarvis-util).
-It's a library which contains wrappers around shell commands.
+## Dependencies
+
+SCSPKG wraps around the system's installation of modules.
+If your system doesn't have this, you'll need to install 
+to make use of this tool. To check if your system has modules,
+run the following command:
 
 ```bash
-git clone https://github.com/scs-lab/jarvis-util.git
-cd jarvis-util
-python3 -m pip install -r requirements.txt
-python3 -m pip install -e .
+module avail
 ```
 
-## 0.1.2. LMOD or Environment Modules
+It it succeeds, skip this section.
+
+### Install LMOD
+
+There are two major implementations of modules: 
+``LMOD`` and ``Environment Modules``.
 
 To install LMOD, follow this [guide](https://lmod.readthedocs.io/en/latest/030_installing.html).
 LMOD is recommended -- only use environment modules if that's what your system
@@ -40,34 +46,48 @@ if ! shopt -q login_shell; then
 fi
 ```
 
-# 0.2. Installation
 
+## Installation
+
+### Clone the IoWarp Spack Repo
 ```bash
-cd /path/to/scspkg
-python3 -m pip install -r requirements.txt
-python3 -m pip install -e .
-SCSPKG_MODULE_DIR=`scspkg module dir`
-echo "module use ${SCSPKG_MODULE_DIR}" >> ~/.bashrc
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+spack repo add iowarp-install/iowarp-spack
 ```
 
-# 0.3. Setup
+### Install SCSPKG
+```bash
+spack install py-ppi-scspkg
+```
 
-After installing, you'll have to bootstrap scspkg.
+Spack packages must be loaded to use them.
+You'll have to do this for each new terminal.
+```bash
+spack load py-ppi-scspkg
+```
 
-If using LMOD for environment variables:
+### Setting up terminal
+
+We need to ensure that LMOD will search for your modules:
+
+```bash
+SCSPKG_MODULE_DIR=$(scspkg module dir)
+echo "module use ${SCSPKG_MODULE_DIR}" >> ~/.bashrc
+module use ${SCSPKG_MODULE_DIR}
+```
+
+### Initializing SCSPKG configuration
+
+Create the scspkg configuration file.
 ```bash
 scspkg init
 ```
 
-If using Environment Modules (tcl):
-```bash
-scspkg init False
-```
+This will create a directory ``~/.scspkg``, which is
+where your modulefiles will all be stored.
 
-If you don't know whether LMOD or Environment Modules is installed, assume 
-Environment Modules. LMOD is compatible with Environment Module scripts.
-
-# 0.4. Using the modulefiles
+## Using the modulefiles
 
 ```bash
 module avail #List of available modules
@@ -77,7 +97,7 @@ module unload [package] #Unload a module
 module purge #Unload all modules
 ```
 
-# 0.5. Uninstallation
+## Uninstallation
 
 ```bash
 scspkg reset
