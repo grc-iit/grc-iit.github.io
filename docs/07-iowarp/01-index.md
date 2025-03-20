@@ -141,11 +141,23 @@ Make sure to understand your environment. If you get errors
 like ``package X was not found``, it is most likely you forgot
 to do either ``spack load X`` or ``module load X``.
 
+### Things failing to build after an update
+If you find that things are failing to build for you
+after an update, try destroying all build directories.
+
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+rm -rf build
+cd ${IOWARP_PKGS}/iowarp-runtime
+rm -rf build
+cd ${IOWARP_PKGS}/content-transfer-engine
+rm -rf build
+```
+
 ### Hermes-SHM
 ```bash
 cd ${IOWARP_PKGS}/cte-hermes-shm
 scspkg create hermes_shm
-rm -rf build
 mkdir build
 cd build
 cmake ../ \
@@ -172,7 +184,6 @@ cd ${IOWARP_PKGS}/iowarp-runtime
 scspkg create iowarp_runtime
 module unload iowarp_runtime
 module load hermes_shm  
-rm -rf build
 mkdir build
 cd build
 cmake ../ \
