@@ -145,6 +145,7 @@ to do either ``spack load X`` or ``module load X``.
 ```bash
 cd ${IOWARP_PKGS}/cte-hermes-shm
 scspkg create hermes_shm
+rm -rf build
 mkdir build
 cd build
 cmake ../ \
@@ -171,6 +172,7 @@ cd ${IOWARP_PKGS}/iowarp-runtime
 scspkg create iowarp_runtime
 module unload iowarp_runtime
 module load hermes_shm  
+rm -rf build
 mkdir build
 cd build
 cmake ../ \
@@ -193,6 +195,7 @@ cd ${IOWARP_PKGS}/content-transfer-engine
 scspkg create cte
 module unload cte
 module load hermes_shm iowarp_runtime
+rm -rf build
 mkdir build
 cd build
 cmake ../ \
