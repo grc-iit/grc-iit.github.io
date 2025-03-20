@@ -56,8 +56,8 @@ int main() {
 Below is an example CMakeLists.txt to link with hermes.
 
 ```cmake
-project(hermes_external)
 cmake_minimum_required(VERSION 3.25)
+project(hermes_external)
 
 set(CMAKE_CXX_STANDARD 17)
 
