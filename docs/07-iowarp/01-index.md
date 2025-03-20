@@ -158,6 +158,7 @@ rm -rf build
 ```bash
 cd ${IOWARP_PKGS}/cte-hermes-shm
 scspkg create hermes_shm
+git pull
 mkdir build
 cd build
 cmake ../ \
@@ -182,6 +183,7 @@ git pull iowarp
 ```bash
 cd ${IOWARP_PKGS}/iowarp-runtime
 scspkg create iowarp_runtime
+git pull
 module unload iowarp_runtime
 module load hermes_shm  
 mkdir build
@@ -203,6 +205,7 @@ git pull iowarp
 ### Content-Transfer-Engine: Hermes
 ```bash
 cd ${IOWARP_PKGS}/content-transfer-engine
+git pull
 scspkg create cte
 module unload cte
 module load hermes_shm iowarp_runtime
