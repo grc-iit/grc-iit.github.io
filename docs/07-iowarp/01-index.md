@@ -217,7 +217,6 @@ cd ${IOWARP_PKGS}/content-transfer-engine
 scspkg create cte
 module unload cte
 module load hermes_shm iowarp_runtime
-rm -rf build
 mkdir build
 cd build
 cmake ../ \
