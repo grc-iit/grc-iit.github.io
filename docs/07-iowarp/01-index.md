@@ -141,6 +141,17 @@ Make sure to understand your environment. If you get errors
 like ``package X was not found``, it is most likely you forgot
 to do either ``spack load X`` or ``module load X``.
 
+### Ensure packages are up-to-date
+Make sure to try and update all your packages:
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+git pull
+cd ${IOWARP_PKGS}/iowarp-runtime
+git pull
+cd ${IOWARP_PKGS}/content-transfer-engine
+git pull
+```
+
 ### Things failing to build after an update
 If you find that things are failing to build for you
 after an update, try destroying all build directories.
@@ -152,16 +163,6 @@ cd ${IOWARP_PKGS}/iowarp-runtime
 rm -rf build
 cd ${IOWARP_PKGS}/content-transfer-engine
 rm -rf build
-```
-
-Also make sure to try and update all your packages:
-```bash
-cd ${IOWARP_PKGS}/cte-hermes-shm
-git pull
-cd ${IOWARP_PKGS}/iowarp-runtime
-git pull
-cd ${IOWARP_PKGS}/content-transfer-engine
-git pull
 ```
 
 ### Hermes-SHM
