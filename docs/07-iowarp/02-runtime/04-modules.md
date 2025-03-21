@@ -190,9 +190,6 @@ To autogenerate the Compress and Decompress functions, we can run the following 
 chi_refresh_repo ~/my_mod_repo
 ```
 
-NOTE: Unlike ``chi_make_mod``, this command takes as input the entire module repo, 
-rather than a specific module.
-
 The ``chi_refresh_repo`` command will autogenerate some new files that you can
 copy-paste from. The extensions of these files are ``temp_h`` and ``temp_cc``.
 ```bash

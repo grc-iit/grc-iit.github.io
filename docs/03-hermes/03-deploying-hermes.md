@@ -45,7 +45,7 @@ jarvis bootstrap list
 
 A configuration can be generated as follows:
 ```bash
-jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR (optional)]
+jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR]
 ```
 
 * **CONFIG_DIR:** A directory where jarvis metadata for pkgs and pipelines
@@ -98,6 +98,9 @@ uses this to identify valid networks and buffering locations.
 ```bash
 jarvis rg build
 ```
+
+This command should be executed on a subset of nodes on your machine that you plan to
+run tests on. If the machines are similar, two nodes should be enough.
 
 
 ## Building an Environment
