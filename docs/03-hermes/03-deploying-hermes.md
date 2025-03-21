@@ -99,6 +99,9 @@ uses this to identify valid networks and buffering locations.
 jarvis rg build
 ```
 
+This command should be executed on a subset of nodes on your machine that you plan to
+run tests on. If the machines are similar, two nodes should be enough.
+
 
 ## Building an Environment
 
