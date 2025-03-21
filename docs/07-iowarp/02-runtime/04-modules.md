@@ -120,10 +120,16 @@ my_mod_repo
         └── compressor_monitor.py      # Runtime monitoring (optional)
 ```
 
+### Refresh the module repo
+To ensure that the repo's cmakes all know of the new module, run:
+```bash
+chi_refresh_repo ~/my_mod_repo
+```
+
 ### Try Compiling
 You should be able to compile this code as-is.
 
-```
+```bash
 cd ~/my_mod_repo
 mkdir build
 cd build
