@@ -45,7 +45,7 @@ jarvis bootstrap list
 
 A configuration can be generated as follows:
 ```bash
-jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR (optional)]
+jarvis init [CONFIG_DIR] [PRIVATE_DIR] [SHARED_DIR]
 ```
 
 * **CONFIG_DIR:** A directory where jarvis metadata for pkgs and pipelines
