@@ -534,12 +534,15 @@ The serialization function in particular is important.
 ```cpp
 struct CreateTaskParams {
   CLS_CONST char *lib_name_ = "compressor";
+  int compress_id_;
 
   HSHM_INLINE_CROSS_FUN
   CreateTaskParams() = default;
 
   HSHM_INLINE_CROSS_FUN
-  CreateTaskParams(const hipc::CtxAllocator<CHI_ALLOC_T> &alloc, int compress_id = 0) {}
+  CreateTaskParams(const hipc::CtxAllocator<CHI_ALLOC_T> &alloc, int compress_id = 0) {
+    compress_id_ = compress_id;
+  }
 
   template <typename Ar>
   HSHM_INLINE_CROSS_FUN void serialize(Ar &ar) {
@@ -586,8 +589,8 @@ struct CompressTask : public Task, TaskFlags<TF_SRL_SYM> {
 
   /** Duplicate message */
   void CopyStart(const CompressTask &other, bool deep) {
-    data_ = data;
-    data_size_ = data_size;
+    data_ = other.data_;
+    data_size_ = other.data_size_;
     if (!deep) {
       UnsetDataOwner();
     }
