@@ -29,6 +29,9 @@ to avoid work later.
 
 This is the last planned change to automated module structure.
 ```bash
+cd ${IOWARP_PKGS}/iowarp-install
+git pull
+
 rm -rf ~/.chimaera
 IOWARP_CMD=$(spack find -v iowarp | sed -n '2 p')
 spack uninstall --dependents iowarp-base
