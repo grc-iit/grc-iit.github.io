@@ -156,6 +156,8 @@ to do either ``spack load X`` or ``module load X``.
 ### Ensure packages are up-to-date
 Make sure to try and update all your packages:
 ```bash
+cd ~/iowarp-install
+git pull
 cd ${IOWARP_PKGS}/cte-hermes-shm
 git pull
 cd ${IOWARP_PKGS}/iowarp-runtime
