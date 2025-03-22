@@ -808,7 +808,8 @@ struct DecompressTask : public Task, TaskFlags<TF_SRL_SYM> {
   /** Emplace constructor */
   HSHM_INLINE explicit DecompresssTask(
       const hipc::CtxAllocator<CHI_ALLOC_T> &alloc, const TaskNode &task_node,
-      const PoolId &pool_id, const DomainQuery &dom_query)
+      const PoolId &pool_id, const DomainQuery &dom_query,
+      const hipc::Pointer &data, size_t data_size)
       : Task(alloc) {
     // Initialize task
     task_node_ = task_node;
@@ -825,8 +826,8 @@ struct DecompressTask : public Task, TaskFlags<TF_SRL_SYM> {
 
   /** Duplicate message */
   void CopyStart(const CompressTask &other, bool deep) {
-    data_ = data;
-    data_size_ = data_size;
+    data_ = other.data_;
+    data_size_ = other.data_size_;
     if (!deep) {
       UnsetDataOwner();
     }
@@ -909,7 +910,7 @@ in the chapter.
   void Compress(const hipc::MemContext &mctx,
                 const DomainQuery &dom_query,
                 const hipc::Pointer &data, size_t data_size) {
-    FullPtr<CompressTask> task = AsyncCompress(dom_query, data, data_size);
+    FullPtr<CompressTask> task = AsyncCompress(mctx, dom_query, data, data_size);
     task->Wait();
     CHI_CLIENT->DelTask(mctx, task);
   }
@@ -919,7 +920,7 @@ in the chapter.
   void Decompress(const hipc::MemContext &mctx,
                   const DomainQuery &dom_query,
                   const hipc::Pointer &data, size_t data_size) {
-    FullPtr<DecompressTask> task = AsyncDecompress(dom_query, data, data_size);
+    FullPtr<DecompressTask> task = AsyncDecompress(mctx, dom_query, data, data_size);
     task->Wait();
     CHI_CLIENT->DelTask(mctx, task);
   }

@@ -80,6 +80,18 @@ mess with their environment, we maintain a development container.
 We provide an Ubuntu contianer where iowarp's dependencies are
 already installed. 
 
+To build the containers manually:
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+docker build --no-cache -t grc-spack docker -f docker/grc-spack.Dockerfile
+docker tag grc-spack lukemartinlogan/grc-repo:latest
+# docker push lukemartinlogan/grc-repo:latest
+cd ${IOWARP_PKGS}/iowarp-runtime
+docker build --no-cache -t chimaera docker -f docker/deps.Dockerfile
+docker tag chimaera lukemartinlogan/chimaera-deps:latest
+# docker push lukemartinlogan/chimaera-deps:latest
+```
+
 Here is the docker compose:
 ```dockerfile
 services:
