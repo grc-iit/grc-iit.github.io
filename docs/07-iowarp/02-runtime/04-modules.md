@@ -34,7 +34,7 @@ git pull
 
 rm -rf ~/.chimaera
 IOWARP_CMD=$(spack find -v iowarp | sed -n '2 p')
-spack uninstall --dependents iowarp-base
+spack uninstall --dependents iowarp-base py-iowarp-runtime-util
 spack clean -a
 spack install ${IOWARP_CMD}
 spack load iowarp
