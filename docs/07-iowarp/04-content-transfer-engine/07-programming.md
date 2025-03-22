@@ -67,5 +67,5 @@ add_executable(test_hermes_external_compile
         external.cc
 )
 target_link_libraries(test_hermes_external_compile
-        hermes::core_client)
+        hermes::hermes_core_client)
 ```
