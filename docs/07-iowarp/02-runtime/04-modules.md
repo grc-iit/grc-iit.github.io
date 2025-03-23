@@ -453,6 +453,7 @@ class Client : public ModuleClient {
     CHI_CLIENT->DelTask(mctx, task);
   }
   CHI_TASK_METHODS(Decompresss);
+  CHI_END(Decompress)
 };
 ```
 
