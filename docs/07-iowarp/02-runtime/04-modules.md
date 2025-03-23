@@ -19,7 +19,7 @@ names to ensure that code is properly generated.
 ## Updating to the new repo structure
 
 To those that have installed / developed chimods before 
-Saturday 3/22, we have updated the chimod structure 
+Sunday 3/23, we have updated the chimod structure 
 going forward to give more flexibility to people with
 potentially more complex client code.
 
@@ -43,6 +43,14 @@ cd ~/my_mod_repo
 chi_repo_reformat .
 chi_clear_temp
 ```
+
+If you already have modules bootstrapped from a previous version, you 
+will want to wrap each of your tasks with ``CHI_BEGIN`` and ``CHI_END``
+macros to help the autogenerator edit your files. 
+
+Look at the section on 
+[Autogenerate task helper files](https://grc.iit.edu/docs/iowarp/runtime/modules#autogenerate-task-helper-files) to see what
+that looks like.
 
 ## Module Repos
 In Chimaera, a module (or **ChiMod**) is the code object representing a ChiContainer. These
