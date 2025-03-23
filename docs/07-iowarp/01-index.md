@@ -153,6 +153,10 @@ Make sure to understand your environment. If you get errors
 like ``package X was not found``, it is most likely you forgot
 to do either ``spack load X`` or ``module load X``.
 
+### Configure SCSPKG
+
+Read [this](https://grc.iit.edu/docs/jarvis/scspkg/index) guide to configure scspkg.
+
 ### Ensure packages are up-to-date
 Make sure to try and update all your packages:
 ```bash
