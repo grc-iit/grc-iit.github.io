@@ -201,7 +201,7 @@ pkgs:
     do_dbg: false
     dbg_port: 4000
     port: 6000
-    modules: ['hermes_core']
+    modules: ['hermes_hermes_core']
   # Add hermes to the runtime
   - pkg_type: hermes_run
     pkg_name: hermes_run
@@ -221,6 +221,9 @@ pkgs:
     nprocs: 4  # Total number of processes
     ppn: 1  # Process per node
 ```
+
+NOTE: Hermes creates the file named libhermes_hermes_core.so,
+which is why we use hermes_hermes_core as the module name here.
 
 You can edit the parameters to this script. E.g., change number
 of processes in IOR, buffering locations, etc. This file does not
