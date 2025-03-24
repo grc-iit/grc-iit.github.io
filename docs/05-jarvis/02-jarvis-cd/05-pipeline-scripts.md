@@ -17,6 +17,15 @@ Alternatively, if you want to load + run the script:
 jarvis ppl run yaml /path/to/my_pipeline.yaml
 ```
 
+## Updating a pipeline
+
+To load changes made to a pipeline script, you can run:
+```bash
+jarvis ppl update yaml
+```
+
+The pipeline will store the path so you dont have to repeat.
+
 ## Example Pipeline Script
 
 Below is a small example of a file for testing block device I/O
