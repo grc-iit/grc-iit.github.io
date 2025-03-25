@@ -1105,6 +1105,31 @@ cmake ../ -DCMAKE_INSTALL_PREFIX=$(scspkg pkg root my_mod_repo)
 make -j32 install
 ```
 
+## Invoking your mods
+In the previous example, we created the compressor mod. An 
+example test would like like this:
+
+```cpp
+#include "compressor/compressor_client.h"
+
+int main() {
+  chi::compressor::Client client;
+  client.Create(
+      HSHM_MCTX,
+      chi::DomainQuery::GetDirectHash(chi::SubDomainId::kGlobalContainers, 0),
+      chi::DomainQuery::GetGlobalBcast(), "ipc_test");
+
+  size_t data_size = hshm::Unit<size_t>::Megabytes(1);
+  hipc::FullPtr<char> orig_data =
+      CHI_CLIENT->AllocateBuffer(HSHM_MCTX, data_size);
+  client.Compress(HSHM_MCTX, chi::DomainQuery::GetLocalHash(0), data,
+                  data_size);
+  return 0;
+}
+```
+
+This will create the compressor module and then compress some data.
+
 ## Link to your mods (Internally)
 
 Maybe you want to use your modules in the project they
