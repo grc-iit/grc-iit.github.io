@@ -1,11 +1,6 @@
 
 # Building Modules
 
-:::info
-The last planned major change to iowarp's module structure has been made.
-If you have installed in the last few days, reread this documentation.
-:::
-
 Chimaera's objective is to be flexible towards a variety of I/O stack designs. The main step
 to achieve this is through modularity. It is possible to create and dynamically register
 new custom modules in the chimaera runtime. This section discusses how this modularity is
@@ -16,7 +11,7 @@ Chimaera does follow a strict naming convention to allow for more
 code to be generated. We document here the expectations on certain key variable and class
 names to ensure that code is properly generated.
 
-## Updating to the new repo structure
+<!-- ## Updating to the new repo structure
 
 To those that have installed / developed chimods before 
 Sunday 3/23, we have updated the chimod structure 
@@ -41,7 +36,7 @@ spack load iowarp
 
 cd ~/my_mod_repo
 chi_repo_reformat .
-chi_clear_temp
+chi_clear_temp .
 ```
 
 If you already have modules bootstrapped from a previous version, you 
@@ -50,7 +45,7 @@ macros to help the autogenerator edit your files.
 
 Look at the section on 
 [Autogenerate task helper files](https://grc.iit.edu/docs/iowarp/runtime/modules#autogenerate-task-helper-files) to see what
-that looks like.
+that looks like. -->
 
 ## Module Repos
 In Chimaera, a module (or **ChiMod**) is the code object representing a ChiContainer. These
