@@ -1105,10 +1105,25 @@ cmake ../ -DCMAKE_INSTALL_PREFIX=$(scspkg pkg root my_mod_repo)
 make -j32 install
 ```
 
-## Link to your mods
+## Link to your mods (Internally)
 
-In order to use the Compressor Client API, you must 
-link to it and Chimaera in your CMake. 
+Maybe you want to use your modules in the project they
+are being built (internally). Below is an example cmake
+for a theoretical mod repo named "tasks".
+```cmake
+cmake_minimum_required(VERSION 3.25)
+project(internal)
+
+add_subdirectory(tasks)  # A mod repo named tasks
+
+add_executable(internal internal.cc)
+target_link_libraries(internal example::compressor_client)
+```
+
+## Link to your mods (Externally)
+
+For projects that are external to the mod repo, you
+can link to it by finding the Example config.
 
 Below is an example CMake:
 ```cmake
