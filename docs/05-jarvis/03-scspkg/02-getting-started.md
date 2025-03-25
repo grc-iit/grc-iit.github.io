@@ -22,9 +22,9 @@ Packages have two important directories and one file:
 First, we cd into the package's source directory and unpack zlib
 ```bash
 cd $(scspkg pkg src zlib)
-wget https://www.zlib.net/zlib-1.3.tar.gz
-tar -xzf zlib-1.3.tar.gz
-cd zlib-1.3
+wget https://www.zlib.net/zlib-1.3.1.tar.gz
+tar -xzf zlib-1.3.1.tar.gz
+cd zlib-1.3.1
 ```
 
 Next, we configure zlib to store the installed files in the package's root directory.
