@@ -7,8 +7,8 @@ The small_message ChiPool, when created, stores an integer (by default) in each 
 
 ```cpp
 #include "chimaera/api/chimaera_client.h"
-#include "chimaera_admin/chimaera_admin.h"
-#include "small_message/small_message.h"
+#include "chimaera_admin/chimaera_admin_client.h"
+#include "small_message/small_message.h_client"
 
 CHI_NAMESPACE_INIT
 
@@ -52,8 +52,8 @@ int main() {
 The first few lines relate to the includes.
 ```cpp
 #include "chimaera/api/chimaera_client.h"
-#include "chimaera_admin/chimaera_admin.h"
-#include "small_message/small_message.h"
+#include "chimaera_admin/chimaera_admin_client.h"
+#include "small_message/small_message_client.h"
 
 CHI_NAMESPACE_INIT
 ```
