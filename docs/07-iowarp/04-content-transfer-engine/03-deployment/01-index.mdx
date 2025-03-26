@@ -1,0 +1,17 @@
+# Configure Jarvis
+
+The Content Transfer Engine, which we refer to as Hermes, runs in the iowarp runtime.
+Hermes is responsible for tracking various metadata, and it is
+required to be launched before your application. There should only be
+one Hermes daemon per node. We use the platform plugin interface's
+Jarvis-CD to deploy hermes, which is installed automatically if you used spack
+or the containers.
+
+Jarvis-CD is a tool that manages the deployment of complex software. This includes
+setting environment variables and identifying the resources on your system. It
+is important to configure Jarvis properly before proceeding with Hermes deployments.
+
+Read [this guide](../../05-jarvis/02-jarvis-cd/01-index.mdx#building-the-jarvis-configuration)
+to learn how to bootstrap Jarvis.
+
+The next few sections will demonstrate how to use jarvis to deploy Hermes.
