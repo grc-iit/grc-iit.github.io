@@ -60,7 +60,7 @@ docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 docker tag iowarp-user iowarp/iowarp-user:latest
 ```
 
-### Docker Compose
+### Create Docker Compose File
 
 ```bash
 mkdir ~/iowarp-docker
@@ -81,10 +81,15 @@ services:
     network_mode: host
 ```
 
-Run the container
+### Run the container
 ```bash
 docker compose up -d  # Only for recent dockers
 docker-compose up -d  # Only for older dockers
+```
+
+### Access the Container
+```bash
+docker exec -it iowarp bash
 ```
       </TabItem>
     </Tabs>
