@@ -43,6 +43,12 @@ spack install iowarp
       </TabItem>
 
       <TabItem value="docker-user" label="Dockerfiles (Any)">
+### Clone the IoWarp Install Repo
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
 ### Create your own containers
 ```bash
 cd ~/iowarp-install/docker
@@ -52,6 +58,38 @@ docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
 docker tag iowarp-deps iowarp/iowarp-deps:latest
 docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 docker tag iowarp-user iowarp/iowarp-user:latest
+```
+
+### Create Docker Compose File
+
+```bash
+mkdir ~/iowarp-docker
+cd iowarp-docker
+nano docker-compose.yml
+```
+
+Add the following:
+```yaml
+services:
+  iowarp:
+    image: iowarp/iowarp-user:latest
+    container_name: iowarp  
+    shm_size: 8g
+    mem_limit: 8g
+    stdin_open: true
+    tty: true
+    network_mode: host
+```
+
+### Run the container
+```bash
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+### Access the Container
+```bash
+docker exec -it iowarp bash
 ```
       </TabItem>
     </Tabs>
