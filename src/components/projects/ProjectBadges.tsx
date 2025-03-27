@@ -1,10 +1,13 @@
 import React from "react";
 import clsx from "clsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ProjectId } from "@site/src/types";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { getProjectById } from "@site/src/data/projects";
 
 type ProjectBadgesProps = {
   addMargin?: boolean;
+  isCompact?: boolean;
   projectId: ProjectId;
 };
 
@@ -15,36 +18,64 @@ export default function ProjectBadges({
   projectId,
 }: ProjectBadgesProps) {
   const {
-    isOpenSource = false,
     isOurs = false,
+    sourceLink,
+    tutorialLink,
     type,
   } = getProjectById(projectId);
   const isFunded = type === "funded";
   // Check if all false
-  if (!isFunded && !isOpenSource && !isOurs) {
+  if (!isFunded && !isOurs && !sourceLink && !tutorialLink) {
     return null;
   }
   return (
-    <div
-      className={clsx(addMargin && "margin-bottom--md")}
-      style={{ lineHeight: 1 }}
-    >
+    <div className={clsx(addMargin && "margin-bottom--md")}>
       {isOurs && (
-        <span className="badge badge--primary margin-horiz--xs">GRC-LED</span>
+        <span className="badge badge--primary margin-horiz--xs">GRC-led</span>
       )}
-      {/* {isFeatured && <span className="badge badge--info margin-horiz--xs">FEATURED</span>} */}
       {isFunded && (
-        <span className="badge badge--success margin-horiz--xs">FUNDED</span>
+        <span className="badge badge--success margin-horiz--xs">Funded</span>
       )}
-      {isOpenSource && (
-        <span
+      {typeof sourceLink !== "undefined" && (
+        <a
           className={clsx(
             "badge badge--secondary margin-horiz--xs",
             styles.badgeDarker
           )}
+          href={sourceLink}
+          rel="noreferrer"
+          style={{ color: "var(--ifm-color-black) !important" }}
+          target="_blank"
         >
-          OPEN SOURCE
-        </span>
+          Open Source
+          <FontAwesomeIcon
+            className="margin-left--xs"
+            icon={faArrowUpRightFromSquare}
+            size="sm"
+            style={{ color: "var(--ifm-color-black)" }}
+          />
+        </a>
+      )}
+      {typeof tutorialLink !== "undefined" && (
+        <a
+          className="badge badge--danger margin-horiz--xs"
+          href={tutorialLink}
+          rel="noreferrer"
+          style={{
+            backgroundColor: "var(--ifm-color-warning-lightest) !important",
+            borderColor: "var(--ifm-color-warning-lightest) !important",
+            color: "var(--ifm-color-black) !important",
+          }}
+          target="_blank"
+        >
+          Tutorial
+          <FontAwesomeIcon
+            className="margin-left--xs"
+            icon={faArrowUpRightFromSquare}
+            size="sm"
+            style={{ color: "var(--ifm-color-black)" }}
+          />
+        </a>
       )}
     </div>
   );

@@ -20,6 +20,7 @@ export default function HomepageProjects({
         <div className="row">
           {featuredProjects.map((project) => (
             <ProjectItem
+              isCompact={true}
               isThemeLight={true}
               key={project.id}
               project={project}

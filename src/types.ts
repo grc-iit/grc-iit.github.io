@@ -45,6 +45,7 @@ export type ProjectId =
   | "dtio"
   | "hermes"
   | "iris"
+  | "iowarp"
   | "labios"
   | "optmem"
   | "storehub"
@@ -60,10 +61,11 @@ export type Project = {
   link: string;
   isCollaborative?: boolean;
   isFeatured?: boolean;
-  isOpenSource?: boolean;
   isOurs?: boolean;
   researchStatus: "ready" | "testing" | "r&d";
+  sourceLink?: string;
   status: "active" | "archived";
+  tutorialLink?: string;
   type: "funded" | "student";
 };
 

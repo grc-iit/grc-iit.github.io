@@ -7,6 +7,7 @@ import ProjectBadges from "./ProjectBadges";
 
 type ProjectItemProps = {
   project: Project;
+  isCompact?: boolean;
   isThemeLight?: boolean;
 };
 
@@ -14,11 +15,14 @@ import styles from "./ProjectItem.module.css";
 
 export default function ProjectItem({
   project,
+  isCompact = false,
   isThemeLight = false,
 }: ProjectItemProps) {
   const { id, link, name, title, shortDescription } = project;
   return (
-    <div className="col col--4 margin-bottom--lg">
+    <div
+      className={clsx("col margin-bottom--lg", isCompact ? "col--3" : "col--4")}
+    >
       <div
         className={clsx(
           "card text--center",
