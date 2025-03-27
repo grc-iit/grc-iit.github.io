@@ -49,7 +49,7 @@ fi
 
 ## Installation
 
-### Clone the IoWarp Spack Repo
+### Clone the IOWarp Spack Repo
 ```bash
 cd ${HOME}
 git clone https://github.com/iowarp/iowarp-install.git

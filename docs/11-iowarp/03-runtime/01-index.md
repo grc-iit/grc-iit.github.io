@@ -1,4 +1,4 @@
-# The IoWarp Runtime: Chimaera
+# The IOWarp Runtime: Chimaera
 
 Chimaera is a flexible runtime system for building and executing data-intensive tasks.
 Chimaera defines a set of abstractions that make the development of active,
