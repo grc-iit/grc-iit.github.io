@@ -208,6 +208,10 @@ const config = {
             title: "Featured Projects",
             items: [
               {
+                label: "IOWarp",
+                to: "/research/projects/iowarp",
+              },
+              {
                 label: "ChronoLog",
                 to: "/research/projects/chronolog",
               },
