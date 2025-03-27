@@ -3670,7 +3670,7 @@ const publications: Publication[] = [
       "A Hybrid Shared-nothing/Shared-data Storage Architecture for Large Scale Databases(Poster Presentation)",
     venue:
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
-    type: "Conference",
+    type: "Poster",
     date: "May, 2011",
     tags: [],
     links: {
