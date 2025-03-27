@@ -156,8 +156,8 @@ const config = {
             position: "left",
           },
           {
-            to: "/jobs",
-            label: "Jobs",
+            to: "/opportunities",
+            label: "Opportunities",
             position: "left",
           },
           // {
@@ -253,6 +253,10 @@ const config = {
           {
             title: "Links",
             items: [
+              {
+                label: "GRC Careers",
+                to: "/careers",
+              },
               {
                 label: "GRC GitHub",
                 href: "https://github.com/grc-iit",
