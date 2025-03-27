@@ -31,15 +31,15 @@ export default function ProjectBadges({
   return (
     <div className={clsx(addMargin && "margin-bottom--md")}>
       {isOurs && (
-        <span className="badge badge--primary margin-horiz--xs">GRC-led</span>
+        <span className="badge badge--primary margin-right--xs">GRC-led</span>
       )}
       {isFunded && (
-        <span className="badge badge--success margin-horiz--xs">Funded</span>
+        <span className="badge badge--success margin-right--xs">Funded</span>
       )}
       {typeof sourceLink !== "undefined" && (
         <a
           className={clsx(
-            "badge badge--secondary margin-horiz--xs",
+            "badge badge--secondary margin-right--xs",
             styles.badgeDarker
           )}
           href={sourceLink}
@@ -58,7 +58,7 @@ export default function ProjectBadges({
       )}
       {typeof tutorialLink !== "undefined" && (
         <a
-          className="badge badge--danger margin-horiz--xs"
+          className="badge badge--danger margin-right--xs"
           href={tutorialLink}
           rel="noreferrer"
           style={{
