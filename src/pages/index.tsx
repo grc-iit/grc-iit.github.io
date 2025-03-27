@@ -15,7 +15,7 @@ function HomepageHeader() {
       <div className={styles.heroBannerOverlay} />
       <div className={clsx("container", styles.heroBannerContainer)}>
         <h1 className={clsx("hero__title", styles.heroBannerText)}>
-          {siteConfig.title}
+          {`${siteConfig.title} (GRC)`}
         </h1>
         <p className={clsx("hero__subtitle", styles.heroBannerText)}>
           {siteConfig.tagline}
