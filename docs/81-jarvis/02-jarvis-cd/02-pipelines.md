@@ -21,24 +21,6 @@ jarvis hostfile set [path-to-hostfile.txt]
 
 This hostfile is used by all jarvis deployments.
 
-## Build Resource Graph
-
-NOTE: This step is not needed for machines which have pre-configured
-resource graphs. Skip this step when deploying in Ares. Do this step
-when deploying on your personal machine.
-
-First we have to collect information about the system. The resource-graph
-utility command depends on fi_info and lsblk. Make sure if these are not
-provided by your machine, they are loaded.
-
-To begin polling the system, run:
-
-```bash
-jarvis rg build
-```
-
-This information will be stored under `${JARVIS_ROOT}/config/resource_graph.yaml`. The command uses SSH to connect to all pkgs. It will use the hostfile from the previous command and scan those pkgs.
-
 ## Create an empty pipeline
 
 The following command will create an empty pipeline "my_pipeline":
