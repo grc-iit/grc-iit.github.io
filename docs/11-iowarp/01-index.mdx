@@ -35,7 +35,7 @@ echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Clone the IOWarp Spack Repo
+### Clone the IOWarp Install Repo
 
 ```bash
 cd ${HOME}
@@ -51,7 +51,62 @@ spack install iowarp
 
       </TabItem>
 
-      <TabItem value="docker-user" label="Dockerfiles (Any)">
+      <TabItem value="podman-user" label="Manual Podman (Any)">
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Create the containers
+```bash
+cd ~/iowarp-install/docker
+podman build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+podman tag iowarp-base iowarp/iowarp-base:latest
+podman build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+podman tag iowarp-deps iowarp/iowarp-deps:latest
+podman build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
+podman tag iowarp-user iowarp/iowarp-user:latest
+```
+### Create Podman Compose File
+
+```bash
+mkdir ~/iowarp-podman
+cd ~/iowarp-podman
+nano podman-compose.yml
+```
+
+Add the following:
+
+```yaml
+services:
+  iowarp:
+    image: iowarp/iowarp-user:latest
+    container_name: iowarp
+    shm_size: 8g
+    mem_limit: 8g
+    stdin_open: true
+    tty: true
+    network_mode: host
+```
+
+### Run the container
+
+```bash
+podman compose up -d  # For recent podman
+podman-compose up -d  # For older podman
+```
+
+### Access the Container
+
+```bash
+podman exec -it iowarp bash
+```
+
+      </TabItem>
+
+      <TabItem value="docker-user" label="Manual Docker (Any)">
 
 ### Clone the IOWarp Install Repo
 
@@ -60,7 +115,7 @@ cd ${HOME}
 git clone https://github.com/iowarp/iowarp-install.git
 ```
 
-### Create your own containers
+### Create the containers
 
 ```bash
 cd ~/iowarp-install/docker
@@ -76,7 +131,7 @@ docker tag iowarp-user iowarp/iowarp-user:latest
 
 ```bash
 mkdir ~/iowarp-docker
-cd iowarp-docker
+cd ~/iowarp-docker
 nano docker-compose.yml
 ```
 
