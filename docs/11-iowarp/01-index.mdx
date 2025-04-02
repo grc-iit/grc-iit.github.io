@@ -21,6 +21,14 @@ We also have a set of docker containers.
 
 ## Installation
 
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+
 <Tabs>   
   <TabItem value="user" label="User" default>
     <Tabs>
@@ -35,11 +43,8 @@ echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Clone the IOWarp Install Repo
-
+### Add IOWarp to Spack
 ```bash
-cd ${HOME}
-git clone https://github.com/iowarp/iowarp-install.git
 spack repo add iowarp-install/iowarp-spack
 ```
 
@@ -49,6 +54,26 @@ spack repo add iowarp-install/iowarp-spack
 spack install iowarp
 ```
 
+      </TabItem>
+
+      <TabItem value="vcpkg-user" label="Vcpkg (Linux-Only)">
+This installer is experimental and will be improving as we add Windows support.
+Spack is the most well-maintained installer at this time. However, these are
+the general steps for vcpkg.
+
+### Install vcpkg + add our ports
+```bash
+git clone  --branch 2025.03.19 --single-branch https://github.com/microsoft/vcpkg
+cp -r iowarp-install/ports/* ./vcpkg/ports/
+cd vcpkg
+./bootstrap-vcpkg.sh
+export PATH="${PWD}:${PATH}"
+```
+
+### Install IOWarp
+```bash
+./vcpkg install content-transfer-engine
+```
       </TabItem>
 
       <TabItem value="podman-user" label="Manual Podman (Any)">
