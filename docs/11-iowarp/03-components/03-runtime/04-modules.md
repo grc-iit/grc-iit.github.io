@@ -1134,13 +1134,10 @@ This will create the compressor module and then compress some data.
 ## Link to your mods (Internally)
 
 Maybe you want to use your modules in the project they
-are being built (internally). Below is an example cmake
-for a theoretical mod repo named "tasks".
+are being built (internally). Below is an example cmake.
 ```cmake
 cmake_minimum_required(VERSION 3.25)
 project(internal)
-
-add_subdirectory(tasks)  # A mod repo named tasks
 
 add_executable(internal internal.cc)
 target_link_libraries(internal example::compressor_client)
