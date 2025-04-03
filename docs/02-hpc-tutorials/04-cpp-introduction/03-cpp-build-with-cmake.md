@@ -9,7 +9,7 @@ The main objectives of this tutorial are as follows:
 2. Show how to use CMake to compile a C++ repo
 3. Demonstrate how to build a basic CMakeLists.txt
 
-We will re-use the example from section 3.2.
+We will re-use the example from the previous section.
 
 ## Setup
 

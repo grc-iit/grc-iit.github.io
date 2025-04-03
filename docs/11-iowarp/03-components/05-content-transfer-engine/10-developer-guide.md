@@ -18,15 +18,11 @@ using a terminal with gdb can be very cumbersome, especially when multi-process 
 ## Hermes Repo Structure
 
 The Hermes repo is organized as follows:
-1. ``hrun`` is the Hermes runtime and contains all source files / includes for it. This includes queuing and network code.
-1. ``tasks`` contains the majority of Hermes implementation. These are tasks that execute in the Hermes runtime
+1. ``tasks/hermes_core`` contains the majority of Hermes implementation. These are tasks that execute in the Hermes runtime
 1. ``src`` contains a single source file that is used to construct the Hermes library object that applications link to. Very little code is here, as most implementation is executed in the runtime.
-1. ``codegen`` contains python code to help with generating and maintaining hrun tasks.
 1. ``hermes_adapters`` includes all code relating to the adapters, such as  POSIX, STDIO, and MPI-IO interception
 1. ``config`` contains default configurations of Hermes.
-1. ``docker`` contains dockerfiles for building Hermes container.
 1. ``wrapper`` contains all code for binding Hermes to other languages.
-1. ``external`` contains git submodules of repos external to Hermes.
 1. ``test`` includes all unit tests
 1. ``benchmark`` includes some performance benchmark kernels
 1. ``ci`` includes all code for continuous integration
@@ -47,104 +43,34 @@ to avoid reinstalling packages in the github action. While github has a cache ac
 we find it somewhat cumbersome. This way, we get the benefit of both a maintained
 dockerfile and a fast github action.
 
-## Containerized Hermes
-
-As a developer, it may be beneficial to use Hermes inside of a container to
-avoid differences in machines.
-
-First, cd into your Hermes directory:
-```bash
-cd /path/to/hermes
-```
-
-Then either build the container from scratch or pull (but not both):
-
-From scratch:
-```bash
-docker build -t lukemartinlogan/hermes_deps . -f docker/deps.Dockerfile
-```
-
-Pull:
-```bash
-docker pull lukemartinlogan/hermes_deps:latest
-```
-
-Then, run the container. This command will mount the Hermes directory
-as /hermes. It will make it so that the container has 4GB of memory and
-4GB of shared memory. By default, containers don't have shared memory, but
-Hermes requires it. We then also forward ports 4000 and 4001 to support remote
-debugging from those ports.
-```bash
-docker run -it --mount src=${PWD},target=/hermes,type=bind \
---name hermes_deps_c \
---network host \
---memory=8G \
---shm-size=8G \
--p 4000:4000 \
--p 4001:4001 \
-lukemartinlogan/hermes_deps
-```
-
-To run the github action:
-```bash
-bash /hermes/ci/build_hermes.sh
-```
-
-Within the container, build Hermes:
-```bash
-# Load spack and other modules
-. /module_load.sh
-. "${SPACK_DIR}/share/spack/setup-env.sh"
-# Load hermes_shm
-spack load hermes_shm
-# Build hermes
-cd /hermes
-mkdir build
-cd build
-cmake ../
-make -j8
-```
-
-If you make changes to the dependencies container:
-```bash
-docker commit hermes_deps_c lukemartinlogan/hermes_deps
-docker push lukemartinlogan/hermes_deps
-docker stop /hermes_deps_c
-docker rm /hermes_deps_c
-```
-
 ## Remote Debugging
 
-At some point, you may have to do a remote debug. The following code will
-forward SSH connections so that you can remotely connect a debugger.
+IDEs like VSCode have modules for connecting to remote machines.
+They will allow you to install their debuggers, such as gdb.
 
-Let's say that you are running Hermes on a machine myusername@myip.org on
-port 4000. You can connect to that by forwarding a local port to that address.
-A debugger would connect to localhost:4000, which will then be routed to
-myusername@myip.org:4000.
-
+Below is an example ``~/.ssh/config`` file that allows you to 
+connect to the Ares machine's 4th compute node.
 ```bash
-remote_machine_login=myusername@myip.org
-
-local_port=4000
-remote_port=4000
-ssh -L ${local_port}:localhost:${remote_port} -fN ${ares_node}
-
-local_port=4001
-remote_port=4001
-ssh -L ${local_port}:localhost:${remote_port} -fN ${ares_node}
+Host ares-comp
+  HostName ares-comp-04
+  User llogan
+  ProxyJump ares.cs.iit.edu
 ```
 
-To shutdown this forwarding, you kill all routed SSH connections as follows:
-```bash
-pkill -f "ssh -L"
-```
+In vscode, you can install Remote-SSH module to connect via the ``ares-comp`` name.
 
-If the machine you are running Hermes on has a head/login node, you
-will have to forward the connection from your head node to the node actually
-running the code (the compute nodes). If this is the case, just repeat the
-above steps on the head node, replacing remote_machine_login with the address
-of the compute node.
+You may also want to install a pretty print for gdb on the remote server if it's Linux:
+```bash
+mkdir -p ~/distribs/gdb_printers
+cd ~/distribs/gdb_printers
+svn co svn://gcc.gnu.org/svn/gcc/trunk/libstdc++-v3/python
+echo "python
+import sys 
+sys.path.insert(0, '${HOME}/distribs/gdb_printers/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end" > ~/.gdbinit
+```
 
 ## Preparing For Release
 
