@@ -10,23 +10,7 @@ No. macOS lacks several system calls that Hermes components use:
 
 - `fopen64` / `fseeko64`
 - `O_DIRECT` / `O_TMPFILE`
-- `gethostbyname_r`
 - `_STAT_VER`
-
-## Does Hermes run on Linux only?
-
-Yes. Hermes uses the fixed `/proc` code:
-
-```cpp
-inline std::string GetFilenameFromFD(int fd) {
-  char proclnk[kMaxPathLen];
-  char filename[kMaxPathLen];
-  snprintf(proclnk, kMaxPathLen, "/proc/self/fd/%d", fd);
-  size_t r = readlink(proclnk, filename, kMaxPathLen);
-  filename[r] = '\0';
-  return filename;
-}
-```
 
 ## Can I run Hermes on Chameleon JupyterLab Server?
 
@@ -38,4 +22,4 @@ Such error occurs when `libfabric` is not compiled with `verbs` support. Try `sp
 
 ## Why does MPI Adapter fail to compile?
 
-The MPI-IO adapter only supports MPICH. Use `spack install mpi ^mpich` to install mpi. Load it with `spack load mpi`.
+We only support MPICH and OpenMPI.
