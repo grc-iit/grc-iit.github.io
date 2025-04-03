@@ -1113,6 +1113,7 @@ example test would like like this:
 #include "compressor/compressor_client.h"
 
 int main() {
+  CHIMAERA_CLIENT_INIT();
   chi::compressor::Client client;
   client.Create(
       HSHM_MCTX,
