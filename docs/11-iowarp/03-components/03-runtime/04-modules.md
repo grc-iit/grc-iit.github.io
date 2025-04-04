@@ -1,11 +1,6 @@
 
 # Building Modules
 
-<!-- :::info
-The last planned major change to iowarp's module structure has been made.
-If you have installed in the last few days, reread this documentation.
-::: -->
-
 Chimaera's objective is to be flexible towards a variety of I/O stack designs. The main step
 to achieve this is through modularity. It is possible to create and dynamically register
 new custom modules in the chimaera runtime. This section discusses how this modularity is
