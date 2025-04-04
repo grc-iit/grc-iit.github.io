@@ -24,7 +24,7 @@ To load changes made to a pipeline script, you can run:
 jarvis ppl update yaml
 ```
 
-The pipeline will store the path so you dont have to repeat.
+The pipeline will store the path so you don't have to repeat.
 
 ## Example Pipeline Script
 
