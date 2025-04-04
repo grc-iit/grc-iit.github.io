@@ -16,42 +16,6 @@ Chimaera does follow a strict naming convention to allow for more
 code to be generated. We document here the expectations on certain key variable and class
 names to ensure that code is properly generated.
 
-## Updating to the new repo structure
-
-To those that have installed / developed chimods before 
-Sunday 3/23, we have updated the chimod structure 
-going forward to give more flexibility to people with
-potentially more complex client code.
-
-The module structure has changed slightly. While your
-code will still work without this update, get it now
-to avoid work later.
-
-This is the last planned change to automated module structure.
-```bash
-cd ${IOWARP_PKGS}/iowarp-install
-git pull
-
-rm -rf ~/.chimaera
-IOWARP_CMD=$(spack find -v iowarp | sed -n '2 p')
-spack uninstall --dependents iowarp-base py-iowarp-runtime-util
-spack clean -a
-spack install ${IOWARP_CMD}
-spack load iowarp
-
-cd ~/my_mod_repo
-chi_repo_reformat .
-chi_clear_temp .
-```
-
-If you already have modules bootstrapped from a previous version, you 
-will want to wrap each of your tasks with ``CHI_BEGIN`` and ``CHI_END``
-macros to help the autogenerator edit your files. 
-
-Look at the section on 
-[Autogenerate task helper files](https://grc.iit.edu/docs/iowarp/runtime/modules#autogenerate-task-helper-files) to see what
-that looks like.
-
 ## Module Repos
 In Chimaera, a module (or **ChiMod**) is the code object representing a ChiContainer. These
 modules can be registered dynamically in the runtime. A module repo represents a set of 
