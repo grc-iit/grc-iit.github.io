@@ -3,9 +3,9 @@
 In order to test your module, you should learn [Jarvis](../../../81-jarvis/02-jarvis-cd/01-index.mdx), which
 is the tool that is used to deploy the iowarp runtime.
 
-In the previous section, we built a module repo named "Example". We then 
-created a module named "example" in that repo. This section will give detail
-on how to build a jarvis package to deploy such a module.
+In the previous section, we built a module repo named "my_mod_repo" with the
+namespace "example" and a module named "compressor" in that repo. This section will give detail
+on how to build a jarvis package to test the compressor module.
 
 ## The Current Example
 
