@@ -1,11 +1,6 @@
 
 # Building Modules
 
-<!-- :::info
-The last planned major change to iowarp's module structure has been made.
-If you have installed in the last few days, reread this documentation.
-::: -->
-
 Chimaera's objective is to be flexible towards a variety of I/O stack designs. The main step
 to achieve this is through modularity. It is possible to create and dynamically register
 new custom modules in the chimaera runtime. This section discusses how this modularity is
@@ -15,42 +10,6 @@ We will explain this process by adding an example compression module to a custom
 Chimaera does follow a strict naming convention to allow for more
 code to be generated. We document here the expectations on certain key variable and class
 names to ensure that code is properly generated.
-
-## Updating to the new repo structure
-
-To those that have installed / developed chimods before 
-Sunday 3/23, we have updated the chimod structure 
-going forward to give more flexibility to people with
-potentially more complex client code.
-
-The module structure has changed slightly. While your
-code will still work without this update, get it now
-to avoid work later.
-
-This is the last planned change to automated module structure.
-```bash
-cd ${IOWARP_PKGS}/iowarp-install
-git pull
-
-rm -rf ~/.chimaera
-IOWARP_CMD=$(spack find -v iowarp | sed -n '2 p')
-spack uninstall --dependents iowarp-base py-iowarp-runtime-util
-spack clean -a
-spack install ${IOWARP_CMD}
-spack load iowarp
-
-cd ~/my_mod_repo
-chi_repo_reformat .
-chi_clear_temp .
-```
-
-If you already have modules bootstrapped from a previous version, you 
-will want to wrap each of your tasks with ``CHI_BEGIN`` and ``CHI_END``
-macros to help the autogenerator edit your files. 
-
-Look at the section on 
-[Autogenerate task helper files](https://grc.iit.edu/docs/iowarp/runtime/modules#autogenerate-task-helper-files) to see what
-that looks like.
 
 ## Module Repos
 In Chimaera, a module (or **ChiMod**) is the code object representing a ChiContainer. These
@@ -1106,8 +1065,7 @@ make -j32 install
 ```
 
 ## Invoking your mods
-In the previous example, we created the compressor mod. An 
-example test would like like this:
+In the previous example, we created the compressor mod.
 
 ```cpp
 #include "compressor/compressor_client.h"
@@ -1123,7 +1081,7 @@ int main() {
   size_t data_size = hshm::Unit<size_t>::Megabytes(1);
   hipc::FullPtr<char> orig_data =
       CHI_CLIENT->AllocateBuffer(HSHM_MCTX, data_size);
-  client.Compress(HSHM_MCTX, chi::DomainQuery::GetLocalHash(0), data,
+  client.Compress(HSHM_MCTX, chi::DomainQuery::GetLocalHash(0), orig_data.shm_,
                   data_size);
   return 0;
 }
