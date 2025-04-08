@@ -1,6 +1,6 @@
 # Deploying Modules
 
-In order to test your module, you should learn [Jarvis](../../81-jarvis), which
+In order to test your module, you should learn [Jarvis](../../../81-jarvis/02-jarvis-cd/01-index.mdx), which
 is the tool that is used to deploy the iowarp runtime.
 
 In the previous section, we built a module repo named "Example". We then 
@@ -316,12 +316,20 @@ The directory ``~/my_mod_repo/compressor/jarvis_example/pipelines`` is known
 as a pipeline index. It is simply a place where jarvis knows pipelines are
 located. This means you don't have to remember the full path to the script.
 
+* ``env: chimaera``: This will copy the named environment named ``chimaera``. We will 
+create this environment in the next section.
 * ``modules``: The modules that the iowarp runtime (Chimaera) searches for at launch.
 By using ``example_compressor`` here, the runtime will search for various shared objects, such as
 ``libexample_compressor.so`` in ``LD_LIBRARY_PATH``.
 * ``pkg_type: compressor``: This corresponds to the ``jarvis repo create compressor`` command.
 * ``pkg_name: compressor``: This can be whatever string you want. However, I typically just keep
 it the same as ``pkg_type``.
+
+## Build pipeline environment
+```bash
+spack load iowarp
+jarvis env build chimaera
+```
 
 ## Load + Run the Pipeline
 
