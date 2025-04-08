@@ -304,17 +304,24 @@ pkgs:
   - pkg_type: chimaera_run
     pkg_name: chimaera_run
     sleep: 5
-    do_dbg: true
+    do_dbg: false
     dbg_port: 4000
     port: 6000
     modules: ['example_compressor']
- - pkg_type: compress_mod
-   pkg_name: compress_mod
+ - pkg_type: compressor
+   pkg_name: compressor
 ```
 
 The directory ``~/my_mod_repo/compressor/jarvis_example/pipelines`` is known
 as a pipeline index. It is simply a place where jarvis knows pipelines are
 located. This means you don't have to remember the full path to the script.
+
+* ``modules``: The modules that the iowarp runtime (Chimaera) searches for at launch.
+By using ``example_compressor`` here, the runtime will search for various shared objects, such as
+``libexample_compressor.so`` in ``LD_LIBRARY_PATH``.
+* ``pkg_type: compressor``: This corresponds to the ``jarvis repo create compressor`` command.
+* ``pkg_name: compressor``: This can be whatever string you want. However, I typically just keep
+it the same as ``pkg_type``.
 
 ## Load + Run the Pipeline
 
