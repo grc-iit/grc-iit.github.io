@@ -6,7 +6,7 @@ Currently, there are two supported:
 * AES
 * Blowfish
 
-For now, we do not abstract compression libraries behind a class like the compression
+For now, we do not abstract encryption libraries behind a class like the compression
 ones. When we integrate more, we will see the commonalities between them to do this.
 
 ## API
