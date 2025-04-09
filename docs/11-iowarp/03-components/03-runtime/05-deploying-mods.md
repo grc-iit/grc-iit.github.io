@@ -98,7 +98,7 @@ scspkg create compressor
 cd ~/my_mod_repo
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$(scspkg pkg root example)
+cmake .. -DCMAKE_INSTALL_PREFIX=$(scspkg pkg root compressor)
 make -j32 install
 ```
 
@@ -308,8 +308,8 @@ pkgs:
     dbg_port: 4000
     port: 6000
     modules: ['example_compressor']
- - pkg_type: compressor
-   pkg_name: compressor
+  - pkg_type: compressor
+    pkg_name: compressor
 ```
 
 The directory ``~/my_mod_repo/compressor/jarvis_example/pipelines`` is known
