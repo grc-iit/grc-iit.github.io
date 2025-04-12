@@ -22,10 +22,10 @@ ssh-keygen
 
 The default names for the keys are as follows:
 
-1. The private key is "`~/.ssh/id_rsa`"
-1. The public key is "`~/.ssh/id_rsa.pub`"
+1. The private key is "`~/.ssh/id_ed25519`"
+1. The public key is "`~/.ssh/id_ed25519.pub`"
 
-You can use other names (it doesn't have to be id_rsa), but we recommend against this in general. Many SSH-based
+You can use other names (it doesn't have to be id_ed25519), but we recommend against this in general. Many SSH-based
 tools become cumbersome with keys which are non-default.
 
 ## Ensuring permissions
@@ -37,8 +37,8 @@ For convenience, feel free to copy-paste this. A detailed description of what th
 
 ```bash
 sudo chmod 700 ${HOME}/.ssh
-sudo chmod 644 ${HOME}/.ssh/id_rsa.pub
-sudo chmod 600 ${HOME}/.ssh/id_rsa
+sudo chmod 644 ${HOME}/.ssh/id_ed25519.pub
+sudo chmod 600 ${HOME}/.ssh/id_ed25519
 sudo chmod 600 ${HOME}/.ssh/authorized_keys
 sudo chmod 600 ${HOME}/.ssh/config
 ```
@@ -78,12 +78,12 @@ sudo chmod 700 ${HOME}/.ssh
 # The public key
 # Owner has read + write permissions.
 # Other users can read this file
-sudo chmod 644 ${HOME}/.ssh/id_rsa.pub
+sudo chmod 644 ${HOME}/.ssh/id_ed25519.pub
 
 # The private key
 # Owner has read + write permissions
 # Nobody else has permissions
-sudo chmod 600 ${HOME}/.ssh/id_rsa
+sudo chmod 600 ${HOME}/.ssh/id_ed25519
 
 # Authorized keys
 # Owner has read + write permissions
@@ -101,13 +101,13 @@ sudo chmod 600 ${HOME}/.ssh/config
 Your key will then have to be registered with the SSH server. This is typically done using the `ssh-copy-id`.
 
 ```bash
-ssh-copy-id -f -i ~/.ssh/id_rsa [USERNAME]@[IP]
+ssh-copy-id -f -i ~/.ssh/id_ed25519 [USERNAME]@[IP]
 ```
 
 If the machine has a custom port number, the command's syntax is as follows:
 
 ```bash
-ssh-copy-id -f -i ~/.ssh/id_rsa -p [PORT] [USERNAME]@[IP]
+ssh-copy-id -f -i ~/.ssh/id_ed25519 -p [PORT] [USERNAME]@[IP]
 ```
 
 ## Connecting to a machine
@@ -119,7 +119,7 @@ ssh -p [PORT] -i [PRIVATE_KEY] [USERNAME]@[IP]
 ```
 
 - [PORT]: Default is 22.
-- [PRIVATE_KEY]: Default is ~/id_rsa
+- [PRIVATE_KEY]: Default is ~/id_ed25519
 - [USERNAME]: Default is the current user
 - [IP]: The IP address or host name of the machine
 
