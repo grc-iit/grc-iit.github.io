@@ -328,6 +328,7 @@ it the same as ``pkg_type``.
 ## Build pipeline environment
 ```bash
 spack load iowarp
+module load compressor
 jarvis env build chimaera
 ```
 
