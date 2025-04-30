@@ -168,7 +168,7 @@ export default [
       linkedin: "https://www.linkedin.com/in/izzetcyildirim/",
       orcid: "https://orcid.org/0000-0003-3513-0764",
       scholar: "https://scholar.google.com/citations?user=-Zi-DtsAAAAJ&hl=en",
-      website: "https://izzet.dev/",
+      website: "https://iyildirim.com/",
     },
     researchInterests: [
       "HPC",
