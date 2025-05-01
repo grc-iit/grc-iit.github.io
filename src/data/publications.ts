@@ -2,6 +2,17 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
   {
+    authors: ["Y. Wu", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "Concurrency-Aware Cache Miss Cost Prediction with Perceptron Learning",
+    venue:
+      "The 35th ACM Great Lakes Symposium on VLSI (GLSVLSI 2025), New Orleans, LA, USA, June 30 - July 2, 2025",
+    type: "Conference",
+    date: "June, 2025",
+    tags: ["Cache Management", "Memory System Optimization", "Concurrency"],
+    links: {},
+  },
+  {
     authors: [
       "K. Bateman",
       "N. Rajesh",
@@ -58,6 +69,16 @@ const publications: Publication[] = [
     type: "Conference",
     date: "June, 2025",
     tags: [],
+    links: {},
+  },
+  {
+    authors: ["L. Yan", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "Pyramid: Accelerating LLM Inference with Cross-Level Processing-in-Memory",
+    venue: "IEEE Computer Architecture Letters (CAL), April 2025",
+    type: "Journal",
+    date: "April, 2025",
+    tags: ["LLM Inference", "Processing-in-Memory", "Hardware Acceleration"],
     links: {},
   },
   {
