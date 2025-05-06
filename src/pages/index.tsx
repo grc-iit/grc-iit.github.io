@@ -14,16 +14,29 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={styles.heroBannerOverlay} />
       <div className={clsx("container", styles.heroBannerContainer)}>
-        <h1 className={clsx("hero__title", styles.heroBannerText)}>{siteConfig.title}</h1>
-        <p className={clsx("hero__subtitle", styles.heroBannerText)}>{siteConfig.tagline}</p>
+        <h1 className={clsx("hero__title", styles.heroBannerText)}>
+          {`${siteConfig.title} (GRC)`}
+        </h1>
+        <p className={clsx("hero__subtitle", styles.heroBannerText)}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg margin-right--lg"
+            className="button button--secondary button--lg margin-right--md"
             to="/research/projects"
           >
             Projects
           </Link>
-          <Link className="button button--secondary button--lg" to="/publications">
+          <Link
+            className="button button--secondary button--lg margin-right--md"
+            to="/news"
+          >
+            News
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/publications"
+          >
             Publications
           </Link>
         </div>

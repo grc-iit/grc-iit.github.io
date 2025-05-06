@@ -2,14 +2,33 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
   {
-    authors: ["X. Lu", "H. Najafi", "J. Liu", "X.-H. Sun"],
+    authors: ["Y. Wu", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
     title:
-      "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+      "Concurrency-Aware Cache Miss Cost Prediction with Perceptron Learning",
     venue:
-      "The 30th IEEE International Symposium on High-Performance Computer Architecture (HPCA 2024)",
+      "The 35th ACM Great Lakes Symposium on VLSI (GLSVLSI 2025), New Orleans, LA, USA, June 30 - July 2, 2025",
     type: "Conference",
-    date: "March, 2024",
-    tags: ["Memory Architecture", "Cache Management"],
+    date: "June, 2025",
+    tags: ["Cache Management", "Memory System Optimization", "Concurrency"],
+    links: {},
+  },
+  {
+    authors: [
+      "K. Bateman",
+      "N. Rajesh",
+      "J. Cernuda",
+      "L. Logan",
+      "B. Nicolae",
+      "F. Cappello",
+      "X.-H. Sun",
+      "A. Kougkas",
+    ],
+    title: "DTIO: Data Stack for AI-driven Workflows",
+    venue:
+      "The 37th International Conference on Scalable Scientific Data Management (SSDBM 2025)",
+    type: "Conference",
+    date: "June, 2025",
+    tags: [],
     links: {},
   },
   {
@@ -21,13 +40,550 @@ const publications: Publication[] = [
       "K. Mohror",
     ],
     title:
-      "IOMax: Maximizing Out-of-Core I/O Analysis Performance on HPC Systems",
+      "WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows",
+    venue: "The 39th ACM International Conference on Supercomputing (ICS 2025)",
+    type: "Conference",
+    date: "June, 2025",
+    tags: [
+      "HPC",
+      "Workflows",
+      "I/O Analysis",
+      "I/O Bottleneck Detection",
+      "WisIO",
+    ],
+    links: {},
+  },
+  {
+    authors: [
+      "J. Ye",
+      "J. Cernuda",
+      "A. Maurya",
+      "X.-H. Sun",
+      "A. Kougkas",
+      "B. Nicolae",
+    ],
+    title:
+      "Characterizing the Behavior and Impact of KV Caching on Transformer Inferences under Concurrency",
     venue:
-      "The 8th International Parallel Data Systems Workshop (PDSW'23), November 12, 2023",
+      "The 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)",
+    type: "Conference",
+    date: "June, 2025",
+    tags: [],
+    links: {},
+  },
+  {
+    authors: ["L. Yan", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "Pyramid: Accelerating LLM Inference with Cross-Level Processing-in-Memory",
+    venue: "IEEE Computer Architecture Letters (CAL), April 2025",
+    type: "Journal",
+    date: "April, 2025",
+    tags: ["LLM Inference", "Processing-in-Memory", "Hardware Acceleration"],
+    links: {},
+  },
+  {
+    authors: [
+      "S. Yang",
+      "S. He",
+      "W. Wang",
+      "Y. Yin",
+      "T. Wu",
+      "W. Chen",
+      "X. Zhang",
+      "X.-H. Sun",
+      "D. Feng",
+    ],
+    title: "GOPIM: GCN-Oriented Pipeline Optimization for PIM Accelerators",
+    venue:
+      "The IEEE International Symposium on High-Performance Computer Architecture (HPCA 2025)",
+    type: "Conference",
+    date: "March, 2025",
+    tags: [],
+    links: {},
+  },
+  {
+    authors: [
+      "Z. Pan",
+      "X. Li",
+      "S. He",
+      "X. Zhang",
+      "R. Wang",
+      "Y. Gao",
+      "G. Chen",
+      "X.-H. Sun",
+    ],
+    title:
+      "AMBEA: Aggressive Maximal Biclique Enumeration in Large Bipartite Graph Computing",
+    venue: "IEEE Transactions on Computers, Vol. 73, No. 12",
+    type: "Journal",
+    date: "December, 2024",
+    tags: [
+      "Graph Computing",
+      "Bipartite Graph",
+      "Maximal Biclique Enumeration",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/pan2024ambea.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/pan2024ambea.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/pan2024ambea.txt",
+    },
+  },
+  {
+    authors: [
+      "A. Gainaru",
+      "G. Eisenhauer",
+      "N. Podhorszki",
+      "L. Dulac",
+      "Q. Gong",
+      "A. Kougkas",
+      "J. Lofstead",
+      "X.-H. Sun",
+      "S. Klasky",
+    ],
+    title:
+      "To Derive or Not to Derive: I/O Libraries Take Charge of Derived Quantities Computation",
+    venue:
+      "IEEE/SBC 36th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2024), Hawaii, USA",
+    type: "Conference",
+    date: "November, 2024",
+    tags: [
+      "HPC Analysis",
+      "Large-Scale I/O",
+      "Derived Variables",
+      "Quantities of Interest",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/gainaru2024derive.pdf",
+    },
+  },
+  {
+    authors: ["J. Ye", "B. Nicolae", "A. Kougkas", "X.-H. Sun"],
+    title:
+      "Uncover the Overhead and Resource Usage for Handling KV Cache Overflow in LLM Inference",
+    venue:
+      "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24)",
+    type: "Poster",
+    date: "November, 2024",
+    tags: ["KV Cache", "LLM Inference"],
+    links: {
+      poster: "http://cs.iit.edu/~scs/assets/files/ye2024kvcache_poster.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/ye2024kvcache_abstract.pdf",
+    },
+  },
+  {
+    authors: [
+      "J. Cernuda",
+      "L. Logan",
+      "N. Lewis",
+      "S. Byna",
+      "X.-H. Sun",
+      "A. Kougkas",
+    ],
+    title:
+      "Jarvis: Towards a Shared, User-Friendly, and Reproducible, I/O Infrastructure.",
+    venue: "The International Parallel Data Systems Workshop (PDSW'24)",
+    type: "Workshop",
+    date: "November, 2024",
+    tags: [
+      "Deployment",
+      "HPC",
+      "Hardware Abstraction",
+      "I/O",
+      "Python",
+      "Resource Management",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/cernuda2024jarvis.pdf",
+    },
+  },
+
+  {
+    authors: [
+      "H. Devarajan",
+      "L. Pottier",
+      "K. Velusamy",
+      "H. Zheng",
+      "I. Yildirim",
+      "O. Kogiou",
+      "W. Yu",
+      "A. Kougkas",
+      "X.-H. Sun",
+      "J.-S. Yeom",
+      "K. Mohror",
+    ],
+    title:
+      "DFTracer: An Analysis-Friendly Data Flow Tracer for AI-Driven Workflows",
+    venue:
+      "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24)",
+    type: "Conference",
+    date: "November, 2024",
+    tags: ["Deep Learning", "Workflows", "I/O Tracing"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2024dftracer.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2024dftracer.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2024dftracer.txt",
+    },
+  },
+  {
+    authors: ["L. Logan", "X.-H. Sun", "A. Kougkas"],
+    title:
+      "MegaMmap: Blurring the Boundary Between Memory and Storage for Data-Intensive Workloads",
+    venue:
+      "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24)",
+    type: "Conference",
+    date: "November, 2024",
+    tags: [
+      "Memory",
+      "Storage",
+      "Hierarchical Storage",
+      "HPC",
+      "Operating Systems",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/logan2024megammap.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2024megammap.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2024megammap.txt",
+    },
+  },
+  {
+    authors: [
+      "Z. Pan",
+      "S. He",
+      "X. Li",
+      "X. Zhang",
+      "Y. Yin",
+      "R. Wang",
+      "L. Shou",
+      "M. Song",
+      "X.-H. Sun",
+      "G. Chen",
+    ],
+    title:
+      "Enumeration of Billions of Maximal Bicliques in Bipartite Graphs without Using GPUs",
+    venue:
+      "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'24)",
+    type: "Conference",
+    date: "November, 2024",
+    tags: ["Bipartite Graph", "Maximal Biclique Enumeration"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/pan2024bipartite.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/pan2024bipartite.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/pan2024bipartite.txt",
+    },
+  },
+  {
+    authors: [
+      "L. Yan",
+      "X. Lu",
+      "X. Chen",
+      "S. Xu",
+      "X. Zou",
+      "Y. Han",
+      "X.-H. Sun",
+    ],
+    title:
+      "AceMiner: Accelerating Graph Pattern Matching using PIM with Optimized Cache System",
+    venue:
+      "The 2024 IEEE 42nd International Conference on Computer Design (ICCD'24)",
+    type: "Conference",
+    date: "November, 2024",
+    tags: ["Graph Pattern Matching", "Processing-in-Memory", "Cache System"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/yan2024aceminer.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/yan2024aceminer_slides.pdf",
+    },
+  },
+  {
+    authors: [
+      "M. Tang",
+      "J. Cernuda",
+      "J. Ye",
+      "L. Guo",
+      "N. Tallent",
+      "A. Kougkas",
+      "X.-H. Sun",
+    ],
+    title:
+      "DaYu: Optimizing Distributed Scientific Workflows by Decoding Dataflow Semantics and Dynamics",
+    venue:
+      "2024 IEEE International Conference on Cluster Computing (CLUSTER'24)",
+    type: "Conference",
+    date: "September, 2024",
+    tags: [
+      "Data Analytics",
+      "Modeling",
+      "Performance Measurement",
+      "Tools",
+      "Workflow Optimization",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/tang2024dayu.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/tang2024dayu.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/tang2024dayu.txt",
+    },
+  },
+  {
+    authors: [
+      "Z. Dang",
+      "S. He",
+      "X. Zhang",
+      "P. Hong",
+      "Z. Li",
+      "X. Chen",
+      "H. Song",
+      "X.-H. Sun",
+      "G. Chen",
+    ],
+    title:
+      "PMAlloc: A Holistic Approach to Improving Persistent Memory Allocation",
+    venue: "ACM Transactions on Computer Systems (TOCS'24)",
+    type: "Journal",
+    date: "September, 2024",
+    tags: ["Persistent Memory", "Memory Management"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/dang2024pmalloc.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/dang2024pmalloc.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/dang2024pmalloc.txt",
+    },
+  },
+  {
+    authors: [
+      "T. Wu",
+      "S. He",
+      "J. Zhu",
+      "W. Chen",
+      "S. Yang",
+      "P. Chen",
+      "Y. Yin",
+      "X. Zhang",
+      "X.-H. Sun",
+      "G. Chen",
+    ],
+    title:
+      "AUTOHET: An Automated Heterogeneous ReRAM-Based Accelerator for DNN Inference",
+    venue: "The 53th International Conference on Parallel Processing (ICPP'24)",
+    type: "Conference",
+    date: "August, 2024",
+    tags: ["Heterogeneous Systems", "Emerging Architectures"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/wu2024autohet.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wu2024autohet.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wu2024autohet.txt",
+    },
+  },
+  {
+    authors: ["J. Cernuda", "J. Ye", "A. Kougkas", "X.-H. Sun"],
+    title:
+      "HStream: A hierarchical data streaming engine for high-throughput scientific applications",
+    venue: "The 53th International Conference on Parallel Processing (ICPP'24)",
+    type: "Conference",
+    date: "August, 2024",
+    tags: [
+      "Data Streaming",
+      "HPC",
+      "Hierarchical Storage",
+      "Elastic System",
+      "In-Transit Computing",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.txt",
+    },
+  },
+  {
+    authors: [
+      "J. Ye",
+      "J. Cernuda",
+      "N. Rajesh",
+      "K. Bateman",
+      "O. Yildiz",
+      "T. Peterka",
+      "A. Nigmetov",
+      "D. Morozov",
+      "A. Kougkas",
+      "X.-H. Sun",
+      "B. Nicolae",
+    ],
+    title:
+      "Viper: A High-Performance I/O Framework for Transparently Updating, Storing, and Transferring Deep Neural Network Models",
+    venue: "The 53th International Conference on Parallel Processing (ICPP'24)",
+    type: "Conference",
+    date: "August, 2024",
+    tags: [
+      "AI Workflows",
+      "Adaptive AI Model Checkpointing",
+      "Coupled Training and Inferences",
+      "Inferences During Partial Training",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/ye2024viper.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/ye2024viper.pptx",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ye2024viper.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ye2024viper.txt",
+    },
+  },
+  {
+    authors: [
+      "M. Zou",
+      "M. Zhang",
+      "R. Wang",
+      "X.-H. Sun",
+      "X. Ye",
+      "D. Fan",
+      "Z. Tang",
+    ],
+    title:
+      "Skyway: Accelerate Graph Applications with a Dual-Path Architecture and Fine-Grained Data Management",
+    venue: "Journal of Computer Science and Technology (Volume 39)",
+    type: "Journal",
+    date: "July, 2024",
+    tags: ["Graph Applications", "Computer Architecture", "Memory Hierarchy"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/zou2024skyway.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/zou2023skyway_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zou2023skyway.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zou2023skyway.txt",
+    },
+  },
+  {
+    authors: ["L. Logan", "J. Lofstead", "A. Kougkas", "X.-H. Sun"],
+    title:
+      "An Evaluation of DAOS for Simulation and Deep Learning HPC Workloads",
+    venue: "SIGOPS Operating Systems Review (OSR'24)",
+    type: "Journal",
+    date: "June, 2024",
+    tags: [
+      "Distributed Computing",
+      "Distributed Storage",
+      "Flash Memory",
+      "Machine Learning",
+      "Parallel Computing",
+      "Phase Change Memory",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2024daos.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2024daos.txt",
+    },
+  },
+  {
+    authors: [
+      "J. Cernuda",
+      "L. Logan",
+      "A. Gainaru",
+      "J. Lofstead",
+      "A. Kougkas",
+      "X.-H. Sun",
+    ],
+    title:
+      "Hades: A Context-Aware Active Storage Framework for Accelerating Large-Scale Data Analysis",
+    venue:
+      "The 24th IEEE/ACM international Symposium on Cluster, Cloud and Internet Computing (CCGRID 2024)",
+    type: "Conference",
+    date: "May, 2024",
+    tags: [
+      "Active Storage",
+      "Hierarchical Storage",
+      "Context Awareness",
+      "Metadata Management",
+      "Data Operator",
+      "In-Transit Computing",
+      "Coeus",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/cernuda2024hades.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/cernuda2024hades.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/cernuda2024hades.txt",
+    },
+  },
+  {
+    authors: [
+      "N. Rajesh",
+      "K. Bateman",
+      "S. Byna",
+      "J. L. Bez",
+      "A. Kougkas",
+      "X.-H. Sun",
+    ],
+    title: "TunIO: An AI-powered Framework for Optimizing HPC I/O",
+    venue:
+      "The 38th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2024)",
+    type: "Conference",
+    date: "May, 2024",
+    tags: ["AI for I/O", "I/O Stack Tuning"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/rajesh2024tunio.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/rajesh2024tunio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/rajesh2024tunio.txt",
+    },
+  },
+  {
+    authors: ["X. Lu", "B. Long", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "ACES: Accelerating Sparse Matrix Multiplication with Adaptive Execution Flow and Concurrency-Aware Cache Optimizations",
+    venue:
+      "The 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS-29)",
+    type: "Conference",
+    date: "April, 2024",
+    tags: [
+      "SpMM",
+      "Accelerator",
+      "Parallelism",
+      "Concurrency",
+      "Synchronization",
+      "Scalability",
+      "UniMCC",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/lu2024aces.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/lu2024aces_slides.pdf",
+      poster: "http://cs.iit.edu/~scs/assets/files/lu2024aces_poster.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lu2024aces.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lu2024aces.txt",
+    },
+  },
+  {
+    authors: ["X. Lu", "H. Najafi", "J. Liu", "X.-H. Sun"],
+    title:
+      "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+    venue:
+      "The 30th IEEE International Symposium on High-Performance Computer Architecture (HPCA 2024), Edinburgh, Scotland",
+    type: "Conference",
+    date: "March, 2024",
+    tags: [
+      "Memory Architecture",
+      "Cache Management",
+      "Optimization of Memory Architectures",
+      "UniMCC",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/lu2024chrome.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/lu2024chrome_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lu2024chrome.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lu2024chrome.txt",
+    },
+  },
+  {
+    authors: [
+      "I. Yildirim",
+      "H. Devarajan",
+      "A. Kougkas",
+      "X.-H. Sun",
+      "K. Mohror",
+    ],
+    title:
+      "IOMax: Maximizing Out-of-Core I/O Analysis Performance on HPC Systems",
+    venue: "The International Parallel Data Systems Workshop (PDSW'23)",
     type: "Workshop",
     date: "November, 2023",
     tags: ["I/O Analysis", "Out-of-Core Analysis", "Data Drilling", "WisIO"],
-    links: {},
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.txt",
+    },
   },
   {
     authors: [
@@ -44,26 +600,16 @@ const publications: Publication[] = [
     type: "Poster",
     date: "November, 2023",
     tags: ["I/O Analysis", "I/O Metrics", "I/O Bottleneck Detection", "WisIO"],
-    links: {},
+    links: {
+      poster:
+        "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics_poster.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics.txt",
+    },
   },
-  {
-    authors: [
-      "M. Zou",
-      "M. Zhang",
-      "R. Wang",
-      "X.-H. Sun",
-      "X. Ye",
-      "D. Fan",
-      "Z. Tang",
-    ],
-    title:
-      "Skyway: Accelerate Graph Applications with a Dual-Path Architecture and Fine-Grained Data Management",
-    venue: "Journal of Computer Science and Technology (JCST'23)",
-    type: "Journal",
-    date: "TBA",
-    tags: ["Graph Applications", "Computer Architecture", "Memory Hierarchy"],
-    links: {},
-  },
+
   {
     authors: [
       "H. Lee",
@@ -80,7 +626,11 @@ const publications: Publication[] = [
     type: "Conference",
     date: "November, 2023",
     tags: ["Data Analytics", "Performance Measurement", "Modeling", "Tools"],
-    links: {},
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/lee2023data.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lee2023data.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lee2023data.txt",
+    },
   },
   {
     authors: ["L. Logan", "J. Lofstead", "A. Kougkas", "X.-H. Sun"],
@@ -116,6 +666,7 @@ const publications: Publication[] = [
       "Scalable Computing",
       "Memory-Wall",
       "Data-Centric Design",
+      "Optimization of Memory Architectures",
     ],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/sun2023memory.pdf",
@@ -156,7 +707,7 @@ const publications: Publication[] = [
       "The 29th IEEE International Symposium on High-Performance Computer Architecture (HPCA-29), Montreal, QC, Canada, February 25 - March 01, 2023",
     type: "Conference",
     date: "February, 2023",
-    tags: [],
+    tags: ["Optimization of Memory Architectures"],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/lu2023care.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/lu2023care-slides.pdf",
@@ -221,7 +772,11 @@ const publications: Publication[] = [
       "The 2022 Winter Simulation Conference (WSC), Singapore, December 11-14, 2022",
     type: "Conference",
     date: "December, 2022",
-    tags: ["Hierarchical Memory System", "C-AMAT"],
+    tags: [
+      "Hierarchical Memory System",
+      "C-AMAT",
+      "Optimization of Memory Architectures",
+    ],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/najafi2022generalized.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/najafi2022generalized.bib",
@@ -445,7 +1000,7 @@ const publications: Publication[] = [
       "The 2021 IEEE 39th International Conference on Computer Design (ICCD'21), October 24 - 27, 2021",
     type: "Conference",
     date: "October, 2021",
-    tags: [],
+    tags: ["Optimization of Memory Architectures"],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/lu2021premier.bib",
@@ -655,6 +1210,7 @@ const publications: Publication[] = [
       "Memory Architecture",
       "Memory Hierarchy",
       "Concurrent Average Memory Access Time",
+      "Optimization of Memory Architectures",
     ],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/liu2021study.pdf",
@@ -818,7 +1374,12 @@ const publications: Publication[] = [
       "The 38th IEEE International Conference on Computer Design (ICCD'20), October 18 - 21, 2020",
     type: "Conference",
     date: "October, 2020",
-    tags: ["Prefetch", "Memory Performance Model", "Concurrent Memory Access"],
+    tags: [
+      "Prefetch",
+      "Memory Performance Model",
+      "Concurrent Memory Access",
+      "Optimization of Memory Architectures",
+    ],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/lu2020apac.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/lu2020apac.bib",
@@ -945,10 +1506,8 @@ const publications: Publication[] = [
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/hcompress.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/hcompress_ipdps.pdf",
-      bibtex:
-        "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/hcompress2020.bib",
-      citation:
-        "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/hcompress2020.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/hcompress2020.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/hcompress2020.txt",
     },
   },
   {
@@ -1464,7 +2023,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["A. Kougkas", "H. Eslami", "R. Thakur", "W. D. Gropp", "X.-H. Sun"],
+    authors: [
+      "A. Kougkas",
+      "H. Eslami",
+      "R. Thakur",
+      "W. D. Gropp",
+      "X.-H. Sun",
+    ],
     title: "Rethinking Key Value Store for Parallel I/O Optimization",
     venue:
       "International Journal of High Performance Applications,2017. vol. 31, no. 4, pp. 335-356",
@@ -3145,7 +3710,7 @@ const publications: Publication[] = [
       "A Hybrid Shared-nothing/Shared-data Storage Architecture for Large Scale Databases(Poster Presentation)",
     venue:
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
-    type: "Conference",
+    type: "Poster",
     date: "May, 2011",
     tags: [],
     links: {

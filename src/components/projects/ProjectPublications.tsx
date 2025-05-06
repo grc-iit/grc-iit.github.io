@@ -5,14 +5,23 @@ import { getProjectById } from "@site/src/data/projects";
 import { getPublicationsByTag } from "@site/src/data/publications";
 
 type ProjectPublicationsProps = {
-  projectId: ProjectId;
+  projectId?: ProjectId;
+  tag?: PublicationTag;
 };
 
 export default function ProjectPublications({
   projectId,
+  tag,
 }: ProjectPublicationsProps) {
-  const { name } = getProjectById(projectId);
-  const publications = getPublicationsByTag(name as PublicationTag);
+  let publications = [];
+  if (projectId) {
+    const { name } = getProjectById(projectId);
+    publications = getPublicationsByTag(name as PublicationTag);
+  } else if (tag) {
+    publications = getPublicationsByTag(tag);
+  } else {
+    throw new Error("Either projectId or tag must be provided");
+  }
   return (
     <PublicationsTable
       data={publications}

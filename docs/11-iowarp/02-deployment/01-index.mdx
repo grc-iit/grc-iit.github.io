@@ -1,0 +1,12 @@
+# Deployment Overview
+
+IoWarp is a platform that manages the placement of data in complex storage. 
+The main components that enable this currently are:
+1. The IoWarp Runtime (Chimaera): where most IoWarp-related services run
+2. The Content Transfer Engine (Hermes): which provides algorithms to place data and manage metadata
+3. The Platform Plugins Interface (Jarvis): which introspects machines and build scripts to deploy Chimaera and Hermes.
+
+This guide goes over the following:
+1. How to configure Jarvis to learn your machine's resources so it can deploy IoWarp
+2. How to build a Jarvis Pipeline to run IoWarp
+3. How to build a Jarvis Pipeline to run IoWarp with an application

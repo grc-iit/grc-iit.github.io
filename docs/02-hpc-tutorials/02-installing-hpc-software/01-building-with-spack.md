@@ -229,10 +229,10 @@ Sometimes, you may find that a package fails to compile for some reason. These a
 
 1. Check if the software version you're installing is compatible with your machine. If it's not easy to discover with Google or
    AI, then move on to step 2. It's likely a bug in the spack package
-1. Try checking if there is a new stable release of spack. If so, try upgrading by switching to that version. You should be able to do
-   this without destroying all of your packages by using `git checkout`
+1. Try checking if there is a new stable release of spack. If so, try upgrading by switching to that version with `git checkout`. This
+will likely destroy all of your packages, spack is not very stable.
 1. Try deleting your spack cache directory. `rm -rf ~/.spack` And then try reinstalling the package.
-1. Try reinstalling spack by following 2.1.2 and 2.1.1 instructions
+1. Try reinstalling spack completely
 1. Submit an issue to the spack team. They aren't a very large team, so it may take time to address. You'll have to either find another
    package or install from scratch
 

@@ -1,0 +1,168 @@
+---
+title: "Optimization of Memory Architectures: A Foundation Approach"
+---
+
+import ProjectBadges from "@site/src/components/projects/ProjectBadges";
+import ProjectPublications from "@site/src/components/projects/ProjectPublications";
+
+# Optimization of Memory Architectures: A Foundation Approach
+
+<ProjectBadges projectId="optmem" />
+
+## Background
+
+The "memory wall" problem is a significant performance bottleneck in modern computer architectures,
+driven by an ever-widening disparity between CPU and memory speeds. Despite advancements over the
+past three decades—including multi-core and many-core designs, deep pipelining, and innovative
+caching techniques (such as multi-port, multi-banked, pipelined, and non-blocking caches)—the
+"memory wall" persists. If anything, the problem has intensified with the rise of data-intensive
+applications, which place additional demands on memory systems.
+
+Concurrent Average Memory Access Time (C-AMAT) is a memory performance model that extends the
+traditional Average Memory Access Time (AMAT) to address the complexities of modern systems,
+where concurrent memory accesses are prevalent. Unlike AMAT, which assumes sequential memory
+access, C-AMAT integrates both data concurrency and locality into a single unified metric.
+This metric applies recursively across all layers of the memory hierarchy, making C-AMAT an
+invaluable tool for accurately modeling and optimizing memory systems in contemporary architectures.
+
+This project aims to develop advanced memory-architecture performance-modeling and optimization
+frameworks that effectively capture the combined effects of data locality, data concurrency,
+and data access overlap. This work provides a foundation for future architecture designs that
+better balance CPU and memory capabilities, paving the way for more efficient and scalable
+systems in the data-driven era.
+
+## Project Contributions
+
+### 1. Unified Mathematical Framework for Memory Access
+
+A coherent mathematical framework was developed for a memory-centric view of data accesses, which
+enables a recursive definition of memory access latency and concurrency along the memory hierarchy,
+providing clearer insights into memory performance. The Concurrent Average Memory Access Time (C-AMAT)
+model was expanded to cover more general situations in hierarchical memory systems, accounting for
+splitting and merging at specific cache memory devices. Additionally, partitioning techniques were
+revisited to account for concurrent data access.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/optmem/model.png").default}
+    width="800"
+    alt="A Memory System Viewed as a Multi-tree"
+  />
+</center>
+
+<center>
+  <p>
+    <strong>A Memory System Viewed as a Multi-tree.</strong>
+  </p>
+</center>
+
+### 2. Concurrency-Aware Performance Optimization Frameworks
+
+- **APAC Prefetch Framework**: APAC is an adaptive prefetch framework that adjusts prefetch aggressiveness
+  based on concurrent memory access patterns, optimizing both prefetch accuracy and coverage. In both
+  single-core and multi-core environments, APAC demonstrates substantial performance improvements, with
+  an average 17.3% IPC gain over state-of-the-art adaptive frameworks.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/optmem/APAC.png").default}
+    width="800"
+    alt="Adjust Prefetch Aggressiveness with Runtime Metrics"
+  />
+</center>
+
+<center>
+  <p>
+    <strong>Adjust Prefetch Aggressiveness with Runtime Metrics.</strong>
+  </p>
+</center>
+
+- **Premier Cache Partitioning Framework**: Premier is a concurrency-aware cache
+  partitioning framework that leverages the Pure Misses Per Kilo Instructions (PMPKI)
+  metric to dynamically allocate cache capacity and mitigate interference. Premier
+  offers adaptive insertion and dynamic capacity allocation to maximize cache efficiency.
+  Premier outperforms traditional partitioning schemes, achieving a 15.45% performance
+  improvement and a 10.91% fairness increase in 8-core systems, demonstrating its strength
+  in managing shared LLC resources effectively.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/optmem/Premier.png").default}
+    width="800"
+    alt="PMPKI and CPI for Varying Cache Sizes in SPEC Workloads"
+  />
+</center>
+
+<center>
+  <p>
+    <strong>PMPKI and CPI for Varying Cache Sizes in SPEC Workloads.</strong>
+  </p>
+</center>
+
+- **CARE Concurrency-Aware Cache Management**: CARE introduces an innovative approach that goes beyond
+  traditional locality-based management, utilizing the Pure Miss Contribution (PMC) metric to prioritize
+  cache replacements. CARE dynamically adjusts cache management decisions, aligning cache behavior with
+  varying workload demands for enhanced efficiency. CARE achieves substantial improvements over traditional
+  LRU policies, with an average 10.3% IPC gain in 4-core systems and up to 17.1% IPC improvement in
+  16-core systems. These results demonstrate CARE's scalability and effectiveness in high-concurrency environments.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/optmem/CARE.png").default}
+    width="800"
+    alt="The Overview of the CARE Design"
+  />
+</center>
+
+<center>
+  <p>
+    <strong>The Overview of the CARE Design.</strong>
+  </p>
+</center>
+
+- **CHROME Holistic Cache Management**: CHROME is an innovative cache management framework that leverages
+  concurrency-aware, online reinforcement learning to optimize cache performance in dynamic environments.
+  By continuously interacting with the processor and memory system, CHROME learns and adapts its cache
+  management policy in real-time. This online reinforcement learning approach enables CHROME to perform
+  effectively across diverse system configurations and fluctuating workloads. CHROME makes bypassing and
+  replacement decisions based on multiple program features and system-level feedback, considering
+  concurrency to enhance overall cache efficiency. Extensive evaluations show that CHROME consistently
+  outperforms traditional cache management schemes, achieving a 13.7% performance improvement in 16-core
+  systems, proving its potential for improving cache performance in data-intensive, scalable computing systems.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/optmem/CHROME.png").default}
+    width="800"
+    alt="The Overview of the CHROME Design"
+  />
+</center>
+
+<center>
+  <p>
+    <strong>The Overview of the CHROME Design.</strong>
+  </p>
+</center>
+
+## Project Significance
+
+The Optimization of Memory Architectures project addresses critical challenges in modern memory architecture,
+providing both theoretical and practical advances in memory performance modeling. By considering data locality
+and concurrency, this research establishes a foundation for scalable, high-performance computing architectures.
+These advancements equip future systems to efficiently support the most demanding data-intensive applications,
+paving the way for breakthroughs in computer architecture, high-performance computing, and beyond.
+
+## Publications
+
+<ProjectPublications tag="Optimization of Memory Architectures" />
+
+## Sponsor
+
+<p>
+  <img
+    src={require("@site/static/img/affiliations/nsf.png").default}
+    width="100"
+  />
+</p>
+
+This research is supported by the National Science Foundation under Grant CCF-2008907.

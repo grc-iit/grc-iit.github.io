@@ -1,0 +1,125 @@
+---
+title: "IOWarp: Advanced Data Management for Scientific Workflows"
+---
+
+import ProjectBadges from "@site/src/components/projects/ProjectBadges";
+
+# IOWarp: Advanced Data Management for Scientific Workflows
+
+<ProjectBadges projectId="iowarp" />
+
+**IOWarp** is a comprehensive data management platform designed to address the unique challenges in scientific
+workflows that integrate simulation, analytics, and Artificial Intelligence (AI). IOWarp builds on existing
+storage infrastructures, optimizing data flow and providing a scalable, adaptable platform for managing diverse
+data needs in modern scientific workflows, particularly those augmented by AI.
+
+---
+
+## Project Scope and Vision
+
+### Project Goals
+
+IOWarp focuses on:
+
+- Enhancing data exchange and transformation across scientific workflows.
+- Reducing data access latency with advanced storage systems.
+- Developing an open-source, community-driven framework that supports adaptability and innovation.
+
+### Vision
+
+IOWarp envisions a **modular and flexible architecture** that adapts to the data demands of scientific research, particularly in High-Performance Computing (HPC). This platform aligns with NSF’s focus on sustainable, adaptable solutions that can support next-generation scientific workflows.
+
+---
+
+## Key Challenges in Scientific Data Management
+
+1. **Data Heterogeneity**: Managing a variety of data formats across workflow stages.
+2. **Data Scale**: Addressing the rapidly increasing volume and velocity of data.
+3. **Data Access Speed**: Overcoming limitations in I/O speed for real-time analytics.
+4. **Data Integrity**: Ensuring quality and consistency across storage and access points.
+5. **Resource Utilization**: Optimizing storage and compute resources to reduce costs and environmental impact.
+6. **Interoperability**: Enabling seamless data transfer across workflow stages and computing paradigms.
+
+---
+
+## Objectives and Architecture Overview
+
+### Modular Architecture
+
+IOWarp's architecture comprises several core components designed to handle various aspects of data flow,
+integrity, and interoperability.
+
+![IOWarp Architecture](/img/projects/iowarp/architecture.svg)
+
+---
+
+## Technical Architecture
+
+This section describes the core components of IOWarp's data management platform and their functionality
+within scientific workflows.
+
+### Content Assimilation Engine (CAE)
+
+The **Content Assimilation Engine (CAE)** transforms diverse format-specific data into IOWarp's unified
+data representation format, **Content**, optimized for data transfer. The CAE:
+
+- Integrates with data sources (e.g., Globus, S3, PFS).
+- Applies data layout and semantic tagging, preserving context across workflow stages.
+- Exports data back to repositories post-processing, ensuring data longevity.
+
+### Content Transfer Engine (CTE)
+
+The **Content Transfer Engine (CTE)** manages efficient data flow across workflow stages and storage systems.
+Key features include:
+
+- **Multi-tiered I/O**: Supports interactions with advanced storage hardware, including NVMe SSDs and CXL-powered devices.
+- **GPU Direct I/O**: Directly transfers data between GPUs for faster model training and inference.
+- **Secure Transfer Protocols**: Ensures data security during transfers.
+
+### Content Exploration Interface (CEI)
+
+The **Content Exploration Interface (CEI)** enables advanced data querying and retrieval, incorporating tools like:
+
+- **WarpGPT**: A language model-driven interface for complex scientific queries, capable of handling anomaly detection, mathematical operations, and user-defined extensions.
+- **FAIR Compliance**: Implements principles to support Findable, Accessible, Interoperable, and Reusable data within scientific workflows.
+
+### Platform Plugins Interface (PPI)
+
+The **Platform Plugins Interface (PPI)** extends IOWarp's functionality, allowing integration with external
+services, such as:
+
+- **Global Schedulers** (e.g., Slurm): For resource and task allocation.
+- **Workflow Managers** (e.g., Pegasus): For task orchestration and system telemetry.
+- **Custom Libraries**: Allows integration with libraries for data tracing, encryption, and transformations.
+
+---
+
+## High-Level Data Flow in IOWarp
+
+The data flow within IOWarp follows an organized pipeline from acquisition and transformation to storage and retrieval.
+Here's a typical data path:
+
+1. **Data Ingestion** via the **Content Assimilation Engine**.
+2. **Data Storage Optimization** through the **Content Transfer Engine** and hardware-optimized storage.
+3. **Data Retrieval** using the **Content Exploration Interface**, with support for complex, low-latency queries.
+
+---
+
+## API Descriptions
+
+### Core APIs
+
+1. **Repository Connection API**: Manages connection to external data sources.
+
+   - Example Methods: `link/unlink`, `upload/download`.
+
+2. **Content Management API**: Allows querying, editing, and locating content based on metadata and tags.
+
+   - Example Methods: `queryContent`, `editContent`.
+
+3. **Content Exploration API**: Supports advanced data operations with low-latency retrieval.
+
+   - Example Methods: `processQuery`, `executeDAG`.
+
+4. **AI/ML Integration APIs**: Facilitates data exchange for training and inference tasks within AI frameworks like TensorFlow or PyTorch.
+   - Example Methods: `defineDataset`, `prefetchToGPU`.

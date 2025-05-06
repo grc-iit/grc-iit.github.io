@@ -7,8 +7,8 @@ various HPC programs from scratch.
 ## Setup
 
 ```bash
-mkdir ${SCS_TUTORIAL}/2.2.1.scratch
-cd ${SCS_TUTORIAL}/2.2.1.scratch
+mkdir ${GRC_TUTORIAL}/2.2.1.scratch
+cd ${GRC_TUTORIAL}/2.2.1.scratch
 mkdir src
 mkdir install
 ```
@@ -45,7 +45,7 @@ Next we will configure Zlib to the particular machine.
 
 ```bash
 cd zlib-1.2.13
-./configure --prefix=${SCS_TUTORIAL}/2.2.1.scratch/install
+./configure --prefix=${GRC_TUTORIAL}/2.2.1.scratch/install
 ```
 
 The output of ./configure is a Makefile.

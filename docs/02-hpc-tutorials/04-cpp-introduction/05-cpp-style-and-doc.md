@@ -1,0 +1,200 @@
+
+# C++ Style and Documentation
+This section introduces a **style guide** for consistently phrasing and documenting
+C++ code. Consistency is key to making a codebase readable. You don't want the
+code to look like it was written by a 100 different people.
+
+If you don't know any C++, you shouldn't read this section very carefully yet.
+We use this style in our C++ code examples. However, be aware that part of
+professionally developing code is being consistent.
+
+We use the [Google C++ Style
+Guide](https://google.github.io/styleguide/cppguide.html). We won't repeat every
+single rule, but we'll give you the highlights to get started. Make sure to read
+through their style document thoroughly.
+
+## General Style Rules
+
+### Function Names
+
+Function names should be camel case.
+```cpp
+void MyFunction() {
+}
+```
+
+### Function Variable Names
+
+Function variable names should be snake case:
+```cpp
+void MyFunction() {
+  int my_var;
+}
+```
+
+### Class Names
+
+Class names should be camel case.
+```cpp
+class Hello;
+```
+
+### Method Names
+
+Method names should be camel case
+```cpp
+class Hello {
+ public:
+  void MyFunction() {
+  }
+}
+```
+
+### Class Variable Names
+
+Class variable names should be snake case and be appended with a trailing "_".
+The underscore makes it so that we know this is a variable of the class, and not
+just a typical variable stored on the stack.
+
+```cpp
+class Hello {
+  int my_var_;
+};
+```
+
+### Namespaces
+
+Generally, classes should be encapsulated in a namespace. This avoids
+accidental conflicts across packages.
+
+Namespaces are snake case. Namespaces must also be terminated using
+a comment which states the name of the namespace.
+
+```cpp
+namespace my_namespace {
+
+}  // namespace my_namespace
+```
+
+### Enumerations
+
+Enumerations should be camel case. Enumeration entries should begin with
+a lowercase k.
+```cpp
+enum class MyFruitEnum {
+  kApple,
+  kOrange
+  kDragonFruit
+};
+```
+
+### Macros
+
+Macros should be snake case and all caps. Macros should be used sparingly
+since they are much harder to debug. The most common use of macros is
+for defining constants.
+
+```cpp
+#define MY_MACRO 25
+```
+
+Macro function parameters should be snake case and all caps as well.
+```cpp
+#define MY_MACRO(A, B)
+```
+
+### Conditionals & Loops
+
+Whenever making a conditional, ensure there is a single space between the keyword and the parenthesis.
+```cpp
+// This is BAD
+if(true) {
+  std::cout << "hello" << std::endl;
+}
+
+// This is GOOD
+if (true) {
+  std::cout << "hello1" << std::endl;
+} else if (false) {
+  std::cout << "hello2" << std::endl;
+} else {
+  std::cout << "hello3" << std::endl;
+}
+
+// This is GOOD
+while (true) {
+  std::cout << "hello" << std::endl;
+}
+
+// This is GOOD
+do {
+
+} while (true);
+```
+
+### Binary Operators
+
+Binary operators such as =, +, -, *, /, etc. should have a space on both the left and right side.
+
+```cpp
+// GOOD
+int c = a + b
+
+// BAD
+int c=a+b;
+```
+
+## Linting
+
+To ensure that your code is consistent, you can use [cpplint.py](https://google.github.io/styleguide/cppguide.html#cpplint).
+Cpplint is a python script which can inspect codebases for stylistic errors.
+It can be installed as follows:
+```bash
+python3 -m pip install cpplint
+```
+
+```cpp
+// Copyright [year] <Copyright Owner>
+
+#ifndef MY_HEADER_GUARD
+#define MY_HEADER_GUARD
+
+namespace myNamespace {
+
+class MyName {
+  int my_var_;
+
+  void MyFunc() {
+    int hi;
+  }
+};
+
+}
+
+#endif
+```
+
+This violates the rule that the namespace is missing the namespace comment.
+cpplint can be executed as follows to detect this error:
+```bash
+cd ${GRC_TUTORIAL}/cpp/04-cpp-basic-syntax
+cpplint --recursive src/cpplint_test.h
+```
+
+Output:
+```
+src/cpplint_test.h:16:  Namespace should be terminated with "// namespace myNamespace"  [readability/namespace] [5]
+Done processing src/cpplint_test.h
+Total errors found: 1
+```
+
+You can tune the set of errors cpplint checks for by creating a CPPLINT.cfg
+file.
+
+## Documentation
+
+Code documentation is important to improve the readability of code and to
+give some guidance on how to interpret the codebase. AI models, for example,
+can crawl well-documented codebases to help provide examples.
+
+The most used documentation format is called Doxygen.

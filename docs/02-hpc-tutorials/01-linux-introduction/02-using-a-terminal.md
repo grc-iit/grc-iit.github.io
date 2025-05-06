@@ -102,7 +102,7 @@ echo ${MY_VAR}
 To use this bash script, run:
 
 ```bash
-cd ${SCS_TUTORIAL}/1.1.linux_intro
+cd ${GRC_TUTORIAL}/1.1.linux_intro
 ```
 
 ### Limited Scope

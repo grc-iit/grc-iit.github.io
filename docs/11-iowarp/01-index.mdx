@@ -1,0 +1,464 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Getting Started
+
+## IOWarp
+
+IOWarp is a powerful cutting-edge data management platform designed to streamline and accelerate scientific workflows,
+especially those intensified by the rise of artificial intelligence (AI). It optimizes data flow throughout the research
+process, ensuring efficient handling of diverse data types, formats, and the exponential growth of data. IOWarp aims to
+significantly reduce data access times, accelerate the pace of scientific discovery, and foster a collaborative research
+environment.
+
+## Dependencies
+
+Currently, IOWarp is Linux-only. We are working on extending portability.
+
+[Spack](https://spack.io/) is the easiest way to install IOWarp as of right now.
+
+We also have a set of docker containers.
+
+## Installation
+
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+
+<Tabs>   
+  <TabItem value="user" label="User" default>
+    <Tabs>
+      <TabItem value="spack-user" label="Spack (Linux-Only)" default>
+### Install Spack
+```bash
+cd ${HOME}
+git clone https://github.com/spack/spack.git
+cd spack
+git checkout tags/v0.22.2
+echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
+source ~/.bashrc
+```
+
+### Add IOWarp to Spack
+```bash
+spack repo add iowarp-install/iowarp-spack
+```
+
+## Install IOWarp
+
+```bash
+spack install iowarp
+```
+
+      </TabItem>
+
+      <TabItem value="vcpkg-user" label="Vcpkg (Linux-Only)">
+This installer is experimental and will be improving as we add Windows support.
+Spack is the most well-maintained installer at this time. However, these are
+the general steps for vcpkg.
+
+### Install vcpkg + add our ports
+```bash
+git clone  --branch 2025.03.19 --single-branch https://github.com/microsoft/vcpkg
+cp -r iowarp-install/ports/* ./vcpkg/ports/
+cd vcpkg
+./bootstrap-vcpkg.sh
+export PATH="${PWD}:${PATH}"
+```
+
+### Install IOWarp
+```bash
+./vcpkg install content-transfer-engine
+```
+      </TabItem>
+
+      <TabItem value="podman-user" label="Manual Podman (Any)">
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Create the containers
+```bash
+cd ~/iowarp-install/docker
+podman build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+podman tag iowarp-base iowarp/iowarp-base:latest
+podman build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+podman tag iowarp-deps iowarp/iowarp-deps:latest
+podman build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
+podman tag iowarp-user iowarp/iowarp-user:latest
+```
+### Create Podman Compose File
+
+```bash
+mkdir ~/iowarp-podman
+cd ~/iowarp-podman
+nano podman-compose.yml
+```
+
+Add the following:
+
+```yaml
+services:
+  iowarp:
+    image: iowarp/iowarp-user:latest
+    container_name: iowarp
+    shm_size: 8g
+    mem_limit: 8g
+    stdin_open: true
+    tty: true
+    network_mode: host
+```
+
+### Run the container
+
+```bash
+podman compose up -d  # For recent podman
+podman-compose up -d  # For older podman
+```
+
+### Access the Container
+
+```bash
+podman exec -it iowarp bash
+```
+
+      </TabItem>
+
+      <TabItem value="docker-user" label="Manual Docker (Any)">
+
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Create the containers
+
+```bash
+cd ~/iowarp-install/docker
+docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+docker tag iowarp-base iowarp/iowarp-base:latest
+docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+docker tag iowarp-deps iowarp/iowarp-deps:latest
+docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
+docker tag iowarp-user iowarp/iowarp-user:latest
+```
+
+### Create Docker Compose File
+
+```bash
+mkdir ~/iowarp-docker
+cd ~/iowarp-docker
+nano docker-compose.yml
+```
+
+Add the following:
+
+```yaml
+services:
+  iowarp:
+    image: iowarp/iowarp-user:latest
+    container_name: iowarp
+    shm_size: 8g
+    mem_limit: 8g
+    stdin_open: true
+    tty: true
+    network_mode: host
+```
+
+### Run the container
+
+```bash
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+### Access the Container
+
+```bash
+docker exec -it iowarp bash
+```
+
+      </TabItem>
+    </Tabs>
+
+  </TabItem>
+
+  <TabItem value="developer" label="Core Developer" default>
+This is for people that will be editing either cte-hermes-shm, 
+iowarp-runtime, or content-transfer-engine directly. If you
+are developing something relying on these repos, install
+iowarp like a regular user instead. E.g., developing the CAE,
+PPI, or some  other runtime plugin.
+
+### Project Environment
+
+Decide on where you want to place your iowarp repos.
+This guide will assume you have set a variable named IOWARP_PKGS.
+
+```bash
+export IOWARP_PKGS="${HOME}"
+```
+
+Set IOWARP_PKGs to where you want your packages.
+
+NOTE: This variable needs to be reset for every new terminal.
+On Linux, you could add the above command to your `~/.bashrc`
+to automate.
+
+### Clone the IOWarp Spack Repo
+
+```bash
+cd ${IOWARP_PKGS}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Clone the repos
+
+```bash
+cd ${IOWARP_PKGS}
+git clone https://github.com/iowarp/cte-hermes-shm.git
+git clone https://github.com/iowarp/iowarp-runtime
+git clone https://github.com/iowarp/content-transfer-engine.git
+```
+
+### For Pull Requests
+
+You may find the github [command line](https://cli.github.com/) useful for making PRs.
+
+```bash
+gh auth login
+gh repo set-default
+gh pr create --title "Your pull request title" --body "Your pull request description"
+```
+
+### Install Dependencies
+
+    <Tabs>
+      <TabItem value="spack-dev" label="Spack (Linux-Only)" default>
+
+#### Install Spack
+
+```bash
+cd ${HOME}
+git clone https://github.com/spack/spack.git
+cd spack
+git checkout tags/v0.22.2
+echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
+source ~/.bashrc
+```
+
+#### Add iowarp to spack
+
+```bash
+spack repo add ${IOWARP_PKGS}/iowarp-install/iowarp-spack
+```
+
+#### Install Dependencies
+
+To install iowarp dependencies:
+
+```bash
+spack install iowarp +nocompile
+```
+
+For developer installations, we will use a tool named scspkg.
+scspkg is installed automatically by iowarp. It is a tool for
+managing modulefiles, which set various environment variables
+that streamline the installation of our tools.
+
+</TabItem>
+
+      <TabItem value="docker-dev" label="Dockerfiles (Any)">
+
+#### Build Containers
+
+```bash
+cd ~/iowarp-install/docker
+docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+docker tag iowarp-base iowarp/iowarp-base:latest
+docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+docker tag iowarp-deps iowarp/iowarp-deps:latest
+docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
+docker tag iowarp-user iowarp/iowarp-user:latest
+```
+
+#### Launch Docker Compose
+
+```bash
+mkdir -p ${IOWARP_PKGS}/docker
+cp -r ${IOWARP_PKGS}/iowarp-install/docker/development ${IOWARP_PKGS}/docker
+cd ${IOWARP_PKGS}/docker/development
+# Copy-paste the above into the file
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+Feel free to edit `${IOWARP_PKGS}/docker/development/docker-compose.yml`.
+It assumes the environment variable `${IOWARP_PKGS}` is set.
+
+NOTE: `shm_size` and `mem_limit` are set to 8GB. Feel free to increase or decrease
+that value.
+
+#### Access the Container
+
+```bash
+docker exec -it iowarp bash
+```
+
+      </TabItem>
+    </Tabs>
+
+### Load Basic Packages
+
+```bash
+spack load iowarp
+```
+
+Make sure to understand your environment. If you get errors
+like `package X was not found`, it is most likely you forgot
+to do either `spack load X` or `module load X`.
+
+### Configure SCSPKG
+
+Read [this](https://grc.iit.edu/docs/jarvis/scspkg/index) guide to configure scspkg.
+
+### Ensure packages are up-to-date
+
+Make sure to try and update all your packages:
+
+```bash
+cd ~/iowarp-install
+git pull
+cd ${IOWARP_PKGS}/cte-hermes-shm
+git pull
+cd ${IOWARP_PKGS}/iowarp-runtime
+git pull
+cd ${IOWARP_PKGS}/content-transfer-engine
+git pull
+```
+
+### Things failing to build after an update
+
+If you find that things are failing to build for you
+after an update, try destroying all build directories.
+
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+rm -rf build
+cd ${IOWARP_PKGS}/iowarp-runtime
+rm -rf build
+cd ${IOWARP_PKGS}/content-transfer-engine
+rm -rf build
+```
+
+### Hermes-SHM
+
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+scspkg create hermes_shm
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root hermes_shm) \
+-DHSHM_ENABLE_COMPRESS=ON \
+-DHSHM_ENABLE_ENCRYPT=ON \
+-DHSHM_RPC_THALLIUM=ON \
+-DHSHM_USE_ELF=ON
+make -j32 install
+```
+
+If you will be working on hermes-shm, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP_PKGS}/cte-hermes-shm
+git remote add iowarp https://github.com/iowarp/cte-hermes-shm.git
+git pull iowarp
+```
+
+### IOWarp Runtime: Chimaera
+
+```bash
+cd ${IOWARP_PKGS}/iowarp-runtime
+scspkg create iowarp_runtime
+module unload iowarp_runtime
+module load hermes_shm
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root iowarp_runtime)
+make -j32 install
+```
+
+NOTE: If you will be working on iowarp-runtime, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP_PKGS}/iowarp-runtime
+git remote add iowarp https://github.com/iowarp/iowarp-runtime
+git pull iowarp
+```
+
+### Content-Transfer-Engine: Hermes
+
+```bash
+cd ${IOWARP_PKGS}/content-transfer-engine
+scspkg create cte
+module unload cte
+module load hermes_shm iowarp_runtime
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root cte)
+make -j32 install
+```
+
+NOTE: If you will be working on the cte, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP_PKGS}/content-transfer-engine
+git remote add iowarp https://github.com/iowarp/content-transfer-engine.git
+git pull iowarp
+```
+
+### Another note on environments
+
+By the end of this installation, you will have the following spack:
+
+```bash
+spack load iowarp
+```
+
+And the following modules:
+
+```bash
+module load hermes_shm iowarp_runtime cte
+```
+
+Understanding how your environment works is important. When
+compiling you must make sure that only the necessary modules
+are loaded. For example, the iowarp_runtime install only
+requires `spack load iowarp` and `module load hermes_shm`.
+
+If you have `module load iowarp_runtime` as well,
+there is a chance the compiler will find header files
+in the module's directory, instead of the build directory.
+This can lead to compilation errors since the module directory
+will likely be outdated compared to the code you just wrote.
+
+  </TabItem>
+</Tabs>
+

@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 const GNOSIS_SHORT = "GRC";
 const GNOSIS_TITLE = "Gnosis Research Center";
@@ -139,20 +140,30 @@ const config = {
                 label: "Patents",
               },
               {
-                to: "/research/resources",
-                label: "Resources",
+                to: "/resources/hardware-overview",
+                label: "Hardware Overview",
               },
             ],
+          },
+          {
+            to: "/news",
+            label: "News",
+            position: "left",
           },
           {
             to: "/publications",
             label: "Publications",
             position: "left",
           },
+          {
+            to: "/opportunities",
+            label: "Opportunities",
+            position: "left",
+          },
           // {
           //   to: "/blog",
           //   label: "Blog",
-          //   position: "left",
+          //   position: "right",
           // },
           {
             type: "docSidebar",
@@ -197,13 +208,17 @@ const config = {
             title: "Featured Projects",
             items: [
               {
+                label: "IOWarp",
+                to: "/research/projects/iowarp",
+              },
+              {
                 label: "ChronoLog",
                 to: "/research/projects/chronolog",
               },
-	      {
-		label: "Labios",
-		to: "/research/projects/labios",
-	      },
+              {
+                label: "Labios",
+                to: "/research/projects/labios",
+              },
               {
                 label: "Coeus",
                 to: "/research/projects/coeus",
@@ -233,11 +248,19 @@ const config = {
                 label: "C++ Introduction",
                 to: "/docs/category/c-introduction",
               },
+              {
+                to: "/docs/category/ares-research-cluster",
+                label: "Ares User Guide",
+              },
             ],
           },
           {
             title: "Links",
             items: [
+              {
+                label: "GRC Careers",
+                to: "/careers",
+              },
               {
                 label: "GRC GitHub",
                 href: "https://github.com/grc-iit",
@@ -268,10 +291,31 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ${GNOSIS_TITLE} (${GNOSIS_SHORT}).`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
     }),
+
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "newsletter",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "newsletter",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./newsletter",
+      },
+    ],
+  ],
 };
 
 module.exports = config;

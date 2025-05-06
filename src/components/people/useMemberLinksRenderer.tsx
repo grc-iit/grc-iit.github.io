@@ -1,15 +1,27 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MemberLinkType } from "@site/src/types";
-import { faEnvelope, faGlobe, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faGlobe,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faOrcid,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import { useCallback } from "react";
 
 export default function useMemberLinksRenderer() {
   const renderLinks = useCallback((links: Record<MemberLinkType, string>) => {
     return Object.entries(links).map((link) => {
       const linkType = link[0] as MemberLinkType;
-      const href = linkType === "email" ? `mailto:${link[1]}` : link[1];
+      const href =
+        linkType === "email"
+          ? `mailto:${link[1]}?subject=%5BGRC%20Website%5D%20`
+          : link[1];
       let icon = null;
       switch (linkType) {
         case "email":
@@ -20,6 +32,9 @@ export default function useMemberLinksRenderer() {
           break;
         case "linkedin":
           icon = faLinkedin;
+          break;
+        case "orcid":
+          icon = faOrcid;
           break;
         case "scholar":
           icon = faGraduationCap;
@@ -34,7 +49,12 @@ export default function useMemberLinksRenderer() {
           icon = null;
       }
       return (
-        <a key={href} className="padding-horiz--sm" href={href}>
+        <a
+          key={href}
+          className="padding-horiz--sm"
+          href={href}
+          target={linkType === "email" ? "_self" : "_blank"}
+        >
           {icon ? <FontAwesomeIcon icon={icon} /> : link[0]}
         </a>
       );

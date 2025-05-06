@@ -1,0 +1,4 @@
+label: "ChronoLog"
+link:
+  type: generated-index
+  description: "ChronoLog is a distributed and tiered shared log storage ecosystem. ChronoLog uses physical time to distribute log entries while providing total log ordering."

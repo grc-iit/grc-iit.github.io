@@ -17,7 +17,7 @@ import members from "@site/src/data/members";
 
 <MemberList data={members.filter((member) => member.type === "researcher")} />
 
-## Engineers
+## Research Staff
 
 <MemberList data={members.filter((member) => member.type === "engineer")} />
 
@@ -25,12 +25,17 @@ import members from "@site/src/data/members";
 
 <MemberList data={members.filter((member) => member.type === "visiting")} />
 
+## External Collaborators
+
+<MemberList data={members.filter((member) => member.type === "external")} />
+
 ## Some of Our Alumni
 
 <div style={{fontSize: "0.875rem"}}>
 
 | Name                        | Dissertation / Thesis                                                                                                                     | Degree | Year | Research Interests                                                                     |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | -------------------------------------------------------------------------------------- |
+| Wiam Amine                  |                                                                                                                                           | M.Sc.  | 2024 | HPC, Distributed Storage                                                               |
 | Hariharan Devarajan         | Towards a self-programmable storage solution in extreme-scale environments                                                                | PhD    | 2021 | HPC, Parallel and Distributed Systems, Parallel I/O Optimizations, Key-Value Storage   |
 | Kun Feng                    | A Multi-level Data Integration Approach for the Convergence of HPC and Big Data Systems                                                   | PhD    | 2020 | HPC, Parallel and Distributed Systems, I/O Optimization, Data Integration              |
 | Anthony Kougkas             | Accelerating I/O using Data Labels: A Contention-Aware, Multi-Tiered, Scalable, and Distributed I/O Platform                              | PhD    | 2019 | HPC, Parallel and Distributed Systems, Cloud Computing, Storage Systems, Object Stores |

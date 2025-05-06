@@ -8,7 +8,10 @@ import styles from "./HomepageProjects.module.css";
 
 export default function HomepageProjects({
   className,
-}: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>): JSX.Element {
+}: React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLElement>,
+  HTMLElement
+>): JSX.Element {
   const featuredProjects = projects.filter((project) => project.isFeatured);
   return (
     <section className={clsx(styles.projects, className)}>
@@ -16,7 +19,12 @@ export default function HomepageProjects({
       <div className="container">
         <div className="row">
           {featuredProjects.map((project) => (
-            <ProjectItem key={project.id} project={project} />
+            <ProjectItem
+              isCompact={true}
+              isThemeLight={true}
+              key={project.id}
+              project={project}
+            />
           ))}
         </div>
       </div>

@@ -1,17 +1,9 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+candice:
+  name: Meng Tang
+  title: PhD Candidate & Social Media Manager
+  url: https://github.com/candiceT233
+  image_url: https://grc.iit.edu/assets/images/tang-67580bc9ffbc745a2d79fffe4dcf2616.jpg
+grc:
+  name: Gnosis Research Center
+  url: https://grc.iit.edu
+  image_url: https://pbs.twimg.com/profile_images/1716607426630148096/4bLrWcID_400x400.jpg
