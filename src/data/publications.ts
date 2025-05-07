@@ -72,6 +72,25 @@ const publications: Publication[] = [
     links: {},
   },
   {
+    authors: [
+      "L. Yan",
+      "X. Lu",
+      "S. Xu",
+      "X. Chen",
+      "X. Zou",
+      "Y. Han",
+      "X.-H. Sun",
+    ],
+    title:
+      "ProMiner: Enhancing Locality, Parallelism, and Offloading for Graph Mining on Processing-in-Memory Systems",
+    venue:
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2025",
+    type: "Journal",
+    date: "May, 2025",
+    tags: ["Graph Mining", "Processing-in-Memory", "Hardware Acceleration"],
+    links: {},
+  },
+  {
     authors: ["L. Yan", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
     title:
       "Pyramid: Accelerating LLM Inference with Cross-Level Processing-in-Memory",

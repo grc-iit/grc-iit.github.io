@@ -463,6 +463,7 @@ export type PublicationTag =
   | "GPU"
   | "Graph Applications"
   | "Graph Computing"
+  | "Graph Mining"
   | "Graph Pattern Matching"
   | "HDF5"
   | "HPC"
