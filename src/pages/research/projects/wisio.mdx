@@ -16,11 +16,11 @@ import ProjectPublications from "@site/src/components/projects/ProjectPublicatio
 
 <ProjectBadges projectId="wisio" />
 
-## Research Overview
+## Overview
 
 Modern HPC workloads are increasingly data-dependent, creating significant pressure on storage systems. With the growing diversity of storage technologies in HPC environments, the complexity of I/O systems poses substantial challenges for users and often leads to performance bottlenecks. Traditional approaches combined I/O characteristics with expert insight, while recent tools use automated performance analysis. However, the multifaceted nature of I/O problems—involving numerous metrics and complex interactions—remains challenging for both manual and automated analysis.
 
-## Key Research Contributions
+## Key Contributions
 
 Our research on WisIO makes several significant contributions to the field of HPC I/O analysis:
 
@@ -32,43 +32,44 @@ Our research on WisIO makes several significant contributions to the field of HP
 
 4. **Extensible Rule Engine**: Our global, extensible rule engine maps I/O characteristics to potential bottlenecks and root causes, supporting domain-specific customization while maintaining high performance.
 
-## Technical Approach
+## Methodology
 
 ```mermaid
 graph TD
     A[I/O Trace Collection] --> B[Preprocessing & Optimization]
     B --> C[Multi-Perspective View Generation]
-    
+
     subgraph "Multi-Perspective Analysis"
         C --> D1[Time Perspective]
         C --> D2[Process Perspective]
         C --> D3[File Perspective]
-        
+
         D1 --> E[Bottleneck Classification]
         D2 --> E
         D3 --> E
           E --> G[Root Cause Analysis]
     end
-    
+
     G --> I[Diagnosis Generation]
 ```
 
 Our research methodology consists of these key phases:
 
-1. **Data Collection & Optimization**: We capture I/O traces from HPC workloads using instrumentation tools like Darshan DXT, DFTracer, or Recorder. These traces are then optimized to enable fast distributed processing.
+1. **Trace Collection**: We capture I/O traces from HPC workloads using instrumentation tools like Darshan DXT, DFTracer, or Recorder.
 
 2. **Multi-Perspective View Generation**: Rather than analyzing I/O behavior from a single perspective, we generate multiple complementary views of the same data to capture complex interaction patterns:
+
    - **Time Perspective**: Analyzes temporal patterns and correlations
    - **Process Perspective**: Examines process-level behaviors and interactions
-   - **File Perspective**: Evaluates file access patterns, file hierarchy relationships, and metadata operations
+   - **File Perspective**: Evaluates file access patterns and characteristics across the file system hierarchy
 
-3. **Bottleneck Classification**: We apply metric-driven classification algorithms to each perspective to identify potential bottlenecks that might be missed when examining data from a single viewpoint.
+3. **Bottleneck Classification**: We apply a metric-driven bottleneck classification algorithm that decouples bottleneck detection from behavioral heuristics. This approach uses a severity parameter to quantify how critical each metric is for a given perspective record, enabling the identification of previously unseen bottlenecks in evolving HPC workloads.
 
-4. **Root Cause Analysis**: Our rule engine maps identified bottlenecks to their underlying causes, drawing connections between symptoms and their sources.
+4. **Root Cause Analysis**: Our extensible rule engine performs root cause analysis on classified bottlenecks by attaching one or more observed behaviors as reasons. The rule engine operates on identified bottlenecks using an enriched trace data to accommodate rules and reasoning conditions.
 
 5. **Diagnosis Generation**: Our system generates human-readable diagnoses explaining the detected bottlenecks and their severity, helping users understand complex I/O behavior.
 
-## Experimental Results
+## Exemplar Results
 
 Our research validated WisIO across diverse HPC workloads, demonstrating its effectiveness and performance advantages:
 
@@ -76,79 +77,104 @@ Our research validated WisIO across diverse HPC workloads, demonstrating its eff
 
 ![](/img/projects/wisio/evalmontage.png)
 
-We analyzed the Montage astronomical image processing workflow, which exhibits complex dependencies:
+We analyzed the Montage astronomical image processing workflow, which builds mosaics for astrophysics via 10 cooperating applications:
 
-- **Scale**: 1,280 ranks performing 3.2M read and 1.6M write operations
-- **Challenge**: Low average bandwidth (~3MB/s) with complex process interactions
-- **Analysis Performance**: Multi-perspective analysis completed in just **42 seconds**
-- **Results**: Identified **14 distinct bottlenecks** with severity scores between 52-61.4%
-- **Key Finding**: Process-based analysis produced diagnoses with specific nodes or applications that would have been missed using traditional methods
+- **Scale**: 11.4K processes accessing 19.6K files, executing 12.3M I/O operations
+- **I/O Characteristics**: 83.17% of I/O time spent on read operations, 74.85% of I/O size related to read operations
+- **Analysis Performance**: Multi-perspective analysis completed in just **48 seconds**
+- **Results**: Identified **495 distinct bottlenecks** with 1,735 associated reasons
+- **Key Bottleneck**: Seven applications within the workflow including mImgtbl exhibit extremely small read operations (averaging 76B), leading to inefficient I/O patterns
 
 ### Use Case: CM1 (Simulation with Separate I/O Phases)
 
 ![](/img/projects/wisio/evalcm1.png)
 
-For the CM1 weather simulation with separate I/O phases:
+For the CM1 atmospheric simulation which simulates phenomena like thunderstorms across 193 steps:
 
-- **Challenge**: 94.6% of I/O time concentrated in the first 20 seconds of execution
-- **Analysis Performance**: Multi-perspective analysis completed in just **22 seconds**
-- **Results**: Identified **20 distinct bottlenecks** with severity scores between 55-85%
-- **Key Finding**: Time-based analysis revealed that Rank 0 was performing 100% of small file writes, creating a severe bottleneck
+- **Scale**: 1.2K processes accessing 775 files via 27.5K I/O operations
+- **I/O Characteristics**: 85.89% of I/O time spent on metadata operations, with 86.95% of I/O operations being metadata-related
+- **Analysis Performance**: Multi-perspective analysis completed in just **17 seconds**
+- **Results**: Identified **75 distinct bottlenecks** with 176 associated reasons
+- **Key Bottleneck**: Time-based analysis revealed that 32 ranks (first rank per node) issue "open" calls concurrently during initialization, causing stagnation on the parallel file system, while 31 ranks (except rank 0) perform only read operations
 
 ### Use Case: 1000 Genomes (Data-Intensive Workflow)
 
 ![](/img/projects/wisio/evalgenome.png)
 
-For the data-intensive 1000 Genomes bioinformatics workflow:
+For the data-intensive 1000 Genomes bioinformatics workflow that processes human genome mutation overlaps:
 
-- **Scale**: Analysis of 21 million files accessed using a file-per-process pattern
-- **Analysis Performance**: Despite the massive scale, multi-perspective analysis completed in only **12 minutes**
-- **Results**: Identified **30 distinct bottlenecks** with severity scores between 54-67.1%
-- **Key Finding**: File-based analysis produced diagnoses with specific folder hierarchies, revealing patterns that would be impossible to detect manually
+- **Scale**: 2.7K processes accessing 21.2M files through 646M I/O operations
+- **I/O Characteristics**: 94.04% of I/O time spent on metadata operations, despite metadata operations comprising only 16.83% of total I/O operations
+- **Analysis Performance**: Despite the massive scale, multi-perspective analysis completed in **24 minutes**
+- **Results**: Identified **430K distinct bottlenecks** with 560K associated reasons
+- **Key Bottleneck**: Multiple root causes were identified for bottlenecks in the mutation_overlap application, which performs 1.2M I/O operations with small writes (~32KB) and spends 63% of its I/O time on metadata operations
 
-## Performance Analysis
+## Enabled Practical Optimizations
+
+WisIO's multi-perspective views enable holistic optimizations by detecting I/O bottlenecks from different views of the same trace data. Different perspectives suggest different optimization strategies:
+
+- **File Perspective Optimizations**:
+
+  - When many processes access the same file, data layout transformations can make parallel access more efficient
+  - For frequently accessed files, caching in burst buffers or node-local storage can reduce access times
+  - Hot-data policies can be implemented to place frequently accessed data in faster storage tiers
+
+- **Process Perspective Optimizations**:
+
+  - When a small number of processes perform the bulk of I/O operations, collective I/O can reduce requests to the storage system
+  - For processes performing small, non-contiguous I/O operations, specialized file system configurations can reduce overhead
+
+- **Timeline Perspective Optimizations**:
+  - During phases of intensive I/O, collective I/O or data sieving techniques can be applied
+  - When metadata operations cause bottlenecks during specific time intervals, techniques to distribute these operations across multiple servers can improve performance
+
+## Extensibility
+
+WisIO is designed with a modular architecture that facilitates both current functionality and future expansion:
+
+### Extensible Perspectives
+
+Our current implementation focuses on three core perspectives (time-based, process-based, and file-based), but the framework is designed to accommodate additional perspectives beyond these core views. WisIO allows users to dynamically specify perspectives and combine these views to create complex analysis strategies.
+
+Potential additional perspectives include:
+
+- **Application View**: Analyzing I/O patterns based on specific application characteristics and requirements
+- **File Directory View**: Examining hierarchical patterns in file system access across directories
+- **File Pattern View**: Identifying recurring access patterns across related sets of files
+- **Node View**: Examining I/O behavior at the node level to identify node-specific bottlenecks
+- **Host View**: Analyzing system-wide I/O patterns across different hosts in distributed environments
+- **Thread View**: Investigating fine-grained I/O operations at the thread level within multi-threaded applications
+
+### Extensible Rule Engine
+
+WisIO's rule engine is built with extensibility as a core design principle:
 
 ```mermaid
-graph LR
-    subgraph "Bottleneck Processing Rate"
-        A["Classification Engine<br>340K bottlenecks/sec"] --> B["Reasoning Engine<br>35K bottlenecks/sec"]
-    end
-    
-    subgraph "Analysis Time by Workload"
-        C["CM1<br>22 seconds"] 
-        D["Montage<br>42 seconds"]
-        E["1000 Genomes<br>12 minutes"]
-    end
-    
-    subgraph "Bottleneck Coverage Improvement"
-        F["Single Perspective<br>Limited coverage"] --> G["Multi-Perspective<br>Comprehensive coverage<br>(Up to 805× improvement)"]
-    end
+flowchart LR
+    A[I/O Trace Data] --> B[WisIO Core Engine]
+    B --> C[Default Rules]
+    B --> D[Custom Domain-Specific Rules]
+    C --> E[Bottleneck Classification]
+    D --> E
+    F[User-Defined Rules] -.-> D
 ```
 
-Our performance evaluation demonstrates WisIO's efficiency and effectiveness:
+Key extensibility features include:
 
-- **Bottleneck Processing Speed**: Our classification engine processes 340K potential bottlenecks per second, with the reasoning engine analyzing 35K bottlenecks per second
-- **Analysis Time**: Even complex workloads are analyzed quickly (22-42 seconds for moderate-sized traces, 12 minutes for massive 21M-file workflow)
-- **Coverage Improvement**: Multi-perspective analysis improves bottleneck detection coverage by up to 805× compared to single-perspective approaches
+- **Custom Rule Definition**: Users can define new rules based on their domain expertise or specific system knowledge
+- **Rule Prioritization System**: The engine intelligently weighs and applies rules based on relevance and severity
+- **System-Specific Rules**: Rules can be tailored to the specific characteristics of different storage architectures
+
+This extensible design ensures that WisIO can adapt to the evolving needs of HPC environments and workloads over time.
 
 ## Publications
 
 <ProjectPublications projectId="wisio" />
 
-## Broader Impact
-
-Our research on WisIO has significant implications for the HPC community:
-
-- **Democratizing Performance Analysis**: By automating complex I/O analysis, WisIO makes advanced performance tuning accessible to non-experts
-- **Enabling Exascale Computing**: The efficient identification and resolution of I/O bottlenecks is crucial for exascale systems with increasingly complex storage hierarchies
-- **Enhancing Scientific Productivity**: Reducing time spent debugging I/O issues allows researchers to focus on scientific discovery
-- **Improving Resource Utilization**: Better I/O performance leads to more efficient use of expensive HPC resources
-
-## Future Research Directions
+## Future Directions
 
 Our ongoing and future research on WisIO includes:
 
 - **Advanced ML-based Classification**: Incorporating machine learning to enhance bottleneck detection accuracy
 - **Predictive Analysis**: Developing models to predict potential bottlenecks before they occur
-- **Enhanced Bottleneck Analysis**: Developing more sophisticated analysis techniques to understand complex I/O interactions
-- **Extended Hardware Support**: Adding support for emerging storage technologies and architectures
+- **Integration with I/O Middleware**: Extending WisIO's capabilities to work alongside I/O middleware libraries (like Hermes and UnifyFS) for real-time bottleneck detection and dynamic optimization

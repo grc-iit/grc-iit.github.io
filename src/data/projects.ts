@@ -180,8 +180,10 @@ const projects: Project[] = [
     isFeatured: false,
     isOurs: true,
     researchStatus: "r&d",
+    sourceLink: "https://github.com/grc-iit/wisio",
     status: "active",
-    type: "student",
+    tutorialLink: "/docs/category/wisio",
+    type: "funded",
   },
 ];
 
