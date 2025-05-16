@@ -1,5 +1,5 @@
 ---
-title: "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads"
+title: "WisIO: Workflow I/O Analysis Tool"
 ---
 
 import ProjectBadges from "@site/src/components/projects/ProjectBadges";
@@ -12,7 +12,7 @@ import ProjectPublications from "@site/src/components/projects/ProjectPublicatio
   />
 </p>
 
-# WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads
+# WisIO: Workflow I/O Analysis Tool
 
 <ProjectBadges projectId="wisio" />
 
@@ -144,6 +144,7 @@ Potential additional perspectives include:
 - **Node View**: Examining I/O behavior at the node level to identify node-specific bottlenecks
 - **Host View**: Analyzing system-wide I/O patterns across different hosts in distributed environments
 - **Thread View**: Investigating fine-grained I/O operations at the thread level within multi-threaded applications
+- **Function Name View**: Analyzing behaviors across different I/O functions
 
 ### Extensible Rule Engine
 
@@ -154,7 +155,7 @@ flowchart LR
     A[I/O Trace Data] --> B[WisIO Core Engine]
     B --> C[Default Rules]
     B --> D[Custom Domain-Specific Rules]
-    C --> E[Bottleneck Classification]
+    C --> E[Root Cause Analysis]
     D --> E
     F[User-Defined Rules] -.-> D
 ```
