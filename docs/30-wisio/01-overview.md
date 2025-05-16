@@ -43,7 +43,7 @@ WisIO doesn't just look at your I/O problems from one angle - it examines them f
 ```mermaid
 graph TD
     A[Your I/O Trace Data] --> B{WisIO Analysis Engine}
-    
+
     subgraph "Multiple Perspectives"
         B --> C["When: Time-Based<br>• Peak traffic periods<br>• Periodic slowdowns<br>• Burst I/O patterns"]
         B --> D["Who: Process-Based<br>• Load imbalances<br>• Communication bottlenecks<br>• Process coordination"]
@@ -67,7 +67,7 @@ flowchart LR
     C --> D["Root Cause Analysis"]
     D --> E["Severity Ranking"]
     E --> F["Clear Diagnosis"]
-    
+
     G["Extensible Rules<br>(Add Your Own)"] -.-> B
 ```
 
@@ -94,18 +94,20 @@ WisIO is ideal for:
 - **System Administrators** trying to diagnose storage bottlenecks
 - **Researchers** working with data-intensive scientific workflows
 
-## Use Cases
+## Common Scenarios
 
 Here are some common scenarios where WisIO helps users:
 
 1. **Application Performance Analysis**: "My simulation runs slower than expected and I don't know why."
-   - *WisIO identifies unbalanced I/O patterns and provides detailed diagnostics*
+
+   - _WisIO identifies unbalanced I/O patterns and provides detailed diagnostics_
 
 2. **Storage System Analysis**: "Our file system performance isn't matching the hardware specifications."
-   - *WisIO reveals specific I/O patterns that impact system performance*
+
+   - _WisIO reveals specific I/O patterns that impact system performance_
 
 3. **Workflow Investigation**: "Some stages of our pipeline are much slower than others."
-   - *WisIO pinpoints where and when bottlenecks occur in multi-stage workflows*
+   - _WisIO pinpoints where and when bottlenecks occur in multi-stage workflows_
 
 ## Getting Started
 
