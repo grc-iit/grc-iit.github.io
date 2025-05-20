@@ -3,6 +3,25 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 const publications: Publication[] = [
   {
     authors: [
+      "K. Bateman",
+      "N. Rajesh",
+      "J. Cernuda",
+      "L. Logan",
+      "B. Nicolae",
+      "F. Cappello",
+      "X.-H. Sun",
+      "A. Kougkas",
+    ],
+    title: "DTIO: Data Stack for AI-driven Workflows",
+    venue:
+      "The 37th International Conference on Scalable Scientific Data Management (SSDBM 2025)",
+    type: "Conference",
+    date: "June, 2025",
+    tags: [],
+    links: {},
+  },
+  {
+    authors: [
       "I. Yildirim",
       "H. Devarajan",
       "A. Kougkas",
