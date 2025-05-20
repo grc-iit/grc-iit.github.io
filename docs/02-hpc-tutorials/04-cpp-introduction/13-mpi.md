@@ -1,0 +1,155 @@
+# Intro to MPI
+
+MPI (Message Passing Interface) is a standardized and portable message-passing system designed for parallel computing. It enables communication between processes in distributed memory systems, making it essential for High-Performance Computing (HPC) applications.
+
+Key features of MPI include:
+- Process-based parallelism
+- Point-to-point communication
+- Collective operations
+- Support for both SPMD and MPMD programming models
+
+MPI is widely used in scientific computing, engineering simulations, and data analysis across HPC clusters. While it requires explicit management of parallelism, it offers excellent performance and scalability.
+
+Common MPI implementations:
+- OpenMPI
+- MPICH
+- Intel MPI
+- Microsoft MPI
+
+## Intro Example
+
+```cpp
+#include <mpi.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+    MPI_Init(&argc, &argv);
+
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    std::cout << "Process " << rank << " of " << size << std::endl;
+
+    MPI_Finalize();
+    return 0;
+}
+```
+
+To compile and run:
+```bash
+mpic++ mpi_example.cpp -o mpi_example
+mpirun -np 4 ./mpi_example
+```
+
+The output of this should be
+```bash
+Process 0 of 4
+Process 1 of 4
+Process 2 of 4
+Process 3 of 4
+```
+
+In MPI, a **rank** is a unique identifier assigned to each process in a parallel program. Ranks are integers starting from 0, allowing processes to identify themselves and determine their specific roles in the program.
+
+A **communicator** is a context that defines a group of processes that can communicate with each other. The most common communicator is `MPI_COMM_WORLD`, which includes all processes in the application. Communicators enable:
+- Process organization
+- Safe message passing
+- Collective operations across specific process groups
+
+## Barrier
+
+A barrier is a synchronization point where all processes must arrive before any can proceed. Here's an example:
+
+```cpp
+#include <mpi.h>
+#include <iostream>
+#include <unistd.h>
+
+int main(int argc, char** argv) {
+    MPI_Init(&argc, &argv);
+
+    int rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
+    // Simulate work with sleep
+    sleep(rank);
+    std::cout << "Process " << rank << " reached barrier" << std::endl;
+
+    // Wait for all processes
+    MPI_Barrier(MPI_COMM_WORLD);
+
+    std::cout << "Process " << rank << " passed barrier" << std::endl;
+
+    MPI_Finalize();
+    return 0;
+}
+```
+
+To compile and run:
+```bash
+mpic++ mpi_barrier.cpp -o mpi_barrier
+mpirun -np 4 ./mpi_barrier
+```
+
+Example output:
+```bash
+Process 0 reached barrier
+Process 1 reached barrier
+Process 2 reached barrier
+Process 3 reached barrier
+Process 0 passed barrier
+Process 1 passed barrier
+Process 2 passed barrier
+Process 3 passed barrier
+```
+
+
+## Reduction
+
+Below is an example of using MPI to calculate the maximum value across processes and then print in the first:
+
+```cpp
+#include <mpi.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+    MPI_Init(&argc, &argv);
+
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    // Use rank as the local value
+    int local_value = rank;
+
+    std::cout << "Process " << rank << " has value: " << local_value << std::endl;
+
+    // Find the maximum value across all processes
+    int global_max;
+    MPI_Reduce(&local_value, &global_max, 1, MPI_INT, MPI_MAX, 0, MPI_COMM_WORLD);
+
+    // Only the root process (rank 0) prints the result
+    if (rank == 0) {
+        std::cout << "Maximum value across all processes: " << global_max << std::endl;
+    }
+
+    MPI_Finalize();
+    return 0;
+}
+```
+
+To compile and run:
+```bash
+mpic++ mpi_reduction.cpp -o mpi_reduction
+mpirun -np 4 ./mpi_reduction
+```
+
+Example output:
+```bash
+Process 0 has value: 0
+Process 1 has value: 1
+Process 2 has value: 2
+Process 3 has value: 3
+Maximum value across all processes: 3
+```
