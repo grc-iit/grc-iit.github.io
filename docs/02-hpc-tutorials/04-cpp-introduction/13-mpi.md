@@ -16,7 +16,22 @@ Common MPI implementations:
 - Intel MPI
 - Microsoft MPI
 
-## Intro Example
+## Linking to MPI in CMake
+
+To link with MPI in CMake, add the following to your `CMakeLists.txt`:
+
+```cmake
+find_package(MPI REQUIRED)
+add_executable(your_program main.cpp)
+target_link_libraries(your_program PRIVATE MPI::MPI_CXX)
+```
+
+This will:
+1. Find MPI installation on your system
+2. Create your executable
+3. Link MPI libraries to your program
+
+## Ranks + Communicators
 
 ```cpp
 #include <mpi.h>
