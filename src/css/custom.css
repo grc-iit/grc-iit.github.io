@@ -37,8 +37,12 @@
   text-align: justify;
 }
 
-.mdx-page a p {
+.docs-doc-page a p,
+.docs-doc-page li p,
+.mdx-page a p,
+.mdx-page li p {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .mdx-page center p {
