@@ -33,7 +33,7 @@ export default function MemberItem({ member }: MemberItemProps) {
         {member.type === "researcher" || member.type === "engineer" ? (
           <a
             className={clsx("text--bold text--center", styles.name)}
-            href={`members/${slugify(member.name)}`}
+            href={`/members/${slugify(member.name)}`}
           >
             {member.name}
           </a>
