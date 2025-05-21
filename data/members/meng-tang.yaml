@@ -1,0 +1,18 @@
+advisor: Dr. Xian-He Sun
+bio: >-
+  Meng Tang is a PhD Candidate in the Department of Computer Science at the Illinois Institute of
+  Technology and a member of the Gnosis Research Center. Meng Tang works under the guidance of Dr.
+  Xian-He Sun.
+image: tang.jpg
+links:
+  email: mtang11@hawk.iit.edu
+  github: https://github.com/candiceT233
+  linkedin: https://www.linkedin.com/in/meng-tang-86417a128/
+name: Meng Tang
+researchInterests:
+  - Distributed Storage
+  - Workflow I/O
+  - Containerization
+slug: meng-tang
+title: PhD Candidate
+type: researcher
