@@ -5545,6 +5545,14 @@ const publications: Publication[] = [
 
 export default publications;
 
+export function getPublicationsByAuthorShortName(
+  authorShortName: string
+): Publication[] | undefined {
+  return publications.filter((publication) =>
+    publication.authors.some((author) => author.includes(authorShortName))
+  );
+}
+
 export function getPublicationsByTag(
   tag: PublicationTag
 ): Publication[] | undefined {
