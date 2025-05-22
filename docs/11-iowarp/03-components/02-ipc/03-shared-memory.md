@@ -30,8 +30,8 @@ PretestRankN is called on every other rank.
 template <typename AllocT>
 void PretestRank0() {
   std::string shm_url = "test_allocators";
-  AllocatorId alloc_id(1, 0);
   auto mem_mngr = HSHM_MEMORY_MANAGER;
+  AllocatorId alloc_id(1, 0);
   mem_mngr->CreateBackend<PosixShmMmap>(hipc::MemoryBackendId::Get(0),
                                         hshm::Unit<size_t>::Megabytes(100),
                                         shm_url);
@@ -46,7 +46,6 @@ shared-memory backend and then attaches an allocator to that backend.
 ```cpp
 void PretestRankN() {
   std::string shm_url = "test_allocators";
-  AllocatorId alloc_id(1, 0);
   auto mem_mngr = HSHM_MEMORY_MANAGER;
   mem_mngr->AttachBackend(MemoryBackendType::kPosixShmMmap, shm_url);
 }

@@ -87,13 +87,20 @@ git clone https://github.com/iowarp/iowarp-install.git
 ### Create the containers
 ```bash
 cd ~/iowarp-install/docker
+# iowarp-base
 podman build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
 podman tag iowarp-base iowarp/iowarp-base:latest
+# iowarp-deps-spack
+podman build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
+podman tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+# iowarp-deps
 podman build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
 podman tag iowarp-deps iowarp/iowarp-deps:latest
+#iowarp-user
 podman build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 podman tag iowarp-user iowarp/iowarp-user:latest
 ```
+
 ### Create Podman Compose File
 
 ```bash
@@ -144,10 +151,16 @@ git clone https://github.com/iowarp/iowarp-install.git
 
 ```bash
 cd ~/iowarp-install/docker
+# iowarp-base
 docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
 docker tag iowarp-base iowarp/iowarp-base:latest
+# iowarp-deps-spack
+docker build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
+docker tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+# iowarp-deps
 docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
 docker tag iowarp-deps iowarp/iowarp-deps:latest
+#iowarp-user
 docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 docker tag iowarp-user iowarp/iowarp-user:latest
 ```
@@ -282,11 +295,16 @@ that streamline the installation of our tools.
 #### Build Containers
 
 ```bash
-cd ~/iowarp-install/docker
+# iowarp-base
 docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
 docker tag iowarp-base iowarp/iowarp-base:latest
+# iowarp-deps-spack
+docker build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
+docker tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+# iowarp-deps
 docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
 docker tag iowarp-deps iowarp/iowarp-deps:latest
+#iowarp-user
 docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 docker tag iowarp-user iowarp/iowarp-user:latest
 ```
