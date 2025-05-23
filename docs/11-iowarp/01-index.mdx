@@ -206,7 +206,10 @@ docker exec -it iowarp bash
 The following will run an example iowarp unit test:
 ```bash
 cd ~/iowarp-install/docker
-docker build --no-cache -t iowarp-test . -f iowarp-test.Dockerfile
+docker build --no-cache --build-arg SHM_SIZE=8g -t iowarp-test . -f iowarp-test.Dockerfile
+docker run -it --shm-size=8g iowarp-test /bin/bash
+spack load iowarp
+jarvis ppl run
 ```
 
       </TabItem>
