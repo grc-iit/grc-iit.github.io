@@ -138,7 +138,7 @@ podman exec -it iowarp bash
 
       </TabItem>
 
-      <TabItem value="docker-user" label="Manual Docker (Any)">
+      <TabItem value="docker-user" label="Docker (Any)">
 
 ### Clone the IOWarp Install Repo
 
@@ -147,6 +147,14 @@ cd ${HOME}
 git clone https://github.com/iowarp/iowarp-install.git
 ```
 
+        <Tabs>
+            <TabItem value="pull" label="Pull" default> 
+### Pull prebuilt containers
+```bash
+docker pull iowarp/iowarp-user:latest
+```
+            </TabItem>
+            <TabItem value="manual" label="Manual" default> 
 ### Create the containers
 
 ```bash
@@ -164,17 +172,18 @@ docker tag iowarp-deps iowarp/iowarp-deps:latest
 docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
 docker tag iowarp-user iowarp/iowarp-user:latest
 ```
+                </TabItem>  
+            </Tabs>
 
-### Create Docker Compose File
+### Run the container
 
 ```bash
-mkdir ~/iowarp-docker
-cd ~/iowarp-docker
-nano docker-compose.yml
+cd ~/iowarp-install/docker/user
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
 ```
 
-Add the following:
-
+For reference, the user docker-compose.yml contains:
 ```yaml
 services:
   iowarp:
@@ -187,17 +196,17 @@ services:
     network_mode: host
 ```
 
-### Run the container
-
-```bash
-docker compose up -d  # Only for recent dockers
-docker-compose up -d  # Only for older dockers
-```
-
 ### Access the Container
 
 ```bash
 docker exec -it iowarp bash
+```
+
+### Example test
+The following will run an example iowarp unit test:
+```bash
+cd ~/iowarp-install/docker
+docker build --no-cache -t iowarp-test . -f iowarp-test.Dockerfile
 ```
 
       </TabItem>
@@ -215,13 +224,13 @@ PPI, or some  other runtime plugin.
 ### Project Environment
 
 Decide on where you want to place your iowarp repos.
-This guide will assume you have set a variable named IOWARP_PKGS.
+This guide will assume you have set a variable named IOWARP.
 
 ```bash
-export IOWARP_PKGS="${HOME}"
+export IOWARP="${HOME}"
 ```
 
-Set IOWARP_PKGs to where you want your packages.
+Set IOWARP to where you want your packages.
 
 NOTE: This variable needs to be reset for every new terminal.
 On Linux, you could add the above command to your `~/.bashrc`
@@ -230,14 +239,14 @@ to automate.
 ### Clone the IOWarp Spack Repo
 
 ```bash
-cd ${IOWARP_PKGS}
+cd ${IOWARP}
 git clone https://github.com/iowarp/iowarp-install.git
 ```
 
 ### Clone the repos
 
 ```bash
-cd ${IOWARP_PKGS}
+cd ${IOWARP}
 git clone https://github.com/iowarp/cte-hermes-shm.git
 git clone https://github.com/iowarp/iowarp-runtime
 git clone https://github.com/iowarp/content-transfer-engine.git
@@ -272,7 +281,7 @@ source ~/.bashrc
 #### Add iowarp to spack
 
 ```bash
-spack repo add ${IOWARP_PKGS}/iowarp-install/iowarp-spack
+spack repo add ${IOWARP}/iowarp-install/iowarp-spack
 ```
 
 #### Install Dependencies
@@ -292,36 +301,50 @@ that streamline the installation of our tools.
 
       <TabItem value="docker-dev" label="Dockerfiles (Any)">
 
-#### Build Containers
+        <Tabs>
+            <TabItem value="pull" label="Pull" default> 
+#### Pull prebuilt containers
+```bash
+docker pull iowarp/iowarp-user:latest
+```
+            </TabItem>
+            <TabItem value="manual" label="Manual" default> 
+#### Create the containers
 
 ```bash
+cd ~/iowarp-install/docker
 # iowarp-base
 docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
 docker tag iowarp-base iowarp/iowarp-base:latest
 # iowarp-deps-spack
 docker build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
 docker tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+```
+                </TabItem>  
+            </Tabs>
+
+#### Build Dependency Container
+
+We will rebuild this container so that jarvis introspects your machine:
+```bash
 # iowarp-deps
 docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
 docker tag iowarp-deps iowarp/iowarp-deps:latest
-#iowarp-user
-docker build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
-docker tag iowarp-user iowarp/iowarp-user:latest
 ```
 
 #### Launch Docker Compose
 
 ```bash
-mkdir -p ${IOWARP_PKGS}/docker
-cp -r ${IOWARP_PKGS}/iowarp-install/docker/development ${IOWARP_PKGS}/docker
-cd ${IOWARP_PKGS}/docker/development
+mkdir -p ${IOWARP}/docker
+cp -r ${IOWARP}/iowarp-install/docker/development ${IOWARP}/docker
+cd ${IOWARP}/docker/development
 # Copy-paste the above into the file
 docker compose up -d  # Only for recent dockers
 docker-compose up -d  # Only for older dockers
 ```
 
-Feel free to edit `${IOWARP_PKGS}/docker/development/docker-compose.yml`.
-It assumes the environment variable `${IOWARP_PKGS}` is set.
+Feel free to edit `${IOWARP}/docker/development/docker-compose.yml`.
+It assumes the environment variable `${IOWARP}` is set.
 
 NOTE: `shm_size` and `mem_limit` are set to 8GB. Feel free to increase or decrease
 that value.
@@ -356,11 +379,11 @@ Make sure to try and update all your packages:
 ```bash
 cd ~/iowarp-install
 git pull
-cd ${IOWARP_PKGS}/cte-hermes-shm
+cd ${IOWARP}/cte-hermes-shm
 git pull
-cd ${IOWARP_PKGS}/iowarp-runtime
+cd ${IOWARP}/iowarp-runtime
 git pull
-cd ${IOWARP_PKGS}/content-transfer-engine
+cd ${IOWARP}/content-transfer-engine
 git pull
 ```
 
@@ -370,18 +393,18 @@ If you find that things are failing to build for you
 after an update, try destroying all build directories.
 
 ```bash
-cd ${IOWARP_PKGS}/cte-hermes-shm
+cd ${IOWARP}/cte-hermes-shm
 rm -rf build
-cd ${IOWARP_PKGS}/iowarp-runtime
+cd ${IOWARP}/iowarp-runtime
 rm -rf build
-cd ${IOWARP_PKGS}/content-transfer-engine
+cd ${IOWARP}/content-transfer-engine
 rm -rf build
 ```
 
 ### Hermes-SHM
 
 ```bash
-cd ${IOWARP_PKGS}/cte-hermes-shm
+cd ${IOWARP}/cte-hermes-shm
 scspkg create hermes_shm
 mkdir build
 cd build
@@ -399,7 +422,7 @@ fork instead of cloning directly. The following will allow
 you to keep your fork updated with changes to the global repo.
 
 ```bash
-cd ${IOWARP_PKGS}/cte-hermes-shm
+cd ${IOWARP}/cte-hermes-shm
 git remote add iowarp https://github.com/iowarp/cte-hermes-shm.git
 git pull iowarp
 ```
@@ -407,7 +430,7 @@ git pull iowarp
 ### IOWarp Runtime: Chimaera
 
 ```bash
-cd ${IOWARP_PKGS}/iowarp-runtime
+cd ${IOWARP}/iowarp-runtime
 scspkg create iowarp_runtime
 module unload iowarp_runtime
 module load hermes_shm
@@ -423,7 +446,7 @@ fork instead of cloning directly. The following will allow
 you to keep your fork updated with changes to the global repo.
 
 ```bash
-cd ${IOWARP_PKGS}/iowarp-runtime
+cd ${IOWARP}/iowarp-runtime
 git remote add iowarp https://github.com/iowarp/iowarp-runtime
 git pull iowarp
 ```
@@ -431,7 +454,7 @@ git pull iowarp
 ### Content-Transfer-Engine: Hermes
 
 ```bash
-cd ${IOWARP_PKGS}/content-transfer-engine
+cd ${IOWARP}/content-transfer-engine
 scspkg create cte
 module unload cte
 module load hermes_shm iowarp_runtime
@@ -447,7 +470,7 @@ fork instead of cloning directly. The following will allow
 you to keep your fork updated with changes to the global repo.
 
 ```bash
-cd ${IOWARP_PKGS}/content-transfer-engine
+cd ${IOWARP}/content-transfer-engine
 git remote add iowarp https://github.com/iowarp/content-transfer-engine.git
 git pull iowarp
 ```
