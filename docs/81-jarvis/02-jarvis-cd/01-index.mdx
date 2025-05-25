@@ -149,6 +149,29 @@ pipeline. Jarvis does not automatically detect changes to this file.
 jarvis ppl update
 ```
 
+## Set Up Passwordless SSH
+
+When working with more than one node, passwordless SSH is nice-to-have. While most
+HPC machines are already equipped with this, some types such as Chameleon Cloud,
+Cloudlab, and other bare-metal deployments do not. Jarvis comes with some tools to help
+bootstrap this. Here is an example for Chameleon.
+
+Let's say that your chameleon node is 129.127.0.124. First, we need to copy the SSH key there.
+```bash
+jarvis ssh copy ~/.ssh/id_ed25519 129.127.0.124
+```
+
+Next, you have to copy that key to all nodes. First, construct a hostfile containing all nodes
+you have allocated
+```bash
+jarvis hostfile set ~/hostfile.txt
+```
+
+Lastly, distribute the key. 
+```bash
+jarvis ssh distribute ~/.ssh/id_ed25519
+```
+
 ## Building a Resource Graph
 
 NOTE: This step only needs to be run if you did ``jarvis bootstrap from local`` or ``jarvis init``. 
