@@ -4,10 +4,58 @@
         <title>Gnosis Research Center Blog</title>
         <link>https://grc.iit.edu/newsletter</link>
         <description>Gnosis Research Center Blog</description>
-        <lastBuildDate>Wed, 25 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 May 2025 06:08:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[GRC Past Newsletters]]></title>
+            <link>https://grc.iit.edu/newsletter/GRC-newsletter-index</link>
+            <guid>https://grc.iit.edu/newsletter/GRC-newsletter-index</guid>
+            <pubDate>Sun, 25 May 2025 06:08:43 GMT</pubDate>
+            <description><![CDATA[2024 Newsletters]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2024-newsletters">2024 Newsletters<a href="https://grc.iit.edu/newsletter/GRC-newsletter-index#2024-newsletters" class="hash-link" aria-label="Direct link to 2024 Newsletters" title="Direct link to 2024 Newsletters">​</a></h2>
+<ul>
+<li><a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0">June Issue 0</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GRC Newsletter Issue No.0]]></title>
+            <link>https://grc.iit.edu/newsletter/2024/06/14/newsletter-0</link>
+            <guid>https://grc.iit.edu/newsletter/2024/06/14/newsletter-0</guid>
+            <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[June 2025]]></description>
+            <content:encoded><![CDATA[<center><img src="https://grc.iit.edu/assets/images/banner-97ad5d28203727239c25d2e1c45fd95a.jpg" width="600"></center>
+<center><h1>Introducing the</h1></center>
+<center><h1>Gnosis Research Center</h1></center>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="grc-advancing-the-future-of-high-performance-computing-storage-technologies">GRC: Advancing the Future of High-Performance Computing Storage Technologies<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#grc-advancing-the-future-of-high-performance-computing-storage-technologies" class="hash-link" aria-label="Direct link to GRC: Advancing the Future of High-Performance Computing Storage Technologies" title="Direct link to GRC: Advancing the Future of High-Performance Computing Storage Technologies">​</a></h2>
+<p>We are thrilled to announce the launch of the Gnosis Research Center (GRC) at the Illinois Institute of Technology (IIT). The GRC is dedicated to advancing the frontiers of Data Management in High-Performance Computing (HPC) by designing and developing scalable software solutions for memory, storage, and I/O systems.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="featured-grc-projects">Featured GRC Projects<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#featured-grc-projects" class="hash-link" aria-label="Direct link to Featured GRC Projects" title="Direct link to Featured GRC Projects">​</a></h2>
+<ol>
+<li><a href="https://grc.iit.edu/research/projects/hermes" target="_blank" rel="noopener noreferrer">Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System</a></li>
+<li><a href="https://grc.iit.edu/research/projects/chronolog" target="_blank" rel="noopener noreferrer">ChronoLog: A High-Performance Storage Infrastructure for Activity and Log Workloads</a></li>
+<li><a href="https://grc.iit.edu/research/projects/coeus" target="_blank" rel="noopener noreferrer">Coeus: Accelerating Scientific Insights Using Enriched Metadata</a></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stay-connected">Stay Connected<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#stay-connected" class="hash-link" aria-label="Direct link to Stay Connected" title="Direct link to Stay Connected">​</a></h2>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="website">Website<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#website" class="hash-link" aria-label="Direct link to Website" title="Direct link to Website">​</a></h4>
+<p>Visit our <a href="https://grc.iit.edu/" target="_blank" rel="noopener noreferrer">website</a> to learn more about our research, team, and vision. We also welcome potential partners and collaborators – don't hesitate to <a href="https://grc.iit.edu/contact" target="_blank" rel="noopener noreferrer">contact us</a>!</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="newsletter">Newsletter<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#newsletter" class="hash-link" aria-label="Direct link to Newsletter" title="Direct link to Newsletter">​</a></h4>
+<p>Subscribe Now: Manage your newsletter preferences to receive the latest research findings, upcoming events, and collaboration opportunities directly in your inbox.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="social-media">Social Media<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#social-media" class="hash-link" aria-label="Direct link to Social Media" title="Direct link to Social Media">​</a></h4>
+<p>Follow us on social media for the latest updates and to connect with the HPC community!</p>
+<ul>
+<li><a href="https://x.com/grc_iit" target="_blank" rel="noopener noreferrer">X/Twitter</a></li>
+<li><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+<li><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+<li><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quick-links">Quick Links<a href="https://grc.iit.edu/newsletter/2024/06/14/newsletter-0#quick-links" class="hash-link" aria-label="Direct link to Quick Links" title="Direct link to Quick Links">​</a></h2>
+<ul>
+<li><a href="https://grc.iit.edu/newsletter/GRC-newsletter-index">Past Issues</a></li>
+</ul>]]></content:encoded>
+            <category>issue1</category>
+            <category>newsletter</category>
+        </item>
         <item>
             <title><![CDATA[Introducing the Gnosis Research Center]]></title>
             <link>https://grc.iit.edu/newsletter/2023/10/25/introducing-grc</link>
