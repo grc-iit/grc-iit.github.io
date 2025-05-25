@@ -15,7 +15,7 @@
 
 <link rel="alternate" type="application/rss+xml" href="/newsletter/rss.xml" title="Gnosis Research Center RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/newsletter/atom.xml" title="Gnosis Research Center Atom Feed"><link rel="stylesheet" href="/assets/css/styles.8607fb87.css">
-<script src="/assets/js/runtime~main.9bf3d022.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.9a9ec65f.js" defer="defer"></script>
 <script src="/assets/js/main.f00decf5.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -23,48 +23,50 @@
 <header><h1>DTIO: A Data Task I/O Runtime</h1></header>
 <div class="margin-bottom--md"><span class="badge badge--primary margin-right--xs">GRC-led</span><span class="badge badge--success margin-right--xs">Funded</span></div>
 <p>In partnership with Argonne National Laboratory, DTIO investigates the use of a task framework for unifying complex I/O stacks and providing features such as resilience, fault-tolerance, and task replay.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-what-is-dtio">Introduction: What is DTIO?<a href="#introduction-what-is-dtio" class="hash-link" aria-label="Direct link to Introduction: What is DTIO?" title="Direct link to Introduction: What is DTIO?">​</a></h2>
 <ul>
-<li>POSIX I/O has problems with scalability due to its strict internal metadata tracking, which requires RAW guarantees</li>
-<li><strong>Insight</strong>: A task-based infrastructure gives several advantages over a batch-based infrastructure, which can also apply to I/O tasks</li>
-<li>Improved scalability via relaxation of POSIX consistency, which allows tasks to execute faster even if it disobeys strict ordering</li>
-<li>Improved resource utilization via constraint-based task scheduling, which allows tasks to consider load on an executor</li>
-<li>Improved fault-tolerance via task provenance, which allows replay of tasks in the event of a fault</li>
-<li>In addition, we aim to leverage hierarchical storage and computational storage techniques to provide an infrastructure that unifies and extends the current I/O stacks</li>
+<li>Converged workflows that combine HPC, Big Data and ML tasks need to compute intermediate results and share them at large scale.</li>
+<li>HPC, Big Data Analytics, and ML feature a variety of data formats, data models, and semantics, as well as I/O libraries that implement them.</li>
+<li>These all need to interact with each other, while managing requirements with different benefits and limitations.</li>
+<li>DTIO is a scalable I/O runtime that unifies the disparate data stack for modern scientific and ML workflows.</li>
+<li>DTIO provides a DataTask Abstraction that enables transformation and unification of data formats across HPC, Big Data, and ML, as well as unique I/O pipeline optimizations.</li>
+<li><strong>Insight</strong>: DTIO&#x27;s task-based infrastructure gives several advantages over a batch-based infrastructure, which can also apply to I/O tasks.</li>
+<li>Improved scalability via relaxation of POSIX consistency, which allows tasks to execute faster even if it disobeys strict ordering.</li>
+<li>Improved resource utilization via constraint-based task scheduling, which allows tasks to consider load on an executor.</li>
+<li>Improved fault-tolerance via task provenance, which allows replay of tasks in the event of a fault.</li>
+<li>In addition, we aim to leverage hierarchical storage and computational storage techniques to provide an infrastructure that unifies and extends the current I/O stacks.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="methodology">Methodology<a href="#methodology" class="hash-link" aria-label="Direct link to Methodology" title="Direct link to Methodology">​</a></h2>
-<center><img src="/assets/images/dtio-arch-460cf96e637bc6f22268e02f6c172a74.png" width="600" alt="dtio architecture" title="" class=""></center>
+<center><img src="/assets/images/DTIO-flow-3e8caabfed5d85547738d5cd09a53666.png" width="600" alt="dtio pipeline" title="" class=""></center>
 <ul>
-<li>DTIO Client creates the task and places on a worker, and DTIO servers execute the tasks</li>
-<li>Composition is generally expected to be done alongside the application (client-side)</li>
-<li>For scheduling, centralized deployments can collate information from different apps, while multiprocess deployments scale better</li>
-<li>For workers, dedicated execution resources are the best choice</li>
+<li>DTIO&#x27;s has a six-stage I/O processing pipeline:</li>
+<li>(1) Applications initiate I/O requests</li>
+<li>(2) Legacy I/O calls are intercepted and converted into DataTasks</li>
+<li>(3) DataTasks are prepared for execution during the Task Composition stage</li>
+<li>(4) Tasks are decomposed and queued</li>
+<li>(5) Tasks are scheduled and assigned to executors</li>
+<li>(6) Executors perform the I/O operations.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="relaxing-posix-consistency-to-improve-scalability">Relaxing POSIX consistency to improve scalability<a href="#relaxing-posix-consistency-to-improve-scalability" class="hash-link" aria-label="Direct link to Relaxing POSIX consistency to improve scalability" title="Direct link to Relaxing POSIX consistency to improve scalability">​</a></h2>
-<center><img src="/assets/images/posix-scalability-d984b8e3aa6829e17418344f404b1977.png" width="600" alt="POSIX scalability" title="" class=""></center>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="accelerated-io-resolution-optimization">Accelerated I/O Resolution Optimization<a href="#accelerated-io-resolution-optimization" class="hash-link" aria-label="Direct link to Accelerated I/O Resolution Optimization" title="Direct link to Accelerated I/O Resolution Optimization">​</a></h2>
+<center><img src="/assets/images/cache-results-read-31c0ded8bd04dfd19bdf1f69500819f7.png" width="600" alt="cache results for reads in IOR" title="" class=""></center>
 <ul>
-<li>POSIX metadata and consistency guarantees cause performance drops for IOR at scale.</li>
-<li>Relaxation of POSIX consistency in a task system can come in a few ways.</li>
-<li>Delay when creating tasks, scheduling tasks, or executing tasks.</li>
-<li>These ideas are often represented naturally with task queues, as queued tasks need not be dequeued immediately.</li>
+<li>DTIO implements an Accelerated I/O resolution optimization, which temporarily stores DataTasks in a circular buffer so that subsequent DataTasks can retrieve data directly from local memory.</li>
+<li>The read performance demonstrates a reduction in read time by 95.5% at 512 KiB with accelerated resolution and 64.4% reduction at 8 MiB, for an average reduction of 89.2%.</li>
+<li>The overhead for this is minimal, with a worst-case of 12% overhead on writes.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="scheduling-constraints-to-improve-resource-utilization">Scheduling constraints to improve resource utilization<a href="#scheduling-constraints-to-improve-resource-utilization" class="hash-link" aria-label="Direct link to Scheduling constraints to improve resource utilization" title="Direct link to Scheduling constraints to improve resource utilization">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-staging-and-prefetching-techniques">Data Staging and Prefetching Techniques<a href="#data-staging-and-prefetching-techniques" class="hash-link" aria-label="Direct link to Data Staging and Prefetching Techniques" title="Direct link to Data Staging and Prefetching Techniques">​</a></h2>
+<center><img src="/assets/images/staging-results-963baf7c1c69bee84cdd3d621bbcc639.png" width="600" alt="Read performance with staging and prefetching (in log scale)" title="" class=""></center>
 <ul>
-<li>To achieve improved resource utilization, tasks can be scheduled to workers depending on load.</li>
-<li>Task Status can be unscheduled, scheduled, or completed.</li>
-<li>A simple constraint: schedule a task to the executor which is currently running the fewest tasks.</li>
-<li>More complex constraint: track the I/O size of tasks to each executor and schedule to the executor with the lowest I/O load.</li>
+<li>DTIO implements a data policy that allows DataTask Executors to stage data pre-emptively before read operations arrive for it.</li>
+<li>In addition to this policy, DTIO can also send the data to the circular buffers of the clients asynchronously so that it can be accessed locally.</li>
+<li>The performance of the staging optimization shows an improvement of 88.6% over DTIO without staging. Adding the prefetching optimization to staging improves performance by a further 3.1%, total of 91.7%.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="task-provenance-to-improve-fault-tolerance">Task provenance to improve fault tolerance<a href="#task-provenance-to-improve-fault-tolerance" class="hash-link" aria-label="Direct link to Task provenance to improve fault tolerance" title="Direct link to Task provenance to improve fault tolerance">​</a></h2>
-<center><img src="/assets/images/queue-visualization-e59b05701120b112df204b77a842b8ab.png" width="600" alt="Tasks as a record of control flow, with task replays visualized for write kernel and fault recovery" title="" class=""></center>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="end-to-end-results-with-ptychonn-application">End-to-End Results with PtychoNN Application<a href="#end-to-end-results-with-ptychonn-application" class="hash-link" aria-label="Direct link to End-to-End Results with PtychoNN Application" title="Direct link to End-to-End Results with PtychoNN Application">​</a></h2>
+<center><img src="/assets/images/ptycho-times-10f598b3b27221547dd6328a2e46fc90.png" width="600" alt="PtychoNN End-to-End I/O Time: Impact of Eliminating Producer Writes with DTIO for the PtychoNN workflow." title="" class=""></center>
 <ul>
-<li>Tasks are a record of control flow, and therefore it is possible to use tasks in the event of a fault to restore the state of storage.</li>
-<li>Best to store tasks in a separate database and maintain their status.</li>
-<li>If a separate database is not desirable, workers can provide a record of task execution, though this necessitates a method of determining which worker has which task.</li>
-<li>Statuses, alongside task timestamps, can permit task replay in the event of a fault.</li>
-<li>Fault recovery may not need to replay writes, supposing they&#x27;ve already been persisted to disks.</li>
-<li>Task replay also has other usecases outside of fault tolerance, such as generating I/O kernels or responsibility identification (blaming).</li>
-</ul></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a></li><li><a href="#methodology" class="table-of-contents__link toc-highlight">Methodology</a></li><li><a href="#relaxing-posix-consistency-to-improve-scalability" class="table-of-contents__link toc-highlight">Relaxing POSIX consistency to improve scalability</a></li><li><a href="#scheduling-constraints-to-improve-resource-utilization" class="table-of-contents__link toc-highlight">Scheduling constraints to improve resource utilization</a></li><li><a href="#task-provenance-to-improve-fault-tolerance" class="table-of-contents__link toc-highlight">Task provenance to improve fault tolerance</a></li></ul></div></div></div></main></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
+<li>The PtychoNN workflow consists of a producer which reads in HDF5 data and converts it to Numpy and a consumer which reads the Numpy data as tensors. With DTIO acting as an intermediary, the producer and consumer can be run at the same time (as DTIO will allow access to partial results).</li>
+<li>The figure shows the I/O time to run PtychoNN with and without DTIO. In this case, DTIO shows a performance improvement over PtychoNN that varies from 38% for large I/O (25.6 GiB) to 65% for smaller workloads (6.4 GiB). The average I/O performance improvement is 49.6%, or 21.6 seconds of PtychoNN&#x27;s I/O time.</li>
+</ul></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction-what-is-dtio" class="table-of-contents__link toc-highlight">Introduction: What is DTIO?</a></li><li><a href="#methodology" class="table-of-contents__link toc-highlight">Methodology</a></li><li><a href="#accelerated-io-resolution-optimization" class="table-of-contents__link toc-highlight">Accelerated I/O Resolution Optimization</a></li><li><a href="#data-staging-and-prefetching-techniques" class="table-of-contents__link toc-highlight">Data Staging and Prefetching Techniques</a></li><li><a href="#end-to-end-results-with-ptychonn-application" class="table-of-contents__link toc-highlight">End-to-End Results with PtychoNN Application</a></li></ul></div></div></div></main></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
                   <p>
                     Stuart Building <br>
                     Room 112i and 010 <br>
