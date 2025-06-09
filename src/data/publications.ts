@@ -51,7 +51,11 @@ const publications: Publication[] = [
       "I/O Bottleneck Detection",
       "WisIO",
     ],
-    links: {},
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.txt",
+    },
   },
   {
     authors: [
