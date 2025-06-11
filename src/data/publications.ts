@@ -72,8 +72,12 @@ const publications: Publication[] = [
       "The 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)",
     type: "Conference",
     date: "June, 2025",
-    tags: [],
-    links: {},
+    tags: ["LLM Inference", "KV Cache Profiling", "KV Cache Access Pattern Analysis"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.txt",
+    },
   },
   {
     authors: [

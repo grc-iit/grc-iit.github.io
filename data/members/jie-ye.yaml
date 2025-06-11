@@ -12,7 +12,8 @@ name: Jie Ye
 researchInterests:
   - Distributed Storage
   - Parallel and Distributed Systems
-  - Parallel I/O
+  - LLM/DNN Inference Optimization
+  - LLM/DNN Training Optimization 
 slug: jie-ye
 title: PhD Candidate
 type: researcher

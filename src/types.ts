@@ -501,6 +501,8 @@ export type PublicationTag =
   | "Integrated Workflow"
   | "Intelligent Selection"
   | "KV Cache"
+  | "KV Cache Profiling"
+  | "KV Cache Access Pattern Analysis"
   | "KVS"
   | "Label-Based I/O"
   | "Large-Scale I/O"
