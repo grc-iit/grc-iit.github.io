@@ -13,7 +13,7 @@
 ## Introduction
 
 Welcome to the Ares cluster user manual. Ares is a high-performance computing (HPC) cluster running on Ubuntu 22.04. This guide will provide you with the necessary information to effectively utilize the resources available on the cluster.
-Your system administrator can be reached via `nrajesh<at>iit<dot>edu`, and someone will get back to you.
+Your system administrator can be reached via `nrajesh<at>hawk<dot>iit<dot>edu`, and someone will get back to you.
 
 ## Resource Information
 
@@ -177,8 +177,8 @@ module load <module_name>
 Users have the option to set up custom toolchains using Spack. Spack is a flexible package manager that simplifies the process of installing and managing software packages. You can install spack using the command below:
 
 ```
-git clone --depth=2 --branch=releases/v0.23 https://github.com/spack/spack.git ~/spack
-. spack/share/spack/setup-env.sh
+git clone --depth=2 --branch=releases/v0.23 https://github.com/spack/spack.git $HOME/spack
+. $HOME/spack/share/spack/setup-env.sh
 ```
 
 ### Make Spack export more environment variables
@@ -275,7 +275,7 @@ git clone --depth=2 --branch=releases/v0.23 https://github.com/spack/spack.git ~
    export MODULEPATH=$SPACK_ROOT/share/spack/modules/linux-ubuntu22.04-skylake_avx512/:$MODULEPATH
    ```
 
-   add this to your `~/.bashrc` to have it happen every time before `. spack/share/spack/setup-env.sh`
+   add this to your `~/.bashrc` to have it happen every time before `. $HOME/spack/share/spack/setup-env.sh`
 
 3. Refresh your modules if you had preinstalled packages
 
