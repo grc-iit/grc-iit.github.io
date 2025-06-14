@@ -74,9 +74,9 @@ const publications: Publication[] = [
     date: "June, 2025",
     tags: ["LLM Inference", "KV Cache Profiling", "KV Cache Access Pattern Analysis"],
     links: {
-      pdf: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.pdf",
-      bibtex: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.bib",
-      citation: "http://cs.iit.edu/~scs/assets/files/jye2025unboxkv_io.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.txt",
     },
   },
   {
