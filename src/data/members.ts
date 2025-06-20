@@ -62,6 +62,20 @@ export default [
     type: "engineer",
   },
   {
+    name: "Shazzadul Islam",
+    title: "PhD Student",
+    advisor: "Dr. Xian-He Sun",
+    image: require("@site/static/img/members/islam.jpg").default,
+    links: {
+      email: "sislam6@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/shazzadulislammun",
+      scholar: "https://scholar.google.com/citations?hl=en&user=HlWiDFYAAAAJ",
+      website: "https://sites.google.com/view/shazzadulislam",
+    },
+    researchInterests: ["HPC", "AI", "ML-Assisted System"],
+    type: "researcher",
+  },
+  {
     name: "Luke Logan",
     title: "PhD Candidate",
     advisor: "Dr. Xian-He Sun",
@@ -94,6 +108,18 @@ export default [
     },
     researchInterests: [],
     type: "engineer",
+  },
+  {
+    name: "Isa Muradli",
+    title: "PhD Student",
+    advisor: "Dr. Xian-He Sun",
+    image: require("@site/static/img/members/muradli.jpg").default,
+    links: {
+      email: "imuradli@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/isamuradly/",
+    },
+    researchInterests: ["HPC", "GPU-Accelerated Storage"],
+    type: "researcher",
   },
   {
     name: "Neeraj Rajesh",
