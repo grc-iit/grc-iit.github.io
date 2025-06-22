@@ -97,7 +97,7 @@ export default [
   },
   {
     name: "Dr. Xiaoyang Lu",
-    title: "Assistant Research Professor",
+    title: "Research Assistant Professor",
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/lu.png").default,
     links: {
