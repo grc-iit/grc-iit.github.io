@@ -50,6 +50,7 @@ class Pkg:
     self.shared_dir = '...'
     self.private_dir = '...'
     self.env = {}
+    self.mod_env = {}
     self.config = {}
     self.global_id = '...'
     self.pkg_id = '...'
@@ -161,6 +162,19 @@ Viewing the env YAML file for the current pipeline from the CLI
 
 ```
 cat `jarvis path`/env.yaml
+```
+
+### `mod_env`
+a python dictionary. Essentially a copy of `env`. However, `mod_env` also stores the LD_PRELOAD environment variable for interception. This can cause conflict if used irresponsibly. Not every program should be intercepted.
+
+For example, we use this for Hermes to intercept POSIX I/O. However, POSIX is widely-used for I/O so we like to be very specific when it is used.
+
+`mod_env` can be modified using the same functions as `env`.
+
+```
+self.track_env(env_track_dict)
+self.prepend_env(env_name, val)
+self.setenv(env_name, val)
 ```
 
 ### `config`
@@ -360,6 +374,23 @@ def stop(self):
 ```
 
 This is not typically implemented for Applications, but it is for Services.
+
+### `kill`
+This function is called during `jarvis ppl kill`. It should forcibly terminate a program, typically using Kill.
+
+Below is an example for Hermes
+```python
+def kill(self):
+    """
+    Forcibly a running application. E.g., OrangeFS will terminate the
+    servers, clients, and metadata services.
+
+    :return: None
+    """
+    Kill('hermes_daemon',
+         PsshExecInfo(hostfile=self.jarvis.hostfile,
+                      env=self.env))
+```
 
 ### `clean`
 
