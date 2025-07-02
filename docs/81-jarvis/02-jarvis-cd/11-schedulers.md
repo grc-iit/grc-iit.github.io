@@ -1,46 +1,47 @@
 # Schedulers
 
-Jarvis-CD provides native support for two popular job scheduling systems: SLURM and PBS. This documentation aims to guide users on how to utilize both schedulers through Jarvis-CD.
+Jarvis can be used inside of job specs. 
 
-## SLURM Scheduler
+Mainly, Jarvis builds a hostfile and allows users to ensure that jarvis commands execute only on a single node.
 
-Jarvis-CD integrates with the SLURM scheduler through the pipeline sbatch menu. You can specify job parameters using the following options:
+## Slurm
 
-- **job_name** (required): Name of the job.
-- **nnodes** (required): Number of nodes to execute the pipeline on.
-- ppn: Number of processes per node.
-- cpus_per_task: Number of processors required per task.
-- time: Maximum time allotted to the job.
-- partition: The partition in which to allocate nodes (default is compute).
-- mail_type: When to email users about the job status. Choices include: NONE, BEGIN, END, FAIL, REQUEUE, ALL.
-- mail_user: Email address for job notifications.
-- output_file: File path to write all output messages.
-- error_file: File path to write all error messages.
-- memory: Amount of memory to request for the job.
-- gres: List of generic consumable resources (like GPUs).
-- exclusive: Request nodes exclusively (default is True).
+Below is an example for slurm:
+```
+#!/bin/bash
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=4    # <- match to OMP_NUM_THREADS
+#SBATCH --partition=cpu      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
+#SBATCH --account=bekn-delta-cpu    # <- match to a "Project" returned by the "accounts" command
+#SBATCH --job-name=myjobtest
+#SBATCH --time=00:15:00      # hh:mm:ss for the job
+#SBATCH --constraint="scratch"
+#SBATCH -e slurm-%j.err
+#SBATCH -o slurm-%j.out
+### GPU options ###
+##SBATCH --gpus-per-node=4
+##SBATCH --gpu-bind=closest     # <- or closest
+##SBATCH --mail-user=you@yourinstitution.edu
+##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
 
-To run a job using SLURM:
-
-```bash
-jarvis ppl sbatch job_name=test nnodes=4
+spack load iowarp
+JARVIS_FIRST=$(jarvis sched hostfile build +slurm_host)
+if [ "$JARVIS_FIRST" -eq 0 ]; then
+    exit 0
+fi
+echo "On first node!!!"
+# Any other jarvis commands
 ```
 
-## PBS Scheduler
+## PBS
 
-Jarvis-CD also supports the PBS scheduler through the pipeline pbs menu. The following options are available:
-
-- **nnodes** (required): Number of nodes to execute the pipeline on (default is 1).
-- system: Type of system to allocate the nodes on (default is polaris).
-- filesystems: Filesystem to be used, e.g., home:grand (default is home:grand).
-- walltime: Maximum time allotted to the job (default is 00:10:00).
-- account: Account used for job submission (default is VeloC).
-- queue: Queue in which to submit the job (default is debug-scaling).
-- interactive: Submit the job in interactive mode (default is False).
-- env_vars: Environmental variables to pass through PBS. Format: comma-separated list of strings like variable or variable=value.
-
-To run a job using PBS:
-
-```bash
-jarvis ppl pbs nnodes=2 system=other_system
+```
+spack load iowarp
+JARVIS_FIRST=$(jarvis sched hostfile build +pbs_host)
+if [ "$JARVIS_FIRST" -eq 0 ]; then
+    exit 0
+fi
+echo "On first node!!!"
+# Any other jarvis commands
 ```
