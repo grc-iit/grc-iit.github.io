@@ -3,6 +3,18 @@
 This guide documents how to extend the set of applications that Jarvis is
 able to deploy. We refer to these as packages (pkgs for short).
 
+## AI Bindings
+
+Our llm info file is located [here](https://github.com/iowarp/ppi-jarvis-cd/blob/main/llm-repo.md). This is used for context for the AI to understand how to build a jarvis package.
+
+At a high-level, you can use the following style of prompt to create a jarvis package. This example is for building a package for top.
+
+```text
+The jarvis repo is located at `builtin`. Create a new package in this repo named `top`. Make it so I can deploy top on a series of nodes with parallel SSH.
+
+The documentation for jarvis is attached as context.
+```
+
 ## Bootstrap a `Pkg`
 
 You can bootstrap a pkg to the primary repo as follows:
