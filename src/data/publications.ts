@@ -2,6 +2,17 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
   {
+    authors: ["Y. Wu", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "Concurrency-Aware Cache Miss Cost Prediction with Perceptron Learning",
+    venue:
+      "The 35th ACM Great Lakes Symposium on VLSI (GLSVLSI 2025), New Orleans, LA, USA, June 30 - July 2, 2025",
+    type: "Conference",
+    date: "June, 2025",
+    tags: ["Cache Management", "Memory System Optimization", "Concurrency"],
+    links: {},
+  },
+  {
     authors: [
       "K. Bateman",
       "N. Rajesh",
@@ -40,7 +51,11 @@ const publications: Publication[] = [
       "I/O Bottleneck Detection",
       "WisIO",
     ],
-    links: {},
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.txt",
+    },
   },
   {
     authors: [
@@ -57,7 +72,40 @@ const publications: Publication[] = [
       "The 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)",
     type: "Conference",
     date: "June, 2025",
-    tags: [],
+    tags: ["LLM Inference", "KV Cache Profiling", "KV Cache Access Pattern Analysis"],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.txt",
+    },
+  },
+  {
+    authors: [
+      "L. Yan",
+      "X. Lu",
+      "S. Xu",
+      "X. Chen",
+      "X. Zou",
+      "Y. Han",
+      "X.-H. Sun",
+    ],
+    title:
+      "ProMiner: Enhancing Locality, Parallelism, and Offloading for Graph Mining on Processing-in-Memory Systems",
+    venue:
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2025",
+    type: "Journal",
+    date: "May, 2025",
+    tags: ["Graph Mining", "Processing-in-Memory", "Hardware Acceleration"],
+    links: {},
+  },
+  {
+    authors: ["L. Yan", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
+    title:
+      "Pyramid: Accelerating LLM Inference with Cross-Level Processing-in-Memory",
+    venue: "IEEE Computer Architecture Letters (CAL), April 2025",
+    type: "Journal",
+    date: "April, 2025",
+    tags: ["LLM Inference", "Processing-in-Memory", "Hardware Acceleration"],
     links: {},
   },
   {
@@ -5504,6 +5552,14 @@ const publications: Publication[] = [
 ];
 
 export default publications;
+
+export function getPublicationsByAuthorShortName(
+  authorShortName: string
+): Publication[] | undefined {
+  return publications.filter((publication) =>
+    publication.authors.some((author) => author.includes(authorShortName))
+  );
+}
 
 export function getPublicationsByTag(
   tag: PublicationTag

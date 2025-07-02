@@ -172,16 +172,17 @@ const projects: Project[] = [
   {
     id: "wisio",
     name: "WisIO",
-    title:
-      "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads",
+    title: "WisIO: Workflow I/O Analysis Tool",
     shortDescription:
-      "Explore WisIO, an automated I/O bottleneck detection tool with multi-perspective views for I/O trace data analysis. Overcoming large-scale I/O challenges, WisIO utilizes distributed computing and an extensible rule engine for tailored solutions. Elevate your I/O analysis in HPC environments with WisIO.",
+      "WisIO is a workflow I/O analysis tool that automates bottleneck detection using multi-perspective views of trace data. It tackles large-scale I/O challenges with distributed computing and an extensible rule engine, enhancing I/O analysis in HPC environments.",
     link: "/research/projects/wisio",
     isFeatured: false,
     isOurs: true,
-    researchStatus: "r&d",
+    researchStatus: "ready",
+    sourceLink: "https://github.com/grc-iit/wisio",
     status: "active",
-    type: "student",
+    tutorialLink: "/docs/category/wisio",
+    type: "funded",
   },
 ];
 

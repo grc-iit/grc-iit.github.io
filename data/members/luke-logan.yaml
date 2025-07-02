@@ -1,0 +1,21 @@
+advisor: Dr. Xian-He Sun
+bio: >-
+  Luke Logan is a PhD Candidate in the Department of Computer Science at the Illinois Institute of
+  Technology and a member of the Gnosis Research Center. Luke Logan works under the guidance of Dr.
+  Xian-He Sun.
+image: logan.jpg
+links:
+  email: llogan@hawk.iit.edu
+  github: https://github.com/lukemartinlogan/
+  linkedin: https://www.linkedin.com/in/lukemartinlogan/
+  scholar: https://scholar.google.com/citations?user=Ljn7CmYAAAAJ&hl=en
+  website: https://lukemartinlogan.github.io/professional-website/
+name: Luke Logan
+researchInterests:
+  - Distributed Storage
+  - Parallel and Distributed Systems
+  - Parallel I/O
+  - Operating Systems
+slug: luke-logan
+title: PhD Candidate
+type: researcher

@@ -12,6 +12,10 @@
   width: 7.5rem;
 }
 
+.name {
+  display: block;
+}
+
 .researchInterests {
   display: flex;
   flex-direction: row;
