@@ -9,7 +9,7 @@ The main objectives of this tutorial are as follows:
 2. Show how to use CMake to compile a C++ repo
 3. Demonstrate how to build a basic CMakeLists.txt
 
-We will re-use the example from the previous section.
+We will re-use the example from [Building C++ Manually](02-cpp-build-manually.md).
 
 ## Setup
 
@@ -118,7 +118,7 @@ In this example, we define four CMAKE_BUILD_TYPES:
 
 These build types are very common in CMake projects.
 
-In section 3.2, we mentioned that the -fPIC flag was required when
+When [Building C++ Manually](02-cpp-build-manually.md), we mentioned that the -fPIC flag was required when
 building a shared library. In CMake this flag can be added to all
 libraries as follows:
 ```cmake
@@ -394,7 +394,7 @@ is the location where an executable is installed after performing the
 
 *set_property* sets some sort of property about a target. In this
 case the target is the test case test_movies_db. We are setting
-an environment variable ``LD_LIBRARY_PATH``. From section 3.2, we
+an environment variable ``LD_LIBRARY_PATH``. When [Building C++ Manually](02-cpp-build-manually.md), we
 saw that we needed to be very careful about ensuring the OS
 knows where shared libraries are located. In this case, we
 ensure the OS will check the path ``${CMAKE_LIBRARY_OUTPUT_DIRECTORY}``.

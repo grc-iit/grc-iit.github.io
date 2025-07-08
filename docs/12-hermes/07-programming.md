@@ -15,7 +15,7 @@ This example will place a blob into the DMSH and then retrieve that blob.
 #include <bucket.h>
 
 int main() {
-  TRANSPARENT_HERMES();
+  HERMES_INIT();
   Bucket bkt = HERMES->GetBucket("hello");
   size_t blob_size = KILOBYTES(4);
   Context ctx;
@@ -30,7 +30,7 @@ int main() {
 }
 ```
 
-- ``TRANSPARENT_HERMES()`` will initialize your connection to Hermes
+- ``HERMES_INIT()`` will initialize your connection to Hermes
 - ``HERMES`` is a singleton macro provided in hermes.h.
 - ``GetBucket`` will either create a bucket or get the bucket if it exists.
   This operation is concurrency-safe. I.e., it is guaranteed only one
