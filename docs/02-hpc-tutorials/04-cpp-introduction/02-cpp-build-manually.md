@@ -24,9 +24,9 @@ cases, one could develop a single generic database technology, and then build
 the movie and grocery databases using that single technology.
 
 In C++, this can be done using a shared library. In our example:
-1. [src/database_lib.cc](https://github.com/grc-iit/grc-tutorial/blob/main/cpp/01-cpp-build-manually/src/database_lib.cc) implements the Create, Read, Update, Delete (CRUD) operations.
-2. [src/grocery_db.cc](https://github.com/grc-iit/grc-tutorial/blob/main/cpp/01-cpp-build-manually/src/grocery_db.cc) implements the grocery database using CRUD operations
-3. [src/movies_db.cc](https://github.com/grc-iit/grc-tutorial/blob/main/cpp/01-cpp-build-manually/src/movies_db.cc) implements the movie database using CRUD operations
+1. src/database_lib.cc implements the Create, Read, Update, Delete (CRUD) operations.
+2. src/grocery_db.cc implements the grocery database using CRUD operations
+3. src/movies_db.cc implements the movie database using CRUD operations
 
 ## Setup + Repo Structure
 

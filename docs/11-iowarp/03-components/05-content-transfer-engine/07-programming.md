@@ -11,7 +11,7 @@ To see demonstrations of the API, check out our [API tests](https://github.com/i
 #include "hermes/hermes.h"
 
 int main() {
-  TRANSPARENT_HERMES();
+  HERMES_INIT();
   hermes::Bucket bkt("hello");
   size_t blob_size = KILOBYTES(4);
   hermes::Context ctx;
@@ -36,7 +36,7 @@ This example will place a blob into the DMSH and then retrieve that blob.
 #include "hermes/hermes.h"
 
 int main() {
-  TRANSPARENT_HERMES();
+  HERMES_INIT();
   hermes::Bucket bkt("hello");
   size_t blob_size = KILOBYTES(4);
   hermes::Context ctx;
