@@ -159,7 +159,7 @@ python3 -m pip install cpplint
 #ifndef MY_HEADER_GUARD
 #define MY_HEADER_GUARD
 
-namespace myNamespace {
+namespace my_namespace {
 
 class MyName {
   int my_var_;
