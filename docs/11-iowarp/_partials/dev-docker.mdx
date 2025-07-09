@@ -1,0 +1,56 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+<Tabs>
+    <TabItem value="pull" label="Pull" default> 
+#### Pull prebuilt containers
+```bash
+docker pull iowarp/iowarp-user:latest
+```
+    </TabItem>
+    <TabItem value="manual" label="Manual"> 
+#### Create the containers
+
+```bash
+cd ~/iowarp-install/docker
+# iowarp-base
+docker build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+docker tag iowarp-base iowarp/iowarp-base:latest
+# iowarp-deps-spack
+docker build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
+docker tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+```
+    </TabItem>  
+</Tabs>
+
+#### Build Dependency Container
+
+We will rebuild this container so that jarvis introspects your machine:
+```bash
+# iowarp-deps
+docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+docker tag iowarp-deps iowarp/iowarp-deps:latest
+```
+
+#### Launch Docker Compose
+
+```bash
+mkdir -p ${IOWARP}/docker
+cp -r ${IOWARP}/iowarp-install/docker/development ${IOWARP}/docker
+cd ${IOWARP}/docker/development
+# Copy-paste the above into the file
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+Feel free to edit `${IOWARP}/docker/development/docker-compose.yml`.
+It assumes the environment variable `${IOWARP}` is set.
+
+NOTE: `shm_size` and `mem_limit` are set to 8GB. Feel free to increase or decrease
+that value.
+
+#### Access the Container
+
+```bash
+docker exec -it iowarp bash
+``` 

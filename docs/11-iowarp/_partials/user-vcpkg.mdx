@@ -1,0 +1,17 @@
+This installer is experimental and will be improving as we add Windows support.
+Spack is the most well-maintained installer at this time. However, these are
+the general steps for vcpkg.
+
+### Install vcpkg + add our ports
+```bash
+git clone  --branch 2025.03.19 --single-branch https://github.com/microsoft/vcpkg
+cp -r iowarp-install/ports/* ./vcpkg/ports/
+cd vcpkg
+./bootstrap-vcpkg.sh
+export PATH="${PWD}:${PATH}"
+```
+
+### Install IOWarp
+```bash
+./vcpkg install content-transfer-engine
+``` 
