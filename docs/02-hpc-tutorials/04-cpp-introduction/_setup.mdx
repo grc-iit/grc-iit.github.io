@@ -1,0 +1,34 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="docker" label="Docker" default>
+
+You can get the iowarp container to reduce dependency install times:
+```bash
+git clone https://github.com/iowarp/iowarp-install.git
+docker pull iowarp/iowarp-user:latest
+cd iowarp-install/docker/user
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+To connect to the container:
+```bash
+docker exec -it iowarp bash
+```
+
+:::note
+Docker does not save state. So when you clone the GRC tutorial
+in this container and close the container, the data will be lost. 
+:::
+
+</TabItem>
+<TabItem value="linux" label="Linux">
+
+```bash
+git clone https://github.com/grc-iit/grc-tutorial.git
+```
+
+</TabItem>
+</Tabs> 

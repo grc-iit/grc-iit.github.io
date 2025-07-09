@@ -99,6 +99,6 @@ cause segfaults.
 ## Singleton
 
 One limitation of the Easy Singleton is that an instance of the singleton
-will be created for each shared object that accesses the singleton. If you use the singleton across different libraries, you will create a copy of the singleton for each shared object, which can lead to initialization and correctness issues.
+may be created for each shared object that accesses the singleton. If you use the singleton across different libraries, you will create a copy of the singleton for each shared object, which can lead to initialization and correctness issues.
 
-If you plan to use the singleton across shared objects, you need to implement the singleton as a shared object itself, and then link against it in your CMake.
+If you plan to use the singleton across shared objects, you need to implement the singleton as a shared object itself, and then link against it in your CMake. 

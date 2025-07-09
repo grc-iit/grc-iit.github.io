@@ -21,8 +21,12 @@ where a program crashes, without having to use an expensive debugger all the tim
 
 ## Setup
 
-```bash
-git clone https://github.com/grc-iit/grc-tutorial.git
+import SetupInstructions from './_setup.mdx';
+
+<SetupInstructions />
+
+Go to the tutorial:
+```
 cd grc-tutorial
 export GRC_TUTORIAL=${PWD}
 cd ${GRC_TUTORIAL}/cpp/01-cpp-hello-world
@@ -76,7 +80,7 @@ the code execution begins.
 
 ```cpp
 printf("Hello world 0\n");
-std::cout << "Hello world 1" << std::endl;
+std::cout << "hello world 1" << std::endl;
 ```
 
 1. Text is always in double quotes `""`
@@ -121,14 +125,14 @@ This will produce an executable file called "hello_world". To run the code:
 The output will be:
 
 ```sh
-hello world 0
+Hello world 0
 hello world 1
 ```
 
 To view the return code of the program in Linux:
 
 ```sh
-$?
+echo $?
 ```
 
 The output will be:

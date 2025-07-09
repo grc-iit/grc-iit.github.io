@@ -1,0 +1,141 @@
+### Load Basic Packages
+
+```bash
+spack load iowarp
+```
+
+Make sure to understand your environment. If you get errors
+like `package X was not found`, it is most likely you forgot
+to do either `spack load X` or `module load X`.
+
+### Configure SCSPKG
+
+Read [this](https://grc.iit.edu/docs/jarvis/scspkg/index) guide to configure scspkg.
+
+### Ensure packages are up-to-date
+
+Make sure to try and update all your packages:
+
+```bash
+cd ~/iowarp-install
+git pull
+cd ${IOWARP}/cte-hermes-shm
+git pull
+cd ${IOWARP}/iowarp-runtime
+git pull
+cd ${IOWARP}/content-transfer-engine
+git pull
+```
+
+### Things failing to build after an update
+
+If you find that things are failing to build for you
+after an update, try destroying all build directories.
+
+```bash
+cd ${IOWARP}/cte-hermes-shm
+rm -rf build
+cd ${IOWARP}/iowarp-runtime
+rm -rf build
+cd ${IOWARP}/content-transfer-engine
+rm -rf build
+```
+
+### Hermes-SHM
+
+```bash
+cd ${IOWARP}/cte-hermes-shm
+scspkg create hermes_shm
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root hermes_shm) \
+-DHSHM_ENABLE_COMPRESS=ON \
+-DHSHM_ENABLE_ENCRYPT=ON \
+-DHSHM_RPC_THALLIUM=ON \
+-DHSHM_USE_ELF=ON
+make -j32 install
+```
+
+If you will be working on hermes-shm, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP}/cte-hermes-shm
+git remote add iowarp https://github.com/iowarp/cte-hermes-shm.git
+git pull iowarp
+```
+
+### IOWarp Runtime: Chimaera
+
+```bash
+cd ${IOWARP}/iowarp-runtime
+scspkg create iowarp_runtime
+module unload iowarp_runtime
+module load hermes_shm
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root iowarp_runtime)
+make -j32 install
+```
+
+NOTE: If you will be working on iowarp-runtime, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP}/iowarp-runtime
+git remote add iowarp https://github.com/iowarp/iowarp-runtime
+git pull iowarp
+```
+
+### Content-Transfer-Engine: Hermes
+
+```bash
+cd ${IOWARP}/content-transfer-engine
+scspkg create cte
+module unload cte
+module load hermes_shm iowarp_runtime
+mkdir build
+cd build
+cmake ../ \
+-DCMAKE_INSTALL_PREFIX=$(scspkg pkg root cte)
+make -j32 install
+```
+
+NOTE: If you will be working on the cte, create your own personal
+fork instead of cloning directly. The following will allow
+you to keep your fork updated with changes to the global repo.
+
+```bash
+cd ${IOWARP}/content-transfer-engine
+git remote add iowarp https://github.com/iowarp/content-transfer-engine.git
+git pull iowarp
+```
+
+### Another note on environments
+
+By the end of this installation, you will have the following spack:
+
+```bash
+spack load iowarp
+```
+
+And the following modules:
+
+```bash
+module load hermes_shm iowarp_runtime cte
+```
+
+Understanding how your environment works is important. When
+compiling you must make sure that only the necessary modules
+are loaded. For example, the iowarp_runtime install only
+requires `spack load iowarp` and `module load hermes_shm`.
+
+If you have `module load iowarp_runtime` as well,
+there is a chance the compiler will find header files
+in the module's directory, instead of the build directory.
+This can lead to compilation errors since the module directory
+will likely be outdated compared to the code you just wrote. 

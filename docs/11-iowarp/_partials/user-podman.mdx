@@ -1,0 +1,58 @@
+### Clone the IOWarp Install Repo
+
+```bash
+cd ${HOME}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Create the containers
+```bash
+cd ~/iowarp-install/docker
+# iowarp-base
+podman build --no-cache -t iowarp-base . -f iowarp-base.Dockerfile
+podman tag iowarp-base iowarp/iowarp-base:latest
+# iowarp-deps-spack
+podman build --no-cache -t iowarp-deps-spack . -f iowarp-deps-spack.Dockerfile
+podman tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
+# iowarp-deps
+podman build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
+podman tag iowarp-deps iowarp/iowarp-deps:latest
+#iowarp-user
+podman build --no-cache -t iowarp-user . -f iowarp-user.Dockerfile
+podman tag iowarp-user iowarp/iowarp-user:latest
+```
+
+### Create Podman Compose File
+
+```bash
+mkdir ~/iowarp-podman
+cd ~/iowarp-podman
+nano podman-compose.yml
+```
+
+Add the following:
+
+```yaml
+services:
+  iowarp:
+    image: iowarp/iowarp-user:latest
+    container_name: iowarp
+    shm_size: 8g
+    mem_limit: 8g
+    stdin_open: true
+    tty: true
+    network_mode: host
+```
+
+### Run the container
+
+```bash
+podman compose up -d  # For recent podman
+podman-compose up -d  # For older podman
+```
+
+### Access the Container
+
+```bash
+podman exec -it iowarp bash
+``` 

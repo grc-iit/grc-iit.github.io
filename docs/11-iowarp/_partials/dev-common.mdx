@@ -1,0 +1,46 @@
+This is for people that will be editing either cte-hermes-shm, 
+iowarp-runtime, or content-transfer-engine directly. If you
+are developing something relying on these repos, install
+iowarp like a regular user instead. E.g., developing the CAE,
+PPI, or some  other runtime plugin.
+
+### Project Environment
+
+Decide on where you want to place your iowarp repos.
+This guide will assume you have set a variable named IOWARP.
+
+```bash
+export IOWARP="${HOME}"
+```
+
+Set IOWARP to where you want your packages.
+
+NOTE: This variable needs to be reset for every new terminal.
+On Linux, you could add the above command to your `~/.bashrc`
+to automate.
+
+### Clone the IOWarp Spack Repo
+
+```bash
+cd ${IOWARP}
+git clone https://github.com/iowarp/iowarp-install.git
+```
+
+### Clone the repos
+
+```bash
+cd ${IOWARP}
+git clone https://github.com/iowarp/cte-hermes-shm.git
+git clone https://github.com/iowarp/iowarp-runtime
+git clone https://github.com/iowarp/content-transfer-engine.git
+```
+
+### For Pull Requests
+
+You may find the github [command line](https://cli.github.com/) useful for making PRs.
+
+```bash
+gh auth login
+gh repo set-default
+gh pr create --title "Your pull request title" --body "Your pull request description"
+``` 

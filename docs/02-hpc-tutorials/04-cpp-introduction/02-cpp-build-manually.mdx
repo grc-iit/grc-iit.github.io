@@ -28,14 +28,20 @@ In C++, this can be done using a shared library. In our example:
 2. src/grocery_db.cc implements the grocery database using CRUD operations
 3. src/movies_db.cc implements the movie database using CRUD operations
 
-## Setup + Repo Structure
+## Setup
 
+import SetupInstructions from './_setup.mdx';
+
+<SetupInstructions />
+
+Go to the tutorial:
 ```bash
-git clone https://github.com/grc-iit/grc-tutorial.git
 cd grc-tutorial
 export GRC_TUTORIAL=${PWD}
 cd ${GRC_TUTORIAL}/cpp/02-cpp-build-manually
 ```
+
+## Repo Structure
 
 In this example, our repo is structured as follows:
 1. src: contains all source files
@@ -244,103 +250,4 @@ g++ src/grocery_db.cc -I${PWD}/include -ldatabase_lib -o build/grocery_db
 g++ src/movies_db.cc -I${PWD}/include -ldatabase_lib -o build/movies_db
 ```
 
-## Run the Executable
-
-```bash
-build/grocery_db
-build/movies_db
-```
-
-**You should see the following errror**:
-```
-build/grocery_db: error while loading shared libraries: libdatabase_lib.so: cannot open shared object file: No such file or directory
-```
-
-This is because shared objects are loaded dynamically at runtime. Linking is
-only the last phase of compilation. There are two fixes to this problem:
-
-### Fix 1: Install the shared objects
-
-The OS will search a number of paths by default when loading a program.
-Probably the most popular spots are /usr/lib and /usr/local/lib. You
-can copy-paste your shared object in this location to resolve the issue.
-This approach, however, requires root privileges.
-
-```bash
-sudo cp build/libdatabase_lib.so /usr/lib/libdatabase_lib.so
-build/grocery_db
-build/movies_db
-sudo rm /usr/lib/libdatabase_lib.so
-```
-
-From grocery_db:
-```
-grocery: in create
-grocery: in read
-grocery: in update
-grocery: in delete
-```
-
-From movies_db:
-```
-movies: in create
-movies: in read
-movies: in update
-movies: in delete
-```
-
-### Fix 2: Environment Variables
-
-```bash
-export LD_LIBRARY_PATH=${PWD}/build:${LD_LIBRARY_PATH}
-build/grocery_db
-build/movies_db
-```
-
-From grocery_db:
-```
-grocery: in create
-grocery: in read
-grocery: in update
-grocery: in delete
-```
-
-From movies_db:
-```
-movies: in create
-movies: in read
-movies: in update
-movies: in delete
-```
-
-## Introduce Compiler Optimization
-
-One of the things to consider when building code is how optimized you want
-the code to be. Compilers allow for varying levels of optimization. You
-may ask, why would I ever want unoptimized code? There are two main reasons:
-1. Some optimizations are dangerous and can break your program
-2. Debugging is much harder since code can get rearranged for optimization
-
-We won't go into detail about every optimization compilers provide. We will
-only mention the typical optimizations used to make C++ code perform well.
-The optimizations described in this section are all safe and will not
-affect program correctness.
-
-In GCC and Clang, compiler optimization levels are tuned using the "-O"
-parameter. There are four levels of optimization:
-
-0. No optimization
-1. Some optimization
-2. Moderate optimization
-3. Heavy optimization
-
-```bash
-# No optimization
-g++ src/database_lib.cc -I${PWD}/include -O0 -fpic -c -o build/database_lib.o
-# Some optimization
-g++ src/database_lib.cc -I${PWD}/include -O1 -fpic -c -o build/database_lib.o
-# Moderate optimization
-g++ src/database_lib.cc -I${PWD}/include -O2 -fpic -c -o build/database_lib.o
-# Heavy optimization
-g++ src/database_lib.cc -I${PWD}/include -O3 -fpic -c -o build/database_lib.o
-```
+## Run the Executable 
