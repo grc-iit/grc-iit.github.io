@@ -21,12 +21,38 @@ where a program crashes, without having to use an expensive debugger all the tim
 
 ## Setup
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="docker" label="Docker" default>
+
+You can get the iowarp container to reduce dependency install times:
+```bash
+git clone https://github.com/iowarp/iowarp-install.git
+docker pull iowarp/iowarp-user:latest
+cd iowarp-install/docker/user
+docker compose up -d  # Only for recent dockers
+docker-compose up -d  # Only for older dockers
+```
+
+To connect to the container:
+```bash
+docker exec -it iowarp bash
+```
+
+</TabItem>
+<TabItem value="linux" label="Linux">
+
 ```bash
 git clone https://github.com/grc-iit/grc-tutorial.git
 cd grc-tutorial
 export GRC_TUTORIAL=${PWD}
 cd ${GRC_TUTORIAL}/cpp/01-cpp-hello-world
 ```
+
+</TabItem>
+</Tabs>
 
 ## C++ Source File
 
@@ -121,14 +147,14 @@ This will produce an executable file called "hello_world". To run the code:
 The output will be:
 
 ```sh
-hello world 0
+Hello world 0
 hello world 1
 ```
 
 To view the return code of the program in Linux:
 
 ```sh
-$?
+echo $?
 ```
 
 The output will be:
