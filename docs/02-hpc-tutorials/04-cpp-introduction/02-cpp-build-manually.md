@@ -28,7 +28,7 @@ In C++, this can be done using a shared library. In our example:
 2. src/grocery_db.cc implements the grocery database using CRUD operations
 3. src/movies_db.cc implements the movie database using CRUD operations
 
-## Setup + Repo Structure
+## Setup
 
 ```bash
 git clone https://github.com/grc-iit/grc-tutorial.git
@@ -36,6 +36,8 @@ cd grc-tutorial
 export GRC_TUTORIAL=${PWD}
 cd ${GRC_TUTORIAL}/cpp/02-cpp-build-manually
 ```
+
+## Repo Structure
 
 In this example, our repo is structured as follows:
 1. src: contains all source files

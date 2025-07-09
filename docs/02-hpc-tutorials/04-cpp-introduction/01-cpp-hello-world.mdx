@@ -21,38 +21,16 @@ where a program crashes, without having to use an expensive debugger all the tim
 
 ## Setup
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import SetupInstructions from './_setup.mdx';
 
-<Tabs>
-<TabItem value="docker" label="Docker" default>
+<SetupInstructions />
 
-You can get the iowarp container to reduce dependency install times:
-```bash
-git clone https://github.com/iowarp/iowarp-install.git
-docker pull iowarp/iowarp-user:latest
-cd iowarp-install/docker/user
-docker compose up -d  # Only for recent dockers
-docker-compose up -d  # Only for older dockers
+Go to the tutorial:
 ```
-
-To connect to the container:
-```bash
-docker exec -it iowarp bash
-```
-
-</TabItem>
-<TabItem value="linux" label="Linux">
-
-```bash
-git clone https://github.com/grc-iit/grc-tutorial.git
 cd grc-tutorial
 export GRC_TUTORIAL=${PWD}
 cd ${GRC_TUTORIAL}/cpp/01-cpp-hello-world
 ```
-
-</TabItem>
-</Tabs>
 
 ## C++ Source File
 
@@ -102,7 +80,7 @@ the code execution begins.
 
 ```cpp
 printf("Hello world 0\n");
-std::cout << "Hello world 1" << std::endl;
+std::cout << "hello world 1" << std::endl;
 ```
 
 1. Text is always in double quotes `""`
