@@ -1,0 +1,198 @@
+# C++ Basic Syntax
+In this section, we will discuss some basic concepts of C and C++.
+We discuss both C and C++ since you will likely see both.
+
+## Builtin Numeric Types
+
+C++ has a number of builtin integer types.
+
+|Keyword|Description|  
+|-------|----------|
+|char|A signed 1-byte integer. Can represent ASCII character codes. Always 1 byte.|
+|int|A signed integer. Typically 4 bytes.|
+|float|A fractional number. Typically 4 bytes.|
+|double|A large fractional number. Typically 8 bytes.|
+
+```cpp
+int main() {
+  int x;
+  float x;
+  double x;
+}
+```
+
+There are also *modifiers* which can be applied to these types. There
+are two primary types of modifiers: *sign* modifiers and *size* modifiers.
+
+*sign* modifiers apply to int and char specifically.
+
+|Keyword|Description|  
+|-------|----------|
+|signed|The number can be negative|  
+|unsigned|The number cannot be negative|
+
+*size* modifiers apply to int and double types specifically.
+
+|Keyword|Description|Applies to doubles?|  
+|-------|----------|------------|
+|short|Decrease length of type|No|
+|long|Increase length of type|Yes|
+|long long|Increase length of type more|Yes|
+
+Below are a few examples of the above:
+```cpp
+int main() {
+  // int examples
+  long int a;
+  long long int b;
+  unsigned int c;
+  long unsigned int d;
+  unsigned long int e;
+  short int f;
+  short g;
+  long h;
+
+  // Double examples
+  long double g;
+  long long double h;
+}
+```
+
+## Sized Types
+
+Certain types are guaranteed to have a specific size. They are included
+in the *stdint.h* header file. Having a specific size to types is frequently
+useful.
+
+|Keyword|Description|
+|-------|----------|
+|int8_t|Signed 8-bit integer|
+|int16_t|Signed 16-bit integer|
+|int32_t|Signed 32-bit integer|
+|int64_t|Signed 64-bit integer|
+|uint8_t|Unsigned 8-bit integer|
+|uint16_t|Unsigned 16-bit integer|
+|uint32_t|Unsigned 32-bit integer|
+|uint64_t|Unsigned 64-bit integer|
+
+Examples are below:
+```cpp
+#include <stdint.h>
+
+int main() {
+  int8_t a;
+  int16_t b;
+  uint64_t c;
+}
+```
+
+## Simple Arrays
+
+Arrays provide a way to define many instances of a single type quickly. Arrays
+are stored on the stack, and have limited space. Typically, an array shouldn't
+exceed more than 16KB of memory. This is not a hard rule, but I find it to be
+generally safe.  Larger allocations should be made on the heap using a memory
+allocator, which is described later.
+
+An example is below:
+```cpp
+int main() {
+  int hello[24];
+
+  hello[0] = 0;
+  hello[1] = 0;
+}
+```
+We create an array containing 24 ints. We then set the first two elements
+of the array to 0.
+
+Arrays can also be initialized as follows:
+```cpp
+int main() {
+  int hello[24] = {
+    0, 1, 2, 3, 4, 5, 0
+  };
+
+  int hello2[24] = {0};
+}
+```
+The first five elements of *hello* are initialized to 0 through 5. Elements 6
+and onwards are initialized to 0.
+
+For *hello2*, all elements are initialized to 0.
+
+## Structs
+
+structs can be used to logically group data.
+
+For example, we can create a struct to represent a wallet. The wallet contains
+money (in cents), driver's license, and a health insurance card.
+```cpp
+#include <stdint.h>
+
+struct Wallet {
+  uint8_t cents_;
+  char license_[32];
+  char health_id_[32];
+};  // notice the ; here
+
+int main() {
+  struct Wallet wallet;
+  wallet.pennies_ = 200;
+  strcpy(wallet.license_, "dontpullmeover");
+  strcpy(wallet.health_id_, "donthurtme");
+}
+```
+Our wallet contains 200 cents, a license with the text "dontpullmeover",
+and a health insure ID which states "donthurtme".
+
+In addition, structs can be initialized using a special syntax to reduce lines
+of code. Here we initialize the Lemonade struct. The lemonade can have a certain
+amount of sugar, water, lemon juice, and coloring.
+```cpp
+struct Lemonade {
+  int sugar_;  // grams
+  int water_;  // mL
+  int lemon_;  // mL
+  int color_[3];  // (Red, Green, Blue)
+}
+
+int main() {
+  // NOTE: 255, 255, 0 is yellow on the RGB color wheel
+  struct Lemonade sour = {0, 100, 10,
+                          255,255,0};
+  struct Lemonade sweet = {20, 100, 10,
+                           255,255,0};
+}
+```
+
+## Memory Allocation and Pointers
+
+### Malloc + Free
+
+The very vast majority of data must be stored using a memory allocator.
+The C-style way to do this is with malloc and free. Generally, it's
+bad practice to directly use ```malloc``` and ```free```. However, sometimes
+it is unavoidable. ```malloc``` allocates memory, ```free``` releases memory.
+When you fail to release memory using ```free```, it is referred to as a
+**memory leak**.
+
+```cpp
+#include <cstdlib>  // malloc + free
+#include <cstring>  // memset
+
+int main() {
+  // Allocate
+  int *data = (int*)malloc(64 * sizeof(int));
+  // Clear
+  memset(data, 0, 64 * sizeof(int));
+
+  // Set integer 10 to 15
+  data[10] = 15;
+
+  // Allocate + clear
+  int *data2 = (int*)calloc(64, sizeof(int));
+
+  // Set integer 10 to 15
+  data2[10] = 15;
+``` 

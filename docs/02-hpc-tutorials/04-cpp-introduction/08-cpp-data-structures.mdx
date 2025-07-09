@@ -1,0 +1,199 @@
+# C++ Data Structures
+The objective of this section is to provide an overview of the capabilities and
+performance characteristics of our favorite data structures. This is not a
+documentation page for every single container provided in C++.
+
+## std::vector
+
+An [std::vector](https://cplusplus.com/reference/vector/vector/) stores objects
+sequentially in memory. They are also known as dynamically-sized arrays. Unlike
+typical arrays, vectors do not necessarily have a fixed size. We describe the
+basic usage below. This isn't comprehensive, check the documentation for a full
+list of features.
+
+### Construct
+
+There are a few ways to create a vector
+```cpp
+#include <vector>
+void TestVectorConstruct() {
+  // An empty vector, no space allocated
+  std::vector<int> vec1;
+  // A vector of 100 ints, ints can be any value
+  std::vector<int> vec2(100);
+  // A vector of 100 ints, ints are initialized to 0
+  std::vector<int> vec3(100, 0);
+  // A vector of 5 ints, initialized to 0, 1, 2, 3, 4
+  std::vector<int> vec4{0, 1, 2, 3, 4};
+}
+```
+
+### Insert and Modify
+
+There are a few ways to add and modify elements in a vector
+```cpp
+#include <vector>
+void TestVectorModify() {
+  std::vector<int> vec(100);
+  // Add element to the back of a vector
+  // Size of the vector increases by 1 (now 101)
+  vec.emplace_back(2);
+  // Insert element at index 1.
+  // Size of the vector increases by 1 (now 102)
+  vec.emplace(vec.begin() + 1, 1);
+  // Modify first element of vector
+  // Size of the vector does not change (still 102)
+  vec[0] = 1;
+}
+```
+
+### Access
+
+There are various ways to access elements of a vector:
+```cpp
+#include <vector>
+void TestVectorAccess() {
+  std::vector<int> vec(100);
+  // Get first element (operator)
+  int val1 = vec[0];
+  // Get first element (method)
+  int val2 = vec.front();
+  // Get first element (iterator)
+  std::vector<int>::iterator it3 = vec.begin();
+  int val3 = *it3;
+
+  // Get last element (operator)
+  int val4 = vec[vec.size() - 1];
+  // Get last element (method)
+  int val5 = vec.back();
+  // Get last element (iterator)
+  std::vector<int>::iterator it5 = vec.end() - 1;
+  int val6 = *it5;
+
+  // Get element at index 10 (operator)
+  int val7 = vec[10];
+  // Get element at index 10 (iterator)
+  std::vector<int>::iterator it8 = vec.begin() + 10;
+  int val8 = *it8;
+
+  // Iterate over all elements of the vector
+  for (int &val : vec) {
+      // Do something with val
+  }
+  // Iterate over all elements of the vector
+  for (auto it = vec.begin(); it != vec.end(); ++it) {
+      int &val = *it;
+  }
+}
+```
+
+### Erase
+
+There are a few methods to erase elements from a vector.
+```cpp
+#include <vector>
+void TestVectorErase() {
+  // Removes the element at index 2 (value 3)
+  std::vector<int> vec1{1, 2, 3, 4, 5};
+  vec1.erase(vec1.begin() + 2);
+  // Removes values 2 through 4
+  // Note, erase does NOT erase the value at vec.begin() + 4
+  std::vector<int> vec2{1, 2, 3, 4, 5};
+  vec2.erase(vec2.begin() + 1, vec2.begin() + 4);
+  // Removes all elements from the vector
+  std::vector<int> vec3{1, 2, 3, 4, 5};
+  vec3.clear();
+}
+```
+
+### Capacity & Statistics
+
+Vectors have two main statistics:
+1. Capacity: the number of elements that can be stored in the vector
+2. Size: the number of elements currently stored in the vector
+
+Capacity >= Size.
+
+To increase capacity without creating new elements, use reserve(). To increase size (i.e., add and construct elements), use resize().
+
+```cpp
+#include <vector>
+#include <cassert>  // for assert
+void TestVectorSize() {
+  std::vector<int> vec;
+  // Initially empty
+  assert(vec.size() == 0);
+  // Increase to capacity 100
+  vec.reserve(100);
+  assert(vec.size() == 0);
+  assert(vec.capacity() == 100);
+  // Add elements to the vector
+  // emplace_back is fast since there is capacity
+  vec.emplace_back(0);
+  vec.emplace_back(1);
+  assert(vec.size() == 2);
+  // Increase size to 150
+  // Capacity is not necessarily equal to 150
+  vec.resize(150);
+  assert(vec.size() == 150);
+  // Resize can be called with a smaller value
+  vec.resize(50);
+  assert(vec.size() == 50);
+}
+```
+
+### Performance Characteristics
+
+|Operation|Runtime Complexity|Memory Complexity|
+|-------|----------|------|
+|emplace_back|O(1) amortized. Most of the time, there will be enough capacity in the vector to avoid a reallocation. However, when the capacity is reached, a copy of the vector will be made.|O(1) or O(N). May end up creating a copy of the vector if capacity is reached.|
+|emplace|O(N) since the vector will have to be shifted. It may also be copied if there's not enough capacity.|O(1) or O(N). May end up creating a copy of the vector if capacity is reached.|
+|accessors ([],begin,end,first,last,etc.)|O(1)|O(1)|
+|reserve|O(1) or O(N). O(1) if new size is less than old size. Vectors will not make the data smaller, it will just store the new size. O(N) otherwise.|O(1) or O(N) for the same reasons.|
+|resize|O(N). Will make a copy of vector if new size is larger than old size. Will erase elements from the vector if new size is smaller than new size.|O(1) or O(N). O(1) if new size is smaller than old size. O(N) otherwise.|
+|erase|O(N). Will shift elements after the erased value to the left.|O(1)|
+|size / capacity|O(1)|O(1)|
+
+When to use a vector?
+1. If the number of elements is fixed or has a reasonable upper bound
+2. You are performing many get or modify-in-place operations
+3. It makes sense to access an element by an integer index between 0 and
+the size of the vector
+4. If you do not have to resize the vector often
+5. If random access speeed is important to you
+
+Considerations of using a vector:
+1. emplace_back can be slow since it will trigger resizes eventually.
+Even though the amortized cost is O(1), it can be extremely slow
+if inserting many elements.
+2. Vectors can have very poor memory utilization if you rely too much
+on the dynamic ability. To make them have an O(1) complexity, they multiply
+the capacity of the vector by a factor. As the size of the vector grows,
+the space waste can be pretty bad.
+
+## std::list
+
+[std::list](https://cplusplus.com/reference/list/list/list/) is typically implemented as doubly-linked list. We describe the basic usage below.
+This isn't comprehensive, check the documentation for a full list
+of features.
+
+### Construct
+
+These are the main ways to construct a new std::list.
+```cpp
+#include <list>
+void TestListConstruct() {
+  // An empty list
+  std::list<int> list1;
+  // A list of 100 ints, ints can be any value
+  std::list<int> list2(100);
+  // A list of 100 ints, ints are initialized to 0
+  std::list<int> list3(100, 0);
+  // A list of 5 ints, initialized to 0, 1, 2, 3, 4
+  std::list<int> list4{0, 1, 2, 3, 4};
+}
+```
+
+### Insert + Modify
+
+These are the main ways to insert + modify elements in an std::list. 
