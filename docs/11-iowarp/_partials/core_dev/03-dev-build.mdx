@@ -11,99 +11,6 @@ Make sure to understand your environment. If you get errors
 like `package X was not found`, it is most likely you forgot
 to do either `spack load X` or `module load X`.
 
-### Install WrpGit
-
-wrpgit is a command line utility built in Python that is used for manually installing packages.
-Manual installation is necessary for when developing certain packages.
-
-wrpgit should be executed directly from the iowarp-install directly. Do not install this file
-to another directory using something like pip.
-
-```bash
-cd ${IOWARP}/iowarp-install
-pip install -r requirements.txt
-chmod +x wrpgit
-```
-
-### Initialize
-
-The following initializes wrpgit YAML configuration:
-```bash
-./wrpgit init
-```
-
-It will be stored in ``$IOWARP/iowarp-install/wrpgit.yaml``.
-This file looks roughly as follows:
-```yaml
-username: iowarp 
-protocol: ssh
-modules:
-- name: cte-hermes-shm
-  build: True
-  fork: False
-  type: cmake
-  preset: debug
-- name: iowarp-runtime
-  build: True
-  fork: False
-  type: cmake
-  preset: debug
-  depends_on: cte-hermes-shm
-```
-
-* ``username``: your github username
-* ``protocol``: the protocol to use for clone. Typically ssh.
-* ``modules``: the set of manual builds to create. You can add or remove packages from this list.
-
-### Fork
-
-If you are working on iowarp, but are not considered full-time staff, we will 
-have you fork our code instead of being a branch maintainer. 
-
-You will should be told the specific repos you are expected to work on:
-Make the following changes to the wrpgit.yaml:
-
-```yaml
-username: [MY GITHUB USERNAME]
-protocol: ssh
-modules:
-- name: cte-hermes-shm
-  build: True
-  fork: True  # MAKE THIS TRUE
-  type: cmake
-  preset: debug
-- name: iowarp-runtime
-  build: True
-  fork: True  # MAKE THIS TRUE
-  type: cmake
-  preset: debug
-  depends_on: cte-hermes-shm
-```
-
-Login to your github:
-```
-gh auth login
-```
-
-And then run:
-```bash
-./wrpgit fork
-```
-
-Any package with ``fork: True`` will be forked from iowarp into the github account
-[MY GITHUB USERNAME]. It is ok if you already forked on your own -- the command will
-not create a duplicate fork.
-
-### Clone
-
-```bash
-./wrpgit clone
-```
-
-This will clone all packages in the modules list. E.g., ``name: iowarp-runtime`` is assumed
-to be the real name of the github repo. When fork: False, it will clone from iowarp. When fork: True,
-it will clone from your personal account. It will also add iowarp as a new git remote. 
-
 ### Setup
 
 ```bash
@@ -133,7 +40,6 @@ You should rerun this if you spack packages or any dependencies of iowarp.
 ### For Pull Requests
 
 You may find the github [command line](https://cli.github.com/) useful for making PRs.
-This comes automatically with iowarp spack install and docker.
 
 ```bash
 gh auth login
