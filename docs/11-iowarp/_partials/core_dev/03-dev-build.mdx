@@ -11,7 +11,7 @@ Make sure to understand your environment. If you get errors
 like `package X was not found`, it is most likely you forgot
 to do either `spack load X` or `module load X`.
 
-### Setup
+### Setup Repo Environments
 
 ```bash
 ./wrpgit setup
@@ -20,7 +20,7 @@ to do either `spack load X` or `module load X`.
 This will construct modulefiles and environments for each of the packages.
 You should rerun this if you spack packages or any dependencies of iowarp.
 
-### Build
+### Build + Install Repos
 
 ```bash
 ./wrpgit build
@@ -28,7 +28,7 @@ You should rerun this if you spack packages or any dependencies of iowarp.
 
 This will build and install all repos with ``build: True``. 
 
-### Clean
+### Clean Build Directories
 
 ```bash
 ./wrpgit clean
@@ -36,6 +36,15 @@ This will build and install all repos with ``build: True``.
 
 This will destroy all build directories.
 You should rerun this if you spack packages or any dependencies of iowarp.
+
+### Recreate Modules
+
+```bash
+./wrpgit recreate
+```
+
+Modules are created using scspkg. These are used to store the "installed" files (e.g., cmake install).
+However, these can become corrupted too. This will destroy scspkgs and then rebuild them.
 
 ### For Pull Requests
 
