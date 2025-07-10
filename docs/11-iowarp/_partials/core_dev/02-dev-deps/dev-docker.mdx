@@ -23,15 +23,6 @@ docker tag iowarp-deps-spack iowarp/iowarp-deps-spack:latest
     </TabItem>  
 </Tabs>
 
-#### Build Dependency Container
-
-We will rebuild this container so that jarvis introspects your machine:
-```bash
-# iowarp-deps
-docker build --no-cache -t iowarp-deps . -f iowarp-deps.Dockerfile
-docker tag iowarp-deps iowarp/iowarp-deps:latest
-```
-
 #### Launch Docker Compose
 
 ```bash
