@@ -1,15 +1,9 @@
 ### Clone the IOWarp Install Repo
 
 ```bash
-cd ${HOME}
-git clone https://github.com/iowarp/iowarp-install.git
-```
-
-### Set Environment Variables
-
-```bash
 export IOWARP=${HOME}/iowarp
 mkdir -p ${IOWARP}
+git clone https://github.com/iowarp/iowarp-install.git
 ```
 
 ### Install WrpGit
@@ -17,7 +11,7 @@ mkdir -p ${IOWARP}
 wrpgit is a command line utility built in Python for manually installing iowarp packages.
 Manual installation is necessary for when developing certain packages.
 
-wrpgit should be executed directly from the iowarp-install directly. Do not install this file
+wrpgit should remain in the iowarp-install. Do not install this file
 to another directory using something like pip.
 
 ```bash
