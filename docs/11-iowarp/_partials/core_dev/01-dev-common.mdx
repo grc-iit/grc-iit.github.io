@@ -1,13 +1,101 @@
 ### Clone the IOWarp Install Repo
 
 ```bash
-cd ${HOME}
+export IOWARP=${HOME}/iowarp
+mkdir -p ${IOWARP}
 git clone https://github.com/iowarp/iowarp-install.git
 ```
 
-### Set Environment Variables
+### Install WrpGit
+
+wrpgit is a command line utility built in Python for manually installing iowarp packages.
+Manual installation is necessary for when developing certain packages.
+
+wrpgit should remain in the iowarp-install. Do not install this file
+to another directory using something like pip.
 
 ```bash
-export IOWARP=${HOME}/iowarp
-mkdir -p ${IOWARP}
+cd ${IOWARP}/iowarp-install
+pip install -r requirements.txt
+chmod +x wrpgit
 ```
+
+### Initialize WrpGit
+
+The following initializes wrpgit YAML configuration:
+```bash
+./wrpgit init
+```
+
+It will be stored in ``$IOWARP/iowarp-install/wrpgit.yaml``.
+This file looks roughly as follows:
+```yaml
+username: iowarp 
+protocol: ssh
+modules:
+- name: cte-hermes-shm
+  build: True
+  fork: False
+  type: cmake
+  preset: debug
+- name: iowarp-runtime
+  build: True
+  fork: False
+  type: cmake
+  preset: debug
+  depends_on: cte-hermes-shm
+```
+
+* ``username``: your github username
+* ``protocol``: the protocol to use for clone. Typically ssh.
+* ``modules``: the set of manual builds to create. You can add or remove packages from this list.
+
+### Fork IOWarp Repos
+
+If you are working on iowarp, but are not considered full-time staff, we will 
+have you fork our code instead of being a branch maintainer. You should be told the specific repos 
+you are expected to work on in this case. Make the following changes to the wrpgit.yaml:
+
+```yaml
+username: [MY GITHUB USERNAME]
+protocol: ssh
+token: [MY TOKEN]
+modules:
+- name: cte-hermes-shm
+  build: True
+  fork: True  # MAKE THIS TRUE
+  type: cmake
+  preset: debug
+- name: iowarp-runtime
+  build: True
+  fork: True  # MAKE THIS TRUE
+  type: cmake
+  preset: debug
+  depends_on: cte-hermes-shm
+```
+
+To set ``token:``, create a [personal access token](https://github.com/settings/tokens/new). 
+At minimum, the permissions should be:
+```
+repo: checked
+admin:org: checked
+```
+
+And then run:
+```bash
+./wrpgit fork
+```
+
+Any package with ``fork: True`` will be forked from iowarp into the github account
+[MY GITHUB USERNAME]. It is ok if you already forked on your own -- the command will
+not create a duplicate fork.
+
+### Clone IOWarp Repos
+
+```bash
+./wrpgit clone
+```
+
+This will clone all packages in the modules list. E.g., ``name: iowarp-runtime`` is assumed
+to be the real name of the github repo. When fork: False, it will clone from iowarp. When fork: True,
+it will clone from your personal account. It will also add iowarp as a new git remote. 
