@@ -1,0 +1,23 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+import DevCommon from './core_dev/01-dev-common.mdx';
+import DevSpack from './core_dev/02-dev-deps/dev-spack.mdx';
+import DevDocker from './core_dev/02-dev-deps/dev-docker.mdx';
+import DevBuild from './core_dev/03-dev-build.mdx';
+
+<>
+    <DevCommon />
+    
+    ### Install Dependencies
+    <Tabs>
+        <TabItem value="spack-dev" label="Spack (Linux-Only)" default>
+            <DevSpack />
+        </TabItem>
+        <TabItem value="docker-dev" label="Dockerfiles (Any)">
+            <DevDocker />
+        </TabItem>
+    </Tabs>
+    
+    <DevBuild />
+</> 

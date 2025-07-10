@@ -1,80 +1,23 @@
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
-import UserSpack from "./_partials/user-spack.mdx";
-import UserVcpkg from "./_partials/user-vcpkg.mdx";
-import UserPodman from "./_partials/user-podman.mdx";
-import UserDocker from "./_partials/user-docker.mdx";
-import DevCommon from "./_partials/dev-common.mdx";
-import DevSpack from "./_partials/dev-spack.mdx";
-import DevDocker from "./_partials/dev-docker.mdx";
-import DevBuild from "./_partials/dev-build.mdx";
 
-# Getting Started
+import UserInstall from './_partials/user_install.mdx';
+import CoreDevInstall from './_partials/core_dev_install.mdx';
 
-## IOWarp
+# IOWarp
 
-IOWarp is a powerful cutting-edge data management platform designed to streamline and accelerate scientific workflows,
-especially those intensified by the rise of artificial intelligence (AI). It optimizes data flow throughout the research
-process, ensuring efficient handling of diverse data types, formats, and the exponential growth of data. IOWarp aims to
-significantly reduce data access times, accelerate the pace of scientific discovery, and foster a collaborative research
-environment.
-
-## Dependencies
-
-Currently, IOWarp is Linux-only. We are working on extending portability.
-
-[Spack](https://spack.io/) is the easiest way to install IOWarp as of right now.
-
-We also have a set of docker containers.
+IOWarp is a task-based I/O system which enables users to create custom I/O
+pipelines. IOWarp is built on top of the Content Transfer Engine (CTE) and
+Hermes-SHM.
 
 ## Installation
 
-### Clone the IOWarp Install Repo
-
-```bash
-cd ${HOME}
-git clone https://github.com/iowarp/iowarp-install.git
-```
-
-export const UserInstallation = () => (
-  <Tabs>
-    <TabItem value="spack-user" label="Spack (Linux-Only)" default>
-      <UserSpack />
-    </TabItem>
-    <TabItem value="vcpkg-user" label="Vcpkg (Linux-Only)">
-      <UserVcpkg />
-    </TabItem>
-    <TabItem value="podman-user" label="Manual Podman (Any)">
-      <UserPodman />
-    </TabItem>
-    <TabItem value="docker-user" label="Docker (Any)">
-      <UserDocker />
-    </TabItem>
-  </Tabs>
-);
-
-export const DeveloperInstallation = () => (
-  <>
-    <DevCommon />
-    ### Install Dependencies
-    <Tabs>
-      <TabItem value="spack-dev" label="Spack (Linux-Only)" default>
-        <DevSpack />
-      </TabItem>
-      <TabItem value="docker-dev" label="Dockerfiles (Any)">
-        <DevDocker />
-      </TabItem>
-    </Tabs>
-    <DevBuild />
-  </>
-);
-
 <Tabs>
-  <TabItem value="user" label="User" default>
-    <UserInstallation />
-  </TabItem>
-  <TabItem value="developer" label="Core Developer">
-    <DeveloperInstallation />
-  </TabItem>
+    <TabItem value="user" label="User" default>
+        <UserInstall />
+    </TabItem>
+    <TabItem value="developer" label="Core Developer">
+        <CoreDevInstall />
+    </TabItem>
 </Tabs>
 

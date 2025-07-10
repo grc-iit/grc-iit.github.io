@@ -11,12 +11,7 @@ Make sure to understand your environment. If you get errors
 like `package X was not found`, it is most likely you forgot
 to do either `spack load X` or `module load X`.
 
-### Configure SCSPKG
-
-Read [this](https://grc.iit.edu/docs/jarvis/scspkg/index) guide to configure scspkg.
-
-
-### Install Packages Manually with WrpGit
+### Install WrpGit
 
 wrpgit is a command line utility built in Python that is used for manually installing packages.
 Manual installation is necessary for when developing certain packages.
@@ -24,37 +19,13 @@ Manual installation is necessary for when developing certain packages.
 wrpgit should be executed directly from the iowarp-install directly. Do not install this file
 to another directory using something like pip.
 
-#### Dependencies
-
 ```bash
 cd ${IOWARP}/iowarp-install
 pip install -r requirements.txt
 chmod +x wrpgit
 ```
 
-### Install GitHub CLI
-
-<Tabs>
-    <TabItem value="spack" label="Spack" default>
-Install using Spack:
-```bash
-spack install gh
-```
-    </TabItem>
-    <TabItem value="ubuntu" label="Ubuntu">
-Install using apt on Ubuntu:
-```bash
-type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-&& sudo apt update \
-&& sudo apt install gh -y
-```
-    </TabItem>
-</Tabs>
-
-#### Initialize
+### Initialize
 
 The following initializes wrpgit YAML configuration:
 ```bash
@@ -84,7 +55,7 @@ modules:
 * ``protocol``: the protocol to use for clone. Typically ssh.
 * ``modules``: the set of manual builds to create. You can add or remove packages from this list.
 
-#### Fork
+### Fork
 
 If you are working on iowarp, but are not considered full-time staff, we will 
 have you fork our code instead of being a branch maintainer. 
@@ -109,6 +80,11 @@ modules:
   depends_on: cte-hermes-shm
 ```
 
+Login to your github:
+```
+gh auth login
+```
+
 And then run:
 ```bash
 ./wrpgit fork
@@ -117,16 +93,17 @@ And then run:
 Any package with ``fork: True`` will be forked from iowarp into the github account
 [MY GITHUB USERNAME].
 
-#### Clone
+### Clone
 
 ```bash
 ./wrpgit clone
 ```
 
-This will clone all packages in the modules directory. ``name: iowarp-runtime`` is assumed
-to be the real name of the github repo.
+This will clone all packages in the modules list. E.g., ``name: iowarp-runtime`` is assumed
+to be the real name of the github repo. When fork: False, it will clone from iowarp. When fork: True,
+it will clone from your personal account. It will also add iowarp as a new git remote. 
 
-#### Setup
+### Setup
 
 ```bash
 ./wrpgit setup
@@ -135,7 +112,7 @@ to be the real name of the github repo.
 This will construct modulefiles and environments for each of the packages.
 You should rerun this if you spack packages or any dependencies of iowarp.
 
-#### Build
+### Build
 
 ```bash
 ./wrpgit build
@@ -143,8 +120,7 @@ You should rerun this if you spack packages or any dependencies of iowarp.
 
 This will build and install all repos with ``build: True``. 
 
-
-#### Clean
+### Clean
 
 ```bash
 ./wrpgit clean
@@ -156,10 +132,10 @@ You should rerun this if you spack packages or any dependencies of iowarp.
 ### For Pull Requests
 
 You may find the github [command line](https://cli.github.com/) useful for making PRs.
+This comes automatically with iowarp spack install and docker.
 
 ```bash
 gh auth login
 gh repo set-default
 gh pr create --title "Your pull request title" --body "Your pull request description"
 ``` 
-

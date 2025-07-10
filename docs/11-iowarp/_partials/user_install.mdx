@@ -1,0 +1,24 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+import UserSpack from './user_install/user-spack.mdx';
+import UserDocker from './user_install/user-docker.mdx';
+import UserPodman from './user_install/user-podman.mdx';
+import UserVcpkg from './user_install/user-vcpkg.mdx';
+
+### Installation Method
+
+<Tabs>
+    <TabItem value="spack" label="Spack (Linux-Only)" default>
+        <UserSpack />
+    </TabItem>
+    <TabItem value="docker" label="Docker (Any)">
+        <UserDocker />
+    </TabItem>
+    <TabItem value="podman" label="Podman (Any)">
+        <UserPodman />
+    </TabItem>
+    <TabItem value="vcpkg" label="Vcpkg (Any)">
+        <UserVcpkg />
+    </TabItem>
+</Tabs> 
