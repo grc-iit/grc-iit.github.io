@@ -2,6 +2,16 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
   {
+    authors: ["H. Geng", "X. Lu", "Y. Che", "Z. Tian", "D. Cheng", "X.-H. Sun", "M. Niemier", "X. Hu"],
+    title:
+      "COSMOS: RL-Enhanced Locality-Aware Counter Cache Optimization for Secure Memory",
+    venue: "The 58th IEEE/ACM International Symposium on Microarchitecture (MICRO-58)",
+    type: "Conference",
+    date: "October, 2025",
+    tags: ["Cache Management", "Memory System Optimization"],
+    links: {},
+  },
+  {
     authors: ["Y. Wu", "X. Lu", "X. Chen", "Y. Han", "X.-H. Sun"],
     title:
       "Concurrency-Aware Cache Miss Cost Prediction with Perceptron Learning",
