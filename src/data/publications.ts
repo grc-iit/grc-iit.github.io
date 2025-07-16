@@ -28,8 +28,16 @@ const publications: Publication[] = [
       "The 37th International Conference on Scalable Scientific Data Management (SSDBM 2025)",
     type: "Conference",
     date: "June, 2025",
-    tags: [],
-    links: {},
+    tags: [
+      "Task Systems",
+      "Data Stacks",
+      "Systems for AI Workflows",
+    ],
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/bateman2025dtio.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/bateman2025dtio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/bateman2025dtio.txt",
+    },
   },
   {
     authors: [
