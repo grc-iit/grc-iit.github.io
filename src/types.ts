@@ -26,6 +26,13 @@ export type MemberLinkType =
   | "twitter"
   | "scholar";
 
+export type MemberType =
+  | "researcher"
+  | "engineer"
+  | "visiting"
+  | "external"
+  | "faculty";
+
 export type Member = {
   affiliation?: string;
   advisor?: string;
@@ -34,8 +41,14 @@ export type Member = {
   links?: Record<MemberLinkType, string>;
   name: string;
   researchInterests?: string[];
+  slug: string;
   title: string;
-  type: "researcher" | "engineer" | "visiting" | "external";
+  type: MemberType;
+};
+
+export type Faculty = Member & {
+  order: number;
+  type: "faculty";
 };
 
 export type ProjectId =

@@ -321,6 +321,8 @@ const config = {
         path: "./newsletter",
       },
     ],
+    "./plugins/faculty",
+    "./plugins/members",
   ],
 };
 

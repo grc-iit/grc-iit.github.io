@@ -1,0 +1,17 @@
+name: Dr. Hariharan Devarajan
+title: Computer Scientist
+affiliation: Lawrence Livermore National Laboratory
+bio: >-
+  Dr. Hariharan Devarajan is a Computer Scientist at Lawrence Livermore National Laboratory 
+  with expertise in high-performance computing, I/O performance optimization, and distributed 
+  storage systems. He contributes to advancing storage solutions for extreme-scale computing environments.
+image: devarajan.jpg
+links:
+  email: hariharandev1@llnl.gov
+  scholar: https://scholar.google.com/citations?user=3B6sHUcAAAAJ&hl=en
+researchInterests:
+  - High Performance Computing
+  - I/O Performance
+  - Distributed Storage
+slug: hariharan-devarajan
+type: external

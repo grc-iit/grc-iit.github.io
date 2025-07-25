@@ -14,7 +14,11 @@ export default function FacutlyItem({ faculty }: FacultyItemProps) {
     <div className="col col--6">
       <div className={styles.innerContainer}>
         <div className="padding-top--lg text--center">
-          <img alt={faculty.name} className={styles.image} src={faculty.image} />
+          <img
+            alt={faculty.name}
+            className={styles.image}
+            src={`/img/faculty/${faculty.image}`}
+          />
         </div>
         <div className="text--bold text--center">{faculty.name}</div>
         <div className="text--center">{faculty.title}</div>

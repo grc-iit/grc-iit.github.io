@@ -1,0 +1,18 @@
+name: Dr. Bogdan Nicolae
+title: Computer Scientist
+affiliation: Argonne National Laboratory
+bio: >-
+  Dr. Bogdan Nicolae is a Computer Scientist at Argonne National Laboratory, 
+  specializing in parallel and distributed computing, fault tolerance, and 
+  storage systems for high-performance computing environments.
+image: nicolae.jpg
+links:
+  email: bogdan.nicolae@acm.org
+  scholar: https://scholar.google.com/citations?user=HMNY1JIAAAAJ&hl=en
+researchInterests:
+  - Parallel and Distributed Computing
+  - High Performance Computing
+  - Fault Tolerance
+  - Storage
+slug: bogdan-nicolae
+type: external

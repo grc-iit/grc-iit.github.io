@@ -1,0 +1,16 @@
+name: Dr. Xian-He Sun
+title: Distinguished Professor
+bio: >-
+  Dr. Xian-He Sun is the Director of the Gnosis Research Center and an IEEE fellow. 
+  He is a University Distinguished Professor and the Ron Hochsprung Endowed Chair of 
+  Computer Science at Illinois Institute of Technology. His current research interests 
+  include parallel and distributed processing, memory and I/O systems, software system 
+  for Big Data applications, and performance evaluation and optimization.
+image: sun.jpg
+links:
+  email: sun@illinoistech.edu
+  scholar: https://scholar.google.com/citations?user=9h3JX7MAAAAJ&hl=en
+  website: http://www.cs.iit.edu/~scs/sun
+order: 1
+slug: xian-he-sun
+type: faculty

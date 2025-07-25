@@ -4,30 +4,28 @@ title: Members
 
 import FacultyList from "@site/src/components/people/FacultyList";
 import MemberList from "@site/src/components/people/MemberList";
-import faculty from "@site/src/data/faculty";
-import members from "@site/src/data/members";
 
 ## Faculty
 
-<FacultyList data={faculty} />
+<FacultyList />
 
 <br />
 
 ## Researchers
 
-<MemberList data={members.filter((member) => member.type === "researcher")} />
+<MemberList memberType="researcher" />
 
 ## Research Staff
 
-<MemberList data={members.filter((member) => member.type === "engineer")} />
+<MemberList memberType="engineer" />
 
 ## Visiting Scholars
 
-<MemberList data={members.filter((member) => member.type === "visiting")} />
+<MemberList memberType="visiting" />
 
 ## External Collaborators
 
-<MemberList data={members.filter((member) => member.type === "external")} />
+<MemberList memberType="external" />
 
 ## Some of Our Alumni
 
