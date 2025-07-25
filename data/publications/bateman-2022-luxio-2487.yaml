@@ -1,0 +1,46 @@
+abstract: |
+  Abstract-Storage in HPC is typically a single Remote and Static
+  Storage (RSS) resource. However, applications demonstrate diverse I/O
+  requirements that can be better served by a multi-storage approach. Cur-
+  rent practice employs ephemeral storage systems running on either node-
+  local or shared storage resources. Yet, the burden of provisioning and
+  configuring intermediate storage falls solely on the users, while global job
+  schedulers offer little to no support for custom deployments. This lack of
+  support often leads to over- or under-provisioning of resources and poorly
+  configured storage systems. To mitigate this, we present LuxIO, an intelli-
+  gent storage resource provisioning and auto-configuration service. LuxIO
+  constructs storage deployments configured to best match I/O require-
+  ments. LuxIO-tuned storage services show performance improvements
+  up to 2x across common applications and benchmarks, while introducing
+  minimal overhead of 93.40 ms on top of existing job scheduling pipelines.
+  LuxIO improves resource utilization by up to 25% in select workflows.
+authors:
+  - K. Bateman
+  - N. Rajesh
+  - J. Cernuda
+  - L. Logan
+  - J. Ye
+  - S. Herbein
+  - A. Kougkas
+  - X.-H. Sun
+date: December, 2022
+doi: 10.1109/hipc56025.2022.00041
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/bateman2022luxio.bib
+  citation: http://cs.iit.edu/~scs/assets/files/bateman2022luxio.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/bateman2022luxio.pdf
+month: 12
+slug: bateman-2022-luxio-2487
+tags:
+  - Resource Provisioning
+  - I/O Behavior
+  - Storage Auto-Tuning
+  - ChronoLog
+title: >-
+  LuxIO: Intelligent Resource Provisioning and Auto-Configuration for Storage
+  Services
+type: Conference
+venue: >-
+  The 29th edition of the IEEE International Conference on High Performance
+  Computing, Data, and Analytics (HiPC'22)
+year: 2022

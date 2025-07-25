@@ -1,0 +1,40 @@
+abstract: |-
+  Due to the infamous "memory wall" problem and a drastic
+  increase in the number of data intensive applications, memory
+  rather than processor has become the leading performance
+  bottleneck of modern computing systems. Evaluating and
+  understanding memory system performance is increasingly
+  becoming the core of high-end computing. Conventional memory
+  metrics, such as miss ratio, average miss latency, average memory
+  access time, etc., are designed to measure a given memory
+  performance parameter, and do not reflect the overall performance
+  of a memory system. On the other hand, widely used system
+  performance metrics, such as IPC and Flops are designed to
+  measure CPU performance, and are not appropriate for memory
+  performance. In this study, we propose a novel memory metric,
+  Access Per Cycle (APC), to measure overall memory performance
+  with consideration of the complexity of modern memory systems.
+  A unique contribution of APC is its separation of memory
+  evaluation from CPU evaluation. Simulation results show that
+  APC is significantly more appropriate than existing memory
+  metrics in evaluating modern memory systems.
+authors:
+  - X.-H. Sun
+  - D. Wang
+date: November, 2011
+doi: 10.1145/2088457.2088474
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/sun2011memory.bib
+  citation: http://cs.iit.edu/~scs/assets/files/sun2011memory.txt
+  pdf: >-
+    http://www.dcs.warwick.ac.uk/pmbs/pmbs11/PMBS11/Workshop_Schedule_files/rn-1730.pdf
+month: 11
+slug: sun-2011-memory-access-5d7d
+tags: []
+title: Memory Access Cycle and the Measurement of Memory Systems
+type: Workshop
+venue: >-
+  The 2nd International Workshop on Performance Modeling, Benchmarking and
+  Simulation of High Performance Computing Systems (PMBS'11), in conjunction
+  with IEEE/ACM SuperComputing 2011, Seattle, WA, USA
+year: 2011

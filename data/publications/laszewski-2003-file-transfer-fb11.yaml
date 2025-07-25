@@ -1,0 +1,42 @@
+abstract: |-
+  Grids have become a critical asset in large-scale
+  scientific and engineering research. Accessing to
+  distributed data is typically as important as access
+  to distributed computational resources. In this pa-
+  per, we present the design of Java CoG Kit compo-
+  nents and APIs that make handling of data accessed
+  through Grids easier for the novice Grid user and
+  programmer. We introduce the design and archi-
+  tecture of a component for file transfers that sep-
+  arates issues related to requesting, performing and
+  visualizing the actual file transfer. The design of
+  our component is based on object and component
+  based methodologies. Hence, it is assembled from
+  a collection of reusable components promoting cus-
+  tomization and reuse. We integrated the drag-and-
+  drop paradigm. Protocol-independent interfaces al-
+  low easy adaptation to a variety of data sources.
+  Hence, we not only have developed a GUI but so-
+  phisticated middleware to develop advanced Grid
+  file transfer services. These components are dis-
+  tributed with the Java CoG Kit.
+  Keywords: FTP, GridFTP, RFT, Grid
+authors:
+  - G. Laszewski
+  - B. Alunkal
+  - J. Gawor
+  - R. Madhuri
+  - P. Plaszezak
+  - X.-H. Sun
+date: June, 2003
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/alunbeu--gridftp.pdf
+month: 6
+slug: laszewski-2003-file-transfer-fb11
+tags: []
+title: A File Transfer Component for Grids
+type: Conference
+venue: >-
+  The 2003 International Conference on Parallel and Distributed Processing
+  Techniques and Applications, Las Vegas, Nevada
+year: 2003

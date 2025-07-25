@@ -47,7 +47,7 @@ function getPublicationsByAuthorShortName(publications, authorShortName) {
 }/**
  * Custom Docusaurus plugin to load YAML data and create dynamic routes
  */
-module.exports = function dataPlugin(context, options) {
+module.exports = function membersPlugin(context, options) {
   return {
     name: 'grc-plugin-members',
 
@@ -100,22 +100,21 @@ module.exports = function dataPlugin(context, options) {
 
     async contentLoaded({ content, actions }) {
       const { setGlobalData, createData, addRoute } = actions;
+      const { members, publications } = content;
 
       // Make data available globally
       setGlobalData({
-        members: content.members,
-        publications: content.publications,
+        members
       });
 
       // Create data files that can be imported
-      await createData('members.json', JSON.stringify(content.members));
-      await createData('publications.json', JSON.stringify(content.publications));
+      await createData('members.json', JSON.stringify(members));
 
       // Create dynamic routes for member pages (only for researchers)
-      for (const member of content.members) {
+      for (const member of members) {
         if (member.slug && member.type === 'researcher') {
           const authorShortName = getAuthorShortName(member.name);
-          const memberPublications = getPublicationsByAuthorShortName(content.publications, authorShortName);
+          const memberPublications = getPublicationsByAuthorShortName(publications, authorShortName);
 
           // Create route for this member
           addRoute({

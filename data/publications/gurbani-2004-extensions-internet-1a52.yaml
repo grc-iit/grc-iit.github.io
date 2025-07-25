@@ -1,0 +1,28 @@
+abstract: |-
+  We discuss extensions to the Session Initiation Protocol
+  (SIP) to enable a rich set of services between the cellular Public
+  Switched Telephone Network (PSTN) and the Internet. We consider
+  all manner of cellular endpoints: 2G, 2.5G, and early 3G endpoints.
+  These extensions allow the PSTN endpoints to act as smart SIP user
+  agents and participate in Internet-oriented services such as presence
+  and instant messaging (IM) without the endpoint itself being
+  connected to the Internet. For cellular networks, our methodology
+  conserves precious radio spectrum by offloading such data services
+  from the bandwidth normally allocated to voice. Our approach is
+  based on open standards and is not an ad-hoc or incremental solution.
+authors:
+  - V. K. Gurbani
+  - X.-H. Sun
+date: November, 2004
+doi: 10.1109/glocom.2004.1378259
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/VijaySunGlobecome04.pdf
+month: 11
+slug: gurbani-2004-extensions-internet-1a52
+tags: []
+title: >-
+  Extensions to an Internet signaling protocol to support telecommunication
+  services
+type: Conference
+venue: The IEEE Global Telecommunications Conference, Dallars, TX.
+year: 2004

@@ -1,0 +1,30 @@
+abstract: |-
+  A major difficulty of heterogeneous process migration
+  is how to collect advanced dynamic data-structures, trans-
+  form them into machine independent form, and restor them
+  appropriately in a different hardware and software environ-
+  ment. In this study we introduce a data model, the Mem-
+  ory Space Representation (MSR) model, to recognize com-
+  plex data structures in program address spaces. Support-
+  ing mechanisms of the MSR model are also developed for
+  collecting program data structures and restoring them in a
+  heterogeneous environment. The MSR design has been im-
+  plemented under a prototype heterogeneous process migra-
+  tion environment. Pointer-intensive programs with function
+  and recursion calls are tested. Experimental results confirm
+  that the newly proposed design is feasible and effective for
+  heterogeneous network process migration.
+authors:
+  - K. Chanchio
+  - X.-H. Sun
+date: March, 1998
+doi: 10.1109/ipps.1998.670020
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/ipps98.pdf
+month: 3
+slug: chanchio-1998-memory-space-d612
+tags: []
+title: Memory Space Representation for Heterogeneous Network Process Migration
+type: Conference
+venue: The 12th International Parallel Processing Symposium
+year: 1998

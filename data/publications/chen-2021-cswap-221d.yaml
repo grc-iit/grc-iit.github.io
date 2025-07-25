@@ -1,0 +1,54 @@
+abstract: |-
+  Graphic Processing Units (GPUs) have limited mem-
+  ory capacity. Training popular deep neural networks (DNNs)
+  often requires a larger amount of memory than that a GPU may
+  have. Consequently, training data needs to be swapped between
+  CPUs and GPUs. Data swapping may become a bottleneck when
+  its latency is longer than the latency of DNN computations.
+  Tensor compression in GPUs can reduce the data swapping
+  time. However, existing works on compressing tensors in the
+  virtual memory of GPUs have two major issues: sub-optimal
+  compression performance for varying tensor sparsity and sizes
+  and lack of portability because its implementation requires
+  additional (de)compression units in memory controllers.
+  We propose a self-tuning tensor compression framework,
+  named CSWAP, for improving the virtual memory management
+  of GPUs. It has high portability and is minimally dependent on
+  GPU architecture features. Furthermore, its runtime only applies
+  compression on tensors that are deemed to be cost-effective
+  considering their sparsity and size and the characteristics of com-
+  pression algorithms. Finally, our framework is fully automated
+  and can customize the compression policy for different neural
+  network architectures and GPU architectures. Our experimental
+  results using six representative memory-intensive DNN models
+  show that CSWAP reduces tensor swapping latency by up to
+  50.9% and reduces the DNN training time by 20.7% on average
+  with NVIDIA V100 GPUs compared to vDNN.
+  Index Terms-DNN, GPU, Tensor, Swapping, Data Compres-
+  sion
+authors:
+  - P. Chen
+  - S. He
+  - X. Zhang
+  - S. Chen
+  - P. Hong
+  - Y. Yin
+  - X.-H. Sun
+  - G. Chen
+date: September, 2021
+doi: 10.1109/cluster48925.2021.00019
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.bib
+  citation: http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.pdf
+month: 9
+slug: chen-2021-cswap-221d
+tags: []
+title: >-
+  CSWAP: A Self-Tuning Compression Framework for Accelerating Tensor Swapping in
+  GPUs
+type: Conference
+venue: >-
+  The 2021 IEEE International Conference on Cluster Computing (CLUSTER'21),
+  September 7-10, 2021
+year: 2021

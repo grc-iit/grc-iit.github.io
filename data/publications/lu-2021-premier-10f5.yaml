@@ -1,0 +1,42 @@
+abstract: |-
+  As the number of on-chip cores and application de-
+  mands increase, efficient management of shared cache resources
+  becomes imperative. Cache partitioning techniques have been
+  studied for decades to reduce interference between applications in
+  a shared cache and provide performance and fairness guarantees.
+  However, there are few studies on how concurrent memory
+  accesses affect the effectiveness of partitioning. When concurrent
+  memory requests exist, cache miss does not reflect concurrency
+  overlapping well. In this work, we first introduce pure misses
+  per kilo instructions (PMPKI), a metric that quantifies the
+  cache efficiency considering concurrent access activities. Then
+  we propose Premier, a dynamically adaptive concurrency-aware
+  cache pseudo-partitioning framework. Premier provides insertion
+  and promotion policies based on PMPKI curves to achieve the
+  benefits of cache partitioning. Finally, our evaluation of various
+  workloads shows that Premier outperforms state-of-the-art cache
+  partitioning schemes in terms of performance and fairness.
+  In an 8-core system, Premier achieves 15.45% higher system
+  performance and 10.91% better fairness than the UCP scheme.
+authors:
+  - X. Lu
+  - R. Wang
+  - X.-H. Sun
+date: October, 2021
+doi: 10.1109/iccd53106.2021.00068
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/lu2021premier.bib
+  citation: http://cs.iit.edu/~scs/assets/files/lu2021premier.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf
+month: 10
+slug: lu-2021-premier-10f5
+tags:
+  - Optimization of Memory Architectures
+title: >-
+  Premier: A Concurrency-Aware Pseudo-Partitioning Framework for Shared
+  Last-Level Cache
+type: Conference
+venue: >-
+  The 2021 IEEE 39th International Conference on Computer Design (ICCD'21),
+  October 24 - 27, 2021
+year: 2021

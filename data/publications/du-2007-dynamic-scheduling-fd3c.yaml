@@ -1,0 +1,38 @@
+abstract: |-
+  Process migration is essential for runtime load
+  balancing.
+  In Grid and shared networked
+  environments, load imbalance is not only caused by the
+  dynamic nature of underlying applications, but also by
+  the fluctuation of resource availability. In a shared
+  environment, tasks need to be rescheduled frequently
+  to adapt the variation of resources availability. Unlike
+  conventional task scheduling, dynamic rescheduling
+  has to consider process migration costs in its
+  formulation. In this study, we first model the migration
+  cost and introduce an effective method to predict the
+  cost. We then introduce a dynamic scheduling
+  mechanism that considers migration cost as well as
+  other conventional influential factors for performance
+  optimization in a shared, heterogeneous environment.
+  Finally we present experimental testing to verify the
+  analytical results. Experimental results show that the
+  proposed dynamic scheduling system is feasible and
+  improves the system performance considerably.
+authors:
+  - C. Du
+  - X.-H. Sun
+  - M. Wu
+date: May, 2007
+doi: 10.1109/ccgrid.2007.46
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/du-DynamicMigration.pdf
+month: 5
+slug: du-2007-dynamic-scheduling-fd3c
+tags: []
+title: Dynamic Scheduling with Process Migration
+type: Conference
+venue: >-
+  The IEEE International Symposium on Cluster Computing and the Grid 2007, Rio
+  de Janeiro, Brazil
+year: 2007

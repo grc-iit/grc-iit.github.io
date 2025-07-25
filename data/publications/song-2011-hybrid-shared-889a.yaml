@@ -1,0 +1,42 @@
+abstract: |-
+  Shared-nothing and shared-disk are the two most
+  common storage architectures of parallel databases in the past
+  two decades. Both two types of systems have their own merits
+  for different applications. However, there are no much efforts
+  in investigating the integration of these two architectures and
+  exploiting their merits together. In this paper, we propose a
+  novel hybrid storage architecture for large-scale data processing,
+  to leverage the benefits of both shared-nothing and shared-disk
+  architectures. In the proposed hybrid system, we adopt a shared-
+  nothing architecture as the hardware layer and leverage a parallel
+  file system as the storage layer to combine the scattered disks on
+  all database nodes. We present an overall design of the new
+  scheme, including data and storage organization, data access
+  modes, and query processing methods. The proposed hybrid
+  scheme can achieve both high I/O performance as a shared-
+  nothing system, and high-speed data sharing across all server
+  nodes as a share-disk system. Preliminary experimental results
+  demonstrate that the hybrid scheme is promising and more
+  appropriate for large-scale and data-intensive applications than
+  each of the two individual types of systems.
+authors:
+  - H. Song
+  - X.-H. Sun
+  - Y. Che
+date: May, 2011
+doi: 10.1109/ispa.2011.43
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/song2011hybrid.bib
+  citation: http://cs.iit.edu/~scs/assets/files/song2011hybrid.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Hybrid-Song-ispa11.pdf
+month: 5
+slug: song-2011-hybrid-shared-889a
+tags: []
+title: >-
+  A Hybrid Shared-nothing/Shared-data Storage Scheme for Large-scale Data
+  Processing
+type: Conference
+venue: >-
+  The 9th IEEE International Symposium on Parallel and Distributed Processing
+  with Applications (ISPA'11), Busan, Korea
+year: 2011

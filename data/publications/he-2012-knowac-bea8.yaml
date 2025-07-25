@@ -1,0 +1,41 @@
+abstract: |-
+  The lasting memory-wall problem combined with
+  the newly emerged big-data problem makes data access delay the
+  first citizen of performance optimizations of cluster computing.
+  Reduction of data access delay, however, is application dependent.
+  It depends on the data access behaviors of the underlying
+  applications. Therefore, leaning and understanding data access
+  behaviors is a must for effective data access optimizations.
+  Modern microprocessors are equipped with hardware data
+  prefetchers, which predict data access patterns and prefetch data
+  for CPU. However, memory systems in design do not have the
+  capability to understand data access behaviors for performance
+  optimizations. In this study, we propose a novel approach, named
+  KNOWAC, to collect I/O information automatically through high-
+  level I/O libraries. KNOWAC accumulates I/O knowledge and
+  reveals data usage patterns by exploring the collected high-
+  level I/O characteristics. The discovered data usage patterns can
+  be used for different I/O optimizations. We apply KNOWAC
+  to I/O prefetch under the framework of PnetCDF in this
+  study. Experimental results on a real-world application show
+  that KNOWAC is promising and has a true practical value in
+  mitigating the I/O bottleneck.
+authors:
+  - J. He
+  - X.-H. Sun
+  - R. Thakur
+date: September, 2012
+doi: 10.1109/cluster.2012.83
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2012knowac.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2012knowac.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/KNOWAC_final.pdf
+month: 9
+slug: he-2012-knowac-bea8
+tags: []
+title: 'KNOWAC: I/O Prefetch via Accumulated Knowledge'
+type: Conference
+venue: >-
+  IEEE International Conference on Cluster Computing (Cluster'12), Beijing,
+  China
+year: 2012

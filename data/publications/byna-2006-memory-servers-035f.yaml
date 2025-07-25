@@ -1,0 +1,31 @@
+abstract: |-
+  The expanding gap between microprocessor and disk
+  performance has initiated new techniques of providing
+  memory as a service in high-end computing (HEC).
+  Although the processor and disk densities have improved
+  over the last decades, the improvement of disk
+  performance is inferior to that of processors, which is
+  causing a bottleneck for HEC. With the rapid growth of
+  network technology for cluster computers, the idea of
+  accessing memory of an idle peer node has proven to be
+  faster than accessing a disk. With this motivation, many
+  researchers developed systems that offer idle memory as a
+  service. In this paper, we present a brief survey of various
+  systems that offer memory service in improving the disk
+  access performance and discuss the scope of applying
+  service oriented architecture (SOA) for HEC.
+authors:
+  - S. Byna
+  - X.-H. Sun
+  - R. Nakhoul
+date: September, 2006
+doi: 10.1109/scc.2006.67
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/byna_scc-06.pdf
+month: 9
+slug: byna-2006-memory-servers-035f
+tags: []
+title: 'Memory Servers: A Scope of SOA for High-End Computing'
+type: Conference
+venue: The IEEE Service Computing Conference (SCC) 2006, Chicago
+year: 2006

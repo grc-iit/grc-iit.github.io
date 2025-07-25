@@ -1,0 +1,42 @@
+abstract: >-
+  We report a class of stabilized explicit-implicit domain decomposition (SEIDD)
+
+  methods for the numerical solution of parabolic equations. Explicit-implicit
+  domain decomposition
+
+  (EIDD) methods are globally noniterative, nonoverlapping domain decomposition
+  methods, which,
+
+  when compared with Schwarz-algorithm-based parabolic solvers, are
+  computationally and commu-
+
+  nicationally efficient for each simulation time step but suffer from small
+  time step size restrictions.
+
+  By adding a stabilization step to EIDD, the SEIDD methods retain the
+  time-stepwise efficiency in
+
+  computation and communication of the EIDD methods but exhibit much better
+  numerical stability.
+
+  Three SEIDD algorithms are presented in this paper, which are experimentally
+  tested to show excel-
+
+  lent stability, computation and communication efficiencies, and high parallel
+  speedup and scalability.
+authors:
+  - Y. Zhuang
+  - X.-H. Sun
+date: July, 2002
+doi: 10.1137/s1064827501384755
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/ZhSu02ST.pdf
+month: 7
+slug: zhuang-2002-stabilized-explicit-5c66
+tags: []
+title: >-
+  Stabilized Explicit-implicit Domain Decomposition Methods for the Numerical
+  Solution of Parabolic Equations
+type: Journal
+venue: SIAM Journal on Scientific Computing , Vol. 24, No. 1, 335-358
+year: 2002

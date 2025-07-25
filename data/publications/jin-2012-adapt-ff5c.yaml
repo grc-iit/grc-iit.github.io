@@ -1,0 +1,55 @@
+abstract: |-
+  The MapReduce programming paradigm is
+  gaining more and more popularity recently due to its merits
+  of ease of programming, data distribution and fault tolerance.
+  The low barrier of adoption of MapReduce makes it a
+  promising framework for non-dedicated distributed
+  computing environments. However, the variability of hosts
+  resources and availability could substantially degrade the
+  performance of MapReduce applications. The replication-
+  based fault tolerance mechanism helps to alleviate some
+  problems at the cost of inefficient storage space utilization.
+  Intelligent solutions that guarantee the performance of
+  MapReduce applications with low data replication degree are
+  needed to promote the idea of running MapReduce
+  applications in non-dedicated environment at lower costs. In
+  this research, we propose an Availability-aware DAta
+  PlacemenT (ADAPT) strategy to improve the application
+  performance without extra storage cost. The basic idea of
+  ADAPT is to dispatch data based on the availability of each
+  node, reduce network traffic, improve data locality, and
+  optimize the application performance. We implement the
+  prototype of ADAPT within the Hadoop framework, an open-
+  source implementation of MapReduce. The performance of
+  ADAPT is evaluated in
+  emulated non-dedicated
+  distributed environment. The experimental results show that
+  ADAPT can improve the performance by more than 30%.
+  ADAPT achieves high reliability without the need for
+  additional data replication. ADAPT has also been evaluated
+  for large-scale computing environment through simulations,
+  with promising results.
+  an
+  Keywords-MapReduce, Reliability, Performance
+authors:
+  - H. Jin
+  - X. Yang
+  - X.-H. Sun
+  - I. Raicu
+date: June, 2012
+doi: 10.1109/icdcs.2012.48
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/jin2012adapt.bib
+  citation: http://cs.iit.edu/~scs/assets/files/jin2012adapt.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/icdcs-12.pdf
+month: 6
+slug: jin-2012-adapt-ff5c
+tags: []
+title: >-
+  ADAPT: Availability-aware MapReduce Data Placement in Non-Dedicated
+  Distributed Computing Environment
+type: Conference
+venue: >-
+  32nd International Conference on Distributed Computing Systems (ICDCS), Macau,
+  China
+year: 2012

@@ -1,0 +1,43 @@
+abstract: |-
+  High-end computing (HEC) applications in
+  critical areas of science and technology tend to be more
+  and more data intensive. I/O has become a vital
+  performance bottleneck of modern HEC practice.
+  Conventional HEC execution paradigms, however, are
+  computing-centric for computation intensive applications.
+  They are designed to utilize memory and CPU
+  performance and have inherent limitations in addressing
+  the critical I/O bottleneck issues of HEC. In this study,
+  we propose a decoupled execution paradigm (DEP) to
+  address the challenging I/O bottleneck issues. DEP is the
+  first paradigm enabling users to identify and handle data-
+  intensive operations separately. It can significantly
+  reduce costly data movement and is better than the
+  existing execution paradigms for data-intensive
+  applications. The initial experimental tests have
+  confirmed its promising potential. Its data-centric
+  architecture could have an impact in future HEC systems,
+  programming models, and algorithms design
+  development.
+  and
+authors:
+  - Y. Chen
+  - C. Chen
+  - X.-H. Sun
+  - W. D. Gropp
+  - R. Thakur
+date: September, 2012
+doi: 10.1109/cluster.2012.80
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/chen2012decoupled.bib
+  citation: http://cs.iit.edu/~scs/assets/files/chen2012decoupled.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/PID2448849.pdf
+month: 9
+slug: chen-2012-decoupled-execution-e1b0
+tags: []
+title: A Decoupled Execution Paradigm for Data-Intensive High-End Computing
+type: Conference
+venue: >-
+  IEEE International Conference on Cluster Computing 2012 (Cluster'12), Beijing,
+  China,
+year: 2012

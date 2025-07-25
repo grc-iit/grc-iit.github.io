@@ -1,0 +1,38 @@
+abstract: |-
+  The predominant data model in cloud storage is
+  the object-based storage. Object stores follow a simpler API with
+  get() and put() operations to interact with the data. A wide variety
+  of data analysis software has been developed around objects
+  using their APIs. In fact, the evolution of Big Data analytics is a
+  major driver for highly optimized data-centric quality software.
+  However, organizations maintain file-based storage clusters and a
+  high volume of existing data are stored in files. This is specifically
+  true for the scientific communities. In this paper, we present the
+  key characteristics of object-based and file-based storage APIs,
+  we explore several object-to-file mappings aiming to bridge the
+  semantic gap between these data models. The evaluation of our
+  mapping algorithms exposes various strengths and weaknesses
+  of each strategy and frames the extended potential of a unified
+  data access system. Results show that our solution can offer more
+  than 3x higher performance for specific workloads while keeping
+  minimal overhead of our library.
+authors:
+  - A. Kougkas
+  - H. Devarajan
+  - X.-H. Sun
+date: November, 2017
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/kougkas2017syndesis.bib
+  citation: http://cs.iit.edu/~scs/assets/files/kougkas2017syndesis.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Syndesis.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/Syndesis_slides.pdf
+month: 11
+slug: kougkas-2017-syndesis-d59c
+tags: []
+title: 'Syndesis: Mapping Objects to Files for a Unified Data Access System'
+type: Workshop
+venue: >-
+  The ACM SIGHPC 8th International Workshop on Many-Task Computing on Clouds,
+  Grids, and Supercomputers (MTAGS 2017), in conjunction with SC'17, Denver, CO,
+  USA
+year: 2017

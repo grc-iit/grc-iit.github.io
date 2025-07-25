@@ -1,0 +1,44 @@
+abstract: |-
+  Prefetching techniques have been studied for
+  decades. However, there are few studies on how concurrent
+  memory accesses may affect prefetching effectiveness. When
+  there are multiple concurrent memory requests, we can classify
+  them into sub-classes by analyzing the overlapping relationship.
+  In this work, we first propose pure prefetch coverage (PPC), a
+  novel prefetching metric that can identify an accurate prefetch
+  coverage under the concurrent memory access model. Then
+  we propose APAC, an adaptive prefetch framework with PPC
+  metric that can capture the dynamics of applications and adjust
+  the prefetching aggressiveness. Our experimental results show
+  that the PPC metric has a higher IPC correlation compared to
+  the conventional prefetch coverage (PC) metric. For memory-
+  intensive single-thread benchmarks, APAC provides an average
+  performance improvement by 17.3% and 5.9% compared to the
+  state-of-the-art adaptive prefetch framework FDP and NST. In
+  a multi-core system, APAC outperforms FDP and NST by 8.5%
+  and 5.0% IPC on average, respectively.
+authors:
+  - X. Lu
+  - R. Wang
+  - X.-H. Sun
+date: October, 2020
+doi: 10.1109/iccd50377.2020.00048
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/lu2020apac.bib
+  citation: http://cs.iit.edu/~scs/assets/files/lu2020apac.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/lu2020apac.pdf
+month: 10
+slug: lu-2020-apac-66b5
+tags:
+  - Prefetch
+  - Memory Performance Model
+  - Concurrent Memory Access
+  - Optimization of Memory Architectures
+title: >-
+  APAC: An Accurate and Adaptive Prefetch Framework with Concurrent Memory
+  Access Analysis
+type: Conference
+venue: >-
+  The 38th IEEE International Conference on Computer Design (ICCD'20), October
+  18 - 21, 2020
+year: 2020

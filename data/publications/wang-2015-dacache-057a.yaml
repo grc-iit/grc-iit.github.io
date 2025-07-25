@@ -1,0 +1,50 @@
+abstract: |-
+  GPUs are throughput-oriented processors that depend on mas-
+  sive multithreading to tolerate long latency memory accesses. The
+  latest GPUs all are equipped with on-chip data caches to reduce
+  the latency of memory accesses and save the bandwidth of NOC
+  and off-chip memory modules. But these tiny data caches are vul-
+  nerable to thrashing from massive multithreading, especially when
+  divergent load instructions generate long bursts of cache accesses.
+  Meanwhile, the blocks of divergent loads exhibit high intra-warp
+  locality and are expected to be atomically cached so that the issuing
+  warp can fully hit in L1D in the next load issuance. However, GPU
+  caches are not designed with enough awareness of either SIMD ex-
+  ecution model or memory divergence.
+  In this work, we renovate the cache management policies to de-
+  sign a GPU-specific data cache, DaCache. This design starts with
+  the observation that warp scheduling can essentially shape the lo-
+  cality pattern in cache access streams. Thus we incorporate the
+  warp scheduling logic into insertion policy so that blocks are in-
+  serted into the LRU-chain according to their issuing warp's schedul-
+  ing priority. Then we deliberately prioritize coherent loads over di-
+  vergent loads. In order to enable the thrashing resistance, the cache
+  ways are partitioned by desired warp concurrency into two regions,
+  the locality region and the thrashing region, so that replacement is
+  constrained within the thrashing region. When no replacement can-
+  didate is available in the thrashing region, incoming requests are
+  bypassed. We also implement a dynamic partition scheme based
+  on the caching effectiveness that is sampled at runtime. Experi-
+  ments show that DaCache achieves 40.4% performance improve-
+  ment over the baseline GPU and outperform two state-of-the-art
+  thrashing resistant cache management techniques RRIP and DIP
+  by 40% and 24.9%, respectively.
+authors:
+  - B. Wang
+  - W. Yu
+  - X.-H. Sun
+  - X. Wang
+date: June, 2015
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/wang2015dacache.bib
+  citation: http://cs.iit.edu/~scs/assets/files/wang2015dacache.txt
+  pdf: https://www.cs.fsu.edu/~yuw/pubs/2015-ICS-Yu.pdf
+month: 6
+slug: wang-2015-dacache-057a
+tags: []
+title: 'DaCache: Memory Divergence-Aware GPU Cache Management'
+type: Conference
+venue: >-
+  29th International Conference on Supercomputing (ICS'15), Newport Beach, CA.
+  USA
+year: 2015

@@ -1,0 +1,45 @@
+abstract: |-
+  Modern High Performance Computing (HPC) ap-
+  plications, such as Earth science simulations, produce large
+  amounts of data due to the surging of computing power, while
+  big data applications have become more compute-intensive due
+  to increasingly sophisticated analysis algorithms. The needs of
+  both HPC and big data technologies for advanced HPC and
+  big data applications create a demand for integrated system
+  support. In this study, we introduce Scientific Data Processing
+  (SciDP) to support both HPC and big data applications via
+  integrated scientific data processing. SciDP can directly process
+  scientific data stored on a Parallel File System (PFS), which
+  is typically deployed in an HPC environment, in a big data
+  programming environment running atop Hadoop Distributed File
+  System (HDFS). SciDP seamlessly integrates PFS, HDFS, and the
+  widely-used R data analysis system to support highly efficient
+  processing of scientific data. It utilizes the merits of both PFS
+  and HDFS for fast data transfer, overlaps computing with
+  data accessing, and integrates R into the data transfer process.
+  Experimental results show that SciDP accelerates analysis and
+  visualization of a production NASA Center for Climate Simulation
+  (NCCS) climate and weather application by 6x to 8x when
+  compared to existing solutions.
+authors:
+  - K. Feng
+  - X.-H. Sun
+  - X. Yang
+  - S. Zhou
+date: September, 2018
+doi: 10.1109/cluster.2018.00023
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/feng2018scidp.bib
+  citation: http://cs.iit.edu/~scs/assets/files/feng2018scidp.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/SciDP_Kun2018.pdf
+month: 9
+slug: feng-2018-scidp-cdc6
+tags: []
+title: >-
+  SciDP: Support HPC and Big Data Applications via Integrated Scientific Data
+  Processing
+type: Conference
+venue: >-
+  The IEEE International Conference on Cluster Computing 2018 (Cluster'18),
+  Belfast, UK2018. pp. 114-123.
+year: 2018

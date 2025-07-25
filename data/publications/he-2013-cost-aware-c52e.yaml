@@ -1,0 +1,43 @@
+abstract: |-
+  Parallel I/O systems represent the most commonly
+  used engineering solution to mitigate the performance mismatch
+  between CPU and disk performance; however, parallel I/O sys-
+  tems are application dependent and may not work well for certain
+  data access requests. New emerging solid state drives (SSD) are
+  able to deliver better performance but incur a high monetary
+  cost. While SSDs cannot always replace HDDs, the hybrid SSD-
+  HDD approach uniquely addresses common performance issues
+  in parallel I/O systems. The performance of hybrid SSD-HDD
+  architecture depends on the utilization of the SSD and scheduling
+  of data placement. In this paper, we propose a cost-aware region-
+  level (CARL) data placement scheme for hybrid parallel I/O
+  systems. CARL divides large files into several small regions,
+  calculates the region costs according to the data access patterns,
+  and selectively places regions with high access costs onto the SSD-
+  based file servers. We have implemented CARL under MPI-IO
+  and the PVFS2 parallel file system environment. Experimental
+  results of representative benchmarks show that CARL is both
+  feasible and able to improve I/O performance significantly.
+authors:
+  - S. He
+  - X.-H. Sun
+  - B. Feng
+  - X. Huang
+  - K. Feng
+date: September, 2013
+doi: 10.1109/cluster.2013.6702615
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2013cost.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2013cost.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/shuibing_cluster13.pdf
+month: 9
+slug: he-2013-cost-aware-c52e
+tags: []
+title: >-
+  A Cost-Aware Region-Level Data Placement Scheme for Hybrid Parallel I/O
+  Systems
+type: Conference
+venue: >-
+  IEEE International Conference on Cluster Computing 2013 (Cluster'13),
+  Indianapolis, IN, USA
+year: 2013

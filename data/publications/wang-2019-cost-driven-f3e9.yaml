@@ -1,0 +1,53 @@
+abstract: >-
+  In this paper we consider a new caching model that enables data sharing for
+  network services in a cost-effective way.
+
+  The proposed caching algorithms are characterized by using monetary cost and
+  access information to control the cache replacements,
+
+  instead of exploiting capacity-oriented strategies as in traditional
+  approaches. In particular, given a stream of requests to a shared data
+
+  item with respect to a homogeneous cost model, we first propose a fast
+  off-line algorithm using dynamic programming techniques,
+
+  which can generate an optimal schedule within O(mn) time-space complexity by
+  using cache, migration as well as replication to serve a
+
+  n-length request sequence in a m-node network, substantially improving the
+  previous results. Furthermore, we also study the online
+
+  form of this problem, and present an 3-competitive online algorithm by
+  leveraging an idea of anticipatory caching. The algorithm can
+
+  serve an online request in constant time and is space efficient in O(m) as
+  well, rendering it more practical in reality. We evaluate our
+
+  algorithms, together with some variants, by conducting extensive simulation
+  studies. Our results show that the optimal cost of the
+
+  off-line algorithm is changed in a parabolic form as the ratio of caching cost
+  to transfer cost is increased, and the online algorithm is less
+
+  than 2 times worse in most cases than its optimal off-line counterpart.
+authors:
+  - Y. Wang
+  - S. He
+  - X. Fan
+  - C. Xu
+  - X.-H. Sun
+date: March, 2019
+doi: 10.1109/tpds.2018.2868642
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/wang2019cost.bib
+  citation: http://cs.iit.edu/~scs/assets/files/wang2019cost.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/wang2019cost.pdf
+month: 3
+slug: wang-2019-cost-driven-f3e9
+tags: []
+title: 'On Cost-Driven Collaborative Data Caching: A New Model Approach'
+type: Journal
+venue: >-
+  IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 30, no. 3,
+  pp. 662 - 676
+year: 2019

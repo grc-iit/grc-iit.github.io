@@ -1,0 +1,41 @@
+abstract: |-
+  The success of the Hadoop MapReduce program-
+  ming model has greatly propelled research in big data analytics.
+  In recent years, there is a growing interest in the High Per-
+  formance Computing (HPC) community to use Hadoop-based
+  tools for processing scientific data. This interest is due to the
+  facts that data movement becomes prohibitively expensive, high-
+  performance data analytic becomes an important part of HPC,
+  and Hadoop-based tools can perform large-scale data processing
+  in a time and budget efficient manner. In this study, we propose
+  PortHadoop, an enhanced Hadoop architecture that enables
+  MapReduce applications reading data directly from HPC parallel
+  file systems (PFS). PortHadoop saves HDFS storage space, and,
+  more importantly, avoids the otherwise costly data copying.
+  PortHadoop keeps all the semantics in the original Hadoop system
+  and PFS. Therefore, Hadoop MapReduce applications can run
+  on PortHadoop without code change except that the input file
+  location is in PFS rather than HDFS. Our experimental results
+  show that PortHadoop can operate effectively and efficiently with
+  the PVFS2 and Ceph file systems.
+authors:
+  - X. Yang
+  - N. Liu
+  - B. Feng
+  - X.-H. Sun
+  - S. Zhou
+date: October, 2015
+doi: 10.1109/bigdata.2015.7363759
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yang2015porthadoop.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yang2015porthadoop.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/PortHadoop_ieee.pdf
+month: 10
+slug: yang-2015-porthadoop-1a7f
+tags: []
+title: 'PortHadoop: Support Direct HPC Data Processing in Hadoop'
+type: Conference
+venue: >-
+  IEEE International Conference on Big Data (IEEE BigData 2015). Santa Clara,
+  CA, USA
+year: 2015

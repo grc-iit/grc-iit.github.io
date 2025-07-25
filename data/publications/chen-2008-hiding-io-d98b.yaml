@@ -1,0 +1,35 @@
+abstract: |-
+  Parallel applications are usually able to achieve high
+  computational performance but suffer from large latency in I/O
+  accesses. I/O prefetching is an effective solution for masking the
+  latency. Most of existing I/O prefetching techniques, however, are
+  conservative and their effectiveness is limited by low accuracy
+  and coverage. As the processor-I/O performance gap has been
+  increasing rapidly, data-access delay has become a dominant per-
+  formance bottleneck. We argue that it is time to revisit the "I/O
+  wall" problem and trade the excessive computing power with
+  data-access speed. We propose a novel pre-execution approach
+  for masking I/O latency. We describe the pre-execution I/O
+  prefetching framework, the pre-execution thread construction
+  methodology, the underlying library support, and the proto-
+  type implementation in the ROMIO MPI-IO implementation in
+  MPICH2. Preliminary experiments show that the pre-execution
+  approach is promising in reducing I/O access latency and has
+  real potential.
+authors:
+  - Y. Chen
+  - S. Byna
+  - X.-H. Sun
+  - R. Thakur
+  - W. D. Gropp
+date: November, 2008
+doi: 10.1109/sc.2008.5213209
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sc08_prex.pdf
+month: 11
+slug: chen-2008-hiding-io-d98b
+tags: []
+title: Hiding I/O Latency with Pre-execution Prefetching for Parallel Applications
+type: Conference
+venue: The ACM/IEEE SuperComputing Conference (SC'08) Best paper award finalist
+year: 2008

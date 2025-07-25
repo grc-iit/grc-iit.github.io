@@ -1,0 +1,43 @@
+abstract: |-
+  Hybrid parallel file systems (PFS), consisting of
+  multiple HDD and SSD I/O servers, provide a promising design
+  for data intensive applications. The efficiency of a hybrid PFS
+  relies on the file's data layout. However, most current layout
+  strategies are designed and optimized for homogeneous servers.
+  Using them directly in a hybrid PFS neither addresses the
+  heterogeneity of servers nor the varying access patterns of
+  applications, making hybrid PFSs disappointingly inefficient.
+  In this paper, we propose HAS, a novel heterogeneity-aware
+  selective data layout scheme for hybrid PFSS. HAS alleviates the
+  inter-server load imbalance through skewing data distribution
+  on heterogeneous servers based on their storage performance. To
+  largely improve the entire system's I/O efficiency, HAS adaptively
+  selects the optimal data layout from three typical candidates
+  according to the application's data access patterns, based on
+  a newly developed selection and distribution algorithm. We
+  have implemented HAS within OrangeFS to provide efficient
+  data distribution for data-intensive applications. Our extensive
+  experiments validate that HAS significantly increases the I/O
+  throughput of hybrid PFSs, compared to existing data layout
+  optimization methods.
+authors:
+  - S. He
+  - X.-H. Sun
+  - A. Haider
+date: May, 2015
+doi: 10.1109/ipdps.2015.23
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2015has.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2015has.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/has_ipdps15.pdf
+month: 5
+slug: he-2015-has-555a
+tags: []
+title: >-
+  HAS: Heterogeneity-Aware Selective Data Layout Scheme for Parallel File
+  Systems on Hybrid Servers
+type: Conference
+venue: >-
+  29th IEEE International Parallel and Distributed Processing Symposium
+  (IPDPS'15), Hyderabad, India
+year: 2015

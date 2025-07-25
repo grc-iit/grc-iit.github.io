@@ -634,4 +634,7 @@ export type Publication = {
   date: string;
   tags: PublicationTag[];
   links: Record<string, string>;
+  abstract?: string;
+  doi?: string;
+  slug: string;
 };

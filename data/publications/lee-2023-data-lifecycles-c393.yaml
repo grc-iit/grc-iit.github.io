@@ -1,0 +1,42 @@
+abstract: |-
+  A critical performance challenge in distributed scientific workflows
+  is coordinating tasks and data flows on distributed resources. To
+  guide these decisions, this paper introduces data flow lifecycle anal-
+  ysis. Workflows are commonly represented using directed acyclic
+  graphs (DAGs). Data flow lifecycles (DFL) enrich task DAGs with
+  data objects and properties that describe data flow and how tasks
+  interact with that flow. Lifecycles enable analysis from several
+  important perspectives: task, data, and data flow. We describe rep-
+  resentation, measurement, analysis, visualization, and opportunity
+  identification for DFLs. Our measurement is both distributed and
+  scalable, using space that is constant per data file. We use lifecycles
+  and opportunity analysis to reason about improved task placement
+  and reduced data movement for five scientific workflows with dif-
+  ferent characteristics. Case studies show improvements of 15x, 1.9×,
+  and 10-30x. Our work is implemented in the DataLife tool.
+authors:
+  - H. Lee
+  - L. Guo
+  - M. Tang
+  - J. Firoz
+  - N. Tallent
+  - A. Kougkas
+  - X.-H. Sun
+date: November, 2023
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/lee2023data.bib
+  citation: http://cs.iit.edu/~scs/assets/files/lee2023data.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/lee2023data.pdf
+month: 11
+slug: lee-2023-data-lifecycles-c393
+tags:
+  - Data Analytics
+  - Performance Measurement
+  - Modeling
+  - Tools
+title: 'Data Lifecycles: Optimizing Workflow Task & Data Coordination'
+type: Conference
+venue: >-
+  The International Conference for High Performance Computing, Networking,
+  Storage, and Analysis (SC'23), November 12-17, 2023
+year: 2023

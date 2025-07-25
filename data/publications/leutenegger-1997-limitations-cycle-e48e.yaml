@@ -1,0 +1,35 @@
+abstract: |-
+  The low cost and availability of clusters of workstations have
+  lead researchers to re-explore distributed computing using inde-
+  pendent workstations. This approach may provide better cost/
+  performance than tightly coupled multiprocessors. In practice,
+  this approach often utilizes wasted cycles to run parallel jobs.
+  In this paper we address the feasibility and limitation of such a
+  nondedicated parallel processing environment assuming worksta-
+  tion processes have priority over parallel tasks. We develop a sim-
+  ple analytical model to predict parallel job response times. Our
+  model provides insight into how significantly workstation owner
+  interference degrades parallel program performance. It forms a
+  foundation for task partitioning and scheduling in a nondedicated
+  network environment. A new term, task ratio, which relates the
+  parallel task demand to the mean service demand of nonparallel
+  workstation processes, is introduced. We propose that task ra-
+  tio is a useful metric for determining how a parallel applications
+  should be partitioned and scheduled in order to make efficient
+  use of a nondedicated distributed system.
+authors:
+  - S. T. Leutenegger
+  - X.-H. Sun
+date: January, 1997
+doi: 10.1006/jpdc.1997.1341
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/limitation.pdf
+month: 1
+slug: leutenegger-1997-limitations-cycle-e48e
+tags: []
+title: >-
+  Limitations of Cycle Stealing of Parallel Processing on a Network of
+  Homogeneous Workstations
+type: Journal
+venue: Journal of Parallel and Distributed Computing, Vol.43, No. 3, pp.169-178
+year: 1997

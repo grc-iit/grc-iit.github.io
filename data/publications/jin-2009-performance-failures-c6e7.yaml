@@ -1,0 +1,40 @@
+abstract: |-
+  As the scale and complexity of parallel systems
+  continue to grow, failures become more and more an inevitable
+  fact for solving large-scale applications. In this research, we
+  present an analytical study to estimate execution time in the
+  presence of failures of directed acyclic graph (DAG) based
+  Scientific Applications and provide a guideline for performance
+  optimization. The study is four fold. We first introduce a
+  performance model to predict individual subtask computation
+  time under failures. Next, a layered, iterative approach is
+  adopted to transform a DAG into a layered DAG, which reflects
+  full dependencies among all the subtasks. Then, the expected
+  execution time under failures of the DAG is derived based on
+  stochastic analysis. Unlike existing models, this newly proposed
+  performance model provides both the variance and distribution.
+  It is practical and can be put to real use. Finally, based on the
+  model, performance optimization, weak point identification and
+  enhancement are proposed. Intensive simulations are conducted
+  to verify the analytical findings. They show that the newly
+  proposed model and weak point enhancement mechanism work
+  well.
+authors:
+  - H. Jin
+  - X.-H. Sun
+  - Z. Zheng
+  - Z. Lan
+  - B. Xie
+date: May, 2009
+doi: 10.1109/ccgrid.2009.55
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/3622a236.pdf
+month: 5
+slug: jin-2009-performance-failures-c6e7
+tags: []
+title: Performance under Failures of DAG-based Parallel Computing
+type: Conference
+venue: >-
+  The IEEE/ACM International Symposium on Cluster Computing and the Grid
+  (CCGrid'09), Shanghai, China
+year: 2009

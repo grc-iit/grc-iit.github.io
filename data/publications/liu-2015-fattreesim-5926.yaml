@@ -1,0 +1,51 @@
+abstract: |-
+  Fat-tree topologies have been widely adopted as the commu-
+  nication network in data centers in the past decade. Nowa-
+  days, high-performance computing (HPC) system designers
+  are considering using fat-tree as the interconnection network
+  for the next generation supercomputers. For extreme-scale
+  computing systems like the data centers and supercomput-
+  ers, the performance is highly dependent on the intercon-
+  nection networks. In this paper, we present Fat TreeSim, a
+  PDES-based toolkit consisting of a highly scalable fat-tree
+  network model, with the goal of better understanding the de-
+  sign constraints of fat-tree networking architectures in data
+  centers and HPC systems, as well as evaluating the applica-
+  tions running on top of the network. Fat TreeSim is designed
+  to model and simulate large-scale fat-tree networks up to
+  millions of nodes with protocol-level fidelity. We have con-
+  ducted extensive experiments to validate and demonstrate
+  the accuracy, scalability and usability of Fat TreeSim. On
+  Argonne Leadership Computing Facility's Blue Gene/Qsys-
+  tem, Mira, Fat TreeSim is capable of achieving a peak event
+  rate of 305 M/s for a 524,288-node fat-tree model with a
+  total of 567 billion committed events. The strong scaling
+  experiments use up to 32,768 cores and show a near linear
+  scalability. Comparing with a small-scale physical system
+  in Emulab, Fat TreeSim can accurately model the latency in
+  the same fat-tree network with less than 10% error rate for
+  most cases. Finally, we demonstrate Fat TreeSim's usability
+  through a case study in which Fat TreeSim serves as the net-
+  work module of the YARNsim system, and the error rates
+  for all test cases are less than 13.7%.
+authors:
+  - N. Liu
+  - A. Haider
+  - X.-H. Sun
+  - D. Jin
+date: June, 2015
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/liu2015fattreesim.bib
+  citation: http://cs.iit.edu/~scs/assets/files/liu2015fattreesim.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/fattreesim.pdf
+month: 6
+slug: liu-2015-fattreesim-5926
+tags: []
+title: >-
+  FatTreeSim: Modeling a Large-scale Fat-Tree Network for HPC Systems and Data
+  Centers Using Parallel and Discrete Event Simulation
+type: Conference
+venue: >-
+  29th ACM SIGSIM Conference on Principles of Advanced Discrete Simulation (ACM
+  SIGSIM PADS), London, UK
+year: 2015

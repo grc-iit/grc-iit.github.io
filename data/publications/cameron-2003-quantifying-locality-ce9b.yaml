@@ -1,0 +1,34 @@
+abstract: |-
+  The application of hardware-parameterized models to
+  distributed systems can result in omission of key
+  bottlenecks such as the full cost of inter-node
+  communication in a shared memory cluster. However,
+  inclusion in the model of message characteristics and
+  complex memory hierarchies may result in impractical
+  models. Nonetheless, the growing gap between memory
+  and CPU performance combined with the trend toward
+  large scale clustered shared memory platforms implies an
+  increased need to consider the impact of local memory
+  communication on parallel processing in distributed
+  systems. We present a simple and useful model of point-
+  to-point memory communication to predict and analyze
+  the latency of memory copy, pack and unpack. We use the
+  model to isolate contributions of hardware, middleware,
+  and software to data transfers on Intel- and MIPS-based
+  platforms.
+authors:
+  - K. Cameron
+  - X.-H. Sun
+date: April, 2003
+doi: 10.1109/ipdps.2003.1213137
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/KSipdps03.PDF
+month: 4
+slug: cameron-2003-quantifying-locality-ce9b
+tags: []
+title: 'Quantifying Locality Effect in Data Access Delay: Memory logP'
+type: Conference
+venue: >-
+  The 2003 IEEE International Parallel and Distributed Processing Symposium
+  (IPDPS 2003), Nice, France
+year: 2003

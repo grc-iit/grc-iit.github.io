@@ -3,7 +3,7 @@ import React from "react";
 import { Member, Publication } from "@site/src/types";
 
 import MemberLinks from "./MemberLinks";
-import PublicationsTable from "../publications/PublicationsTable";
+import PublicationTable from "../publications/PublicationTable";
 
 interface MemberPageProps {
   member: Member;
@@ -58,7 +58,7 @@ export default function MemberPage({
 
               <h2>Publications</h2>
               {publications.length > 0 ? (
-                <PublicationsTable
+                <PublicationTable
                   data={publications}
                   isFooterVisible={false}
                   isSearchInputVisible={false}

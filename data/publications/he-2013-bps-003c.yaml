@@ -1,0 +1,45 @@
+abstract: |-
+  It is known that I/O system rather than CPU and
+  memory is the performance killer of many of the newly
+  emerged data intensive applications. Evaluating and
+  understanding I/O system performance has become a timely
+  issue facing the high performance computing community.
+  Conventional I/O performance metrics, such as
+  Input/Output Operations Per Second (IOPS), bandwidth,
+  response time, etc., are effective for traditional I/O
+  environments. However, as I/O systems become more and
+  more complex, existing I/O metrics become less and less able
+  to catch the characteristic of I/O systems performance. In
+  this study, we reveal the limitations of existing metrics, and
+  introduce a novel I/O metric, Blocks Per Second (BPS), to
+  measure the performance of the I/O systems. A unique merit
+  of BPS is that it provides an overall I/O system performance,
+  not the file system performance or disk performance. This is
+  very important; since with concurrency and optimization at
+  the I/O stacks, file system performance and disk
+  performance no long represent the data access performance.
+  In fact, they are often misleading. A methodology is designed
+  to measure BPS, and experiments are conducted with
+  various I/O access patterns and storage configurations.
+  Experimental results show that BPS is significantly more
+  appropriate than existing metrics in I/O performance
+  evaluation.
+authors:
+  - S. He
+  - X.-H. Sun
+  - Y. Yin
+date: May, 2013
+doi: 10.1109/ipdpsw.2013.64
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2013bps.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2013bps.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/shuibing_hpdic13.pdf
+month: 5
+slug: he-2013-bps-003c
+tags: []
+title: 'BPS: A Performance Metric of I/O System'
+type: Workshop
+venue: >-
+  2013 International Workshop on High Performance Data Intensive Computing
+  (HPDIC 2013), in Conjunction With IEEE IPDPS 2013, Boston, Massachusetts, USA
+year: 2013

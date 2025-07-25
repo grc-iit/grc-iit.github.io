@@ -1,0 +1,30 @@
+abstract: |-
+  A new method, namely the Parallel Two-Level Hybrid
+  (PTH) method, is developed to solve tridiagonal systems
+  on parallel computers. PTH is designed based on Parallel
+  Diagonal Dominant (PDD) algorithm. Like PDD, PTH is
+  highly scalable. It provides accurate solutions when PDD
+  may not be applicable and maintains a near PDD
+  performance when the underlying machine ensemble size
+  is large. By controlling its two-level partition, PTH can
+  deliver optimal performance for different machine
+  ensemble and problem sizes. Theoretical analyses and
+  numerical experiments indicate that PTH is significantly
+  better than existing methods for many scientific and
+  engineering applications.
+authors:
+  - X.-H. Sun
+  - W. Zhang
+date: April, 2002
+doi: 10.1109/ipdps.2002.1015573
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sunzhang02.pdf
+month: 4
+slug: sun-2002-parallel-two-9081
+tags: []
+title: A Parallel Two-level Hybrid Method for Diagonal Dominant Tridiagonal Systems
+type: Conference
+venue: >-
+  The 2002 International Parallel and Distributed Processing Symposium (IPDPS
+  2002), Fort Lauderdale, FL
+year: 2002

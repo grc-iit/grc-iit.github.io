@@ -1,0 +1,33 @@
+abstract: |-
+  This paper discusses the application of existing
+  workflow management systems to a real world science
+  application (LQCD). Typical workflows and execution
+  environment used in production are described. Requirements
+  for the LQCD production system are discussed. The workflow
+  management systems Askalon and Swift were tested by
+  implementing the LQCD workflows and evaluated against the
+  requirements. We report our findings and future work.
+authors:
+  - L. Piccoli
+  - J. B. Kowalkowski
+  - J. N. Simone
+  - X.-H. Sun
+  - H. Jin
+  - D. J. Holmgren
+  - N. Seenu
+  - A. G. Singh
+  - S. Byna
+  - D. J. Holmgren
+date: December, 2008
+doi: 10.1109/escience.2008.168
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/piccoli-LatticeWorkflow.pdf
+month: 12
+slug: piccoli-2008-lattice-qcd-08d3
+tags: []
+title: 'Lattice QCD Workflows: A Case Study'
+type: Workshop
+venue: >-
+  3rd International Workshop on Scientific Workflows and Business Workflow
+  Standards in e-Science (SWBES)
+year: 2008

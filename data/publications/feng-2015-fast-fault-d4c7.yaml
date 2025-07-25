@@ -1,0 +1,52 @@
+abstract: |-
+  The collective communication operations, which
+  are widely used in parallel applications for global commu-
+  nication and synchronization are critical for application's
+  performance and scalability. However, how faulty collective
+  communications impact the application and how errors prop-
+  agate between the application processes is largely unexplored.
+  One of the critical reasons for this situation is the lack of fast
+  evaluation method to investigate the impacts of faulty collective
+  operations. The traditional random fault injection methods
+  relying on a large amount of fault injection tests to ensure
+  statistical significance require a significant amount of resources
+  and time. These methods result in prohibitive evaluation cost
+  when applied to the collectives.
+  In this paper, we introduce a novel tool named Fast Fault
+  Injection and Sensitivity Analysis Tool (FastFIT) to conduct
+  fast fault injection and characterize the application sensitivity
+  to faulty collectives. The tool achieves fast exploration by
+  reducing the exploration space and predicting the application
+  sensitivity using Machine Learning (ML) techniques. A basis
+  for these techniques are implicit correlations between MPI
+  semantics, application context, critical application features,
+  and application responses to faulty collective communications.
+  The experimental results show that our approach reduces
+  the fault injection points and tests by 97% for represen-
+  tative benchmarks (NAS Parallel Benchmarks (NPB)) and a
+  realistic application (Large-scale Atomic/Molecular Massively
+  Parallel Simulator (LAMMPS)) on a production supercomputer.
+  Further, we statistically generalize the application sensitivity
+  to faulty collective communications for these workloads, and
+  present correlation between application features and the sen-
+  sitivity.
+authors:
+  - K. Feng
+  - M. G. Venkata
+  - D. Li
+  - X.-H. Sun
+date: September, 2015
+doi: 10.1109/cluster.2015.31
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/feng2015fast.bib
+  citation: http://cs.iit.edu/~scs/assets/files/feng2015fast.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/fastfit.pdf
+month: 9
+slug: feng-2015-fast-fault-d4c7
+tags: []
+title: Fast Fault Injection and Sensitivity Analysis for Collective Communications
+type: Conference
+venue: >-
+  IEEE International Conference on Cluster Computing 2015 (Cluster'15), Chicago,
+  IL, USA
+year: 2015

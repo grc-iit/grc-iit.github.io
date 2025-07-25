@@ -1,0 +1,33 @@
+abstract: |-
+  We propose a general purpose service architecture for
+  realizing services which start in the Public Switched Telephone
+  Network (PSTN) but terminate and execute on the Internet. We
+  discuss the needs for such services, our early research efforts in
+  this direction which lead to prototyping certain benchmark ser-
+  vices, and the current state of work in this area. We demonstrate
+  the feasibility of the architecture by focusing on services which in-
+  volve wireline PSTN as well as the wireless aspects (2 G, 2.5 G) of
+  the PSTN. Our methodology is attractive since it keeps each of the
+  domains (PSTN and Internet) unaware as to where the service is
+  executing with respect to which domain actually requested the ser-
+  vice. Individual entities participating in the service do not have any
+  knowledge that external entities from another domain also con-
+  tributed in the execution and fulfillment of such services. Our ap-
+  proach, as embodied in the service architecture, is to leverage the
+  best of the Internet protocols (SIP, XML, HTTP) and technologies
+  (instant messaging, presence) to provide a general framework for
+  personalized service specification and execution.
+authors:
+  - V. K. Gurbani
+  - X.-H. Sun
+date: January, 2004
+doi: 10.1109/tnet.2004.833145
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/VijaySunNetworking04.pdf
+month: 1
+slug: gurbani-2004-terminating-telephony-bf19
+tags: []
+title: Terminating Telephony Services on the Internet
+type: Journal
+venue: ACM/IEEE Trans. on Networking, vol. 12, no. 4, pp. 571-581
+year: 2004

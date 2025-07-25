@@ -323,6 +323,7 @@ const config = {
     ],
     "./plugins/faculty",
     "./plugins/members",
+    "./plugins/publications",
   ],
 };
 

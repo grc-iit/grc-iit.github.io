@@ -1,0 +1,45 @@
+abstract: |-
+  Despite the popularity of the Apache Hadoop
+  system, its success has been limited by issues such as single points
+  of failure, centralized job/task management, and lack of support
+  for programming models other than MapReduce. The next
+  generation of Hadoop, Apache Hadoop YARN, is designed to
+  address these issues. In this paper, we propose YARNsim, a
+  simulation system for Hadoop YARN. YARNsim is based on
+  parallel discrete event simulation and provides protocol-level
+  accuracy in simulating key components of YARN. YARNsim
+  provides a virtual platform on which system architects can
+  evaluate the design and implementation of Hadoop YARN
+  systems. Also, application developers can tune job performance
+  and understand the tradeoffs between different configurations,
+  and Hadoop YARN system vendors can evaluate system
+  efficiency under limited budgets.
+  To demonstrate the validity of YARNsim, we use it to model
+  two real systems and compare the experimental results from
+  YARNsim and the real systems. The experiments include
+  standard Hadoop benchmarks, synthetic workloads, and a
+  bioinformatics application. The results show that the error rate is
+  within 10% for the majority of test cases. The experiments prove
+  that YARNsim can provide what-if analysis for system designers
+  in a timely manner and at minimal cost compared with testing
+  and evaluating on a real system.
+authors:
+  - N. Liu
+  - X. Yang
+  - X.-H. Sun
+  - J. Jenkins
+  - R. Ross
+date: May, 2015
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/liu2015yarnsim.bib
+  citation: http://cs.iit.edu/~scs/assets/files/liu2015yarnsim.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Ning_CCGrid15.pdf
+month: 5
+slug: liu-2015-yarnsim-8320
+tags: []
+title: 'YARNsim: Hadoop YARN Simulation System'
+type: Conference
+venue: >-
+  15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+  (CCGrid 2015), Shenzhen, Guangdong, China
+year: 2015

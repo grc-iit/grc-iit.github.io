@@ -1,0 +1,33 @@
+abstract: |-
+  Scalability is a key factor of the design of
+  distributed systems and parallel algorithms and
+  machines. However, conventional scalabilities are
+  designed for homogeneous parallel processing. There
+  is no suitable and commonly accepted definition of
+  scalability metric for heterogeneous systems. Isospeed
+  scalability is a well-defined metric for homogeneous
+  computing. This study extends the isospeed scalability
+  metric to general heterogeneous computing systems.
+  The proposed isospeed-efficiency metric is suitable for
+  both homogeneous and heterogeneous computing.
+  Through theoretical analysis, we derive methodologies
+  of scalability measurement and prediction for
+  heterogeneous systems. Experimental results verify the
+  analytical results and confirm that the proposed
+  isospeed-efficiency scalability works well in both
+  homogeneous and heterogeneous environments.
+authors:
+  - X.-H. Sun
+  - Y. Chen
+  - M. Wu
+date: June, 2005
+doi: 10.1109/icpp.2005.69
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sunxh_scalability.pdf
+month: 6
+slug: sun-2005-scalability-heterogeneous-6339
+tags: []
+title: Scalability of Heterogeneous Computing
+type: Conference
+venue: The 34rd International Conference on Parallel Processing, Oslo, Norway
+year: 2005

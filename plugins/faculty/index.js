@@ -46,17 +46,18 @@ module.exports = function facultyPlugin(context, options) {
 
     async contentLoaded({ content, actions }) {
       const { setGlobalData, createData } = actions;
+      const { faculty } = content;
 
       // Make faculty data available globally
       setGlobalData({
-        faculty: content.faculty,
+        faculty,
       });
 
       // Create data files that can be imported
-      await createData('faculty.json', JSON.stringify(content.faculty));
+      await createData('faculty.json', JSON.stringify(faculty));
 
       // Create individual faculty data files (for potential future use)
-      for (const facultyMember of content.faculty) {
+      for (const facultyMember of faculty) {
         if (facultyMember.slug) {
           await createData(`faculty-${facultyMember.slug}.json`, JSON.stringify(facultyMember));
         }

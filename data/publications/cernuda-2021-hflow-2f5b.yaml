@@ -1,0 +1,49 @@
+abstract: |-
+  Modern applications are highly data-intensive, leading
+  to the well-known I/O bottleneck problem. Scientists have proposed
+  the placement of fast intermediate storage resources which aim
+  to mask the I/O penalties. To manage these resources, three core
+  software abstractions are being used in leadership-class computing
+  facilities: IO Forwarders, Burst Buffers, and Data Stagers. Yet, with
+  the rise of multi-tenant deployment in HPC systems, these software
+  abstractions are: managed and maintained in isolation, leading to
+  inefficient interactions; allocated statically, leading to load imbalance;
+  exclusively bifurcated between the intermediate storage, leading to
+  under-utilization of resources, and, in many cases, do not support
+  in-situ operations. To this end, we present HFlow, a new class of
+  data forwarding system that leverages a real-time data movement
+  paradigm. HFlow introduces a unified data movement abstraction
+  (the ByteFlow) providing data-independent tasks that can be
+  executed anywhere and thus, enabling dynamic resource provisioning.
+  Moreover, the processing elements executing the ByteFlows are
+  designed to be ephemeral and, hence, enable elastic management of
+  intermediate storage resources. Our results show that applications
+  running under HFlow display an increase in performance of 3x when
+  compared with state-of-the-art software solutions.
+  Index Terms-Data streaming, I/O forwarding, elasticity,
+  dynamicity, multi-tenant, data-intensive, I/O,data pipeline, in-transit
+authors:
+  - J. Cernuda
+  - H. Devarajan
+  - L. Logan
+  - K. Bateman
+  - N. Rajesh
+  - J. Ye
+  - A. Kougkas
+  - X.-H. Sun
+date: September, 2021
+doi: 10.1109/cluster48925.2021.00064
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.bib
+  citation: http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.pdf
+month: 9
+slug: cernuda-2021-hflow-2f5b
+tags:
+  - Hermes
+title: 'HFlow: A Dynamic and Elastic Multi-Layered Data Forwarder'
+type: Conference
+venue: >-
+  The 2021 IEEE International Conference on Cluster Computing (CLUSTER'21),
+  September 7-10, 2021
+year: 2021

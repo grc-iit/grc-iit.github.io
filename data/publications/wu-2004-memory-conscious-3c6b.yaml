@@ -1,0 +1,38 @@
+abstract: |-
+  While resource management and task scheduling are
+  identified challenges of Grid computing, current Grid
+  scheduling systems mainly focus on CPU and network
+  availability. Recent performance improvement of CPU
+  and computer network has made memory usage a
+  significant factor of overall performance. In this study, we
+  consider memory availability as a performance factor and
+  introduce memory conscious task partition and
+  scheduling. Three task partition policies are discussed.
+  They are CPU-based, memory-based, and CPU-memory
+  combined partition. We first investigate the three task
+  partition policies on dedicated resources and verify the
+  effectiveness of the CPU-memory combined partition
+  algorithm in finding an optimal solution. We then extend
+  the task partition policies in non-dedicated environments
+  with the consideration of resource sharing. Analytical and
+  experimental results show that the CPU-memory
+  combined scheduling approach outperforms either the
+  CPU-based or memory-based scheduling approach
+  considerably for memory-intensive applications in Grid
+  environments.
+authors:
+  - M. Wu
+  - X.-H. Sun
+date: November, 2004
+doi: 10.1109/grid.2004.43
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/mwu-memory.pdf
+month: 11
+slug: wu-2004-memory-conscious-3c6b
+tags: []
+title: Memory Conscious Task Partition and Scheduling in Grid Environments
+type: Workshop
+venue: >-
+  The 5th IEEE/ACM International Workshop on Grid Computing (in conjunction with
+  SC 2004), pp. 138-145, Pittsburgh
+year: 2004

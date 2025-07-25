@@ -1,0 +1,51 @@
+abstract: |-
+  As DRAM is a considerably slow storage compared
+  to CPU, the long access latency becomes a serious issue and
+  affects the whole execution if fetching data is on the critical
+  path. It is benefical if the data layout on DRAM, which is
+  decided by address mapping, can serve data accesses with either
+  great locality or bank-level parallelism. However for some cases,
+  there exists a huge mismatch between access patterns and data
+  layout of applications, which introduces the difficulty in obtaining
+  locality or parallelism and current general address mapping
+  cannot resolve it well.
+  In an effort to overcome this challenge, we present an self-
+  adaptive address mapping mechanism in memory controller to
+  be aware of different access patterns on DRAM without any
+  prior knowledge of applications. Moreover, there is nearly no
+  modification on softwares, including applications, libraries and
+  OS. We take several versions of matrix multiplication as an early
+  verification, since their patterns are regular and simple to control.
+  Impressively, the results reveal that memory performance of naive
+  and tiling versions is improved up to 3.4x and 2.7x at most,
+  2.1x and 1.7x on average respectively. The whole execution time
+  is reduced by up to 24% and 8% averagely. Even for highly-
+  optimized implementations, execution time is decreased by 7%
+  and memory performance speeds up to 1.6x on average.
+authors:
+  - C. Li
+  - M. Zhang
+  - Z. Xu
+  - X.-H. Sun
+date: December, 2019
+doi: 10.1109/ispa-bdcloud-sustaincom-socialcom48970.2019.00020
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/li2019selfadISPA.bib
+  citation: http://cs.iit.edu/~scs/assets/files/li2019selfadISPA.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ISPA2019-ChundianLi.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/chundianli-slides.pdf
+month: 12
+slug: li-2019-self-adaptive-68f2
+tags:
+  - DRAM
+  - Locality
+  - MLP
+  - Access Pattern
+  - Data Layout
+  - Matrix Multiplication
+title: Self-adaptive Address Mapping Mechanism for Access Pattern Awareness on DRAM
+type: Conference
+venue: >-
+  17th IEEE International Symposium on Parallel and Distributed Processing with
+  Applications (ISPA), 2019. pp. 61-70
+year: 2019

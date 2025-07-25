@@ -1,0 +1,52 @@
+abstract: |-
+  Maximal biclique enumeration (MBE) is crucial
+  in bipartite graph analysis. Recent studies rely on extensive
+  set intersections on static bipartite graphs to solve the MBE
+  problem. However, the computational subgraphs dynamically
+  change during enumeration, leading to redundant memory ac-
+  cesses and degraded set intersection performance. To overcome
+  this limitation, we propose an AdaMBE algorithm. First, we
+  redesign its core operations using local neighborhood information
+  derived from computational subgraphs to minimize redundant
+  memory accesses. Second, we dynamically create computational
+  subgraphs using bitmaps leveraging its fast bitwise operations
+  to accelerate set intersections. Finally, we integrate them in
+  AdaMBE. Our experimental results show that AdaMBE is
+  1.6x-49.7× faster than its closest CPU-based competitor and
+  successfully enumerates all 19 billion maximal bicliques on the
+  TVTropes dataset, a large task beyond the capabilities of existing
+  algorithms. Notably, on certain datasets, our parallel version,
+  ParAdaMBE, on CPUs even outperforms GMBE on GPUs by
+  up to 5.07x.
+  Index Terms-Bipartite graph, maximal biclique enumeration,
+  bitmap
+authors:
+  - Z. Pan
+  - S. He
+  - X. Li
+  - X. Zhang
+  - Y. Yin
+  - R. Wang
+  - L. Shou
+  - M. Song
+  - X.-H. Sun
+  - G. Chen
+date: November, 2024
+doi: 10.1109/sc41406.2024.00106
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/pan2024bipartite.bib
+  citation: http://cs.iit.edu/~scs/assets/files/pan2024bipartite.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/pan2024bipartite.pdf
+month: 11
+slug: pan-2024-enumeration-billions-181b
+tags:
+  - Bipartite Graph
+  - Maximal Biclique Enumeration
+title: >-
+  Enumeration of Billions of Maximal Bicliques in Bipartite Graphs without Using
+  GPUs
+type: Conference
+venue: >-
+  The International Conference for High Performance Computing, Networking,
+  Storage, and Analysis (SC'24)
+year: 2024

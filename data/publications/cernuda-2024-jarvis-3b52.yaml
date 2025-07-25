@@ -1,0 +1,42 @@
+abstract: |-
+  Hardware is becoming increasingly heterogeneous in
+  modern high-performance computing clusters. However, computing
+  environments for developing tools to harness these technologies are
+  not easily available to researchers. This work showcases the need for
+  a new high-pace, heterogeneous I/O research cluster and presents a
+  novel software deployment framework named Jarvis to manage its
+  hardware diversity. Jarvis is an extensible Python framework that
+  allows users to create Packages that deploy, manage, and monitor
+  software, including complex applications (e.g., scientific simulations),
+  support tools (e.g., Darshan, GDB), and storage systems (e.g.,
+  Lustre, DAOS). These packages can be combined to form complex
+  deployment Pipelines. To ensure pipelines are portable across
+  hardware, Jarvis defines a novel Resource Graph schema file,
+  which is a snapshot of a cluster's machine-specific information.
+  This schema can be queried by Jarvis packages to deploy software
+  across diverse hardware compositions with minimal user effort.
+  Index Terms-deployment, HPC, hardware abstraction, resource
+  management, I/O, Python
+authors:
+  - J. Cernuda
+  - L. Logan
+  - N. Lewis
+  - S. Byna
+  - X.-H. Sun
+  - A. Kougkas
+date: November, 2024
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/cernuda2024jarvis.pdf
+month: 11
+slug: cernuda-2024-jarvis-3b52
+tags:
+  - Deployment
+  - HPC
+  - Hardware Abstraction
+  - I/O
+  - Python
+  - Resource Management
+title: 'Jarvis: Towards a Shared, User-Friendly, and Reproducible, I/O Infrastructure.'
+type: Workshop
+venue: The International Parallel Data Systems Workshop (PDSW'24)
+year: 2024
