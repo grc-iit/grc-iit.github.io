@@ -7,7 +7,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/bateman.jpg").default,
     links: {
-      email: "kbateman@hawk.iit.edu",
+      email: "kbateman@hawk.illinoistech.edu",
       website: "http://mypages.iit.edu/~kbateman/",
     },
     researchInterests: ["HPC", "Distributed Storage"],
@@ -19,7 +19,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/biryukov.jpg").default,
     links: {
-      email: "vbiryukov@hawk.iit.edu",
+      email: "vbiryukov@hawk.illinoistech.edu",
       github: "https://github.com/VadimBir",
       linkedin: "https://www.linkedin.com/in/vadim-biryukov",
     },
@@ -32,7 +32,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/cernuda.jpg").default,
     links: {
-      email: "jcernudagarcia@hawk.iit.edu",
+      email: "jcernudagarcia@hawk.illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/jaimecernuda/",
       website: "http://www.jcernuda.com",
     },
@@ -45,7 +45,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/feng.jpg").default,
     links: {
-      email: "kfeng1@iit.edu",
+      email: "kfeng1@illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/kun-feng-a7693660/",
     },
     type: "engineer",
@@ -56,7 +56,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/gonzalez.jpg").default,
     links: {
-      email: "egonzalez30@hawk.iit.edu",
+      email: "egonzalez30@hawk.illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/enekogonzalezvergara/",
     },
     type: "engineer",
@@ -67,7 +67,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/islam.jpg").default,
     links: {
-      email: "sislam6@hawk.iit.edu",
+      email: "sislam6@hawk.illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/shazzadulislammun",
       scholar: "https://scholar.google.com/citations?hl=en&user=HlWiDFYAAAAJ",
       website: "https://sites.google.com/view/shazzadulislam",
@@ -81,7 +81,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/logan.jpg").default,
     links: {
-      email: "llogan@hawk.iit.edu",
+      email: "llogan@hawk.illinoistech.edu",
       github: "https://github.com/lukemartinlogan/",
       linkedin: "https://www.linkedin.com/in/lukemartinlogan/",
       scholar: "https://scholar.google.com/citations?user=Ljn7CmYAAAAJ&hl=en",
@@ -101,7 +101,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/lu.png").default,
     links: {
-      email: "xlu40@iit.edu",
+      email: "xlu40@illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/xiaoyang-lu-698943137/",
       scholar: "https://scholar.google.com/citations?user=54-lMHUAAAAJ&hl=en",
       website: "https://xiaoyang-lu.github.io/",
@@ -115,7 +115,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/muradli.jpg").default,
     links: {
-      email: "imuradli@hawk.iit.edu",
+      email: "imuradli@hawk.illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/isamuradly/",
     },
     researchInterests: ["HPC", "GPU-Accelerated Storage"],
@@ -127,7 +127,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/rajesh.jpg").default,
     links: {
-      email: "nrajesh@hawk.iit.edu",
+      email: "nrajesh@hawk.illinoistech.edu",
       linkedin: "https://www.linkedin.com/in/neeraj-rajesh-8248b29a/",
       website: "https://about.stax.xyz/neeraj",
     },
@@ -144,7 +144,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/tang.jpg").default,
     links: {
-      email: "mtang11@hawk.iit.edu",
+      email: "mtang11@hawk.illinoistech.edu",
       github: "https://github.com/candiceT233",
       linkedin: "https://www.linkedin.com/in/meng-tang-86417a128/",
     },
@@ -161,7 +161,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/xu.jpg").default,
     links: {
-      email: "hxu40@hawk.iit.edu",
+      email: "hxu40@hawk.illinoistech.edu",
     },
     researchInterests: ["HPC", "Distributed Storage"],
     type: "researcher",
@@ -172,7 +172,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/ye.png").default,
     links: {
-      email: "jye20@hawk.iit.edu",
+      email: "jye20@hawk.illinoistech.edu",
       github: "https://github.com/Jye-525",
       linkedin: "https://www.linkedin.com/in/jie-ye-275b08252/",
     },
@@ -189,7 +189,7 @@ export default [
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/yildirim.jpg").default,
     links: {
-      email: "iyildirim@hawk.iit.edu",
+      email: "iyildirim@hawk.illinoistech.edu",
       github: "https://github.com/izzet",
       linkedin: "https://www.linkedin.com/in/izzetcyildirim/",
       orcid: "https://orcid.org/0000-0003-3513-0764",
