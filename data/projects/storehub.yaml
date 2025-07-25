@@ -1,0 +1,14 @@
+id: storehub
+name: StoreHub
+title: StoreHub
+shortDescription: >-
+  StoreHub is a collaborative platform designed to advance data storage research by providing a specialized
+  infrastructure that meets the unique needs of researchers. It brings together experts handling large amounts of data,
+  focusing on I/O performance, and developing innovative storage solutions, making it a vital resource for the
+  community.
+link: /research/projects/storehub
+isFeatured: false
+isOurs: true
+researchStatus: r&d
+status: active
+type: funded

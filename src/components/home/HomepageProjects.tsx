@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import projects from "@site/src/data/projects";
+import { Project } from "@site/src/types";
+import { usePluginData } from "@docusaurus/useGlobalData";
 
 import ProjectItem from "../projects/ProjectItem";
 import SectionHeader from "../common/SectionHeader";
@@ -12,6 +13,9 @@ export default function HomepageProjects({
   React.HTMLAttributes<HTMLElement>,
   HTMLElement
 >): JSX.Element {
+  const { projects } = usePluginData("grc-plugin-projects") as {
+    projects: Project[];
+  };
   const featuredProjects = projects.filter((project) => project.isFeatured);
   return (
     <section className={clsx(styles.projects, className)}>

@@ -1,0 +1,15 @@
+id: hermes
+name: Hermes
+title: 'Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System'
+shortDescription: >-
+  To reduce the I/O bottleneck, complex storage hierarchies have been introduced. However, managing this complexity
+  should not be left to application developers. Hermes is a middeware library that automatically manages buffering in
+  heterogeneous storage environments.
+link: /research/projects/hermes
+isFeatured: true
+isOurs: true
+researchStatus: ready
+sourceLink: https://github.com/HDFGroup/hermes
+status: active
+tutorialLink: /docs/category/hermes
+type: funded

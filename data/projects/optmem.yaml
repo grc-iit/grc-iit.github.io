@@ -1,0 +1,13 @@
+id: optmem
+name: OptMem
+title: 'Optimization of Memory Architectures: A Foundation Approach'
+shortDescription: >-
+  This project establishes a foundational framework for memory performance modeling and optimization in modern
+  architectures, utilizing simulation and real-system analysis to advance architecture designs for data-intensive
+  applications.
+link: /research/projects/optmem
+isFeatured: false
+isOurs: true
+researchStatus: ready
+status: active
+type: funded

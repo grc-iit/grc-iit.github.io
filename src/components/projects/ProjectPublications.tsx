@@ -1,7 +1,12 @@
 import PublicationTable from "../publications/PublicationTable";
 import React from "react";
-import { ProjectId, PublicationTag, Publication } from "@site/src/types";
-import { getProjectById } from "@site/src/data/projects";
+import {
+  ProjectId,
+  PublicationTag,
+  Publication,
+  Project,
+} from "@site/src/types";
+import { getProjectById } from "@site/src/utils/projectUtils";
 import { usePluginData } from "@docusaurus/useGlobalData";
 
 type ProjectPublicationsProps = {
@@ -26,9 +31,13 @@ export default function ProjectPublications({
     "grc-plugin-publications"
   ) as { publications: Publication[] };
 
+  const { projects: allProjects } = usePluginData("grc-plugin-projects") as {
+    projects: Project[];
+  };
+
   let publications = [];
   if (projectId) {
-    const project = getProjectById(projectId);
+    const project = getProjectById(allProjects, projectId);
     if (project) {
       publications = getPublicationsByTag(
         allPublications,
