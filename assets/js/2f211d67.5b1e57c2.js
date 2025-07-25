@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgrc=self.webpackChunkgrc||[]).push([[83918],{68739:e=>{e.exports=JSON.parse('{"name":"grc-plugin-publications","id":"default"}')}}]);

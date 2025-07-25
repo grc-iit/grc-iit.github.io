@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgrc=self.webpackChunkgrc||[]).push([[744],{19174:e=>{e.exports=JSON.parse('{"authors":["Y. Li","Z. Lan"],"date":"June, 2007","links":{},"month":6,"slug":"li-2007-using-adaptive-b2c4","tags":[],"title":"Using Adaptive Fault Tolerance to Improve Application Robustness on the TeraGrid","type":"Workshop","venue":"The TeraGrid\'07","year":2007}')}}]);
