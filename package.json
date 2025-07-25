@@ -34,8 +34,10 @@
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/tsconfig": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
+    "@google/genai": "^1.0.0",
     "@types/js-yaml": "^4.0.0",
     "@types/react": "^18.0.0",
+    "dotenv": "^16.5.0",
     "js-yaml": "^4.1.0",
     "typescript": "~5.2.2"
   },
