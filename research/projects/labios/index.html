@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
-<title data-rh="true">LABIOS: A Distributed Label-Based I/O System | Gnosis Research Center</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://grc.iit.edu/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://grc.iit.edu/img/social-card.png"><meta data-rh="true" property="og:url" content="https://grc.iit.edu/research/projects/labios"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="keywords" content="high-performance computing (hpc), memory and storage systems, scalable software systems, data management, data-centric systems, research center, scalable system software, technology research, computational research, innovative technology, scientific research"><meta data-rh="true" property="og:title" content="LABIOS: A Distributed Label-Based I/O System | Gnosis Research Center"><meta data-rh="true" name="description" content="Introduction"><meta data-rh="true" property="og:description" content="Introduction"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://grc.iit.edu/research/projects/labios"><link data-rh="true" rel="alternate" href="https://grc.iit.edu/research/projects/labios" hreflang="en"><link data-rh="true" rel="alternate" href="https://grc.iit.edu/research/projects/labios" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Gnosis Research Center RSS Feed">
+<title data-rh="true">LABIOS: Label-Based I/O System | Gnosis Research Center</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://grc.iit.edu/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://grc.iit.edu/img/social-card.png"><meta data-rh="true" property="og:url" content="https://grc.iit.edu/research/projects/labios"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="LABIOS: Label-Based I/O System | Gnosis Research Center"><meta data-rh="true" name="description" content="NSF-funded revolutionary distributed I/O paradigm bridging HPC and AI workloads through patented intelligent data labeling technology"><meta data-rh="true" property="og:description" content="NSF-funded revolutionary distributed I/O paradigm bridging HPC and AI workloads through patented intelligent data labeling technology"><meta data-rh="true" name="keywords" content="HPC,I/O Systems,Storage,AI,Big Data,Distributed Systems,NSF,Patent,Technology Transfer"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://grc.iit.edu/research/projects/labios"><link data-rh="true" rel="alternate" href="https://grc.iit.edu/research/projects/labios" hreflang="en"><link data-rh="true" rel="alternate" href="https://grc.iit.edu/research/projects/labios" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Gnosis Research Center RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Gnosis Research Center Atom Feed">
 
 <link rel="preconnect" href="https://www.google-analytics.com">
@@ -15,117 +15,331 @@
 
 <link rel="alternate" type="application/rss+xml" href="/newsletter/rss.xml" title="Gnosis Research Center RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/newsletter/atom.xml" title="Gnosis Research Center Atom Feed"><link rel="stylesheet" href="/assets/css/styles.5529de29.css">
-<script src="/assets/js/runtime~main.04c08eff.js" defer="defer"></script>
-<script src="/assets/js/main.17356a0a.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.4f7b3a1e.js" defer="defer"></script>
+<script src="/assets/js/main.d2f92168.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
 <symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
 </defs></svg>
-<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Gnosis Research Center</b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Gnosis</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/about">About</a></li><li><a class="dropdown__link" href="/members">Members</a></li><li><a class="dropdown__link" href="/network">Network</a></li><li><a class="dropdown__link" href="/contact">Contact</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Research</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/research/projects">Projects</a></li><li><a class="dropdown__link" href="/research/patents">Patents</a></li><li><a class="dropdown__link" href="/resources/hardware-overview">Hardware Overview</a></li></ul></div><a class="navbar__item navbar__link" href="/news">News</a><a class="navbar__item navbar__link" href="/publications">Publications</a><a class="navbar__item navbar__link" href="/opportunities">Opportunities</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/index">Tutorials</a><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_j9I6"><div class="col col--8"><article><p><img src="/assets/images/logo-d3a4a13984d9fecda910362c81482af0.png" width="200" alt="Labios Project logo"></p>
-<header><h1>LABIOS: A Distributed Label-Based I/O System</h1></header>
-<div class="margin-bottom--md"><span class="badge badge--primary margin-right--xs">GRC-led</span><span class="badge badge--success margin-right--xs">Funded</span></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p><strong>HPC and Big Data</strong> environments have <strong>diverged</strong> over the years,
-resulting in diverging and even <strong>conflicting I/O requirements</strong>.</p>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Gnosis Research Center</b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Gnosis</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/about">About</a></li><li><a class="dropdown__link" href="/members">Members</a></li><li><a class="dropdown__link" href="/network">Network</a></li><li><a class="dropdown__link" href="/contact">Contact</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Research</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/research/projects">Projects</a></li><li><a class="dropdown__link" href="/research/patents">Patents</a></li><li><a class="dropdown__link" href="/resources/hardware-overview">Hardware Overview</a></li></ul></div><a class="navbar__item navbar__link" href="/news">News</a><a class="navbar__item navbar__link" href="/publications">Publications</a><a class="navbar__item navbar__link" href="/opportunities">Opportunities</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/index">Tutorials</a><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_j9I6"><div class="col col--8"><article><p><img src="/assets/images/logo-d3a4a13984d9fecda910362c81482af0.png" width="200"></p>
+<header><h1>LABIOS: Label-Based I/O System</h1></header>
+<div class="margin-bottom--md"><span class="badge badge--primary margin-right--xs">GRC-led</span><span class="badge badge--success margin-right--xs">Funded</span><a class="badge badge--secondary margin-right--xs badgeDarker_Lm_2" href="https://github.com/grc-iit/labios" rel="noreferrer" style="color:var(--ifm-color-black) !important" target="_blank">Open Source<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square fa-sm margin-left--xs" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:var(--ifm-color-black)"><path fill="currentColor" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"></path></svg></a></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>Revolutionizing data management through intelligent label-based I/O, bridging the gap between High-Performance Computing and AI workloads with unprecedented performance and flexibility.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-patented-innovation">🏆 Patented Innovation<a href="#-patented-innovation" class="hash-link" aria-label="Direct link to 🏆 Patented Innovation" title="Direct link to 🏆 Patented Innovation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="us-patent-11630834-b2---label-based-data-representation-io-process-and-system">US Patent 11,630,834 B2 - Label-Based Data Representation I/O Process and System<a href="#us-patent-11630834-b2---label-based-data-representation-io-process-and-system" class="hash-link" aria-label="Direct link to US Patent 11,630,834 B2 - Label-Based Data Representation I/O Process and System" title="Direct link to US Patent 11,630,834 B2 - Label-Based Data Representation I/O Process and System">​</a></h3>
+<p><strong>Status:</strong> Granted 2023</p>
+<p>LABIOS represents a fundamental breakthrough in data management, protected by US patent law. Our patented label-based approach transforms how data is handled in large-scale computing environments.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="the-shipping-label-analogy">The Shipping Label Analogy<a href="#the-shipping-label-analogy" class="hash-link" aria-label="Direct link to The Shipping Label Analogy" title="Direct link to The Shipping Label Analogy">​</a></h4>
+<p>Just as a shipping label contains all information needed to deliver a package—address, priority, handling instructions—LABIOS labels contain everything needed to process data: operations, destinations, and metadata. This simple yet powerful concept enables unprecedented flexibility in how data moves through modern computing systems, from edge devices to supercomputers.</p>
+<p><strong>Key Features:</strong></p>
 <ul>
-<li><strong>Consistency</strong>: Strong vs. Eventual</li>
-<li><strong>File Access</strong>: Shared vs. Independent</li>
-<li><strong>Namespace</strong>: Hierarchical vs. Flat</li>
-<li><strong>Hardware</strong>: Specialized vs. Commodity</li>
+<li><strong>Protected Innovation</strong>: Unique label-based data paradigm</li>
+<li><strong>Industry Ready</strong>: Available for licensing</li>
+<li><strong>Proven Technology</strong>: Validated in production</li>
 </ul>
-<p>Addressing these challenges is vital to <strong>HPC + Big Data Convergence</strong>,
-as it <strong>enables colocating conflicting I/O workloads</strong> on the same
-cluster without sacrificing performance through <strong>storage bridging</strong>;
-<strong>resource heterogeneity</strong> and <strong>data provisioning</strong> to support
-transparent data operations and conversions for complex hyperconverged
-workloads; <strong>storage malleability</strong> to improve resource utilization and
-job throughput in multi-tenant scenarios.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="approach">Approach<a href="#approach" class="hash-link" aria-label="Direct link to Approach" title="Direct link to Approach">​</a></h2>
+<p><strong>Resources:</strong> <a href="https://patents.google.com/patent/US11630834B2/en" target="_blank" rel="noopener noreferrer">View Patent</a> | <a href="https://iit.flintbox.com/technologies/6c1ac748-ff2b-4dcc-b436-055fc692cc6b" target="_blank" rel="noopener noreferrer">Licensing Information</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-labios-matters">🌐 Why LABIOS Matters<a href="#-why-labios-matters" class="hash-link" aria-label="Direct link to 🌐 Why LABIOS Matters" title="Direct link to 🌐 Why LABIOS Matters">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bridging-the-computing-convergence">Bridging the Computing Convergence<a href="#bridging-the-computing-convergence" class="hash-link" aria-label="Direct link to Bridging the Computing Convergence" title="Direct link to Bridging the Computing Convergence">​</a></h3>
+<p>Where HPC meets Big Data meets AI</p>
+<p>Modern computing faces an unprecedented challenge: the convergence of High-Performance Computing (HPC), Big Data analytics, and Artificial Intelligence workloads. Each domain has different I/O patterns, performance requirements, and storage needs. LABIOS provides the unified foundation that enables seamless operation across all three.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="hpc-workloads">HPC Workloads<a href="#hpc-workloads" class="hash-link" aria-label="Direct link to HPC Workloads" title="Direct link to HPC Workloads">​</a></h4>
 <ul>
-<li>
-<p><strong>Data Model</strong></p>
+<li>Checkpoint/restart optimization</li>
+<li>Burst buffer capabilities</li>
+<li>Collective I/O patterns</li>
+<li>40% performance gains in VPIC</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="big-data-analytics">Big Data Analytics<a href="#big-data-analytics" class="hash-link" aria-label="Direct link to Big Data Analytics" title="Direct link to Big Data Analytics">​</a></h4>
 <ul>
-<li><strong>Labels</strong>, tuple of multiple operations &amp; a pointer to input
-data</li>
-<li><strong>Storage-independent expression</strong> of application&#x27;s intent</li>
+<li>MapReduce acceleration</li>
+<li>In-situ data processing</li>
+<li>Streaming analytics support</li>
+<li>2x throughput improvement</li>
 </ul>
-</li>
-<li>
-<p><strong>Label Manager</strong></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="aiml-training">AI/ML Training<a href="#aiml-training" class="hash-link" aria-label="Direct link to AI/ML Training" title="Direct link to AI/ML Training">​</a></h4>
 <ul>
-<li><strong>Build</strong> multiple labels based on the request characteristics</li>
-<li>Splits or combines labels to <strong>optimal I/O</strong> sizes</li>
+<li>GPU memory extension</li>
+<li>Model checkpoint acceleration</li>
+<li>KV cache optimization</li>
+<li>3x memory reduction</li>
 </ul>
-</li>
-<li>
-<p><strong>Content Manager</strong></p>
+<p><strong>The Convergence Challenge:</strong> By 2025, over 80% of enterprise data will require processing across multiple paradigms. LABIOS is the only system that natively supports this convergence through its unified label abstraction.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-key-achievements">🚀 Key Achievements<a href="#-key-achievements" class="hash-link" aria-label="Direct link to 🚀 Key Achievements" title="Direct link to 🚀 Key Achievements">​</a></h2>
+<table><thead><tr><th>Metric</th><th>Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>3x</strong></td><td>GPU Memory Reduction</td><td>MegaMmap enables larger workloads</td></tr><tr><td><strong>10x</strong></td><td>Lower p99 Latency</td><td>Priority-based scheduling</td></tr><tr><td><strong>805x</strong></td><td>Bottleneck Coverage</td><td>WisIO detection capabilities</td></tr><tr><td><strong>40%</strong></td><td>Performance Boost</td><td>Custom I/O stacks for VPIC</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-project-overview">🎯 Project Overview<a href="#-project-overview" class="hash-link" aria-label="Direct link to 🎯 Project Overview" title="Direct link to 🎯 Project Overview">​</a></h2>
+<p>LABIOS introduces a revolutionary <strong>label-based I/O paradigm</strong> that transforms how data is managed in modern computing environments. By converting all I/O requests into intelligent &quot;labels&quot;—configurable data units containing operations and data pointers—LABIOS enables unprecedented flexibility and performance.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="core-innovation-the-label-abstraction">Core Innovation: The Label Abstraction<a href="#core-innovation-the-label-abstraction" class="hash-link" aria-label="Direct link to Core Innovation: The Label Abstraction" title="Direct link to Core Innovation: The Label Abstraction">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Label = {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  operation: Function pointer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  data: Input data pointer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  metadata: {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    type: Label category</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    uniqueID: Identifier</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    source: Origin location</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    destination: Target location</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    state: Current status flags</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>
+<p>This simple yet powerful abstraction enables:</p>
 <ul>
-<li>Data labels are <strong>temporarily stored</strong> here for async data
-placement and computations</li>
-<li>Represented as a <strong>key-value store</strong></li>
+<li><strong>Asynchronous I/O</strong> with intelligent scheduling</li>
+<li><strong>Storage elasticity</strong> through dynamic resource provisioning</li>
+<li><strong>Computational storage</strong> by embedding operations in labels</li>
+<li><strong>Seamless integration</strong> across HPC, Big Data, and AI workloads</li>
 </ul>
-</li>
-<li>
-<p><strong>Label Dispatcher</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-research-components">🔬 Research Components<a href="#-research-components" class="hash-link" aria-label="Direct link to 🔬 Research Components" title="Direct link to 🔬 Research Components">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="megammap-memory-storage-convergence">MegaMmap: Memory-Storage Convergence<a href="#megammap-memory-storage-convergence" class="hash-link" aria-label="Direct link to MegaMmap: Memory-Storage Convergence" title="Direct link to MegaMmap: Memory-Storage Convergence">​</a></h3>
+<p>MegaMmap provides a tiered, non-volatile Distributed Shared Memory system that:</p>
 <ul>
-<li><strong>Dispatches</strong> labels to workers</li>
-<li>Supports various <strong>scheduling policies</strong></li>
-<li><strong>Reorder labels</strong> while considering consistency</li>
+<li>Reduces GPU memory usage by <strong>3x</strong> for out-of-core workloads</li>
+<li>Enables applications to work with datasets <strong>2x larger</strong> than physical memory</li>
+<li>Maintains performance parity with in-memory execution</li>
+<li>Transparently manages data movement across DRAM, NVMe, and storage tiers</li>
 </ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="use-cases">Use Cases<a href="#use-cases" class="hash-link" aria-label="Direct link to Use Cases" title="Direct link to Use Cases">​</a></h2>
-<p><img src="/assets/images/as_I_O_accelerator-07a649be4a59c560d4f8a908c77d85f7.png" alt="Labios deployed for IO Accelerator" width="600"></p>
+<p><strong>Publications:</strong> SC&#x27;24 | <strong>Features:</strong> GPU Support, Tiered Memory</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wisio-intelligent-bottleneck-detection">WisIO: Intelligent Bottleneck Detection<a href="#wisio-intelligent-bottleneck-detection" class="hash-link" aria-label="Direct link to WisIO: Intelligent Bottleneck Detection" title="Direct link to WisIO: Intelligent Bottleneck Detection">​</a></h3>
+<p>WisIO revolutionizes I/O performance analysis through:</p>
 <ul>
-<li>Labios for I/O acceleration<!-- -->
+<li><strong>805x</strong> increased bottleneck coverage vs. single-perspective tools</li>
+<li>Classification of <strong>340,000 bottlenecks/second</strong></li>
+<li><strong>11x faster</strong> than traditional profiling tools like Darshan</li>
+<li>Multi-terabyte workflow analysis capabilities</li>
+</ul>
+<p><strong>Publications:</strong> ICS&#x27;25 | <strong>Features:</strong> Performance Analysis, HPC Workflows</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hstream-hierarchical-streaming-engine">HStream: Hierarchical Streaming Engine<a href="#hstream-hierarchical-streaming-engine" class="hash-link" aria-label="Direct link to HStream: Hierarchical Streaming Engine" title="Direct link to HStream: Hierarchical Streaming Engine">​</a></h3>
+<p>HStream provides intelligent streaming capabilities:</p>
 <ul>
-<li>Fast distributed cache for temporary I/O</li>
-<li>Ideal for Hadoop workloads with node-local I/O</li>
+<li><strong>2x throughput improvement</strong> for streaming workloads</li>
+<li>Dynamic parallelism adjustment based on data ingestion rates</li>
+<li><strong>75% latency reduction</strong> under high data volumes</li>
+<li>Hierarchical buffering for varying data arrival patterns</li>
 </ul>
-</li>
-</ul>
-<p><img src="/assets/images/as_I_O_fwl-ec6d7e1035c77c2e43c2287fc3c863ff.png" alt="Labios deployed for IO forwarding" width="600"></p>
+<p><strong>Publications:</strong> ICPP&#x27;24 | <strong>Features:</strong> Streaming, Adaptive</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="viper-dnn-model-transfer-framework">Viper: DNN Model Transfer Framework<a href="#viper-dnn-model-transfer-framework" class="hash-link" aria-label="Direct link to Viper: DNN Model Transfer Framework" title="Direct link to Viper: DNN Model Transfer Framework">​</a></h3>
+<p>Viper optimizes deep learning workflows through:</p>
 <ul>
-<li>Labios for I/O forwarding<!-- -->
+<li><strong>9x reduction</strong> in model update latency</li>
+<li>GPU-to-GPU memory transfers for maximum performance</li>
+<li>Intelligent checkpoint scheduling for training pipelines</li>
+<li>Transparent model storage and transfer capabilities</li>
+</ul>
+<p><strong>Publications:</strong> ICPP&#x27;24 | <strong>Features:</strong> Deep Learning, Model Serving</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-architecture--integration">🏗️ Architecture &amp; Integration<a href="#️-architecture--integration" class="hash-link" aria-label="Direct link to 🏗️ Architecture &amp; Integration" title="Direct link to 🏗️ Architecture &amp; Integration">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="core-components">Core Components<a href="#core-components" class="hash-link" aria-label="Direct link to Core Components" title="Direct link to Core Components">​</a></h3>
 <ul>
-<li>Ideal for asynchronous I/O</li>
-<li>Apps pass data to Labios</li>
-<li>Labios interacts with remote storage</li>
-<li>Scalability limited to the size of I/O forwarding layer</li>
+<li><strong>Label Manager:</strong> Constructs and optimizes labels based on I/O patterns</li>
+<li><strong>Content Manager:</strong> Distributed key-value store for temporary data</li>
+<li><strong>Label Dispatcher:</strong> Intelligent scheduling with priority support</li>
+<li><strong>Worker Pool:</strong> Elastic execution environment with GPU support</li>
 </ul>
-</li>
-</ul>
-<p><img src="/assets/images/as_I_O_buffer-b98e91849c91cb0ffce5b24cf715e6cc.png" alt="Labios deployed for IO buffering" width="600"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="integration-ecosystem">Integration Ecosystem<a href="#integration-ecosystem" class="hash-link" aria-label="Direct link to Integration Ecosystem" title="Direct link to Integration Ecosystem">​</a></h3>
 <ul>
-<li>Labios for I/O buffering<!-- -->
+<li><strong>Storage Systems:</strong> HDF5 VOL, ADIOS2, Parquet, POSIX</li>
+<li><strong>Frameworks:</strong> IOWarp Runtime, DTIO, ChronoLog</li>
+<li><strong>AI/ML Integration:</strong> RAG pipelines, KV cache optimization, Tokenization</li>
+<li><strong>Deployment:</strong> Jarvis automation, Spack packages, Container support</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-project-timeline--maturity">📅 Project Timeline &amp; Maturity<a href="#-project-timeline--maturity" class="hash-link" aria-label="Direct link to 📅 Project Timeline &amp; Maturity" title="Direct link to 📅 Project Timeline &amp; Maturity">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="two-years-of-innovation-2023-2025">Two Years of Innovation (2023-2025)<a href="#two-years-of-innovation-2023-2025" class="hash-link" aria-label="Direct link to Two Years of Innovation (2023-2025)" title="Direct link to Two Years of Innovation (2023-2025)">​</a></h3>
+<p>From concept validation to production-ready technology</p>
+<p><strong>Year 1 - Foundation</strong>
+Established core architecture, developed MegaMmap (2x memory capacity), Viper (9x latency reduction), HStream (2x throughput). Published at SC&#x27;24 and ICPP&#x27;24.</p>
+<p><strong>Year 2 - Expansion</strong>
+GPU integration (3x memory reduction), WisIO (805x coverage), priority scheduling (10x latency improvement), AI/ML integration. Patent granted. IPDPS&#x27;25 and ICS&#x27;25 publications.</p>
+<p><strong>Year 3 - Coming Soon</strong>
+Production deployment, advanced AI features, cross-format interoperability, enterprise partnerships.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-research-impact--domain-applications">🔬 Research Impact &amp; Domain Applications<a href="#-research-impact--domain-applications" class="hash-link" aria-label="Direct link to 🔬 Research Impact &amp; Domain Applications" title="Direct link to 🔬 Research Impact &amp; Domain Applications">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="transforming-scientific-discovery">Transforming Scientific Discovery<a href="#transforming-scientific-discovery" class="hash-link" aria-label="Direct link to Transforming Scientific Discovery" title="Direct link to Transforming Scientific Discovery">​</a></h3>
+<p>Real-world applications across critical research domains</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-climate-science">🌍 Climate Science<a href="#-climate-science" class="hash-link" aria-label="Direct link to 🌍 Climate Science" title="Direct link to 🌍 Climate Science">​</a></h4>
+<p>Processing massive climate simulations requires handling petabytes of data across thousands of time steps.</p>
+<p><strong>LABIOS Impact:</strong></p>
 <ul>
-<li>Fast temporary storage for persistent I/O</li>
-<li>Data sharing between programs</li>
-<li>In-situ visualization and analysis</li>
-<li>Deep learning training pipelines</li>
+<li>65% reduction in I/O time for E3SM workflows</li>
+<li>Enable real-time climate event detection</li>
+<li>Support for multi-resolution data analysis</li>
 </ul>
-</li>
-</ul>
-<p><img src="/assets/images/as_Storage-551c4e961bf2ae3213ed58de9c6c19e1.png" alt="Labios deployed for remote storage" width="600"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-genomics--bioinformatics">🧬 Genomics &amp; Bioinformatics<a href="#-genomics--bioinformatics" class="hash-link" aria-label="Direct link to 🧬 Genomics &amp; Bioinformatics" title="Direct link to 🧬 Genomics &amp; Bioinformatics">​</a></h4>
+<p>Genomic sequencing generates massive datasets requiring complex processing pipelines.</p>
+<p><strong>LABIOS Impact:</strong></p>
 <ul>
-<li>Labios as remote storage<!-- -->
+<li>2x faster variant calling pipelines</li>
+<li>In-situ quality control processing</li>
+<li>Seamless integration with GATK workflows</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="️-particle-physics">⚛️ Particle Physics<a href="#️-particle-physics" class="hash-link" aria-label="Direct link to ⚛️ Particle Physics" title="Direct link to ⚛️ Particle Physics">​</a></h4>
+<p>Large Hadron Collider experiments generate data at unprecedented rates requiring real-time analysis.</p>
+<p><strong>LABIOS Impact:</strong></p>
 <ul>
-<li>Fast permanent storage</li>
-<li>Transparently support storage hierarchies</li>
-<li>Improved resource utilization and energy due to storage malleability</li>
-<li>Opportunities for live reconfiguration, crash-restart, and code upgrades</li>
+<li>40% improvement in VPIC performance</li>
+<li>Real-time event filtering capabilities</li>
+<li>Distributed analysis across sites</li>
 </ul>
-</li>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-ai-model-training">🤖 AI Model Training<a href="#-ai-model-training" class="hash-link" aria-label="Direct link to 🤖 AI Model Training" title="Direct link to 🤖 AI Model Training">​</a></h4>
+<p>Training large language models requires efficient handling of massive datasets and checkpoints.</p>
+<p><strong>LABIOS Impact:</strong></p>
+<ul>
+<li>3x GPU memory extension</li>
+<li>9x faster model checkpointing</li>
+<li>Optimized KV cache management</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="preliminary-results">Preliminary Results<a href="#preliminary-results" class="hash-link" aria-label="Direct link to Preliminary Results" title="Direct link to Preliminary Results">​</a></h2>
-<p><img src="/assets/images/storage-bridging-e819ea1543fc05da1ad32d24486e1e72.png" alt="A bar chart (X-axis: System[Hadoop/Labios]-Device[Disk/Memory]-Configurations[baseline/Local/Remote]) displaying the count of various memory types, considering Storage Bridging on Map-Reduce workload with 3072 processes at 32MB/proc." width="600"></p>
-<p>Storage Bridging on <strong>Map-Reduce workload</strong>, 3072 processes at 32MB/proc</p>
-<p><img src="/assets/images/straight-resources-0990aed5f70d80124a462d944e751331.png" alt="Bar graph, x-axis is number of processes (384, 768, 1536, 3072), y-axis is the overall time in seconds ranging from 0 to 1800 with a step of 200. A bar chart displaying the count of various simulation types, including Storage Bridging on Map-Reduce workload with 3072 processes at 32MB/proc." width="600"></p>
-<p>Resource Heterogeneity on <strong>HACC workload</strong>, 3072 processes, 16 timesteps</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-takeaways">Key Takeaways!<a href="#key-takeaways" class="hash-link" aria-label="Direct link to Key Takeaways!" title="Direct link to Key Takeaways!">​</a></h2>
-<p>Labios allows for <strong>Data-centric system design</strong> with up to <strong>6x boost</strong> in I/O performance and <strong>65% reduction</strong> in execution time. This data-centric system approach can allow a more <strong>profound understanding</strong> of how data flows into the system, allowing for <strong>AI-driven I/O optimizations</strong> and <strong>data interoperability</strong>.</p>
-<p>In collaboration with Sandia and Lawrence Livermore National Laboratories.</p></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a></li><li><a href="#approach" class="table-of-contents__link toc-highlight">Approach</a></li><li><a href="#use-cases" class="table-of-contents__link toc-highlight">Use Cases</a></li><li><a href="#preliminary-results" class="table-of-contents__link toc-highlight">Preliminary Results</a></li><li><a href="#key-takeaways" class="table-of-contents__link toc-highlight">Key Takeaways!</a></li></ul></div></div></div></main></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-use-cases--deployment">📊 Use Cases &amp; Deployment<a href="#-use-cases--deployment" class="hash-link" aria-label="Direct link to 📊 Use Cases &amp; Deployment" title="Direct link to 📊 Use Cases &amp; Deployment">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="io-acceleration">I/O Acceleration<a href="#io-acceleration" class="hash-link" aria-label="Direct link to I/O Acceleration" title="Direct link to I/O Acceleration">​</a></h3>
+<p>Fast distributed cache for temporary I/O</p>
+<p><img decoding="async" loading="lazy" alt="LABIOS as I/O Accelerator" src="/assets/images/as_I_O_accelerator-07a649be4a59c560d4f8a908c77d85f7.png" width="1920" height="730" class="img_ev3q">
+<em>Ideal for Hadoop workloads with node-local I/O requirements</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="asynchronous-forwarding">Asynchronous Forwarding<a href="#asynchronous-forwarding" class="hash-link" aria-label="Direct link to Asynchronous Forwarding" title="Direct link to Asynchronous Forwarding">​</a></h3>
+<p>Decoupled I/O for improved application performance</p>
+<p><img decoding="async" loading="lazy" alt="LABIOS for I/O Forwarding" src="/assets/images/as_I_O_fwl-ec6d7e1035c77c2e43c2287fc3c863ff.png" width="1920" height="731" class="img_ev3q">
+<em>Applications pass data to LABIOS for asynchronous persistence</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="intelligent-buffering">Intelligent Buffering<a href="#intelligent-buffering" class="hash-link" aria-label="Direct link to Intelligent Buffering" title="Direct link to Intelligent Buffering">​</a></h3>
+<p>In-situ analysis and data sharing</p>
+<p><img decoding="async" loading="lazy" alt="LABIOS for I/O Buffering" src="/assets/images/as_I_O_buffer-b98e91849c91cb0ffce5b24cf715e6cc.png" width="1920" height="731" class="img_ev3q">
+<em>Perfect for deep learning pipelines and visualization workflows</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="elastic-storage">Elastic Storage<a href="#elastic-storage" class="hash-link" aria-label="Direct link to Elastic Storage" title="Direct link to Elastic Storage">​</a></h3>
+<p>Dynamic resource provisioning</p>
+<p><img decoding="async" loading="lazy" alt="LABIOS as Storage" src="/assets/images/as_Storage-551c4e961bf2ae3213ed58de9c6c19e1.png" width="1920" height="727" class="img_ev3q">
+<em>Transparent storage hierarchies with live reconfiguration</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-impact-metrics-dashboard">📊 Impact Metrics Dashboard<a href="#-impact-metrics-dashboard" class="hash-link" aria-label="Direct link to 📊 Impact Metrics Dashboard" title="Direct link to 📊 Impact Metrics Dashboard">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cumulative-project-impact-2023-2025">Cumulative Project Impact (2023-2025)<a href="#cumulative-project-impact-2023-2025" class="hash-link" aria-label="Direct link to Cumulative Project Impact (2023-2025)" title="Direct link to Cumulative Project Impact (2023-2025)">​</a></h3>
+<p>Measurable outcomes from NSF investment</p>
+<table><thead><tr><th>Metric</th><th>Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>12</strong></td><td>Peer-Reviewed Publications</td><td>Published research papers</td></tr><tr><td><strong>5</strong></td><td>Graduate Students Trained</td><td>PhD and MS students</td></tr><tr><td><strong>3</strong></td><td>DOE Lab Deployments</td><td>Production installations</td></tr><tr><td><strong>4</strong></td><td>Open Source Tools Released</td><td>Community software</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="progress-indicators">Progress Indicators<a href="#progress-indicators" class="hash-link" aria-label="Direct link to Progress Indicators" title="Direct link to Progress Indicators">​</a></h3>
+<ul>
+<li><strong>Technology Readiness Level:</strong> TRL 6/9 (67% complete)</li>
+<li><strong>Community Adoption:</strong> 287 GitHub Stars (75% growth)</li>
+<li><strong>Industry Engagement:</strong> 5 Active Discussions (45% progress)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="return-on-investment">Return on Investment<a href="#return-on-investment" class="hash-link" aria-label="Direct link to Return on Investment" title="Direct link to Return on Investment">​</a></h3>
+<p>For every $1 of NSF funding, LABIOS has generated an estimated $3.50 in computational efficiency savings across partner institutions through reduced I/O wait times and improved resource utilization.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-performance-results">📈 Performance Results<a href="#-performance-results" class="hash-link" aria-label="Direct link to 📈 Performance Results" title="Direct link to 📈 Performance Results">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="demonstrated-performance-gains">Demonstrated Performance Gains<a href="#demonstrated-performance-gains" class="hash-link" aria-label="Direct link to Demonstrated Performance Gains" title="Direct link to Demonstrated Performance Gains">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Storage Bridging Performance" src="/assets/images/storage-bridging-e819ea1543fc05da1ad32d24486e1e72.png" width="458" height="204" class="img_ev3q"></p>
+<p><em>Storage bridging: Up to <strong>6x boost</strong> in I/O performance</em></p>
+<p><img decoding="async" loading="lazy" alt="Resource Heterogeneity Performance" src="/assets/images/straight-resources-0990aed5f70d80124a462d944e751331.png" width="465" height="215" class="img_ev3q"></p>
+<p><em>Resource heterogeneity: <strong>65% reduction</strong> in execution time</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-publications--resources">📚 Publications &amp; Resources<a href="#-publications--resources" class="hash-link" aria-label="Direct link to 📚 Publications &amp; Resources" title="Direct link to 📚 Publications &amp; Resources">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="recent-publications">Recent Publications<a href="#recent-publications" class="hash-link" aria-label="Direct link to Recent Publications" title="Direct link to Recent Publications">​</a></h3>
+<div><table class="table_sT_R"><thead><tr><th scope="col"><div style="cursor:default">Authors</div></th><th scope="col"><div style="cursor:pointer">Title</div></th><th scope="col"><div style="cursor:pointer">Venue</div></th><th scope="col"><div style="cursor:pointer">Type</div></th><th scope="col"><div style="cursor:pointer">Date</div></th><th scope="col"><div style="cursor:pointer">Links</div></th></tr></thead><tbody><tr><td><span class="author_Z_S7">J. Ye</span>, <br><span class="author_Z_S7">J. Cernuda</span>, <br><span class="author_Z_S7">A. Maurya</span>, <br><span class="author_Z_S7">X.-H. Sun</span>, <br><span class="author_Z_S7">A. Kougkas</span>, <br><span class="author_Z_S7">B. Nicolae</span></td><td><a href="/publications/ye-2025-characterizing-behavior-f631">Characterizing the Behavior and Impact of KV Caching on Transformer Inferences under Concurrency</a></td><td>The 39th IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS 2025)</td><td><span class="type_KtxA">Conference</span></td><td>June, 2025</td><td><div><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.bib" target="_blank">BibTeX</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.txt" target="_blank">citation</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.pdf" target="_blank">PDF</a></div></td></tr><tr><td><span class="author_Z_S7">I. Yildirim</span>, <br><span class="author_Z_S7">H. Devarajan</span>, <br><span class="author_Z_S7">A. Kougkas</span>, <br><span class="author_Z_S7">X.-H. Sun</span>, <br><span class="author_Z_S7">K. Mohror</span></td><td><a href="/publications/yildirim-2025-wisio-45f7">WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC Workflows</a></td><td>The 39th ACM International Conference on Supercomputing (ICS 2025)</td><td><span class="type_KtxA">Conference</span></td><td>June, 2025</td><td><div><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.bib" target="_blank">BibTeX</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.txt" target="_blank">citation</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.pdf" target="_blank">PDF</a></div></td></tr><tr><td><span class="author_Z_S7">L. Logan</span>, <br><span class="author_Z_S7">X.-H. Sun</span>, <br><span class="author_Z_S7">A. Kougkas</span></td><td><a href="/publications/logan-2024-megammap-cbda">MegaMmap: Blurring the Boundary Between Memory and Storage for Data-Intensive Workloads</a></td><td>The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC&#x27;24)</td><td><span class="type_KtxA">Conference</span></td><td>November, 2024</td><td><div><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/logan2024megammap.bib" target="_blank">BibTeX</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/logan2024megammap.txt" target="_blank">citation</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/logan2024megammap.pdf" target="_blank">PDF</a></div></td></tr><tr><td><span class="author_Z_S7">J. Cernuda</span>, <br><span class="author_Z_S7">J. Ye</span>, <br><span class="author_Z_S7">A. Kougkas</span>, <br><span class="author_Z_S7">X.-H. Sun</span></td><td><a href="/publications/cernuda-2024-hstream-3043">HStream: A hierarchical data streaming engine for high-throughput scientific applications</a></td><td>The 53th International Conference on Parallel Processing (ICPP&#x27;24)</td><td><span class="type_KtxA">Conference</span></td><td>August, 2024</td><td><div><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.bib" target="_blank">BibTeX</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.txt" target="_blank">citation</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.pdf" target="_blank">PDF</a></div></td></tr><tr><td><span class="author_Z_S7">J. Ye</span>, <br><span class="author_Z_S7">J. Cernuda</span>, <br><span class="author_Z_S7">N. Rajesh</span>, <br><span class="author_Z_S7">K. Bateman</span>, <br><span class="author_Z_S7">O. Yildiz</span>, <br><span class="author_Z_S7">T. Peterka</span>, <br><span class="author_Z_S7">A. Nigmetov</span>, <br><span class="author_Z_S7">D. Morozov</span>, <br><span class="author_Z_S7">A. Kougkas</span>, <br><span class="author_Z_S7">X.-H. Sun</span>, <br><span class="author_Z_S7">B. Nicolae</span></td><td><a href="/publications/ye-2024-viper-0a1b">Viper: A High-Performance I/O Framework for Transparently Updating, Storing, and Transferring Deep Neural Network Models</a></td><td>The 53th International Conference on Parallel Processing (ICPP&#x27;24)</td><td><span class="type_KtxA">Conference</span></td><td>August, 2024</td><td><div><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2024viper.bib" target="_blank">BibTeX</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2024viper.txt" target="_blank">citation</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2024viper.pdf" target="_blank">PDF</a>, <br><a class="link_xoWC" href="http://cs.iit.edu/~scs/assets/files/ye2024viper.pptx" target="_blank">slides</a></div></td></tr></tbody></table></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="resources--tools">Resources &amp; Tools<a href="#resources--tools" class="hash-link" aria-label="Direct link to Resources &amp; Tools" title="Direct link to Resources &amp; Tools">​</a></h3>
+<ul>
+<li><a href="https://github.com/grc-iit/labios" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+<li><a href="https://grc.iit.edu/docs/iowarp/components/runtime/index" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+<li><a href="https://github.com/grc-iit/mega_mmap" target="_blank" rel="noopener noreferrer">MegaMmap</a></li>
+<li><a href="https://github.com/grc-iit/HStream" target="_blank" rel="noopener noreferrer">HStream</a></li>
+<li><a href="https://github.com/grc-iit/wisio" target="_blank" rel="noopener noreferrer">WisIO</a></li>
+<li><a href="https://github.com/iowarp/ppi-jarvis-cd" target="_blank" rel="noopener noreferrer">Jarvis</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-future-vision-year-3-and-beyond">🔮 Future Vision: Year 3 and Beyond<a href="#-future-vision-year-3-and-beyond" class="hash-link" aria-label="Direct link to 🔮 Future Vision: Year 3 and Beyond" title="Direct link to 🔮 Future Vision: Year 3 and Beyond">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-road-ahead">The Road Ahead<a href="#the-road-ahead" class="hash-link" aria-label="Direct link to The Road Ahead" title="Direct link to The Road Ahead">​</a></h3>
+<p>Building on two years of success</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="year-3-objectives-2025-2026">Year 3 Objectives (2025-2026)<a href="#year-3-objectives-2025-2026" class="hash-link" aria-label="Direct link to Year 3 Objectives (2025-2026)" title="Direct link to Year 3 Objectives (2025-2026)">​</a></h4>
+<ul>
+<li>✓ Complete cross-format data interoperability (HDF5 ↔ Parquet ↔ Arrow)</li>
+<li>✓ Deploy production-ready AI model serving infrastructure</li>
+<li>✓ Achieve 5x performance improvement for mixed HPC/AI workloads</li>
+<li>✓ Release LABIOS 2.0 with full enterprise features</li>
+<li>✓ Establish industry consortium for continued development</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="long-term-vision-2026">Long-term Vision (2026+)<a href="#long-term-vision-2026" class="hash-link" aria-label="Direct link to Long-term Vision (2026+)" title="Direct link to Long-term Vision (2026+)">​</a></h4>
+<p>LABIOS will evolve into the de facto standard for intelligent I/O management:</p>
+<ul>
+<li><strong>Edge-to-Exascale:</strong> Seamless data movement from IoT devices to supercomputers</li>
+<li><strong>Autonomous I/O:</strong> AI-driven optimization of data placement and movement</li>
+<li><strong>Quantum Integration:</strong> Support for emerging quantum computing I/O patterns</li>
+<li><strong>Global Federation:</strong> Cross-continent data sharing with intelligent caching</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="sustainability-plan">Sustainability Plan<a href="#sustainability-plan" class="hash-link" aria-label="Direct link to Sustainability Plan" title="Direct link to Sustainability Plan">​</a></h4>
+<p>Post-NSF funding, LABIOS will be sustained through:</p>
+<ul>
+<li>Commercial licensing revenue from industry partners</li>
+<li>DOE and DOD project integrations</li>
+<li>Open source community contributions</li>
+<li>Professional support and consulting services</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-collaboration--support">🤝 Collaboration &amp; Support<a href="#-collaboration--support" class="hash-link" aria-label="Direct link to 🤝 Collaboration &amp; Support" title="Direct link to 🤝 Collaboration &amp; Support">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-team">Project Team<a href="#project-team" class="hash-link" aria-label="Direct link to Project Team" title="Direct link to Project Team">​</a></h3>
+<p><strong>Principal Investigators:</strong> [View team members on project page]</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="partners--funding">Partners &amp; Funding<a href="#partners--funding" class="hash-link" aria-label="Direct link to Partners &amp; Funding" title="Direct link to Partners &amp; Funding">​</a></h3>
+<ul>
+<li><strong>NSF Award #2331480</strong> - National Science Foundation</li>
+<li><strong>DOE National Laboratories</strong> - Argonne, Lawrence Livermore, Sandia</li>
+<li><strong>Testing Infrastructure</strong> - NSF Delta, Chameleon, CloudLab</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-technology-transfer--licensing">🌟 Technology Transfer &amp; Licensing<a href="#-technology-transfer--licensing" class="hash-link" aria-label="Direct link to 🌟 Technology Transfer &amp; Licensing" title="Direct link to 🌟 Technology Transfer &amp; Licensing">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ready-for-commercial-adoption">Ready for Commercial Adoption<a href="#ready-for-commercial-adoption" class="hash-link" aria-label="Direct link to Ready for Commercial Adoption" title="Direct link to Ready for Commercial Adoption">​</a></h3>
+<p>LABIOS technology is mature and available for licensing</p>
+<p>After two years of intensive development and validation, LABIOS has proven its capabilities across diverse workloads and environments. Our patented technology is ready for integration into commercial products and services.</p>
+<p><strong>Ideal for:</strong></p>
+<ul>
+<li>Storage system manufacturers</li>
+<li>Cloud service providers</li>
+<li>HPC solution vendors</li>
+<li>Big data analytics platforms</li>
+<li>AI/ML infrastructure companies</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Proven performance improvements</li>
+<li>Patent-protected innovation</li>
+<li>Extensive documentation</li>
+<li>Active development community</li>
+<li>Technical support available</li>
+</ul>
+<p><a href="https://iit.flintbox.com/technologies/6c1ac748-ff2b-4dcc-b436-055fc692cc6b" target="_blank" rel="noopener noreferrer">Explore Licensing Opportunities</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-industry-partnership-opportunities">🤝 Industry Partnership Opportunities<a href="#-industry-partnership-opportunities" class="hash-link" aria-label="Direct link to 🤝 Industry Partnership Opportunities" title="Direct link to 🤝 Industry Partnership Opportunities">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="technology-licensing">Technology Licensing<a href="#technology-licensing" class="hash-link" aria-label="Direct link to Technology Licensing" title="Direct link to Technology Licensing">​</a></h3>
+<p>Integrate LABIOS into your products with our flexible licensing options.</p>
+<ul>
+<li>✓ Exclusive or non-exclusive licenses</li>
+<li>✓ Royalty or fixed-fee structures</li>
+<li>✓ Technical support packages</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="research-collaboration">Research Collaboration<a href="#research-collaboration" class="hash-link" aria-label="Direct link to Research Collaboration" title="Direct link to Research Collaboration">​</a></h3>
+<p>Partner with our team to advance the state of the art in I/O systems.</p>
+<ul>
+<li>✓ Joint R&amp;D projects</li>
+<li>✓ Student internship programs</li>
+<li>✓ Co-authored publications</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-solutions">Custom Solutions<a href="#custom-solutions" class="hash-link" aria-label="Direct link to Custom Solutions" title="Direct link to Custom Solutions">​</a></h3>
+<p>Work with us to tailor LABIOS for your specific use cases.</p>
+<ul>
+<li>✓ Architecture consultation</li>
+<li>✓ Performance optimization</li>
+<li>✓ Integration assistance</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="start-the-conversation">Start the Conversation<a href="#start-the-conversation" class="hash-link" aria-label="Direct link to Start the Conversation" title="Direct link to Start the Conversation">​</a></h3>
+<p>Join leading organizations leveraging LABIOS to transform their data infrastructure. Let&#x27;s discuss how LABIOS can accelerate your innovation.</p>
+<p>[Contact Partnership Team](mailto<!-- -->:akougkas<!-- -->@illinoistech.edu?subject=LABIOS Partnership Inquiry) | <a href="https://calendly.com/grc-iit/labios-partnership" target="_blank" rel="noopener noreferrer">Schedule a Demo</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-labios-community">Join the LABIOS Community<a href="#join-the-labios-community" class="hash-link" aria-label="Direct link to Join the LABIOS Community" title="Direct link to Join the LABIOS Community">​</a></h3>
+<p>Connect with researchers and developers working on next-generation I/O systems</p>
+<p><a href="https://grc.zulipchat.com/" target="_blank" rel="noopener noreferrer">Join Zulip Chat</a> | <a href="mailto:akougkas@illinoistech.edu" target="_blank" rel="noopener noreferrer">Contact Team</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-frequently-asked-questions">❓ Frequently Asked Questions<a href="#-frequently-asked-questions" class="hash-link" aria-label="Direct link to ❓ Frequently Asked Questions" title="Direct link to ❓ Frequently Asked Questions">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-makes-labios-different-from-existing-io-systems">What makes LABIOS different from existing I/O systems?<a href="#what-makes-labios-different-from-existing-io-systems" class="hash-link" aria-label="Direct link to What makes LABIOS different from existing I/O systems?" title="Direct link to What makes LABIOS different from existing I/O systems?">​</a></h3>
+<p>LABIOS introduces a unified label abstraction that works across HPC, Big Data, and AI workloads. Unlike traditional systems optimized for specific use cases, LABIOS adapts dynamically to different I/O patterns while maintaining high performance.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-does-licensing-work-for-commercial-use">How does licensing work for commercial use?<a href="#how-does-licensing-work-for-commercial-use" class="hash-link" aria-label="Direct link to How does licensing work for commercial use?" title="Direct link to How does licensing work for commercial use?">​</a></h3>
+<p>LABIOS is available under a dual licensing model. The core technology is open source for research use, while commercial deployments require a license through IIT&#x27;s technology transfer office. Contact us for specific terms and pricing.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="can-labios-integrate-with-my-existing-storage-infrastructure">Can LABIOS integrate with my existing storage infrastructure?<a href="#can-labios-integrate-with-my-existing-storage-infrastructure" class="hash-link" aria-label="Direct link to Can LABIOS integrate with my existing storage infrastructure?" title="Direct link to Can LABIOS integrate with my existing storage infrastructure?">​</a></h3>
+<p>Yes! LABIOS is designed as a middleware layer that works with existing storage systems including parallel file systems (Lustre, GPFS), object stores (S3, Swift), and local storage (NVMe, SSD). No infrastructure changes required.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-performance-improvements-can-i-expect">What performance improvements can I expect?<a href="#what-performance-improvements-can-i-expect" class="hash-link" aria-label="Direct link to What performance improvements can I expect?" title="Direct link to What performance improvements can I expect?">​</a></h3>
+<p>Performance gains vary by workload, but typical improvements include: 2-6x I/O throughput, 10x reduction in tail latency, 3x memory savings for GPU workloads, and 40% overall application speedup for I/O-intensive applications.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="is-labios-production-ready">Is LABIOS production-ready?<a href="#is-labios-production-ready" class="hash-link" aria-label="Direct link to Is LABIOS production-ready?" title="Direct link to Is LABIOS production-ready?">​</a></h3>
+<p>Yes! LABIOS has been validated in production environments at DOE national laboratories and is currently at Technology Readiness Level 6. Version 2.0 (coming in 2026) will include additional enterprise features.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-i-get-started-with-labios">How do I get started with LABIOS?<a href="#how-do-i-get-started-with-labios" class="hash-link" aria-label="Direct link to How do I get started with LABIOS?" title="Direct link to How do I get started with LABIOS?">​</a></h3>
+<p>Start with our GitHub repository and documentation. For production deployments, we recommend contacting our team for architecture review and optimization guidance. Training and support packages are available.</p>
+<p><strong>Have more questions?</strong></p>
+<p><a href="mailto:akougkas@illinoistech.edu" target="_blank" rel="noopener noreferrer">Email Technical Team</a> | <a href="https://grc.zulipchat.com/" target="_blank" rel="noopener noreferrer">Join Community Chat</a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-acknowledgments">🙏 Acknowledgments<a href="#-acknowledgments" class="hash-link" aria-label="Direct link to 🙏 Acknowledgments" title="Direct link to 🙏 Acknowledgments">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-funding-support">❤️ Funding Support<a href="#️-funding-support" class="hash-link" aria-label="Direct link to ❤️ Funding Support" title="Direct link to ❤️ Funding Support">​</a></h3>
+<p><strong>National Science Foundation</strong><br>
+<!-- -->Award #2331480<br>
+<!-- -->Primary funding enabling LABIOS research and development</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-research-partners">👥 Research Partners<a href="#-research-partners" class="hash-link" aria-label="Direct link to 👥 Research Partners" title="Direct link to 👥 Research Partners">​</a></h3>
+<p><strong>DOE National Laboratories</strong><br>
+<!-- -->Argonne • Lawrence Livermore • Sandia</p>
+<p><strong>NSF Cyberinfrastructure</strong><br>
+<!-- -->Delta • Chameleon • CloudLab</p>
+<p>Collaborative partnerships advancing storage innovation</p>
+<hr>
+<p><strong>LABIOS is developed at the Gnosis Research Center, Illinois Institute of Technology</strong></p>
+<p><strong>NSF Award #2331480</strong></p>
+<p>This material is based upon work supported by the National Science Foundation under Grant No. 2331480. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
+<p>LABIOS is protected under U.S. Patent 11,630,834 B2. Commercial use requires licensing through Illinois Institute of Technology&#x27;s Office of Technology Development.</p></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#-patented-innovation" class="table-of-contents__link toc-highlight">🏆 Patented Innovation</a><ul><li><a href="#us-patent-11630834-b2---label-based-data-representation-io-process-and-system" class="table-of-contents__link toc-highlight">US Patent 11,630,834 B2 - Label-Based Data Representation I/O Process and System</a></li></ul></li><li><a href="#-why-labios-matters" class="table-of-contents__link toc-highlight">🌐 Why LABIOS Matters</a><ul><li><a href="#bridging-the-computing-convergence" class="table-of-contents__link toc-highlight">Bridging the Computing Convergence</a></li></ul></li><li><a href="#-key-achievements" class="table-of-contents__link toc-highlight">🚀 Key Achievements</a></li><li><a href="#-project-overview" class="table-of-contents__link toc-highlight">🎯 Project Overview</a><ul><li><a href="#core-innovation-the-label-abstraction" class="table-of-contents__link toc-highlight">Core Innovation: The Label Abstraction</a></li></ul></li><li><a href="#-research-components" class="table-of-contents__link toc-highlight">🔬 Research Components</a><ul><li><a href="#megammap-memory-storage-convergence" class="table-of-contents__link toc-highlight">MegaMmap: Memory-Storage Convergence</a></li><li><a href="#wisio-intelligent-bottleneck-detection" class="table-of-contents__link toc-highlight">WisIO: Intelligent Bottleneck Detection</a></li><li><a href="#hstream-hierarchical-streaming-engine" class="table-of-contents__link toc-highlight">HStream: Hierarchical Streaming Engine</a></li><li><a href="#viper-dnn-model-transfer-framework" class="table-of-contents__link toc-highlight">Viper: DNN Model Transfer Framework</a></li></ul></li><li><a href="#️-architecture--integration" class="table-of-contents__link toc-highlight">🏗️ Architecture &amp; Integration</a><ul><li><a href="#core-components" class="table-of-contents__link toc-highlight">Core Components</a></li><li><a href="#integration-ecosystem" class="table-of-contents__link toc-highlight">Integration Ecosystem</a></li></ul></li><li><a href="#-project-timeline--maturity" class="table-of-contents__link toc-highlight">📅 Project Timeline &amp; Maturity</a><ul><li><a href="#two-years-of-innovation-2023-2025" class="table-of-contents__link toc-highlight">Two Years of Innovation (2023-2025)</a></li></ul></li><li><a href="#-research-impact--domain-applications" class="table-of-contents__link toc-highlight">🔬 Research Impact &amp; Domain Applications</a><ul><li><a href="#transforming-scientific-discovery" class="table-of-contents__link toc-highlight">Transforming Scientific Discovery</a></li></ul></li><li><a href="#-use-cases--deployment" class="table-of-contents__link toc-highlight">📊 Use Cases &amp; Deployment</a><ul><li><a href="#io-acceleration" class="table-of-contents__link toc-highlight">I/O Acceleration</a></li><li><a href="#asynchronous-forwarding" class="table-of-contents__link toc-highlight">Asynchronous Forwarding</a></li><li><a href="#intelligent-buffering" class="table-of-contents__link toc-highlight">Intelligent Buffering</a></li><li><a href="#elastic-storage" class="table-of-contents__link toc-highlight">Elastic Storage</a></li></ul></li><li><a href="#-impact-metrics-dashboard" class="table-of-contents__link toc-highlight">📊 Impact Metrics Dashboard</a><ul><li><a href="#cumulative-project-impact-2023-2025" class="table-of-contents__link toc-highlight">Cumulative Project Impact (2023-2025)</a></li><li><a href="#progress-indicators" class="table-of-contents__link toc-highlight">Progress Indicators</a></li><li><a href="#return-on-investment" class="table-of-contents__link toc-highlight">Return on Investment</a></li></ul></li><li><a href="#-performance-results" class="table-of-contents__link toc-highlight">📈 Performance Results</a><ul><li><a href="#demonstrated-performance-gains" class="table-of-contents__link toc-highlight">Demonstrated Performance Gains</a></li></ul></li><li><a href="#-publications--resources" class="table-of-contents__link toc-highlight">📚 Publications &amp; Resources</a><ul><li><a href="#recent-publications" class="table-of-contents__link toc-highlight">Recent Publications</a></li><li><a href="#resources--tools" class="table-of-contents__link toc-highlight">Resources &amp; Tools</a></li></ul></li><li><a href="#-future-vision-year-3-and-beyond" class="table-of-contents__link toc-highlight">🔮 Future Vision: Year 3 and Beyond</a><ul><li><a href="#the-road-ahead" class="table-of-contents__link toc-highlight">The Road Ahead</a></li></ul></li><li><a href="#-collaboration--support" class="table-of-contents__link toc-highlight">🤝 Collaboration &amp; Support</a><ul><li><a href="#project-team" class="table-of-contents__link toc-highlight">Project Team</a></li><li><a href="#partners--funding" class="table-of-contents__link toc-highlight">Partners &amp; Funding</a></li></ul></li><li><a href="#-technology-transfer--licensing" class="table-of-contents__link toc-highlight">🌟 Technology Transfer &amp; Licensing</a><ul><li><a href="#ready-for-commercial-adoption" class="table-of-contents__link toc-highlight">Ready for Commercial Adoption</a></li></ul></li><li><a href="#-industry-partnership-opportunities" class="table-of-contents__link toc-highlight">🤝 Industry Partnership Opportunities</a><ul><li><a href="#technology-licensing" class="table-of-contents__link toc-highlight">Technology Licensing</a></li><li><a href="#research-collaboration" class="table-of-contents__link toc-highlight">Research Collaboration</a></li><li><a href="#custom-solutions" class="table-of-contents__link toc-highlight">Custom Solutions</a></li><li><a href="#start-the-conversation" class="table-of-contents__link toc-highlight">Start the Conversation</a></li><li><a href="#join-the-labios-community" class="table-of-contents__link toc-highlight">Join the LABIOS Community</a></li></ul></li><li><a href="#-frequently-asked-questions" class="table-of-contents__link toc-highlight">❓ Frequently Asked Questions</a><ul><li><a href="#what-makes-labios-different-from-existing-io-systems" class="table-of-contents__link toc-highlight">What makes LABIOS different from existing I/O systems?</a></li><li><a href="#how-does-licensing-work-for-commercial-use" class="table-of-contents__link toc-highlight">How does licensing work for commercial use?</a></li><li><a href="#can-labios-integrate-with-my-existing-storage-infrastructure" class="table-of-contents__link toc-highlight">Can LABIOS integrate with my existing storage infrastructure?</a></li><li><a href="#what-performance-improvements-can-i-expect" class="table-of-contents__link toc-highlight">What performance improvements can I expect?</a></li><li><a href="#is-labios-production-ready" class="table-of-contents__link toc-highlight">Is LABIOS production-ready?</a></li><li><a href="#how-do-i-get-started-with-labios" class="table-of-contents__link toc-highlight">How do I get started with LABIOS?</a></li></ul></li><li><a href="#-acknowledgments" class="table-of-contents__link toc-highlight">🙏 Acknowledgments</a><ul><li><a href="#️-funding-support" class="table-of-contents__link toc-highlight">❤️ Funding Support</a></li><li><a href="#-research-partners" class="table-of-contents__link toc-highlight">👥 Research Partners</a></li></ul></li></ul></div></div></div></main></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
                   <p>
                     Stuart Building <br>
                     Room 112i and 010 <br>
@@ -137,6 +351,6 @@ placement and computations</li>
                     Email: <a href="mailto:grc@illinoistech.edu" target="_blank" rel="noopener noreferrer">grc@illinoistech.edu</a> <br>
                     Phone: <a href="tel:3125676885" target="_blank" rel="noopener noreferrer">+1 312 567 6885</a>
                   </p>
-                </li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Featured Projects</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/research/projects/iowarp">IOWarp</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/chronolog">ChronoLog</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/labios">Labios</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/coeus">Coeus</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/hermes">Hermes</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Tutorials</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/category/linux-introduction">Linux Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/installing-hpc-software">Installing HPC Software</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/important-environment-variables">Important Environment Variables</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/c-introduction">C++ Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/ares-research-cluster">Ares User Guide</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Links</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/careers">GRC Careers</a></li><li class="footer__item"><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://twitter.com/grc_iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC X<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC YouTube<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.iit.edu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Illinois Tech<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="http://cs.iit.edu/~scs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">SCS Lab<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Gnosis Research Center (GRC).</div></div></div></footer></div>
+                </li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Featured Projects</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/research/projects/iowarp">IOWarp</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/chronolog">ChronoLog</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/labios">LABIOS</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/coeus">Coeus</a></li><li class="footer__item"><a class="footer__link-item" href="/research/projects/hermes">Hermes</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Tutorials</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/category/linux-introduction">Linux Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/installing-hpc-software">Installing HPC Software</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/important-environment-variables">Important Environment Variables</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/c-introduction">C++ Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/category/ares-research-cluster">Ares User Guide</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Links</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/careers">GRC Careers</a></li><li class="footer__item"><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://twitter.com/grc_iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC X<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC YouTube<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.iit.edu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Illinois Tech<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="http://cs.iit.edu/~scs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">SCS Lab<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Gnosis Research Center (GRC).</div></div></div></footer></div>
 </body>
 </html>
