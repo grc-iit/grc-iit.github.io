@@ -44,7 +44,8 @@ links:
   pdf: http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.pdf
 month: 6
 slug: ye-2025-characterizing-behavior-f631
-tags: []
+tags: 
+  - LABIOS
 title: >-
   Characterizing the Behavior and Impact of KV Caching on Transformer Inferences
   under Concurrency
