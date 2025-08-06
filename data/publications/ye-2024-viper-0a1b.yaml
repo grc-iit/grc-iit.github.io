@@ -48,6 +48,7 @@ tags:
   - Adaptive AI Model Checkpointing
   - Coupled Training and Inferences
   - Inferences During Partial Training
+  - LABIOS
 title: >-
   Viper: A High-Performance I/O Framework for Transparently Updating, Storing,
   and Transferring Deep Neural Network Models

@@ -222,7 +222,7 @@ const config = {
                 to: "/research/projects/chronolog",
               },
               {
-                label: "Labios",
+                label: "LABIOS",
                 to: "/research/projects/labios",
               },
               {
