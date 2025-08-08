@@ -9,6 +9,7 @@ shortDescription: >-
 link: /research/projects/chronolog
 isFeatured: true
 isOurs: true
+order: 2
 researchStatus: testing
 sourceLink: https://github.com/grc-iit/chronolog
 status: active

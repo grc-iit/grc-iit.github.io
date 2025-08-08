@@ -12,8 +12,18 @@ function loadProjects(siteDir) {
     return yaml.load(content);
   });
 
-  // Sort projects by name for consistent ordering
-  projects.sort((a, b) => a.name.localeCompare(b.name));
+  // Sort projects: first by explicit ascending 'order' (if present), then by name
+  projects.sort((a, b) => {
+    const hasOrderA = typeof a.order === 'number';
+    const hasOrderB = typeof b.order === 'number';
+    if (hasOrderA && hasOrderB) {
+      if (a.order !== b.order) return a.order - b.order;
+      return (a.name || '').localeCompare(b.name || '');
+    }
+    if (hasOrderA) return -1;
+    if (hasOrderB) return 1;
+    return (a.name || '').localeCompare(b.name || '');
+  });
 
   return projects;
 }
