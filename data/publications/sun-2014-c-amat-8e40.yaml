@@ -1,0 +1,18 @@
+abstract: |-
+  在冯诺依曼体系结构下,数据的移动(即数据
+  的访问能力)已严重制约计算机运算速度的提高。
+  目前,这一难题有望得到突破。C-AMAT并发式平
+  均存储访问时间模型将大幅度提高计算机数据存取
+  速度。
+authors:
+  - X.-H. Sun
+date: June, 2014
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/C-AMAT_CCCF_JUNE_2014.pdf
+month: 6
+slug: sun-2014-c-amat-8e40
+tags: []
+title: 'C-AMAT: a data access model for the Big Data era'
+type: Journal
+venue: Communication of CCF, vol. 10, no. 6, pp. 19-22
+year: 2014

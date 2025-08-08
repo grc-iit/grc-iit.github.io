@@ -1,0 +1,44 @@
+abstract: |-
+  The efforts to construct a national scale Grid
+  computing environment have brought unprecedented
+  computing capacity and complicacy. Exploiting this
+  complex infrastructure requires efficient middleware to
+  support the execution of distributed applications, which
+  presents the challenge on how to schedule tasks in shared
+  heterogeneous systems. Most existing scheduling systems
+  are based on pre-determined estimation of task completion
+  time and resources availability. They may not provide
+  appropriate scheduling if the underlying computing
+  resources present an abnormal usage pattern during an
+  application execution.
+  For solving long-running
+  applications in a large-scale Grid environment, abnormal
+  usage of some resource may not be uncommon. We have
+  proposed the development of the Grid Harvest Service
+  (GHS) performance evaluation and task scheduling system
+  in our previous work. In this study, we present a novel
+  dynamic self-adaptive scheduling algorithm and its
+  implementation under GHS. Scheduling and re-scheduling
+  algorithms and mechanisms are carefully investigated.
+  Experimental results show that, equipped with these new
+  scheduling mechanisms, GHS outperforms existing systems
+  considerably in scheduling large applications in a non-
+  dedicated heterogeneous environment.
+authors:
+  - M. Wu
+  - X.-H. Sun
+date: January, 2004
+doi: 10.1504/ijhpcn.2004.008903
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/IJHPCN-wusun-final.pdf
+month: 1
+slug: wu-2004-self-adaptive-de5e
+tags: []
+title: >-
+  Self-adaptive Task Allocation and Scheduling of Meta-tasks in Non-dedicated
+  Heterogeneous Computing
+type: Journal
+venue: >-
+  International Journal of High Performance Computing and Networking , vol. 2,
+  no. 2/3/4, pp. 186-197
+year: 2004

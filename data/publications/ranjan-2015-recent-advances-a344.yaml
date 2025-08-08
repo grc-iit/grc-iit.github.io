@@ -1,0 +1,178 @@
+abstract: >-
+  Cloud computing [1] assembles large networks of virtualised ICT services such
+  as hardware resources (such as CPU, storage, and network), software resources
+  (such as databases, application servers, and web servers) and appli-
+
+  cations. In industry these services are referred to as infra-
+
+  structure as a service (IaaS), platform as a service (PaaS),
+
+  and software as a service (SaaS). Mainstream ICT power-
+
+  houses such as Amazon, HP, and IBM are heavily investing
+
+  in the provision and support of public cloud infrastructure.
+
+  Cloud computing is rapidly becoming a popular infrastruc-
+
+  ture of choice among all types of organisations. Despite
+
+  some initial security concerns and technical issues, an
+
+  increasing number of organisations have moved their appli-
+
+  cations and services in to “The Cloud”. These applications
+
+  range from generic word processing software to online
+
+  healthcare. The cloud system taps into the processing power
+
+  of virtualized computers on the back end, thus significantly
+
+  speeding up the application for the user, which just pays for
+
+  the used services.
+
+  Big Data [2], [3], [4], [5] applications has become a com-
+
+  mon phenomenon in domain of science, engineering, and
+
+  commerce. Some of the representative applications include
+
+  disaster management, high energy physics, genomics, con-
+
+  nectomics, automobile simulations, medical imaging, and
+
+  the like. The "BigData" problem, which is defined as the
+
+  practice of collecting and analyzing complex data sets so
+
+  large that it becomes difficult to analyse and interpret
+
+  manually or using on-hand data management applications
+
+  (e.g., Microsoft Excel). For example, in case of disaster
+
+  management Big Data application there is a need to ana-
+
+  lyse "a deluge of online data from multiple sources
+
+  (feeds from social media and mobile devices)" for under-
+
+  standing and managing real-life events such as flooding,
+
+  earthquake, etc. Over 20 million tweets posted during
+
+  Hurricane Sandy (2012) lead to an instance of the BigData
+
+  problem. The statistics provided by the PearAnalytics
+
+  study reveal that almost 44 percent of the Twitter posts
+
+  are spam and pointless, about 6 percent are personal or
+
+  product advertising, while 3.6 percent are news and
+
+  37.6 percent are conversational posts. During the 2010
+
+  Haiti earthquake, text messaging via mobile phones and
+
+  Twitter made headlines as being crucial for disaster
+
+  response, but only some 100,000 messages were actually
+
+  processed by government agencies due to lack of auto-
+
+  mated and scalable ICT (cloud) infrastructure.
+
+  Large-scale, heterogeneous, and uncertain Big Data
+
+  applications are becoming increasingly common, yet cur-
+
+  rent cloud resource provisioning methods do not scale well
+
+  and nor do they perform well under highly unpredictable
+
+  conditions (data volume, data variety, data arrival rate,
+
+  etc.). Much research effort have been paid in the fundamen-
+
+  tal understanding, technologies, and concepts related to
+
+  autonomic provisioning of cloud resources for Big Data
+
+  applications, to make cloud-hosted Big Data applications
+
+  operate more efficiently, with reduced financial and envi-
+
+  ronmental costs, reduced under-utilisation of resources,
+
+  and better performance at times of unpredictable workload.
+
+  Targeting the aforementioned research challenges, this
+
+  special issue compiles recent advances in Autonomic Provi-
+
+  sioning [6], [7] of Big Data Applications on Clouds.
+
+  Following papers put their focus on infrastructure level
+
+  Cloud management for optimizing big data flow processing:
+
+  •
+
+  Virtualized clouds introduce performance variability
+
+  in resources, thereby impacting the application's
+
+  ability to meet its quality of service (QoS). This moti-
+
+  vates the need for autonomic methods of provision-
+
+  ing elastic resources as well as dynamic task
+
+  selection, for continuous dataflow applications on
+
+  clouds. Kumbhare et al. extend continuous dataflows
+
+  to the concept of “dynamic dataflows”, which utilize
+
+  alternate tasks definitions and offer additional con-
+
+  trol over the dataflow's cost and QoS. They formalize
+
+  an optimization problem to automate both deploy-
+
+  ment time and runtime cloud resource provisioning
+
+  of such dynamic dataflows that allows for trade-offs
+
+  between the application's value and the resource
+
+  cost. They propose two greedy heuristics, centralized
+
+  and shared, based on the variable sized bin
+
+  packing algorithm to solve this NP-hard problem.
+
+  Further, they also present a genetic algorithm (GA)
+authors:
+  - R. Ranjan
+  - L. Wang
+  - A. Y. Zomaya
+  - D. Georgakopoulos
+  - X.-H. Sun
+  - G. Wang
+date: June, 2015
+doi: 10.1109/tcc.2015.2437231
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/ranjan2015recent.bib
+  citation: http://cs.iit.edu/~scs/assets/files/ranjan2015recent.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/auto_provision_tcc15.pdf
+month: 6
+slug: ranjan-2015-recent-advances-a344
+tags: []
+title: Recent Advances in Autonomic Provisioning of Big Data Applications on Clouds
+type: Journal
+venue: IEEE Transaction on Cloud Computing, vol. 3, no. 2, pp. 101-104
+year: 2015

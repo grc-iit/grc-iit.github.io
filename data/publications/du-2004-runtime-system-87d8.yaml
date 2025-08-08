@@ -1,0 +1,38 @@
+abstract: |-
+  Intensive research has been conducted on dynamic job
+  scheduling, which dynamically allocates jobs to
+  computing systems. However, most of the existing work is
+  limited to redistribute independent tasks or at the
+  algorithm design level. There is no runtime system
+  available to support automatic redistribution of a running
+  process in a heterogeneous network environment. In this
+  study, we present the design and implementation of a
+  system that dynamically reschedules running processes
+  over a network of computing resources via automatic
+  decision-making and process migration. The system is
+  implemented on top of MPI-2 and HPCM (High
+  Performance Computing Mobility) middleware.
+  Experimental and analytical results show that the runtime
+  system works well. It makes dynamic rescheduling of
+  running tasks possible and improves system performance
+  considerably. While the implementation is for MPI
+  programs and using HPCM, the design of the system is
+  general and can be extended to other distributed
+  environments as well.
+authors:
+  - C. Du
+  - S. Ghosh
+  - S. Shankar
+  - X.-H. Sun
+date: August, 2004
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sunx_rescheduling.pdf
+month: 8
+slug: du-2004-runtime-system-87d8
+tags: []
+title: A Runtime System for Automatic Rescheduling of MPI Program
+type: Conference
+venue: >-
+  The 33rd International Conference on Parallel Processing, Montreal, Quebec,
+  Canada, Aug. 15-18
+year: 2004

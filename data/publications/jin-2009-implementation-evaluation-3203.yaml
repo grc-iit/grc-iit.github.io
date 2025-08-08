@@ -1,0 +1,29 @@
+abstract: |-
+  - Review of the state of art of memory-based checkpointing.
+  - Reliability Analysis of memory-based checkpointing
+  - Failure-aware Node matching
+  -Design and Implementation
+  -Flexible combination between disk- and memory-based ckpt.
+  -Comprehensive Evaluation.
+  -Future work
+  Implementation on other checkpointing system.
+  Implementation on coordinated Checkpointing.
+  Dynamic node matching with predicted memory usage, job, etc.
+  RES: Reliable, Efficient, Scalable Checkpointing Environment.
+authors:
+  - H. Jin
+  - X.-H. Sun
+  - B. Xie
+  - Y. Chen
+date: November, 2009
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf
+month: 11
+slug: jin-2009-implementation-evaluation-3203
+tags: []
+title: >-
+  An Implementation and Evaluation of Memory-based Checkpointing (Poster
+  Presentation)
+type: Conference
+venue: The ACM/IEEE SuperComputing Conference(SC'09), Portland, OR, USA
+year: 2009

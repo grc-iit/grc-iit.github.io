@@ -1,0 +1,49 @@
+abstract: |-
+  In the age of data-driven computing, integrating
+  High Performance Computing (HPC) and Big Data (BD) en-
+  vironments may be the key to increasing productivity and to
+  driving scientific discovery forward. Scientific workflows consist
+  of diverse applications (i.e., HPC simulations and BD analysis)
+  each with distinct representations of data that introduce a se-
+  mantic barrier between the two environments. To solve scientific
+  problems at scale, accessing semantically different data from
+  different storage resources is the biggest unsolved challenge. In
+  this work, we aim to address a critical question: "How can we
+  exploit the existing resources and efficiently provide transparent
+  access to data from/to both environments". We propose iNtelligent
+  I/O Bridging Engine (NIOBE), a new data integration framework
+  that enables integrated data access for scientific workflows with
+  asynchronous I/O and data aggregation. NIOBE performs the
+  data integration using available I/O resources, in contrast to
+  existing optimizations that ignore the I/O nodes present on the
+  data path. In NIOBE, data access is optimized to consider both
+  the ongoing production and the consumption of the data in
+  the future. Experimental results show that with NIOBE, an
+  integrated scientific workflow can be accelerated by up to 10x
+  when compared to a no-integration baseline and by up to 133%
+  compared to other state-of-the-art integration solutions.
+authors:
+  - K. Feng
+  - H. Devarajan
+  - A. Kougkas
+  - X.-H. Sun
+date: December, 2019
+doi: 10.1109/bigdata47090.2019.9006363
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/kun2019NIOBE.bib
+  citation: http://cs.iit.edu/~scs/assets/files/kun2019NIOBE.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/NIOBE_PDF_A.pdf
+month: 12
+slug: feng-2019-niobe-19f9
+tags:
+  - Data Integration
+  - Integrated Workflow
+  - Data Aggregation
+  - KVS
+  - Parallel File System (PFS)
+title: >-
+  NIOBE: An Intelligent I/O Bridging Engine for Complex and Distributed
+  Workflows
+type: Conference
+venue: The 7th IEEE International Conference on Big Data, 2019. pp. 493-502
+year: 2019

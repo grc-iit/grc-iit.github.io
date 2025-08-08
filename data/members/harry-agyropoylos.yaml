@@ -1,0 +1,17 @@
+name: Dr. Harry Agyropoylos
+title: Senior Researcher
+affiliation: University of Piraeus, Greece
+bio: >-
+  Dr. Harry Agyropoylos is a Senior Researcher at the University of Piraeus, Greece, 
+  specializing in computational finance and econometrics with applications in 
+  high-performance computing environments.
+image: agyropoylos.jpg
+links:
+  email: hagyropoylos@unipi.gr
+  linkedin: https://www.linkedin.com/in/harrisagyropoulos/
+researchInterests:
+  - Computational Finance
+  - Computational Econometrics
+  - HPC
+slug: harry-agyropoylos
+type: visiting

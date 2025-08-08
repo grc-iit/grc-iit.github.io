@@ -1,0 +1,41 @@
+abstract: |-
+  Log data is an incredible asset for troubleshooting
+  in large-scale systems. Nevertheless, due to the ever-growing
+  system scale, the volume of such data becomes overwhelming,
+  bringing enormous burdens on both data storage and data
+  analysis. To address this problem, we present a 2-dimensional
+  online filtering mechanism to remove redundant and noisy data
+  via feature selection and instance selection. The objective of this
+  work is two-fold: (i) to significantly reduce data volume without
+  losing important information, and (ii) to effectively promote data
+  analysis. We evaluate this new filtering mechanism by means of
+  real environmental data from the production supercomputers at
+  Oak Ridge National Laboratory and Sandia National Laboratory.
+  Our preliminary results demonstrate that our method can reduce
+  more than 85% disk space, thereby significantly reducing analysis
+  time. Moreover, it also facilitates better failure prediction and
+  diagnosis by more than 20%, as compared to the conventional
+  predictive approach relying on RAS (Reliability, Availability, and
+  Serviceability) events alone.
+authors:
+  - L. Yu
+  - Z. Zheng
+  - Z. Lan
+  - T. Jones
+  - J. Brandt
+  - A. Gentile
+date: June, 2012
+doi: 10.1109/dsn.2012.6263948
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yu2012filtering.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yu2012filtering.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/DSN12.pdf
+month: 6
+slug: yu-2012-filtering-log-eed5
+tags: []
+title: 'Filtering Log Data: Finding the needles in the Haystack'
+type: Conference
+venue: >-
+  International Conference on Dependable Systems and Networks 2012 (DSN'12),
+  Boston, MA, USA
+year: 2012

@@ -1,0 +1,42 @@
+abstract: |-
+  Checkpointing is widely used in technical computing.
+  However, the overhead of checkpointing is a subject of
+  increasing in concern in recent years, especially for large-scale
+  parallel computer systems. In these systems, checkpointing
+  generates a huge number of concurrent I/O writes. The burst
+  of writes plus the worsening I/O-wall problem often leads to
+  network and I/O congestion, and makes the overall system
+  performance painfully slow. Recognizing contention as a
+  dominant performance factor, in this paper we propose a
+  systematic approach named checkpointing orchestration to
+  reduce write contention, which combines the marshaling of
+  concurrent checkpoint requests and the adopting of vertical
+  data access in coordination. A prototype of the proposed
+  checkpointing orchestration approach has been implemented
+  at the system-level under Open MPI over the PVFS2 file
+  system. Extensive experiments based on NPB benchmarks
+  have been conducted to verify the design and implementation.
+  Experimental results show that checkpointing orchestration
+  reduced the checkpointing cost at a degree of more than 30%.
+  Checkpointing cost was halved for 4 out of 5 the C class NPB
+  benchmarks.
+authors:
+  - H. Jin
+  - T. Ke
+  - Y. Chen
+  - X.-H. Sun
+date: May, 2012
+doi: 10.1109/ccgrid.2012.61
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/jin2012checkpointing.bib
+  citation: http://cs.iit.edu/~scs/assets/files/jin2012checkpointing.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ccgrid12-jin.pdf
+month: 5
+slug: jin-2012-checkpointing-orchestration-0eba
+tags: []
+title: 'Checkpointing Orchestration: Toward a Scalable HPC Fault-Tolerant Environment'
+type: Conference
+venue: >-
+  IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+  (CCGrid), Ottawa, Canada
+year: 2012

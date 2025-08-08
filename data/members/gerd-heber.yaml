@@ -1,0 +1,18 @@
+name: Dr. Gerd Heber
+title: Executive Director
+affiliation: The HDF Group
+bio: >-
+  Dr. Gerd Heber is the Executive Director of The HDF Group, leading efforts in 
+  data modeling, integration, and large-scale data management. He is instrumental 
+  in the development and advancement of HDF5 technology for scientific computing.
+image: heber.jpg
+links:
+  email: gheber@hdfgroup.org
+  scholar: https://scholar.google.com/citations?user=HRxQJx8AAAAJ&hl=en
+researchInterests:
+  - Data Modeling
+  - Data Integration
+  - Large-Scale Data Management
+  - HDF5
+slug: gerd-heber
+type: external

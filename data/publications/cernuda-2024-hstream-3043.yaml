@@ -1,0 +1,44 @@
+abstract: |-
+  Data streaming is gaining traction in high-performance computing
+  (HPC) as a mechanism for continuous data transfer, but remains
+  underutilized as a processing paradigm due to the inadequacy of
+  existing technologies, which are primarily designed for cloud archi-
+  tectures and ill-equipped to tackle HPC-specific challenges. This
+  work introduces HStream, a novel data management design for
+  out-of-core data streaming engines. Central to the HStream design
+  is the separation of data and computing planes at the task level. By
+  managing them independently, issues such as memory thrashing
+  and back-pressure, caused by the high volume, velocity, and bursti-
+  ness of I/O in HPC environments, can be effectively addressed at
+  runtime. Specifically, HStream utilizes adaptive parallelism and hi-
+  erarchical memory management, enabled by this design paradigm,
+  to alleviate memory pressure and enhance system performance.
+  These improvements enable HStream to match the performance of
+  state-of-the-art HPC streaming engines and achieve up to a 1.5x
+  reduction in latency under high data loads.
+authors:
+  - J. Cernuda
+  - J. Ye
+  - A. Kougkas
+  - X.-H. Sun
+date: August, 2024
+doi: 10.1145/3673038.3673150
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.bib
+  citation: http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.pdf
+month: 8
+slug: cernuda-2024-hstream-3043
+tags:
+  - Data Streaming
+  - HPC
+  - Hierarchical Storage
+  - Elastic System
+  - In-Transit Computing
+  - LABIOS
+title: >-
+  HStream: A hierarchical data streaming engine for high-throughput scientific
+  applications
+type: Conference
+venue: The 53th International Conference on Parallel Processing (ICPP'24)
+year: 2024

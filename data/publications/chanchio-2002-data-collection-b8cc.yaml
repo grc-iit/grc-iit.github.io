@@ -1,0 +1,49 @@
+abstract: >-
+  This study presents a practical solution for data collection and restoration
+  to migrate a process written
+
+  in high-level stack-based languages such as C and Fortran over a network of
+  heterogeneous computers.
+
+  We first introduce a logical data model, namely the Memory Space
+  Representation (MSR) model,
+
+  to recognize complex data structures in process address space. Then, novel
+  methods are developed to
+
+  incorporate the MSR model into a process, and to collect and restore data
+  efficiently. We have implemented
+
+  prototype software and performed experiments on different programs.
+  Experimental and analytical results
+
+  show that: (1) a user-level process can be migrated across different computing
+  platforms; (2) semantic
+
+  information of data structures in the process's memory space can be correctly
+  collected and restored;
+
+  (3) costs of data collection and restoration depend on the complexity of the
+  MSR graph in the memory
+
+  space and the amount of data involved; and (4) the implantation of the MSR
+  model into the process is not
+
+  a decisive factor of incurring execution overheads. With appropriate program
+  analysis, we can practically
+
+  achieve low overhead.
+authors:
+  - K. Chanchio
+  - X.-H. Sun
+date: April, 2002
+doi: 10.1109/ipdps.2001.924992
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/spe464.pdf
+month: 4
+slug: chanchio-2002-data-collection-b8cc
+tags: []
+title: Data collection and restoration for heterogeneous process migration
+type: Journal
+venue: SOFTWARE--PRACTICE AND EXPERIENCE, 32:1-27
+year: 2002

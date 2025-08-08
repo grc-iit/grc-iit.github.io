@@ -1,0 +1,42 @@
+abstract: |-
+  In this paper, we propose C2-Bound, a data-driven
+  analytical model, that incorporates both memory capacity and
+  data access concurrency factors to optimize many-core design.
+  C2-Bound is characterized by combining the newly proposed
+  latency model, concurrent average memory access time (C-
+  AMAT), with the well-known memory-bounded speedup model
+  (Sun-Ni's law) to facilitate computing tasks. Compared to tradi-
+  tional chip designs that lack the notion of memory concurrency
+  and memory capacity, C2-Bound model finds memory bound
+  factors significantly impact the optimal number of cores as
+  well as their optimal silicon area allocations, especially for
+  data-intensive applications with a none parallelizable sequential
+  portion. Therefore, our model is valuable to the design of new
+  generation many-core architectures that target big data process-
+  ing, where working sets are usually larger than conventional
+  scientific computing. These findings are evidenced by our detailed
+  simulations, which show with C2-Bound the design space can be
+  narrowed down significantly up to four orders of magnitude.
+  C2-Bound analytic results can be either used in reconfigurable
+  hardware environments or, by software designers, applied to
+  scheduling, partitioning, and allocating resources among diverse
+  applications.
+authors:
+  - Y.-H. Liu
+  - X.-H. Sun
+date: November, 2015
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/liu2015c.bib
+  citation: http://cs.iit.edu/~scs/assets/files/liu2015c.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/SC%20paper-pub.pdf
+month: 11
+slug: liu-2015-c-2-6a2f
+tags: []
+title: >-
+  C^2-bound: A Capacity and Concurrency driven Analytical Model for Manycore
+  Design
+type: Conference
+venue: >-
+  ACM/IEEE International Conference for High Performance Computing, Networking,
+  Storage and Analysis 2015 (SC'15). Texas, Austin, USA
+year: 2015

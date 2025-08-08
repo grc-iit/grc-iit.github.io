@@ -1,0 +1,40 @@
+abstract: |-
+  Recent technological advances are putting increased
+  pressure on CPU scheduling. On one hand, processors have
+  more cores. On the other hand, I/O systems have become more
+  complex. Intensive research has been conducted on
+  multi/many-core scheduling; however, most of the studies
+  follow the conventional approach and focus on the utilization
+  and load balance of the cores. In this study, we focus on
+  increasing data locality by bringing source information from
+  I/O into the core interrupt scheduling process. The premise is
+  to group interrupts associated for the same I/O request
+  together on the same core, and prove that data locality is more
+  important than core utilization for many applications. Based
+  on this idea, a source-aware affinity interrupt-scheduling
+  scheme is introduced and a prototype system, SAIs, is
+  implemented. Experiment results show that SAIs is feasible
+  and promising; bandwidth shows a 23.57% improvement in a
+  3-Gigabit NIC environment and in the optimal case without
+  the NIC bottleneck, the bandwidth improvement increases to
+  53.23%.
+authors:
+  - H. Zou
+  - X.-H. Sun
+  - S. Ma
+  - X. Duan
+date: May, 2012
+doi: 10.1109/ipdps.2012.24
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/zou2012source.bib
+  citation: http://cs.iit.edu/~scs/assets/files/zou2012source.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ipdps12-zou.pdf
+month: 5
+slug: zou-2012-source-aware-3413
+tags: []
+title: A Source-Aware Interrupt Scheduling for Modern Parallel I/O Systems
+type: Conference
+venue: >-
+  IEEE International Parallel and Distributed Processing Symposium (IPDPS' 12),
+  Shanghai, China
+year: 2012

@@ -1,0 +1,33 @@
+abstract: |-
+  An Open Ethernet Drive (OED) is a new technology
+  that encloses into a hard drive (HDD or SSD) a low-power
+  processor, a fixed-size memory and an Ethernet card. In this study,
+  we thoroughly evaluate the performance of such device and the
+  energy requirements to operate it. The results show that first it
+  is a viable solution to offload data-intensive computations on the
+  OED while maintaining a reasonable performance, and second,
+  the energy consumption savings from utilizing such technology
+  are significant as it only consumes 10% of the power needed by
+  a normal server node. We propose that by using OED devices as
+  storage servers in HPC, we can run a reliable, scalable, cost and
+  energy efficient storage solution.
+authors:
+  - A. Kougkas
+  - A. Fleck
+  - X.-H. Sun
+date: January, 2016
+doi: 10.1109/pdsw-discs.2016.012
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/kougkas2016towards.bib
+  citation: http://cs.iit.edu/~scs/assets/files/kougkas2016towards.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Anthony_oed_pdsw16.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/OED_PDSW16_slides.pdf
+month: 1
+slug: kougkas-2016-towards-energy-6062
+tags: []
+title: >-
+  Towards Energy Efficient Data Management in HPC: The Open Ethernet Drive
+  Approach
+type: Workshop
+venue: PDSW-DISCS'16, in conjunction with SC'16
+year: 2016

@@ -1,0 +1,52 @@
+abstract: >-
+  The road to 4G runs through 3G, 2G, and 2.5G networks. Until 3G is deployed
+
+  ubiquitously, 2-2.5G networks and endpoints will dominate. Because of their
+
+  widespread deployment and adoption, these endpoints can help ease the
+  transition
+
+  to an all-Internet 3G/4G network. We describe a standards-based service
+  architec-
+
+  ture and its implementation that allows 2-2.5G endpoints to participate as
+  active
+
+  actors in realizing Internet services like presence and instant messaging
+  without the
+
+  endpoints themselves being connected to the Internet. Our architecture also
+  demon-
+
+  strates service migration, wherein a successful 2G service such as short
+  messaging
+
+  service morphs transparently into its Internet equivalent, an instant message.
+  Our
+
+  methodology conserves precious radio access bandwidth by offloading such data
+
+  services from the bandwidth normally allocated to voice. Our approach, as
+  embod-
+
+  ied in the service architecture, is to leverage the best of the Internet
+  protocols (SIP,
+
+  XML) and technologies (instant messaging, presence) to provide a general
+  frame-
+
+  work for personalized service specification and execution.
+authors:
+  - V. K. Gurbani
+  - X.-H. Sun
+date: February, 2005
+doi: 10.1109/mnet.2005.1383438
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/IEEE-Network-2005.pdf
+month: 2
+slug: gurbani-2005-systematic-approach-74bf
+tags: []
+title: A Systematic Approach for Closer Integration of Cellular and Internet Services
+type: Workshop
+venue: 'IEEE Network, pp: 26-32'
+year: 2005

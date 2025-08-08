@@ -1,0 +1,17 @@
+name: Dr. Kathryn Mohror
+title: Group Leader
+affiliation: Lawrence Livermore National Laboratory
+bio: >-
+  Dr. Kathryn Mohror is a Group Leader at Lawrence Livermore National Laboratory, 
+  leading research in high-performance computing, I/O performance, and system 
+  portability for large-scale scientific computing environments.
+image: mohror.png
+links:
+  email: mohror1@llnl.gov
+  scholar: https://scholar.google.com/citations?user=O9xR5EYAAAAJ&hl=en
+researchInterests:
+  - High Performance Computing
+  - I/O Performance
+  - Portability
+slug: kathryn-mohror
+type: external

@@ -1,0 +1,46 @@
+abstract: |-
+  The increasingly important data-intensive scientific
+  discovery presents a critical question to the high performance
+  computing (HPC) community - how to efficiently support these
+  growing scientific big data applications with HPC systems that
+  are traditionally designed for big compute applications? The
+  conventional HPC systems are computing-centric and designed
+  for computation-intensive applications. Scientific big data ap-
+  plications have growlingly different characteristics compared to
+  big compute applications. These scientific applications, however,
+  will still largely rely on HPC systems to be solved. In this
+  research, we try to answer this question with a rethinking of HPC
+  system architecture. We study and analyze the potential of a new
+  decoupled HPC system architecture for data-intensive scientific
+  applications. The fundamental idea is to decouple conventional
+  compute nodes and dynamically provision as data processing
+  nodes that focus on data processing capability. We present studies
+  and analyses for such decoupled HPC system architecture.
+  The current results have shown its promising potential. Its
+  data-centric architecture can have an impact in designing and
+  developing future HPC systems for growingly important data-
+  intensive scientific discovery and innovation.
+authors:
+  - Y. Chen
+  - C. Chen
+  - Y. Yin
+  - X.-H. Sun
+  - R. Thakur
+  - W. D. Gropp
+date: August, 2016
+doi: 10.1109/trustcom.2016.0248
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/chen2016rethinking.bib
+  citation: http://cs.iit.edu/~scs/assets/files/chen2016rethinking.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Yong_ISPA16.pdf
+month: 8
+slug: chen-2016-rethinking-high-a086
+tags: []
+title: >-
+  Rethinking High Performance Computing System Architecture for Scientific Big
+  Data Applications
+type: Conference
+venue: >-
+  14th IEEE International Symposium on Parallel and Distributed Processing with
+  Applications (ISPA 2016), Tianjin, China
+year: 2016

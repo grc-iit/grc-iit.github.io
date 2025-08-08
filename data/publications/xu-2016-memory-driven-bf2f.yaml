@@ -1,0 +1,39 @@
+abstract: |-
+  Concurrent execution of GPU tasks is available
+  in modern GPU device. However, limited device memory
+  is an obvious bottleneck in executing many GPU tasks.
+  And the task priority and system performance are often
+  ignored. To address these, a real-time GPU scheduling
+  scheme is proposed in this paper. A reservation algorithm
+  based on device memory(RBDM) is adopted to provide more
+  opportunity for the High-priority task in the scheme. high
+  priority first wake (HPFW) and small memory HPFW (SM-
+  HPFW) are employed in the scheduling of waiting tasks to
+  improve the priority response time and system performance.
+  A CPU-based monitor is developed to check the GPU task
+  execution. Experiments show the RBDM can work effec-
+  tively. Compared with FIFO, HPFW can decrease overall
+  priority response time significantly. Overall task completion
+  time can be reduced by 20% using the SM-HPFW while the
+  distribution of device memory requirement of GPU tasks is
+  even.
+authors:
+  - B. Xu
+  - W. Zhang
+  - X.-H. Sun
+  - Y. Wang
+date: September, 2016
+doi: 10.1007/s10586-016-0656-8
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/xu2016memory.bib
+  citation: http://cs.iit.edu/~scs/assets/files/xu2016memory.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/baoyu.pdf
+month: 9
+slug: xu-2016-memory-driven-bf2f
+tags: []
+title: >-
+  A memory-driven scheduling scheme and optimization for concurrent execution in
+  GPU
+type: Journal
+venue: Journal of Cluster Computing, 2016. vol. 19, no. 4, pp. 2241-2250
+year: 2016

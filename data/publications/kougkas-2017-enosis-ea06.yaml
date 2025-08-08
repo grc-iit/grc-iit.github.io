@@ -1,0 +1,44 @@
+abstract: |-
+  File and block storage are well-defined concepts
+  in computing and have been used as common components of
+  computer systems for decades. Big data has led to new types
+  of storage. The predominant data model in cloud storage is the
+  object-based storage and it is highly successful. Object stores
+  follow a simpler API with get() and put() operations to interact
+  with the data. A wide variety of data analysis software have
+  been developed around objects using their APIs. However, object
+  storage and traditional file storage are designed for different
+  purpose and for different applications. Organizations maintain
+  file-based storage clusters and a high volume of existing data are
+  stored in files. Moreover, many new applications need to access
+  data from both types of storage. In this paper, we first explore
+  the key differences between object-based and the more traditional
+  file-based storage systems. We have designed and implemented
+  several file-to-object mapping algorithms to bridge the semantic
+  gap between these data models. Our evaluation shows that by
+  achieving an efficient such mapping, our library can grant 2x-
+  27x higher performance against a naive one-to-one mapping and
+  with minimal overheads. Our study exposes various strengths and
+  weaknesses of each mapping strategy and frames the extended
+  potential of a unified data access system.
+authors:
+  - A. Kougkas
+  - H. Devarajan
+  - X.-H. Sun
+date: November, 2017
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/kougkas2017enosis.bib
+  citation: http://cs.iit.edu/~scs/assets/files/kougkas2017enosis.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Enosis.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/Enosis_slides.pdf
+month: 11
+slug: kougkas-2017-enosis-ea06
+tags: []
+title: >-
+  Enosis: Bridging the Semantic Gap between File-based and Object-based Data
+  Models
+type: Workshop
+venue: >-
+  The ACM SIGHPC 8th International Workshop on Data-Intensive Computing in the
+  Clouds (DataCloud 2017), in conjunction with SC'17, Denver, CO, USA
+year: 2017

@@ -1,0 +1,16 @@
+name: Dr. Nathan Tallent
+title: Group Leader
+affiliation: Pacific Northwest National Laboratory
+bio: >-
+  Dr. Nathan Tallent is a Group Leader at Pacific Northwest National Laboratory, 
+  leading research in high-performance computing and performance analysis for 
+  large-scale scientific computing applications.
+image: tallent.jpg
+links:
+  email: nathan.tallent@pnnl.gov
+  scholar: https://scholar.google.com/citations?user=cnEIj_kAAAAJ&hl=en
+researchInterests:
+  - High Performance Computing
+  - Performance Analysis
+slug: nathan-tallent
+type: external

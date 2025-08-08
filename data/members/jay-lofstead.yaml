@@ -1,0 +1,17 @@
+name: Dr. Jay Lofstead
+title: Principal Scientist
+affiliation: Sandia National Laboratories
+bio: >-
+  Dr. Jay Lofstead is a Principal Scientist at Sandia National Laboratories, 
+  focusing on high-performance computing, I/O performance optimization, and 
+  portability solutions for large-scale scientific applications.
+image: lofstead.jpg
+links:
+  email: gflofst@sandia.gov
+  scholar: https://scholar.google.com/citations?user=oZQTwfsAAAAJ&hl=en
+researchInterests:
+  - High Performance Computing
+  - I/O Performance
+  - Portability
+slug: jay-lofstead
+type: external

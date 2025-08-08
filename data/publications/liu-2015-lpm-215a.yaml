@@ -1,0 +1,40 @@
+abstract: |-
+  Data access has become the preeminent performance
+  bottleneck of computing. In this study, a Layered Performance
+  Matching (LPM) model and its associated algorithm are proposed
+  to match the request and reply speed for each layer of a memory
+  hierarchy to improve memory performance. The rationale of
+  LPM is that the performance of each layer of a memory hierarchy
+  should and can be optimized to closely match the request of
+  the layer directly above it. The LPM model simultaneously
+  considers both data access concurrency and locality. It reveals
+  the fact that increasing the effective overlapping between hits
+  and misses of the higher layer will alleviate the performance
+  impact of the lower layer. The terms pure miss and pure miss
+  penalty are introduced to measure the effectiveness of such
+  hit-miss overlapping. By distinguishing between (general) miss
+  and pure miss, we have made LPM optimization practical and
+  feasible. Our evaluation shows the data stall time can be reduced
+  significantly with an optimized hardware configuration. We also
+  have achieved noticeable performance improvement by simply
+  adopting smart LPM scheduling without changing the underlying
+  hardware configurations. Analysis and experimental results show
+  LPM is feasible and effective. It provides a novel and efficient
+  way to cope with the ever-widening memory wall problem, and
+  to optimize the vital memory system design.
+authors:
+  - Y.-H. Liu
+  - X.-H. Sun
+date: September, 2015
+doi: 10.1109/icpp.2015.97
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/liu2015lpm.bib
+  citation: http://cs.iit.edu/~scs/assets/files/liu2015lpm.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/LPM-pub.pdf
+month: 9
+slug: liu-2015-lpm-215a
+tags: []
+title: 'LPM: Concurrency-driven Layered Performance Matching'
+type: Conference
+venue: 44th International Conference on Parallel Processing (ICPP'15), Beijing, China
+year: 2015

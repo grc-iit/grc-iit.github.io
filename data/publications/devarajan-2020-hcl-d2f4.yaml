@@ -1,0 +1,45 @@
+abstract: |-
+  Most parallel programs use irregular control
+  flow and data structures, which are perfect for one-sided
+  communication paradigms such as MPI or PGAS programming
+  languages. However, these environments lack the presence of
+  efficient function-based application libraries that can utilize
+  popular communication fabrics such as TCP, Infinity Band (IB),
+  and RDMA over Converged Ethernet (RoCE). Additionally,
+  there is a lack of high-performance data structure interfaces. We
+  present Hermes Container Library (HCL), a high-performance
+  distributed data structures library that offers high-level
+  abstractions including hash-maps, sets, and queues. HCL uses a
+  RPC over RDMA technology that implements a novel procedural
+  programming paradigm. In this paper, we argue a RPC over
+  RDMA technology can serve as a high-performance, flexible,
+  and co-ordination free backend for implementing complex data
+  structures. Evaluation results from testing real workloads shows
+  that HCL programs are 2x to 12x faster compared to BCL, a
+  state-of-the-art distributed data structure library.
+authors:
+  - H. Devarajan
+  - A. Kougkas
+  - K. Bateman
+  - X.-H. Sun
+date: September, 2020
+doi: 10.1109/cluster49012.2020.00035
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/hcl.bib
+  citation: http://cs.iit.edu/~scs/assets/files/hcl.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/devarajan2020hcl.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/hcl-slides.pdf
+month: 9
+slug: devarajan-2020-hcl-d2f4
+tags:
+  - Distributed Data Structure
+  - RPC over RDMA
+  - Hybrid Data Access Model
+  - HPC Data Containers
+  - Hermes
+title: 'HCL: Distributing Parallel Data Structures in Extreme Scales'
+type: Conference
+venue: >-
+  IEEE International Conference on Cluster Computing (CLUSTER'20), Sept. 14-17,
+  2020
+year: 2020

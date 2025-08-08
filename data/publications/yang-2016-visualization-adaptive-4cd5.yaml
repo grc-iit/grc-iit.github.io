@@ -1,0 +1,47 @@
+abstract: |-
+  Data analytics becomes increasingly important in
+  big data applications. Adaptively subsetting large amounts of
+  data to extract the interesting events such as the centers of
+  hurricane or thunderstorm, statistically analyzing and visualizing
+  the subset data, is an effective way to analyze ever-growing data.
+  This is particularly crucial for analyzing Earth Science data,
+  such as extreme weather. The Hadoop ecosystem (i.e., HDFS,
+  MapReduce, Hive) provides a cost-efficient big data management
+  environment and is being explored for analyzing big Earth
+  Science data.
+  Our study investigates the potential of a MapReduce-like
+  paradigm to perform statistical calculations, and utilizes the
+  calculated results to subset as well as visualize data in a scalable
+  and efficient way. RHadoop and SparkR are deployed to enable
+  R to access and process data in parallel with Hadoop and
+  Spark, respectively. The regular R libraries and tools are utilized
+  to create and manipulate images. Statistical calculations, such
+  as maximum and average variable values, are carried with R
+  or SQL. We have developed a strategy to conduct query and
+  visualization within one phase, and thus significantly improve the
+  overall performance in a scalable way. The technical challenges
+  and limitations of both Hadoop and Spark platforms for R are
+  also discussed.
+authors:
+  - X. Yang
+  - S. Liu
+  - K. Feng
+  - S. Zhou
+  - X.-H. Sun
+date: October, 2016
+doi: 10.1109/bdcloud-socialcom-sustaincom.2016.24
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yang2016visualization.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yang2016visualization.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/bdcloud16.pdf
+month: 10
+slug: yang-2016-visualization-adaptive-4cd5
+tags: []
+title: >-
+  Visualization and Adaptive Subsetting of Earth Science Data in HDFS - A Novel
+  Data Analysis Strategy with Hadoop and Spark
+type: Conference
+venue: >-
+  6th IEEE International Conference on Big Data and Cloud Computing (BDCloud
+  2016), Atlanta, GA2016, pp. 89-96
+year: 2016

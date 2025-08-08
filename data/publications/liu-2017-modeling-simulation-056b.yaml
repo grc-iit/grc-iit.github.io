@@ -1,0 +1,62 @@
+abstract: >-
+  As parallel and distributed systems are evolving toward extreme scale, for
+  example, high-performance
+
+  computing systems involve millions of cores and billion-way parallelism, and
+  high-capacity storage systems
+
+  require efficient access to petabyte or exabyte of data, many new challenges
+  are posed on designing and
+
+  deploying next-generation interconnection communication networks in these
+  systems. Fat-tree networks
+
+  have been widely used in both data centers and high-performance computing
+  (HPC) systems in the past
+
+  decades and are promising candidates of the next-generation extreme-scale
+  networks. In this article, we
+
+  present FatTreeSim, a simulation framework that supports modeling and
+  simulation of extreme-scale fat-
+
+  tree networks with the goal of understanding the design constraints of
+  next-generation HPC and distributed
+
+  systems and aiding the design and performance optimization of the applications
+  running on these systems.
+
+  We have systematically experimented FatTreeSim on Emulab and Blue Gene/Q and
+  analyzed the scalability
+
+  and fidelity of FatTreeSim with various network configurations. On the Blue
+  Gene/Q Mira, FatTreeSim can
+
+  achieve a peak performance of 305 million events per second using 16,384
+  cores. Finally, we have applied
+
+  FatTreeSim to simulate several large-scale Hadoop YARN applications to
+  demonstrate its usability.
+authors:
+  - N. Liu
+  - A. Haider
+  - D. Jin
+  - X.-H. Sun
+date: July, 2017
+doi: 10.1145/2988231
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/liu2017modeling.bib
+  citation: http://cs.iit.edu/~scs/assets/files/liu2017modeling.txt
+  pdf: >-
+    http://publish.illinois.edu/science-of-security-lablet/files/2014/05/A-Modeling-and-Simulation-of-Extreme-Scale-Fat-Tree-Networks-for-HPC-Systems-and-Data-Centers.pdf
+month: 7
+slug: liu-2017-modeling-simulation-056b
+tags: []
+title: >-
+  Modeling and Simulation of Extreme-Scale Fat-Tree Networks for HPC Systems and
+  Data Centers
+type: Journal
+venue: >-
+  ACM Transactions on Modeling and Computer Simulation (TOMACS) - Special Issue
+  on PADS 2015, vol. 27, no. 2, pp. 13:1-13:23
+year: 2017

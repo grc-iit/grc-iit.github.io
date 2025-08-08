@@ -1,0 +1,39 @@
+abstract: |-
+  Parallel file systems (PFSs) are widely deployed to
+  speed up the performance of high-performance computing (HPC)
+  applications. In recent years, hybrid PFSs that consist of HDD-
+  SSD servers, have attracted much attention in HPC community.
+  However, existing data layout schemes do not well consider
+  the characteristics of heterogeneous servers and heterogeneous
+  access patterns, thus may experience considerable inefficiencies.
+  In this study, we propose MHA, a migratory heterogeneity-aware
+  data layout scheme to improve the data distribution of hybrid
+  PFS. More specifically, to accommodate heterogeneous access
+  patterns, MHA first migrates file data into several regions, each
+  with similar access patterns. Then, by leveraging a data access
+  cost model, MHA determines the appropriate stripe sizes on
+  heterogeneous servers to get the best performance on each region.
+  We have implemented MHA under MPI-IO library on top of
+  OrangeFS file system. Experimental results show that MHA can
+  significantly improve the hybrid PFS I/O system performance
+  compared to existing data layout schemes.
+authors:
+  - S. He
+  - X.-H. Sun
+  - Y. Wang
+  - C. Xu
+date: May, 2018
+doi: 10.1109/ipdps.2018.00122
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2018migratory.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2018migratory.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/shuibing_ipdps2018.pdf
+month: 5
+slug: he-2018-migratory-heterogeneity-b72b
+tags: []
+title: A Migratory Heterogeneity-Aware Data Layout Scheme for Parallel File Systems
+type: Conference
+venue: >-
+  The 32nd IEEE International Parallel and Distributed Processing Symposium
+  (IPDPS'18), Vancouver, Canada2018. pp. 1133-1142.
+year: 2018

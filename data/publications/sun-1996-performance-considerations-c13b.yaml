@@ -1,0 +1,43 @@
+abstract: |-
+  Recent trends in parallel processing suggest that the issue of
+  performance prediction is becoming more complex and dif-
+  ficult. Scientists have adopted massively parallel computing
+  as a cost-effective way to achieve high computing power.
+  They have introduced various architectures and algorithms
+  to deliver performance scalability with many processors. Shared virtual
+  memory and other kinds of system support, which hide the communica-
+  tion and other implementation details from the user, are becoming more
+  prevalent. At the same time, with various architectures and algorithms
+  available, performance prediction is becoming critical in choosing an
+  appropriate algorithm-machine pair for an application, especially when
+  the machine has a sophisticated hierarchical architecture.
+  In this article, we combine simple formulas with runtime information
+  to predict performance in modern parallel computers. After presenting a
+  simple prediction formula, we discuss a case study involving a virtual
+  memory machine to illustrate how to use the formula in practice. We dis-
+  cuss four different aspects:
+  • We propose a method to measure the needed runtime parameters.
+  • We propose an adjustment to catch the influence of architecture vari-
+  ation when the system size is scaled up from one level of architecture
+  hierarchy to another.
+  • We demonstrate, through the case study, that it is possible to predict
+  the influence of architecture hierarchy on scalability by simply using
+  hardware specifications.
+  Finally, we discuss the issue of choosing an appropriate algorithm for
+  a given application when the computing system is scaled up from one
+  level of hierarchy to another.
+authors:
+  - X.-H. Sun
+  - J. Zhu
+date: January, 1996
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/performancePre1996.pdf
+month: 1
+slug: sun-1996-performance-considerations-c13b
+tags: []
+title: >-
+  Performance Considerations : A Case Study Using a Scalable
+  Shared-Virtual-Memory Machines
+type: Conference
+venue: IEEE Parallel and Distributed Technology, Vol 4, pp. 36-49, Winter
+year: 1996

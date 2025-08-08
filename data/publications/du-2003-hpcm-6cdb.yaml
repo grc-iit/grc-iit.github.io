@@ -1,0 +1,38 @@
+abstract: |-
+  Mobility is a fundamental functionality of the next
+  generation internet computing. How to support mobility
+  for legacy codes, however, is still an issue of research.
+  The key to solve this outstanding issue is the support of
+  heterogeneous process migration. During the last few
+  years, we have successfully developed mechanisms to
+  support heterogeneous process migration of legacy codes
+  written in C, C++, and Fortran. We present in this paper
+  the design of the High Performance Computing Mobility
+  (HPCM) middleware,
+  the
+  development and
+  implementation of its key components, pre-compiler and
+  its static libraries. Due to the similarity between process
+  migration and checkpointing, the pre-compiler not only
+  makes automatic process migration of legacy codes
+  feasible, but also supports dynamic heterogeneous
+  checkpointing. We perform a set of tests and compare
+  experimental results with Porch, a well-known portable
+  heterogeneous checkpointing system. The experimental
+  results show that our methods are feasible, efficient and
+  very promising.
+authors:
+  - C. Du
+  - X.-H. Sun
+  - K. Chanchio
+date: December, 2003
+doi: 10.1109/clustr.2003.1253314
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/192_Du_C.pdf
+month: 12
+slug: du-2003-hpcm-6cdb
+tags: []
+title: 'HPCM: A Pre-compiler Aided Middleware for the Mobility of Legacy Code'
+type: Conference
+venue: The IEEE International Conference on Cluster Computing, 2003, Hong Kong
+year: 2003

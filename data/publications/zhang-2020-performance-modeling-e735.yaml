@@ -1,0 +1,47 @@
+abstract: |-
+  High performance computers rely on large memories to cache data
+  and improve performance. However, managing the ever-increasing
+  number of levels in the memory hierarchy becomes increasingly
+  difficult. The Disaggregated Memory System (DMS) architecture
+  was introduced in recent years for better memory utilization. DMS
+  is a global memory pool between the local memories and storage.
+  To leverage DMS, we need a better understanding of its perfor-
+  mance and how to exploit its full potential. In this study, we first
+  present a DMS performance model for performance evaluation and
+  analysis. We next conduct a thorough performance evaluation to
+  identify application-DMS characteristics under different system
+  configurations. Experimental tests are conducted on the RAM Area
+  Network (RAN), a DMS implementation available at the Argonne
+  National Laboratory, for performance evaluation. Then, the results
+  of performance experiments are presented along with an analysis of
+  the pros and cons of the RAN-DMS design and implementation. The
+  counterintuitive performance results for the K-means application
+  are analyzed at code-level to illustrate DMS performance. Finally,
+  based on our findings, we present some discussions on future DMS
+  design and its potential on AI applications.
+authors:
+  - N. Zhang
+  - B. Toonen
+  - X.-H. Sun
+  - B. Allcock
+date: October, 2020
+doi: 10.1145/3422575.3422795
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/dismemsys.bib
+  citation: http://cs.iit.edu/~scs/assets/files/dismemsys.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ning2020dismemsys.pdf
+month: 10
+slug: zhang-2020-performance-modeling-e735
+tags:
+  - Performance Modeling
+  - Disaggregated Memory
+  - C-AMAT
+  - Performance Evaluation
+  - Utilization
+  - RAN
+title: >-
+  Performance Modeling and Evaluation of a Production Disaggregated Memory
+  System
+type: Conference
+venue: International Symposium on Memory Systems (MEMSYS'20), Sept. 28 - Oct. 2, 2020
+year: 2020

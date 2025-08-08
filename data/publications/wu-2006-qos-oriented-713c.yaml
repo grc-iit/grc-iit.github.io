@@ -1,0 +1,39 @@
+abstract: |-
+  Resource sharing across different computers and
+  organizations makes it possible to support diverse,
+  dynamic changing resource requirements of distributed
+  applications. Reservation mechanisms have been used
+  to reserve resources for external applications through
+  service level agreements between local resource
+  organizations and external applications. However, the
+  effects of resource reservation on local applications,
+  and therefore the trustfulness of the successful
+  fulfillment of the service agreement, have been
+  ignored. In this paper, we investigate the effect of
+  resource reservation on external applications as well
+  as local jobs, and design efficient task scheduling
+  algorithms considering the tolerance of local jobs to
+  resource reservation. Extensive simulations and
+  implementation experiments have been carried out to
+  confirm our analysis results. Experimental results
+  show that the relative slowdown metric and the failure-
+  minimization scheduling algorithms proposed in this
+  study are practically effective and have a real
+  potential.
+authors:
+  - M. Wu
+  - X.-H. Sun
+  - Y. Chen
+date: May, 2006
+doi: 10.1109/ccgrid.2006.82
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/wusunchen-QoSReservation.pdf
+month: 5
+slug: wu-2006-qos-oriented-713c
+tags: []
+title: QoS Oriented Resource Reservation in Shared Environments
+type: Conference
+venue: >-
+  The 6th IEEE International Symposium on Cluster Computing and the Grid,
+  Singapore
+year: 2006

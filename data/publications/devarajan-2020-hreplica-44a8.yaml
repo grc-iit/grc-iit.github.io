@@ -1,0 +1,53 @@
+abstract: |-
+  As the diversity of big data applications increases,
+  their requirements diverge and often conflict with one other.
+  Managing this diversity in any supercomputer or data center
+  is a major challenge for system designers. Data replication is a
+  popular approach to meet several of these requirements, such as
+  low latency, read availability, durability, etc. This approach can
+  be enhanced using new modern heterogeneous hardware and soft-
+  ware techniques such as data compression. However, both these
+  enhancements work in isolation to the detriment of both. In this
+  work, we present HReplica: a dynamic data replication engine
+  which harmoniously leverages data compression and hierarchical
+  storage to increase the effectiveness of data replication. We have
+  developed a novel dynamic selection algorithm that facilitates the
+  optimal matching of replication schemes, compression libraries,
+  and tiered storage. Our evaluation shows that HReplica can
+  improve scientific and cloud application performance by 5.2x
+  when compared to other state-of-the-art replication schemes.
+  Index Terms-data replication, dynamic, selection algorithm,
+  multi-tiered, data compression, intelligent selection, dynamic
+  programming, cloud application, scientific application, big data.
+authors:
+  - H. Devarajan
+  - A. Kougkas
+  - X.-H. Sun
+date: December, 2020
+doi: 10.1109/bigdata50022.2020.9378167
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.bib
+  citation: http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.pdf
+month: 12
+slug: devarajan-2020-hreplica-44a8
+tags:
+  - Data Replication
+  - Dynamic
+  - Selection Algorithm
+  - Multi-Tiered
+  - Data Compression
+  - Intelligent Selection
+  - Dynamic Programming
+  - Cloud Application
+  - Scientific Applications
+  - Big Data
+  - Hermes
+title: >-
+  HReplica: A Dynamic Data Replication Engine with Adaptive Compression for
+  Multi-Tiered Storage
+type: Conference
+venue: >-
+  The 2020 IEEE International Conference on Big Data (Big Data'20), December
+  10-13, 2020
+year: 2020

@@ -1,0 +1,36 @@
+abstract: |-
+  Checkpoint/recovery has been studied extensively,
+  and various optimization techniques have been
+  presented for its improvement. Regardless of the
+  considerable research efforts, little work has been
+  done on improving its restart latency. The time spent
+  on retrieving and loading the checkpoint image during
+  a recovery is non-trivial, especially in networked
+  environments. With the ever-increasing application
+  memory footprint and system failure rate, it is
+  becoming more of an issue. In this paper, we present a
+  Fast Restart Mechanism called FREM. It allows fast
+  restart of a failed process without requiring the
+  availability of the entire checkpoint image. By
+  dynamically tracking the process data accesses after
+  each checkpoint, FREM masks restart latency by
+  overlapping the computation of the resumed process
+  with the retrieval of its checkpoint image. We have
+  implemented FREM with the BLCR checkpointing tool
+  in Linux systems. Our experiments with the SPEC
+  benchmarks indicate that it can effectively reduce
+  restart latency by 61.96% on average in networked
+  environments.
+authors:
+  - Y. Li
+  - Z. Lan
+date: June, 2008
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/dsn08_dccs.pdf
+month: 6
+slug: li-2008-fast-recovery-adc9
+tags: []
+title: A Fast Recovery Mechanism for Checkpointing in Networked Environments
+type: Conference
+venue: The DSN'08
+year: 2008

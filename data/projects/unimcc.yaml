@@ -1,0 +1,13 @@
+id: unimcc
+name: UniMCC
+title: 'UniMCC: Towards A Unified Memory-centric Computing System with Cross-layer Support'
+shortDescription: >-
+  UniMCC addresses memory bottlenecks in data-centric applications with a full-stack, cross-layer system that integrates
+  architecture, SW/HW interfaces, code generation, runtime support, and performance optimization to maximize
+  memory-centric computing's potential.
+link: /research/projects/unimcc
+isFeatured: false
+isOurs: true
+researchStatus: r&d
+status: active
+type: funded

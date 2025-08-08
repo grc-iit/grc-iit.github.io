@@ -1,0 +1,47 @@
+abstract: |-
+  Modern HPC workloads involve large data transfers that can
+  become bottlenecks. Existing analysis tools identify bottle-
+  necks from per-file performance data but have limitations in
+  parallelizability and rigid heuristic-based rules, necessitating
+  an automated, efficient, and multi-perspective solution. We
+  designed an automated tool, WisIO, that enables parallel
+  and distributed analysis of multi-terabyte-scale workflow
+  performance data. WisIO examines performance data from
+  multiple perspectives, uses metric-driven bottleneck classifi-
+  cation, and allows extensible mapping of bottlenecks to root
+  causes. Experimental results demonstrate that WisIO's multi-
+  perspective views substantially improve bottleneck coverage,
+  showing an average increase of up to 805× when compared
+  to analyzing performance data from a single perspective.
+  In our performance evaluation, WisIO's metric-driven
+  classification processed 340K bottlenecks per second, while
+  its reasoning engine handled around 35K bottlenecks per sec-
+  ond. In an analysis of five real-world HPC workloads, WisIO
+  demonstrated up to 11× faster analysis time and identified
+  up to 144x more bottlenecks compared to existing solutions.
+authors:
+  - I. Yildirim
+  - H. Devarajan
+  - A. Kougkas
+  - X.-H. Sun
+  - K. Mohror
+date: June, 2025
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/yildirim2025wisio.pdf
+month: 6
+slug: yildirim-2025-wisio-45f7
+tags:
+  - HPC
+  - Workflows
+  - I/O Analysis
+  - I/O Bottleneck Detection
+  - WisIO
+  - LABIOS
+title: >-
+  WisIO: Automated I/O Bottleneck Detection with Multi-Perspective Views for HPC
+  Workflows
+type: Conference
+venue: The 39th ACM International Conference on Supercomputing (ICS 2025)
+year: 2025

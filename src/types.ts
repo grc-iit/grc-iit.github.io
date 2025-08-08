@@ -26,6 +26,13 @@ export type MemberLinkType =
   | "twitter"
   | "scholar";
 
+export type MemberType =
+  | "researcher"
+  | "engineer"
+  | "visiting"
+  | "external"
+  | "faculty";
+
 export type Member = {
   affiliation?: string;
   advisor?: string;
@@ -34,8 +41,14 @@ export type Member = {
   links?: Record<MemberLinkType, string>;
   name: string;
   researchInterests?: string[];
+  slug: string;
   title: string;
-  type: "researcher" | "engineer" | "visiting" | "external";
+  type: MemberType;
+};
+
+export type Faculty = Member & {
+  order: number;
+  type: "faculty";
 };
 
 export type ProjectId =
@@ -109,6 +122,7 @@ export type PublicationAuthor =
   | "C.-Z. Xu"
   | "D. Buettner"
   | "D. Buono"
+  | "D. Cheng"
   | "D. Fan"
   | "D. Feng"
   | "D. Georgakopoulos"
@@ -143,6 +157,7 @@ export type PublicationAuthor =
   | "H. Che"
   | "H. Devarajan"
   | "H. Eslami"
+  | "H. Geng"
   | "H. Jin"
   | "H. Lee"
   | "H. Najafi"
@@ -216,6 +231,7 @@ export type PublicationAuthor =
   | "M. Lang"
   | "M. Macalik"
   | "M. Mubarak"
+  | "M. Niemier"
   | "M. Noelle"
   | "M. Pantano"
   | "M. Papka"
@@ -324,6 +340,7 @@ export type PublicationAuthor =
   | "X. Fan"
   | "X. Feng"
   | "X. He"
+  | "X. Hu"
   | "X. Huang"
   | "X. Li"
   | "X. Liao"
@@ -365,6 +382,7 @@ export type PublicationAuthor =
   | "Z. Li"
   | "Z. Pan"
   | "Z. Tang"
+  | "Z. Tian"
   | "Z. Wang"
   | "Z. Xu"
   | "Z. Ye"
@@ -425,6 +443,7 @@ export type PublicationTag =
   | "Data Reorganization"
   | "Data Replication"
   | "Data Scoring"
+  | "Data Stacks"
   | "Data Streaming"
   | "Data-Aware"
   | "Data-Centric"
@@ -579,6 +598,8 @@ export type PublicationTag =
   | "Swapping"
   | "Synchronization"
   | "System Software"
+  | "Systems for AI Workflows"
+  | "Task Systems"
   | "Task-Based I/O"
   | "Tensor"
   | "TensorFlow"
@@ -613,4 +634,7 @@ export type Publication = {
   date: string;
   tags: PublicationTag[];
   links: Record<string, string>;
+  abstract?: string;
+  doi?: string;
+  slug: string;
 };

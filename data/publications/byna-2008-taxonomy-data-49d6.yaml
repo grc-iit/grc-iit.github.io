@@ -1,0 +1,32 @@
+abstract: |-
+  Data prefetching has been considered an effective
+  way to mask data access latency caused by cache
+  misses and to bridge the performance gap between
+  processor and memory. With hardware and/or
+  software support, data prefetching brings data closer
+  to a processor before it is actually needed. Many
+  prefetching techniques have been proposed in the last
+  few years to reduce data access latency by taking
+  advantage of multi-core architectures. In this paper,
+  we propose a taxonomy that classifies various design
+  concerns in developing a prefetching strategy. We
+  discuss various prefetching strategies and issues that
+  have to be considered in designing a prefetching
+  strategy for multi-core processors.
+authors:
+  - S. Byna
+  - Y. Chen
+  - X.-H. Sun
+date: May, 2008
+doi: 10.1109/i-span.2008.24
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/bynas-PrefetchingSurvey.pdf
+month: 5
+slug: byna-2008-taxonomy-data-49d6
+tags: []
+title: A Taxonomy of Data Prefetching Mechanisms
+type: Conference
+venue: >-
+  The International Symposium on Parallel Architectures, Algorithms, and
+  Networks (I-SPAN)
+year: 2008

@@ -1,0 +1,37 @@
+abstract: |-
+  Most recent developments of computer sciences, such
+  as web services, Grid, peer-to-peer, and mobile
+  computing, are network-based computing. Their
+  applicability depends on the availability of the underlying
+  network bandwidth. However, network resources are
+  shared and the available network bandwidth varies with
+  time. There is no satisfactory solution available for
+  network performance predictions. This lack of prediction
+  limits the applicability of network-based computing,
+  especially for Grid computing where concurrent remote
+  processing is essential. In this study, we propose an
+  Artificial Neural Network (ANN) based approach for
+  network performance prediction. The ANN mechanism
+  has been tested on classical trace files and compared with
+  the well-known system NWS (Network Weather Service)
+  for performance. Experimental results show the ANN
+  approach always provides an improved prediction over
+  that of NWS. ANN has a real potential in network
+  computing.
+authors:
+  - A. Eswaradass
+  - X.-H. Sun
+  - M. Wu
+date: April, 2005
+doi: 10.1109/ipdps.2005.51
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/AlakSunWuIPDPS2005.pdf
+month: 4
+slug: eswaradass-2005-neural-network-4294
+tags: []
+title: A Neural Network Based Predictive Mechanism for Available Bandwidth
+type: Conference
+venue: >-
+  The 19th International Parallel and Distributed Processing Symposium
+  (IPDPS05), Denver, Colorado
+year: 2005

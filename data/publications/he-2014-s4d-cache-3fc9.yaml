@@ -1,0 +1,37 @@
+abstract: |-
+  Parallel file systems (PFS) are widely-used in mod-
+  ern computing systems to mask the ever-increasing performance
+  gap between computing and data access. PFSs favor large
+  requests, and do not work well for small requests, especially
+  small random requests. Newer Solid State Drives (SSD) have
+  excellent performance on small random data accesses, but also
+  incur a high monetary cost. In this study, we propose a hybrid
+  architecture named the Smart Selective SSD Cache (S4D-Cache),
+  which employs a small set of SSD-based file servers as a selective
+  cache of conventional HDD-based file servers. A novel scheme
+  is introduced to identify performance-critical data, and conduct
+  selective cache admission to fully utilize the hybrid architecture
+  in terms of data-access parallelism and randomness. We have
+  implemented an S4D-Cache under the MPI-IO and PVFS2
+  parallel file system. Our experiments show that S4D-Cache
+  can significantly improve I/O throughput, and is a promising
+  approach for parallel applications.
+authors:
+  - S. He
+  - X.-H. Sun
+  - B. Feng
+date: June, 2014
+doi: 10.1109/icdcs.2014.59
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2014s4d.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2014s4d.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/s4d-cache-CR.pdf
+month: 6
+slug: he-2014-s4d-cache-3fc9
+tags: []
+title: 'S4D-Cache: Smart Selective SSD Cache for Parallel I/O Systems'
+type: Conference
+venue: >-
+  International Conference on Distributed Computing Systems (ICDCS), Madrid,
+  Spain
+year: 2014

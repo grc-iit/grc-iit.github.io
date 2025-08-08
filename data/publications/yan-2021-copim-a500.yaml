@@ -1,0 +1,51 @@
+abstract: |-
+  Processing-in-Memory (PIM) is considered a
+  promising solution to improve the performance of graph-
+  computing applications by minimizing the data movement be-
+  tween the host and memory. Which workload to offload and how
+  to offload it to PIM logic determine whether the PIM architecture
+  is well utilized. Offloading too much or too little workload
+  from the host processor to the PIM side could hurt overall
+  performance. On the other hand, the offloading granularity
+  needs to be representative without losing generality. In this
+  paper, we present CoPIM, a novel PIM workload offloading
+  architecture that can dynamically determine which portion of the
+  graph workload can benefit more from PIM-side computation.
+  COPIM focuses on the loop code blocks of graph applications
+  and evaluates the necessity of offloading based on a concurrent
+  memory access model. We also provide detailed architectural
+  designs to support the offloading. In this way, CoPIM reduces
+  the size of offloading instructions and also improves the overall
+  performance with less energy consumption. The experimental
+  results show that compared with other state-of-the-art PIM
+  workload offloading frameworks, CoPIM achieves a speedup
+  by the geometric mean of 19.5% and 11.4% than PEI and
+  GraphPIM, respectively. On the other hand, CoPIM also reduces
+  the un-core energy consumption by 6.8% and 6.5% on average
+  over PEI and GraphPIM, respectively.
+authors:
+  - L. Yan
+  - M. Zhang
+  - R. Wang
+  - X. Chen
+  - X. Zou
+  - X. Lu
+  - Y. Han
+  - X.-H. Sun
+date: July, 2021
+doi: 10.1109/islped52811.2021.9502483
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yan2021COPIM.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yan2021COPIM.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/yan2021COPIM.pdf
+month: 7
+slug: yan-2021-copim-a500
+tags: []
+title: >-
+  CoPIM: A Concurrency-aware PIM Workload Offloading Architecture for Graph
+  Applications
+type: Conference
+venue: >-
+  The 2021 ACM/IEEE International Symposium on Low Power Electronics and Design
+  (ISLPED'21), July 26, 2021
+year: 2021

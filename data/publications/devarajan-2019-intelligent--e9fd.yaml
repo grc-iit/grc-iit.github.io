@@ -1,0 +1,41 @@
+abstract: |-
+  The data explosion phenomenon in modern appli-
+  cations causes tremendous stress on storage systems. Developers
+  use data compression, a size-reduction technique, to address
+  this issue. However, each compression library exhibits different
+  strengths and weaknesses when considering the input data type
+  and format. We present Ares, an intelligent, adaptive, and
+  flexible compression framework which can dynamically choose a
+  compression library for a given input data based on the type of
+  the workload and provides an appropriate infrastructure to users
+  to fine-tune the chosen library. Ares is a modular framework
+  which unifies several compression libraries while allowing the
+  addition of more compression libraries by the user. Ares is a
+  unified compression engine that abstracts the complexity of using
+  different compression libraries for each workload. Evaluation
+  results show that under real-world applications, from both
+  scientific and Cloud domains, Ares performed 2-6x faster than
+  competitive solutions with a low cost of additional data analysis
+  (i.e., overheads around 10%) and up to 10x faster against a
+  baseline of no compression at all.
+authors:
+  - H. Devarajan
+  - A. Kougkas
+  - X.-H. Sun
+date: May, 2019
+doi: 10.1109/ccgrid.2019.00019
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.bib
+  citation: http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/ares_ccgrid.pdf
+month: 5
+slug: devarajan-2019-intelligent--e9fd
+tags:
+  - Hermes
+title: An Intelligent, Adaptive, and Flexible Data Compression Framework
+type: Conference
+venue: >-
+  IEEE/ACM International Symposium in Cluster, Cloud, and Grid Computing
+  (CCGrid'19), Larnaca, Cyprus2019. pp. 82-91.
+year: 2019

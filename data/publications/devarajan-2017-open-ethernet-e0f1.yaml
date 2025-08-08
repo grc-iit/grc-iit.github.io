@@ -1,0 +1,42 @@
+abstract: |-
+  An Open Ethernet Drive, also known as an OED,
+  is a new technology that embeds a low-powered processor, a
+  fixed-size memory and an Ethernet card on a disk drive (e.g.
+  HDD or SSD). All major storage vendors have introduced their
+  respective implementations with similar architectural designs. As
+  the technology progresses into its second generation, the perfor-
+  mance characteristics have improved substantially. In this study,
+  we first demonstrate the differences between two generations
+  of the OED technology. We run a variety of benchmarks and
+  applications to thoroughly evaluate the performance of this device
+  and its compatibility with the current ecosystem. Furthermore,
+  we investigate the performance and energy footprint of the
+  OED technology when used as a storage server and as an I/O
+  accelerator. Evaluation results show that OED technology can be
+  a reliable, scalable, energy and cost efficient storage solution. It
+  is a viable replacement for storage servers offering competitive
+  performance while consuming only 10% of the power that a typ-
+  ical storage node needs. Finally, this study shows that OED's can
+  be used as I/O accelerators capable of executing data-intensive
+  computations (such as sorting, compression/decompression, etc.)
+  on local data, whereby the expensive data movement is minimized
+  resulting in low power consumption.
+authors:
+  - H. Devarajan
+  - A. Kougkas
+  - X.-H. Sun
+  - H. Che
+date: November, 2017
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/devarajan2014open.bib
+  citation: http://cs.iit.edu/~scs/assets/files/devarajan2014open.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/OED_DataCloud17.pdf
+month: 11
+slug: devarajan-2017-open-ethernet-e0f1
+tags: []
+title: 'Open Ethernet Drive: Evolution of Energy-Efﬁcient Storage Technology'
+type: Workshop
+venue: >-
+  The ACM SIGHPC 8th International Workshop on Data-Intensive Computing in the
+  Clouds (DataCloud 2017), in conjunction with SC'17, Denver, CO, USAvol. 17
+year: 2017

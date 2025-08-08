@@ -1,0 +1,50 @@
+abstract: |-
+  Modern scientific workflows couple simulations with
+  AI-powered analytics by frequently exchanging data to accelerate
+  time-to-science to reduce the complexity of the simulation planes.
+  However, this data exchange is limited in performance and
+  portability due to a lack of support for scientific data formats
+  in AI frameworks. We need a cohesive mechanism to effectively
+  integrate at scale complex scientific data formats such as HDF5,
+  PnetCDF, ADIOS2, GNCF, and Silo into popular AI frameworks
+  such as TensorFlow, PyTorch, and Caffe. To this end, we designed
+  Stimulus, a data management library for ingesting scientific
+  data effectively into the popular AI frameworks. We utilize the
+  StimOps functions along with StimPack abstraction to enable the
+  integration of scientific data formats with any AI framework. The
+  evaluations show that Stimulus outperforms several large-scale
+  applications with different use-cases such as Cosmic Tagger (con-
+  suming HDF5 dataset in PyTorch), Distributed FFN (consuming
+  HDF5 dataset in TensorFlow), and CosmoFlow (converting
+  HDF5 into TFRecord and then consuming that in TensorFlow)
+  by 5.3x, 2.9x, and 1.9× respectively with ideal I/O scalability up
+  to 768 GPUs on the Summit supercomputer. Through Stimulus,
+  we can portably extend existing popular AI frameworks to
+  cohesively support any complex scientific data format and
+  efficiently scale the applications on large-scale supercomputers.
+authors:
+  - H. Devarajan
+  - A. Kougkas
+  - H. Zheng
+  - V. Vishwanath
+  - X.-H. Sun
+date: May, 2022
+doi: 10.1109/ccgrid54584.2022.00020
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/stimulus2022.bib
+  citation: http://cs.iit.edu/~scs/assets/files/stimulus2022.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/stimulus2022.pdf
+month: 5
+slug: devarajan-2022-stimulus-4b4c
+tags:
+  - HDF5
+  - TensorFlow
+  - Decoupled I/O
+  - I/O Acceleration
+  - Hermes
+title: 'Stimulus: Accelerate Data Management for Scientific AI applications in HPC'
+type: Conference
+venue: >-
+  The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet
+  Computing (CCGRID'22), May 16-19, 2022
+year: 2022

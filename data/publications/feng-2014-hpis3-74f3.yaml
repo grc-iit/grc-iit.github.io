@@ -1,0 +1,41 @@
+abstract: |-
+  The performance gap between processor and stor-
+  age device has continuously increased during the past few
+  decades. The gap is further exacerbated recently because appli-
+  cations are becoming more data-intensive in both industry and
+  academia. Traditional storage devices, such as hard disk drives
+  (HDD), fail to keep up with the paces of this growth. A known
+  solution is to use solid state drives (SSD) as fast storage. Due to
+  high cost of SSD, data and supercomputing centers usually adopt
+  a hybrid storage system, which consists of a combination of HDD
+  and SSD I/O servers. However, hybrid I/O and storage systems
+  have increased the complexity, making SSD often underutilized.
+  The configuration and utilization of HDD/SSD hybrid systems is a
+  lasting phenomenon. In this study, we propose a high performance
+  hybrid parallel I/O and storage simulator, HPIS3. As a co-design
+  tool, HPIS3 is capable of simulating a variety of parallel storage
+  systems, especially under hybrid scenarios. The experimental
+  results show that the lowest error rate is 2%, and the average is
+  11.98%.
+authors:
+  - B. Feng
+  - N. Liu
+  - S. He
+  - X.-H. Sun
+date: November, 2014
+doi: 10.1109/pdsw.2014.12
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/feng2014hpis3.bib
+  citation: http://cs.iit.edu/~scs/assets/files/feng2014hpis3.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/HPIS3.pdf
+month: 11
+slug: feng-2014-hpis3-74f3
+tags: []
+title: >-
+  HPIS3: Towards a High-Performance Simulator for Hybrid Parallel I/O and
+  Storage Systems
+type: Workshop
+venue: >-
+  9th Parallel Data Storage Workshop (PDSW'14), in conjunction with ACM/IEEE
+  SuperComputing 2014, New Orleans, LA, USA
+year: 2014

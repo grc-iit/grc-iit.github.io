@@ -1,9 +1,10 @@
 import React from "react";
 import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ProjectId } from "@site/src/types";
+import { ProjectId, Project } from "@site/src/types";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { getProjectById } from "@site/src/data/projects";
+import { getProjectById } from "@site/src/utils/projectUtils";
+import { usePluginData } from "@docusaurus/useGlobalData";
 
 type ProjectBadgesProps = {
   addMargin?: boolean;
@@ -17,12 +18,16 @@ export default function ProjectBadges({
   addMargin = true,
   projectId,
 }: ProjectBadgesProps) {
-  const {
-    isOurs = false,
-    sourceLink,
-    tutorialLink,
-    type,
-  } = getProjectById(projectId);
+  const { projects } = usePluginData("grc-plugin-projects") as {
+    projects: Project[];
+  };
+  const project = getProjectById(projects, projectId);
+
+  if (!project) {
+    return null;
+  }
+
+  const { isOurs = false, sourceLink, tutorialLink, type } = project;
   const isFunded = type === "funded";
   // Check if all false
   if (!isFunded && !isOurs && !sourceLink && !tutorialLink) {

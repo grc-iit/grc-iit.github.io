@@ -1,0 +1,50 @@
+abstract: |-
+  The ever-increasing volume of data produced by
+  HPC simulations necessitates scalable methods for data explo-
+  ration and knowledge extraction. Scientific data analysis often in-
+  volves complex queries across distributed datasets, requiring ma-
+  nipulation of multiple primary variables and generating derived
+  data that needs to be handled efficiently, creating challenges for
+  applications that need to parse many large datasets. Relying on
+  individual applications to handle all intermediate data generally
+  leads to redundant computations across studies and unnecessary
+  data transfers. In this paper, we investigate the performance of
+  different approaches where applications define derived variables
+  as quantities of interest (QoIs) and offload the computation and
+  transfer of these QoIs to the I/O library. This significantly reduces
+  redundancy and optimizes data movement across the distributed
+  storage and processing infrastructure by allowing control over
+  when and where derived variables are computed. We present a
+  detailed analysis of the performance-storage trade-offs associated
+  with different solutions and showcase results for our study on
+  two large-scale datasets created from climate and combustion
+  simulations.
+authors:
+  - A. Gainaru
+  - G. Eisenhauer
+  - N. Podhorszki
+  - L. Dulac
+  - Q. Gong
+  - A. Kougkas
+  - J. Lofstead
+  - X.-H. Sun
+  - S. Klasky
+date: November, 2024
+doi: 10.1109/sbac-pad63648.2024.00030
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/gainaru2024derive.pdf
+month: 11
+slug: gainaru-2024-derive-or-4aad
+tags:
+  - HPC Analysis
+  - Large-Scale I/O
+  - Derived Variables
+  - Quantities of Interest
+title: >-
+  To Derive or Not to Derive: I/O Libraries Take Charge of Derived Quantities
+  Computation
+type: Conference
+venue: >-
+  IEEE/SBC 36th International Symposium on Computer Architecture and High
+  Performance Computing (SBAC-PAD 2024), Hawaii, USA
+year: 2024

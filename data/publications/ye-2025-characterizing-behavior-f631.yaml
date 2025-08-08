@@ -1,0 +1,56 @@
+abstract: |-
+  Pre-training of LLMs and transformers is known to
+  take weeks if not months even with powerful HPC systems. However,
+  inferences are an equally important problem: once pre-trained, the
+  model needs to serve a large number of inferences submitted under
+  concurrency by multiple users. Thus, speeding up each inference
+  request is instrumental in achieving high throughput and latency at
+  scale. To avoid redundant recomputation in each decode iteration, a
+  Key-Value (KV) cache is used to store previously computed keys (K)
+  and values (V), speeding up token generation. GPU memory is
+  primarily consumed by model weights and the remainder is used by
+  the KV cache. Thus, the free GPU space available to the KV cache
+  is a scarce resource that needs to be managed in an efficient way in
+  order to minimize the overhead of redundant recomputations. There
+  are many optimizations applied in this context: batching of inference
+  requests to enable them to run in the same forward pass (and thus
+  increase the parallelism and inference throughput), different KV
+  cache eviction policies (simply drop KV entries and recompute them
+  later vs. swap to host memory), etc. Under these circumstances, the
+  decision of what batching strategy, what KV cache eviction policy
+  to apply and how the KV cache impacts the inference performance
+  is non-trivial. Unlike the case of pre-training, state-of-art studies
+  are scarce in this context. To fill this gap, in this paper we study
+  the impact of KV caching. Specifically, we instrument vLLM to
+  measure and analyze fine-grain metrics (token throughput, KV
+  cache memory access patterns, load balancing of the forward passes),
+  during different inference stages (prefill, decode) in several scenarios
+  that involve concurrent inference requests using several benchmarks.
+  Based on the measurements and associated observations, we identify
+  several opportunities to improve the design of inference frameworks.
+  Index Terms-LLM inference, KV cache profiling, access pattern
+  characterization.
+authors:
+  - J. Ye
+  - J. Cernuda
+  - A. Maurya
+  - X.-H. Sun
+  - A. Kougkas
+  - B. Nicolae
+date: June, 2025
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.bib
+  citation: http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ye2025unboxkv_io.pdf
+month: 6
+slug: ye-2025-characterizing-behavior-f631
+tags: 
+  - LABIOS
+title: >-
+  Characterizing the Behavior and Impact of KV Caching on Transformer Inferences
+  under Concurrency
+type: Conference
+venue: >-
+  The 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS
+  2025)
+year: 2025

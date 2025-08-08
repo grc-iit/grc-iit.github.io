@@ -1,0 +1,35 @@
+abstract: |-
+  Group communications are commonly used in
+  parallel and distributed environment. However,
+  existing migration mechanisms do not support group
+  communications. This weakness prevents migration-
+  based proactive fault tolerance, among others, to be
+  applied to MPI applications. In this study, we propose
+  distributed migration protocols with
+  group
+  membership management to support process migration
+  with group changing. We design and implement a
+  process migration enabling MPI library, named MPI-
+  Mitten, to verify the protocols and enhance current
+  MPI platforms for reliability and usability. MPI-Mitten
+  is based on MPI standard and can be applied to any
+  MPI-2 implementations. Experimental results show the
+  proposed distributed process migration protocols are
+  solid and the MPI-Mitten system is effective and is
+  uniquely supporting migration-based fault tolerance.
+authors:
+  - C. Du
+  - X.-H. Sun
+date: May, 2006
+doi: 10.1109/ccgrid.2006.71
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/sun-mitten.pdf
+month: 5
+slug: du-2006-mpi-mitten-06cb
+tags: []
+title: 'MPI-Mitten: Enabling Migration Technology in MPI'
+type: Conference
+venue: >-
+  The 6th IEEE International Symposium on Cluster Computing and the Grid,
+  Singapore
+year: 2006

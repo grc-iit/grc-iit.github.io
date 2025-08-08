@@ -1,0 +1,53 @@
+abstract: |-
+  To effectively model various regions with different
+  resolutions, adaptive mesh refinement (AMR) is commonly
+  used in cosmology simulations. There are two well-known
+  numerical approaches towards the implementation of AMR-
+  based cosmology simulations: block-based AMR and cell-based
+  AMR. While many studies have been conducted to improve
+  performance and scalability of block-structured AMR appli-
+  cations, little work has been done for cell-based simulations.
+  In this study, we present a parallel IO design for cell-based
+  AMR cosmology applications, in particular, the ART(Adaptive
+  Refinement Tree) code. First, we design a new data format that
+  incorporates a space filling curve to map between spatial and
+  on-disk locations. This indexing not only enables concurrent IO
+  accesses from multiple application processes, but also allows
+  users to extract local regions without significant additional
+  memory, CPU or disk space overheads. Second, we develop a
+  flexible N-M mapping mechanism to harvest the benefits of N-N
+  and N-1 mappings where N is number of application processes
+  and M is a user-tunable parameter for number of files. It not
+  only overcomes the limited bandwidth issue of an N-1 mapping
+  by allowing the creation of multiple files, but also enables users
+  to efficiently restart the application at a variety of computing
+  scales. Third, we develop a user-level library to transparently
+  and automatically aggregate small IO accesses per process to
+  accelerate IO performance. We evaluate this new parallel IO
+  design by means of real cosmology simulations on production
+  HPC system at TACC. Our preliminary results indicate that
+  it can not only provide the functionality required by scientists
+  (e.g., effective extraction of local regions and flexible process-to-
+  file mapping), but also significantly improve IO performance.
+authors:
+  - Y. Yu
+  - D. Rudd
+  - Z. Lan
+  - N. Gnedin
+  - A. Kravtsov
+  - J. Wu
+date: May, 2012
+doi: 10.1109/ipdps.2012.88
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yu2012improving.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yu2012improving.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/yu_ipdps_2012.pdf
+month: 5
+slug: yu-2012-improving-parallel-652a
+tags: []
+title: Improving Parallel IO Performance of Cell-based AMR Cosmology Applications
+type: Conference
+venue: >-
+  IEEE International Parallel & Distributed Processing Symposium 2012
+  (IPDPS'12), Shanghai, China
+year: 2012

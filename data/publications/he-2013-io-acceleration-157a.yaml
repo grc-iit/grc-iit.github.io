@@ -1,0 +1,41 @@
+abstract: |-
+  The I/O bottleneck in high-performance computing is becoming
+  worse as application data continues to grow. In this work, we
+  explore how patterns of I/O within these applications can signif-
+  icantly affect the effectiveness of the underlying storage systems
+  and how these same patterns can be utilized to improve many as-
+  pects of the I/O stack and mitigate the I/O bottleneck. We offer
+  three main contributions in this paper. First, we develop and eval-
+  uate algorithms by which I/O patterns can be efficiently discovered
+  and described. Second, we implement one such algorithm to re-
+  duce the metadata quantity in a virtual parallel file system by up to
+  several orders of magnitude, thereby increasing the performance of
+  writes and reads by up to 40 and 480 percent respectively. Third,
+  we build a prototype file system with pattern-aware prefetching and
+  evaluate it to show a 46 percent reduction in I/O latency. Finally,
+  we believe that efficient pattern discovery and description, coupled
+  with the observed predictability of complex patterns within many
+  high-performance applications, offers significant potential to en-
+  able many additional I/O optimizations.
+authors:
+  - J. He
+  - J. Bent
+  - A. Torres
+  - G. Grider
+  - G. Gibson
+  - C. Maltzahn
+  - X.-H. Sun
+date: September, 2013
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2013acceleration.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2013acceleration.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/jun_hpdc13.pdf
+month: 9
+slug: he-2013-io-acceleration-157a
+tags: []
+title: I/O Acceleration with Pattern Detection
+type: Conference
+venue: >-
+  22th International ACM Symposium on High Performance Distributed Computing
+  (HPDC'13), New York City, NY, USA
+year: 2013

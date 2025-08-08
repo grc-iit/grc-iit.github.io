@@ -1,0 +1,57 @@
+abstract: |-
+  Scientific workflows increasingly need to train a DNN model in
+  real-time during an experiment (e.g. using ground truth from a sim-
+  ulation), while using it at the same time for inferences. Instead of
+  sharing the same model instance, the training (producer) and infer-
+  ence server (consumer) often use different model replicas that are
+  kept synchronized. In addition to efficient I/O techniques to keep the
+  model replica of the producer and consumer synchronized, there is
+  another important trade-off: frequent model updates enhance infer-
+  ence quality but may slow down training; infrequent updates may
+  lead to less precise inference results. To address these challenges, we
+  introduce Viper: a new I/O framework designed to determine a near-
+  optimal checkpoint schedule and accelerate the delivery of the latest
+  model updates. Viper builds an inference performance predictor to
+  identify the optimal checkpoint schedule to balance the trade-off be-
+  tween training slowdown and inference quality improvement. It also
+  creates a memory-first model transfer engine to accelerate model
+  delivery through direct memory-to-memory communication. Our
+  experiments show that Viper can reduce the model update latency
+  by ≈ 9x using the GPU-to-GPU data transfer engine and ≈ 3x using
+  the DRAM-to-DRAM host data transfer. The checkpoint schedule
+  obtained from Viper's predictor also demonstrates improved cumu-
+  lative inference accuracy compared to the baseline of epoch-based
+  solutions.
+authors:
+  - J. Ye
+  - J. Cernuda
+  - N. Rajesh
+  - K. Bateman
+  - O. Yildiz
+  - T. Peterka
+  - A. Nigmetov
+  - D. Morozov
+  - A. Kougkas
+  - X.-H. Sun
+  - B. Nicolae
+date: August, 2024
+doi: 10.1145/3673038.3673070
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/ye2024viper.bib
+  citation: http://cs.iit.edu/~scs/assets/files/ye2024viper.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ye2024viper.pdf
+  slides: http://cs.iit.edu/~scs/assets/files/ye2024viper.pptx
+month: 8
+slug: ye-2024-viper-0a1b
+tags:
+  - AI Workflows
+  - Adaptive AI Model Checkpointing
+  - Coupled Training and Inferences
+  - Inferences During Partial Training
+  - LABIOS
+title: >-
+  Viper: A High-Performance I/O Framework for Transparently Updating, Storing,
+  and Transferring Deep Neural Network Models
+type: Conference
+venue: The 53th International Conference on Parallel Processing (ICPP'24)
+year: 2024

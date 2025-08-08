@@ -44,7 +44,7 @@ almost always come in useful in real projects.
 ```dockerfile
 # Install ubuntu 20.04
 FROM ubuntu:20.04
-LABEL maintainer="llogan@hawk.iit.edu"
+LABEL maintainer="llogan@hawk.illinoistech.edu"
 LABEL version="0.0"
 LABEL description="An example docker image"
 

@@ -1,0 +1,43 @@
+abstract: |-
+  Checkpointing is the predominant storage driver in
+  today's petascale supercomputers and is expected to remain as
+  such in tomorrow's exascale supercomputers. Users typically pre-
+  fer to checkpoint into a shared file yet parallel file systems often
+  perform poorly for shared file writing. A powerful technique to
+  address this problem is to transparently transform shared file
+  writing into many exclusively written as is done in ADIOS and
+  PLFS. Unfortunately, the metadata to reconstruct the fragments
+  into the original file grows with the number of writers. As such,
+  the current approach cannot scale to exaflop supercomputers due
+  to the large overhead of creating and reassembling the metadata.
+  In this paper, we develop and evaluate algorithms by which
+  patterns in the PLFS metadata can be discovered and then
+  used to replace the current metadata. Our evaluation shows that
+  these patterns reduce the size of the metadata by several orders
+  of magnitude, increase the performance of writes by up to 40
+  percent, and the performance of reads by up to 480 percent. This
+  contribution therefore can allow current checkpointing models to
+  survive the transition from peta- to exascale.
+authors:
+  - J. He
+  - J. Bent
+  - A. Torres
+  - G. Grider
+  - G. Gibson
+  - C. Maltzahn
+  - X.-H. Sun
+date: November, 2012
+doi: 10.1109/sc.companion.2012.11
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/he2012discovering.bib
+  citation: http://cs.iit.edu/~scs/assets/files/he2012discovering.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/plfs-index.pdf
+month: 11
+slug: he-2012-discovering-structure-e2be
+tags: []
+title: Discovering Structure in Unstructured I/O
+type: Workshop
+venue: >-
+  The 7th Parallel Data Storage Workshop (PDSW'12), in conjunction with ACM/IEEE
+  SuperComputing 2012, Salt Lake City, UT, USA
+year: 2012

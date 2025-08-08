@@ -1,0 +1,47 @@
+abstract: |-
+  I/O data access is a recognized performance bottleneck of high-end
+  computing. Several commercial and research parallel file systems
+  have been developed in recent years to ease the performance bot-
+  tleneck. These advanced file systems perform well on some appli-
+  cations but may not perform well on others. They have not reached
+  their full potential in mitigating the I/O-wall problem. Data access
+  is application dependent. Based on the application-specific opti-
+  mization principle, in this study we propose a cost-intelligent data
+  access strategy to improve the performance of parallel file systems.
+  We first present a novel model to estimate data access cost of differ-
+  ent data layout policies. Next, we extend the cost model to calculate
+  the overall I/O cost of any given application and choose an appro-
+  priate layout policy for the application. A complex application may
+  consist of different data access patterns. Averaging the data access
+  patterns may not be the best solution for those complex applica-
+  tions that do not have a dominant pattern. We then further propose
+  a hybrid data replication strategy for those applications, so that a
+  file can have replications with different layout policies for the best
+  performance. Theoretical analysis and experimental testing have
+  been conducted to verify the newly proposed cost-intelligent lay-
+  out approach. Analytical and experimental results show that the
+  proposed cost model is effective and the application-specific data
+  layout approach achieved up to 74% performance improvement for
+  data-intensive applications.
+authors:
+  - H. Song
+  - Y. Yin
+  - Y. Chen
+  - X.-H. Sun
+date: June, 2011
+doi: 10.1145/1996130.1996138
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/song2011cost.bib
+  citation: http://cs.iit.edu/~scs/assets/files/song2011cost.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/songhpdcp37.pdf
+month: 6
+slug: song-2011-cost-intelligent-1b12
+tags: []
+title: >-
+  A Cost-intelligent Application-specific Data layout Scheme for Parallel File
+  Systems
+type: Conference
+venue: >-
+  The 20th International ACM Symposium on High Performance Distributed Computing
+  (HPDC'11), San Jose, CA
+year: 2011

@@ -1,0 +1,42 @@
+abstract: |-
+  Parallel applications can benefit greatly from mas-
+  sive computational capability, but their performance
+  suffers from large latency of I/O accesses. The poor
+  I/O performance has been attributed as a critical
+  cause of the low sustained performance of paral-
+  lel computing systems. In this study, we propose a
+  data layout-aware optimization strategy to promote
+  a better integration of the parallel I/O middleware
+  and parallel file systems, two major components of
+  the current parallel I/O systems, and to improve the
+  data access performance. We explore the layout-aware
+  optimization in both independent I/O and collective
+  I/O, two primary forms of I/O in parallel applications.
+  We illustrate that the layout-aware I/O optimization
+  could improve the performance of current parallel
+  I/O strategy effectively. The experimental results verify
+  that the proposed strategy could improve parallel I/O
+  performance by nearly 40% on average. The proposed
+  layout-aware parallel I/O has a promising potential in
+  improving the I/O performance of parallel systems.
+authors:
+  - Y. Chen
+  - X.-H. Sun
+  - R. Thakur
+  - H. Song
+  - H. Jin
+date: September, 2010
+doi: 10.1109/cluster.2010.35
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/chen2010improving.bib
+  citation: http://cs.iit.edu/~scs/assets/files/chen2010improving.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/cluster10.pdf
+month: 9
+slug: chen-2010-improving-parallel-38f5
+tags: []
+title: Improving Parallel I/O Performance with Data Layout Awareness
+type: Conference
+venue: >-
+  The IEEE International Conference on Cluster Computing 2010 (Cluster10),
+  Heraklion, Greece
+year: 2010

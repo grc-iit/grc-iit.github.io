@@ -1,0 +1,38 @@
+abstract: |-
+  Conventional performance evaluation mechanisms
+  focus on dedicated distributed systems. Grid computing
+  infrastructure, on another hand, is a shared collaborative
+  environment constructed
+  on
+  autonomic
+  virtual
+  organizations. The non-dedicated characteristic of Grid
+  computing prevents the leverage of conventional task
+  scheduling systems. In this study, we present the design
+  and development of the Grid Harvest Service (GHS)
+  performance evaluation and task scheduling system for
+  solving large-scale applications in a shared network
+  environment. GHS combines stochastic models and
+  artificial intelligence learning mechanisms with task
+  scheduling algorithms. It considers both computing and
+  network contention and supports scheduling for single
+  task, parallel processing, and meta-tasks. Experimental
+  results show that GHS provides a satisfactory solution for
+  performance prediction and task scheduling and has a
+  real potential.
+authors:
+  - X.-H. Sun
+  - M. Wu
+date: April, 2005
+doi: 10.1109/ipdps.2005.234
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/ngs-ipdps05.pdf
+month: 4
+slug: sun-2005-ghs--1367
+tags: []
+title: GHS, A Performance System of Grid Computing
+type: Workshop
+venue: >-
+  The NSF Next Generation Software Program Workshop ( in conjunction with
+  IPDPS05), Denver, Colorado
+year: 2005

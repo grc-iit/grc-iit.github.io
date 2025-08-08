@@ -1,0 +1,35 @@
+abstract: |-
+  Scalability has become an important consideration
+  in parallel algorithm and machine designs. The word scalable,
+  or scalability, has been widely and often used in the parallel
+  processing community. However, there is no adequate, commonly
+  accepted definition of scalability available. Scalabilities of com-
+  puter systems and programs are difficult to quantify, evaluate,
+  and compare. In this paper, scalability is formally defined for
+  algorithm-machine combinations. A practical method is proposed
+  to provide a quantitative measurement of the scalability. The
+  relation between the newly proposed scalability and other existing
+  parallel performance metrics is studied. A harmony between
+  speedup and scalability has been observed. Theoretical results
+  show that a large class of algorithm-machine combinations is
+  scalable and the scalability can be predicted through premeasured
+  machine parameters. Two algorithms have been studied on an
+  nCUBE 2 multicomputer and on a MasPar MP-1 computer.
+  These case studies have shown how scalabilities can be measured,
+  computed, and predicted. Performance instrumentation and visu-
+  alization tools also have been used and developed to understand
+  the scalability related behavior.
+authors:
+  - X.-H. Sun
+  - D. Rover
+date: May, 1994
+doi: 10.1109/71.285606
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/scalability94.pdf
+month: 5
+slug: sun-1994-scalability-parallel-c618
+tags: []
+title: Scalability of Parallel Algorithm-Machine Combinations
+type: Journal
+venue: IEEE Trans. on Parallel and Distributed Systems
+year: 1994

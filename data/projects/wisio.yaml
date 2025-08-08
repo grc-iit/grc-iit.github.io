@@ -1,0 +1,15 @@
+id: wisio
+name: WisIO
+title: 'WisIO: Workflow I/O Analysis Tool'
+shortDescription: >-
+  WisIO is a workflow I/O analysis tool that automates bottleneck detection using multi-perspective views of trace data.
+  It tackles large-scale I/O challenges with distributed computing and an extensible rule engine, enhancing I/O analysis
+  in HPC environments.
+link: /research/projects/wisio
+isFeatured: false
+isOurs: true
+researchStatus: ready
+sourceLink: https://github.com/grc-iit/wisio
+status: active
+tutorialLink: /docs/category/wisio
+type: funded

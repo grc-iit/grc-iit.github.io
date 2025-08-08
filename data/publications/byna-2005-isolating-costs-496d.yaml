@@ -1,0 +1,62 @@
+abstract: >
+  ABSTRACT
+
+
+  Communication in parallel applications is a combination of data transfers
+  internally
+
+  at a source or destination and across the network. Previous research focused
+  on quantify-
+
+  ing network transfer costs has indirectly resulted in reduced overall
+  communication cost.
+
+  Optimized data transfer from source memory to the network interface has
+  received less
+
+  attention. In shared memory systems, such memory-to-memory transfers dominate
+  com-
+
+  munication cost. In distributed memory systems, memory-to-network interface
+  transfers
+
+  grow in significance as processor and network speeds increase at faster rates
+  than mem-
+
+  ory latency speeds. Our objective is to minimize the cost of internal data
+  transfers. The
+
+  following examples illustrating the impact of memory transfers on
+  communication, we
+
+  present a methodology for classifying the effects of data size and data
+  distribution on
+
+  hardware, middleware, and application software performance. This cost is
+  quantified
+
+  using hardware counter event measurements on the SGI Origin 2000. For the SGI
+  O2K,
+
+  we empirically identify the cost caused by just copying data from one buffer
+  to another
+
+  and the middleware overhead. We use MPICH in our experiments, but our
+  techniques
+
+  are generally applicable to any communication implementation.
+authors:
+  - S. Byna
+  - K. Cameron
+  - X.-H. Sun
+date: January, 2005
+doi: 10.1142/s0129626405002271
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/ppl_mem_isolate.pdf
+month: 1
+slug: byna-2005-isolating-costs-496d
+tags: []
+title: Isolating costs in shared memory communication buffering
+type: Journal
+venue: Parallel Processing Letters, vol. 15, no. 4, pp. 357-365
+year: 2005

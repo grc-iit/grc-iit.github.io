@@ -1,0 +1,35 @@
+abstract: |-
+  Rapid advancement of communication technology
+  has changed the landscape of computing. New models
+  of computing, such as business-on-demand, Web
+  services, peer-to-peer networks, and Grid computing
+  have emerged to harness distributed computing and
+  network resources to provide powerful services. The
+  non-deterministic characteristic of the resource
+  availability in these new computing platforms raises an
+  outstanding challenge: how to support Quality of
+  Service (QoS) to meet a user's demand? In this study,
+  we conduct a thorough study of QoS of distributed
+  computing, especially on Grid computing where the
+  requirement of distributed sharing and coordination
+  goes to the extreme. We start at QoS policies, and then
+  focus on technical issues of the enforcement of the
+  policies and performance optimization under each
+  policy. This study provides a classification of existing
+  software system based on their underlying policies, a
+  systematic understanding of QoS, and a framework for
+  QoS of Grid computing.
+authors:
+  - X.-H. Sun
+  - M. Wu
+date: August, 2007
+doi: 10.1109/gcc.2007.102
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/GCC-SunWu-07.pdf
+month: 8
+slug: sun-2007-quality-service-10c1
+tags: []
+title: 'Quality of Service of Grid Computing: Resource Sharing'
+type: Conference
+venue: The 6th International Conference on Grid and Cooperative Computing(GCC'07)
+year: 2007

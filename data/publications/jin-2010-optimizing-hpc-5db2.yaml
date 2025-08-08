@@ -1,0 +1,40 @@
+abstract: |-
+  The increasingly large ensemble size of modern
+  High-Performance Computing (HPC) systems has drastically
+  increased the possibility of failures. Performance under failures
+  and its optimization become timely important issues facing
+  the HPC community. In this study, we propose an analytical
+  model to predict the application performance. The model
+  characterizes the impact of coordinated checkpointing and
+  system failures on application performance, considering all the
+  factors including workload, the number of nodes, failure arrival
+  rate, recovery cost, and checkpointing interval and overhead.
+  Based on the model, we gauge three parameters, the number
+  of compute nodes, checkpointing interval, and the number of
+  spare nodes to conduct a comprehensive study of performance
+  optimization under failures. Performance scalability under
+  failures is also studied to explore the performance improvement
+  space for different parameters. Experimental results from
+  both synthetic and actual system failure logs confirm that the
+  proposed model and optimization methodologies are effective
+  and feasible.
+authors:
+  - H. Jin
+  - Y. Chen
+  - H. Zhu
+  - X.-H. Sun
+date: September, 2010
+doi: 10.1109/icpp.2010.80
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/jin2010optimizing.bib
+  citation: http://cs.iit.edu/~scs/assets/files/jin2010optimizing.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/icpp-jin.pdf
+month: 9
+slug: jin-2010-optimizing-hpc-5db2
+tags: []
+title: 'Optimizing HPC Fault-Tolerant Environment: An Analytical Approach'
+type: Conference
+venue: >-
+  The 39th International Conference on Parallel Processing (ICPP'2010), San
+  Diego, CA, USA
+year: 2010

@@ -1,0 +1,43 @@
+abstract: |-
+  ReRAM-based accelerators have become prevalent in accelerating
+  deep neural network inference owing to their in-situ computing ca-
+  pability of ReRAM crossbars. However, most existing ReRAM-based
+  accelerators are designed with homogeneous crossbars, leading to
+  either low resource utilization or sub-optimal energy efficiency.
+  In this paper, we propose AUTOHET, an automated heterogeneous
+  ReRAM-based accelerator with varied-size crossbars for different
+  DNN layers. To achieve both high crossbar utilization and energy
+  efficiency, AUTOHET uses a reinforcement learning algorithm to
+  automatically determine the proper crossbar configuration for each
+  DNN layer. Additionally, AUTOHET introduces rectangle crossbars
+  and a tile-shared crossbar allocation scheme to reduce crossbar
+  wastage and energy consumption. Experiment results show that
+  AUTOHET effectively improves crossbar utilization by up to 3.1×
+  and reduces energy consumption by up to 94.6%, compared to ap-
+  proaches with homogeneous ReRAM crossbars.
+authors:
+  - T. Wu
+  - S. He
+  - J. Zhu
+  - W. Chen
+  - S. Yang
+  - P. Chen
+  - Y. Yin
+  - X. Zhang
+  - X.-H. Sun
+  - G. Chen
+date: August, 2024
+doi: 10.1145/3673038.3673143
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/wu2024autohet.bib
+  citation: http://cs.iit.edu/~scs/assets/files/wu2024autohet.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/wu2024autohet.pdf
+month: 8
+slug: wu-2024-autohet-51af
+tags:
+  - Heterogeneous Systems
+  - Emerging Architectures
+title: 'AUTOHET: An Automated Heterogeneous ReRAM-Based Accelerator for DNN Inference'
+type: Conference
+venue: The 53th International Conference on Parallel Processing (ICPP'24)
+year: 2024

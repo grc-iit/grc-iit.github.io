@@ -1,0 +1,47 @@
+abstract: |-
+  With rapidly growing computing power, ultra
+  high-resolution Earth science simulations with a long period of
+  time are feasible. However, it is still very challenging to distribute
+  and analyze a huge amount of simulation results, which could be
+  over 100TB. One key reason is that typical Earth science data are
+  represented in NetCDF, which is not supported by the popular
+  and powerful Hadoop Distribute File System (HDFS) and
+  consequently cannot be analyzed with tools based on HDFS. In
+  this paper, we propose a Hadoop-based visualization and
+  diagnosis framework for visualizing and analyzing Earth science
+  data. It has a data model to transform data from the format of
+  NetCDF to CSV (Comma Separated Value) that is supported by
+  HDFS. With this model, data can be processed with the
+  operations such as maximize, sum, and subset through HIVE and
+  Cloudera Impala and, therefore, typical diagnoses can be
+  performed. In addition, the framework has a technique to
+  visualize and diagnose HDFS-resident data with the popular
+  visualization and diagnosis tool, IDL. To speed up this process, a
+  concurrent reader is developed to obtain HDFS-resident data.
+  Moreover, a dynamic reader to transfer data from a parallel file
+  system (PFS) to HDFS is developed to efficiently visualize and
+  diagnose PFS-resident data. The cloud resolve mode simulations
+  are used for testing and evaluating this framework.
+authors:
+  - S. Zhou
+  - X. Yang
+  - X. Li
+  - T. Matsui
+  - S. Liu
+  - X.-H. Sun
+  - W. Tao
+date: October, 2015
+doi: 10.1109/bigdata.2015.7363977
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/zhou2015hadoop.bib
+  citation: http://cs.iit.edu/~scs/assets/files/zhou2015hadoop.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/framework_zhou.pdf
+month: 10
+slug: zhou-2015-hadoop-based-62f3
+tags: []
+title: A Hadoop-Based Visualization and Diagnosis Framework for Earth Science Data
+type: Workshop
+venue: >-
+  Big Data in the Geosciences Workshop, in conjunction with IEEE International
+  Conference on Big Data (IEEE BigData 2015). Santa Clara, CA, USA
+year: 2015

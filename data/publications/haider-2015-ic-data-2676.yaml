@@ -1,0 +1,42 @@
+abstract: |-
+  As dataset sizes for data analytic applications and
+  scientific applications running on Hadoop increases, data com-
+  pression has become essential to store this data within a rea-
+  sonable storage cost. Although data is often stored compressed,
+  currently Hadoop takes 49% longer to process compressed data
+  compared to uncompressed data. Processing compressed data
+  reduces the amount of task parallelism and creates uneven
+  workload distribution both of which are fundamental issues the
+  MapReduce parallel programming paradigm should alleviate. In
+  this paper, we propose the design and implementation of a Net-
+  work Overlapped Compression scheme, NOC, and Compression
+  Aware Storage scheme, CAS. NOC reduces data load time and
+  hides compression overhead by interleaving network I/O with
+  compression. CAS increases parallelism by dynamically changing
+  a file's block size based on compression ratio. Additionally, we
+  develop a MapReduce Module which recognizes the characteris-
+  tics of compressed data to improve resource allocation and load
+  balance. Collectively, NOC, CAS, and the MapReduce Module
+  decrease job execution time on average by 66% and data load
+  time by 31%.
+authors:
+  - A. Haider
+  - X. Yang
+  - N. Liu
+  - S. He
+  - X.-H. Sun
+date: December, 2015
+doi: 10.1109/hipc.2015.28
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/haider2015ic.bib
+  citation: http://cs.iit.edu/~scs/assets/files/haider2015ic.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/IC-Data.pdf
+month: 12
+slug: haider-2015-ic-data-2676
+tags: []
+title: 'IC-Data: Improving Compressed Data Processing in Hadoop'
+type: Conference
+venue: >-
+  22nd annual IEEE International Conference on High Performance Computing (HiPC
+  2015), Bengaluru, India
+year: 2015

@@ -1,0 +1,31 @@
+abstract: |-
+  In this paper we present Horizon, a distributed graph processing
+  framework achieving close to native performance without penal-
+  izing productivity by providing a multi-layer, multi-abstraction
+  model of computation. Compared to current frameworks, Horizon
+  extends the scope of computation by exposing two notions usually
+  relegated to implementations: graph data models and communica-
+  tion models. Horizon can reduce execution time by an average of
+  5.3× across different applications and datasets and process an order
+  of magnitude larger graphs when compared to the state of the art.
+authors:
+  - A. Haider
+  - F. Checconi
+  - X. Que
+  - L. Schneidenbach
+  - D. Buono
+  - X.-H. Sun
+date: May, 2018
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/haider2018horizon.bib
+  citation: http://cs.iit.edu/~scs/assets/files/haider2018horizon.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/haider_2018.pdf
+month: 5
+slug: haider-2018-horizon-8cad
+tags: []
+title: 'Horizon: A Multi-abstraction Framework for Graph Analytics'
+type: Workshop
+venue: >-
+  The ACM International Conference on Computing Frontiers 2018 (CF'18), Italy,
+  2018. pp. 252-255
+year: 2018

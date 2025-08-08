@@ -1,0 +1,33 @@
+abstract: |-
+  Data prefetching, where data is fetched before CPU
+  demands for it, has been considered as an effective
+  solution to mask data access latency. However, the
+  current client-initiated prefetching strategies do not work
+  well for applications with complex, non-contiguous data
+  access patterns. While technology advances continue to
+  enlarge the gap between computing and data access
+  performance, trading computing power for data access
+  delay has become a natural choice. We propose a server-
+  based data-push approach. In this server-push
+  architecture, a dedicated server named Data Push Server
+  (DPS) initiates and proactively pushes data closer to the
+  client in time. We present the DPS architecture and study
+  the issues such as what data to fetch, when to fetch, how
+  to push, and data access modeling.
+authors:
+  - X.-H. Sun
+  - S. Byna
+  - Y. Chen
+date: March, 2007
+doi: 10.1109/ipdps.2007.370511
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/ngs07-sbc-.pdf
+month: 3
+slug: sun-2007-improving-data-1868
+tags: []
+title: Improving Data Access Performance with Server Push Architecture
+type: Workshop
+venue: >-
+  The NSF Next Generation Software Program Workshop (in conjunction with IPDPS
+  '07)
+year: 2007

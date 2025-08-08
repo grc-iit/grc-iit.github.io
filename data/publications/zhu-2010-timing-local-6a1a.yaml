@@ -1,0 +1,42 @@
+abstract: |-
+  Data prefetching technique is widely used to bridge the grow-
+  ing performance gap between processor and memory. Nu-
+  merous prefetching techniques have been proposed to exploit
+  data patterns and correlations in the miss address stream.
+  In general, the miss addresses are grouped by some common
+  characteristics, such as program counter or memory region
+  they belong to, into localized streams to improve prefetch
+  accuracy and coverage. However, the existing stream lo-
+  calization technique lacks the timing information of misses.
+  This drawback can lead to a large fraction of untimely pre-
+  fetches, which in turn limits the effectiveness of prefetching,
+  wastes precious bandwidth and leads to high cache pollu-
+  tion potentially. This paper proposes a novel mechanism
+  named stream timing technique that can largely reduce un-
+  timely prefetches and in turn increase the overall perfor-
+  mance. Based on the proposed stream timing technique, we
+  extend the conventional stride prefetcher and propose a new
+  stride prefetcher called Time-Aware Stride (TAS) prefetch-
+  er. We have carried out extensive simulation experiments to
+  verify the design of the stream timing technique and the TAS
+  prefetcher. The simulation results show that the proposed
+  stream timing technique is promising in reducing untimely
+  prefetches and the IPC improvement of TAS prefetcher out-
+  performs the existing stride prefetcher by 11%.
+authors:
+  - H. Zhu
+  - Y. Chen
+  - X.-H. Sun
+date: June, 2010
+doi: 10.1145/1810085.1810110
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/zhu2010timing.bib
+  citation: http://cs.iit.edu/~scs/assets/files/zhu2010timing.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/ICS_220.pdf
+month: 6
+slug: zhu-2010-timing-local-6a1a
+tags: []
+title: 'Timing Local Streams: Improving Timeliness in Data Prefetching'
+type: Conference
+venue: The 24th International Conference on Supercomputing (ICS'10), Tsukuba, Japan
+year: 2010

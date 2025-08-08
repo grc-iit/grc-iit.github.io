@@ -1,0 +1,43 @@
+abstract: |-
+  Modern schedulers running on HPC systems tradi-
+  tionally consider the number of resources and the time requested
+  for each job that is to be executed when making scheduling
+  decisions. Until recently this has been sufficient, however as
+  systems get larger, other metrics like power consumption become
+  necessary to ensure system stability.
+  In this paper, we propose a data driven scheduling approach
+  for controlling the power consumption of the entire system under
+  any user defined budget. Here, "data driven" means that our ap-
+  proach actively observes, analyzes, and assesses power behaviors
+  of the system and user jobs to guide scheduling decisions for
+  power management. This design is based on the key observation
+  that HPC jobs have distinct power profiles. Our work contains
+  an empirical analysis of workload power characteristics on a
+  production system, dynamic learner to estimate the job power
+  profile for scheduling, and an online power-aware scheduler for
+  managing the overall system power. Using real workload traces,
+  we demonstrate that our design effectively controls system power
+  consumption while minimizing the impact on system utilization.
+authors:
+  - S. Wallace
+  - X. Yang
+  - V. Vishwanath
+  - W. Allcock
+  - S. Coghlan
+  - M. Papka
+  - Z. Lan
+date: November, 2016
+doi: 10.1109/sc.2016.55
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/wallace2016data.bib
+  citation: http://cs.iit.edu/~scs/assets/files/wallace2016data.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/Wallace_SC_16.pdf
+month: 11
+slug: wallace-2016-data-driven-9eee
+tags: []
+title: A Data Driven Scheduling Approach for Power Management on HPC Systems
+type: Conference
+venue: >-
+  ACM/IEEE International Conference for High Performance Computing, Networking,
+  Storage and Analysis 2016 (SC'16), Salt Lake City, Utah, USA2016, pp. 656-666
+year: 2016

@@ -1,0 +1,1638 @@
+﻿Using Gemini API with provided key
+Starting to process publications from C:\Projects\IIT\GRC\data\publications
+Γ£à Gemini API access verified
+Found 362 YAML files to process.
+Processing C:\Projects\IIT\GRC\data\publications\allcock-2017-experience-practice-4de2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\allcock-2017-experience-practice-4de2.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\anand-2003-flow-based-eb61.yaml
+Publication C:\Projects\IIT\GRC\data\publications\anand-2003-flow-based-eb61.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\bateman-2022-luxio-2487.yaml
+Publication C:\Projects\IIT\GRC\data\publications\bateman-2022-luxio-2487.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\bateman-2025-dtio-e77d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\bateman-2025-dtio-e77d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\berrocal-2014-exploring-void-4508.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/6957006/6968662/06968757.pdf
+Processing C:\Projects\IIT\GRC\data\publications\berrocal-2016-exploring-partial-5c3e.yaml
+Downloading PDF from https://pdfs.semanticscholar.org/19d6/86007a37f599b850bfbca391a5d7d869def8.pdf
+Processing C:\Projects\IIT\GRC\data\publications\byna-2003-improving-performance-468e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2003-improving-performance-468e.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2004-predicting-memory-696b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2004-predicting-memory-696b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2005-isolating-costs-496d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2005-isolating-costs-496d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2006-automatic-memory-49c5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2006-automatic-memory-49c5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2006-memory-servers-035f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/byna_scc-06.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/byna_scc-06.pdf
+Updated C:\Projects\IIT\GRC\data\publications\byna-2006-memory-servers-035f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2008-parallel-io-6da7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pap297s4.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pap297s4.pdf
+Updated C:\Projects\IIT\GRC\data\publications\byna-2008-parallel-io-6da7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2008-taxonomy-data-49d6.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/bynas-PrefetchingSurvey.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/bynas-PrefetchingSurvey.pdf
+Updated C:\Projects\IIT\GRC\data\publications\byna-2008-taxonomy-data-49d6.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2009-taxonomy-data-5e3a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/4192.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/4192.pdf
+Updated C:\Projects\IIT\GRC\data\publications\byna-2009-taxonomy-data-5e3a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cai-2000-adaptive-wavelet-48e9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cai-2000-adaptive-wavelet-48e9.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cameron-2003-quantifying-locality-ce9b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/KSipdps03.PDF
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/KSipdps03.PDF
+Updated C:\Projects\IIT\GRC\data\publications\cameron-2003-quantifying-locality-ce9b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cameron-2007-lognp-log3p-0232.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/04079515-IEEEComputer.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/04079515-IEEEComputer.pdf
+Updated C:\Projects\IIT\GRC\data\publications\cameron-2007-lognp-log3p-0232.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2019-efficient-data-b08d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2019-efficient-data-b08d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2021-hflow-2f5b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.pdf
+Updated C:\Projects\IIT\GRC\data\publications\cernuda-2021-hflow-2f5b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-hades-e18c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024hades.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024hades.pdf
+Updated C:\Projects\IIT\GRC\data\publications\cernuda-2024-hades-e18c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-hstream-3043.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024hstream.pdf
+Updated C:\Projects\IIT\GRC\data\publications\cernuda-2024-hstream-3043.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-jarvis-3b52.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024jarvis.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cernuda2024jarvis.pdf
+Updated C:\Projects\IIT\GRC\data\publications\cernuda-2024-jarvis-3b52.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-1996-mppvm-900a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-1996-mppvm-900a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-1998-memory-space-d612.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ipps98.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ipps98.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-1998-memory-space-d612.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2000-user-level-880a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2000-user-level-880a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-communication-state-e392.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/commobile.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/commobile.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-2001-communication-state-e392.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-data-collection-91d4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ippds01.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ippds01.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-2001-data-collection-91d4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-protocol-design-47be.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/icdcs01.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/icdcs01.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-2001-protocol-design-47be.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2002-data-collection-b8cc.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/spe464.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/spe464.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-2002-data-collection-b8cc.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2002-snow--6364.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2002-snow--6364.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2004-communication-state-dd5a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/01327577.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/01327577.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chanchio-2004-communication-state-dd5a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2006-stas-c70d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/chen-STAS(final-version).pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/chen-STAS(final-version).pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2006-stas-c70d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2007-data-access-75aa.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SC07_DAHC.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SC07_DAHC.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2007-data-access-75aa.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-algorithm-system-cffa.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/YJPDC2552.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/YJPDC2552.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2008-algorithm-system-cffa.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-exploring-parallel-4054.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2008-exploring-parallel-4054.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-hiding-io-d98b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sc08_prex.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sc08_prex.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2008-hiding-io-d98b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-adaptive-data-404a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ccgrid10-adaptpf.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ccgrid10-adaptpf.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2010-adaptive-data-404a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-improving-effectiveness-139c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/p2s2-Chen.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/p2s2-Chen.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2010-improving-effectiveness-139c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-improving-parallel-38f5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cluster10.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cluster10.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2010-improving-parallel-38f5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-layout-aware-1fa0.yaml
+Downloading PDF from https://www.researchgate.net/profile/Huaiming_Song/publication/220717222_A_layout-aware_optimization_strategy_for_collective_IO/links/004635294810aadedb000000.pdf
+Processing C:\Projects\IIT\GRC\data\publications\chen-2011-global-aware-ea88.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IJHPCA-chen.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IJHPCA-chen.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2011-global-aware-ea88.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2011-lacio-8d94.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/PID1656687_LACIO.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/PID1656687_LACIO.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2011-lacio-8d94.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2012-algorithm-level-61d4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/data_prefetcher.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/data_prefetcher.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2012-algorithm-level-61d4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2012-decoupled-execution-e1b0.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/PID2448849.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/PID2448849.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2012-decoupled-execution-e1b0.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2014-decoupled-io-8543.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7101393/7103416/07103466.pdf
+Processing C:\Projects\IIT\GRC\data\publications\chen-2016-rethinking-high-a086.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Yong_ISPA16.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Yong_ISPA16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2016-rethinking-high-a086.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2021-cswap-221d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2021-cswap-221d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2022-accelerating-tensor-ba35.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/chen2022accelerating.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/chen2022accelerating.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2022-accelerating-tensor-ba35.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2023-icache-8b5d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/chen2023icache.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/chen2023icache.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chen-2023-icache-8b5d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\chien-2005-viewpoints-grid-ee73.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/caa.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/caa.pdf
+Updated C:\Projects\IIT\GRC\data\publications\chien-2005-viewpoints-grid-ee73.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\daftari-2003-design-framework-98b6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\daftari-2003-design-framework-98b6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\dang-2022-nvalloc-5298.yaml
+Publication C:\Projects\IIT\GRC\data\publications\dang-2022-nvalloc-5298.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\dang-2024-pmalloc-afaa.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/dang2024pmalloc.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/dang2024pmalloc.pdf
+Updated C:\Projects\IIT\GRC\data\publications\dang-2024-pmalloc-afaa.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2017-open-ethernet-e0f1.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/OED_DataCloud17.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/OED_DataCloud17.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2017-open-ethernet-e0f1.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2018-vidya-e65b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2018vidya_paper.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2018vidya_paper.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2018-vidya-e65b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2019-hfetch-980e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2019-hfetch-980e.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2019-intelligent--e9fd.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2019-intelligent--e9fd.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-dynamic-multi-ef19.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-dynamic-multi-ef19.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcl-d2f4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2020hcl.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2020hcl.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcl-d2f4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcompress-70f7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/hcompress.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/hcompress.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcompress-70f7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hfetch-46e9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/hfetch_conference_proceedings.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/hfetch_conference_proceedings.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2020-hfetch-46e9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hreplica-44a8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2020-hreplica-44a8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-understanding-io-755d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-understanding-io-755d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2021-dlio-0272.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2021dlio.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2021dlio.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2021-dlio-0272.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2022-stimulus-4b4c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/stimulus2022.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/stimulus2022.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2022-stimulus-4b4c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2024-dftracer-8fcb.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/devarajan2024dftracer.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/devarajan2024dftracer.pdf
+Updated C:\Projects\IIT\GRC\data\publications\devarajan-2024-dftracer-8fcb.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\du-2003-hpcm-6cdb.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/192_Du_C.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/192_Du_C.pdf
+Updated C:\Projects\IIT\GRC\data\publications\du-2003-hpcm-6cdb.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\du-2004-runtime-system-87d8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sunx_rescheduling.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sunx_rescheduling.pdf
+Updated C:\Projects\IIT\GRC\data\publications\du-2004-runtime-system-87d8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\du-2006-mpi-mitten-06cb.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sun-mitten.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sun-mitten.pdf
+Updated C:\Projects\IIT\GRC\data\publications\du-2006-mpi-mitten-06cb.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\du-2007-dynamic-scheduling-fd3c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/du-DynamicMigration.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/du-DynamicMigration.pdf
+Updated C:\Projects\IIT\GRC\data\publications\du-2007-dynamic-scheduling-fd3c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\du-2009-virtual-machines-858c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2009-virtual-machines-858c.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\eslami-2015-efficient-disk-fda9.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?ftid=1643727&id=2831249
+Processing C:\Projects\IIT\GRC\data\publications\eswaradass-2005-neural-network-4294.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/AlakSunWuIPDPS2005.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/AlakSunWuIPDPS2005.pdf
+Updated C:\Projects\IIT\GRC\data\publications\eswaradass-2005-neural-network-4294.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\eswaradass-2006-network-bandwidth-15a5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/CCGrid06NBPCameraReady.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/CCGrid06NBPCameraReady.pdf
+Updated C:\Projects\IIT\GRC\data\publications\eswaradass-2006-network-bandwidth-15a5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\fahringer-2000-execution-driven-bc7f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\fahringer-2000-execution-driven-bc7f.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\fan-2017-trade-off-57e6.yaml
+Downloading PDF from http://www.cs.iit.edu/~zlan/publications/cluster17_final.pdf
+Processing C:\Projects\IIT\GRC\data\publications\fang-2009-core-aware-0364.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IPDPS-1569163069-paper-1.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IPDPS-1569163069-paper-1.pdf
+Updated C:\Projects\IIT\GRC\data\publications\fang-2009-core-aware-0364.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2013-runtime-system-77fc.yaml
+Downloading PDF from https://www.computer.org/csdl/proceedings/cluster/2013/9999/00/06702642.pdf
+Processing C:\Projects\IIT\GRC\data\publications\feng-2014-hpis3-74f3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/HPIS3.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/HPIS3.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2014-hpis3-74f3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-fast-fault-d4c7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/fastfit.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/fastfit.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2015-fast-fault-d4c7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-iosig--5e1a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/bo_cluster15_IOSIG+.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/bo_cluster15_IOSIG+.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2015-iosig--5e1a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-lcindex--e3f4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/LCIndex.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/LCIndex.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2015-lcindex--e3f4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2018-scidp-cdc6.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SciDP_Kun2018.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SciDP_Kun2018.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2018-scidp-cdc6.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2019-niobe-19f9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/NIOBE_PDF_A.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/NIOBE_PDF_A.pdf
+Updated C:\Projects\IIT\GRC\data\publications\feng-2019-niobe-19f9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gainaru-2024-derive-or-4aad.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/gainaru2024derive.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/gainaru2024derive.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gainaru-2024-derive-or-4aad.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\ge-2010-assessing-energy-d006.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ge-2010-assessing-energy-d006.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ge-2010-characterizing-energy-0904.yaml
+Downloading PDF from https://www.researchgate.net/profile/Xizhou_Feng/publication/220950980_Characterizing_energy_efficiency_of_IO_intensive_parallel_applications_on_power-aware_clusters/links/0fcfd511907cc29784000000.pdf
+Processing C:\Projects\IIT\GRC\data\publications\ge-2012-sera-io-bb6c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-ge.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-ge.pdf
+Updated C:\Projects\IIT\GRC\data\publications\ge-2012-sera-io-bb6c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gong-2002-performance-modeling-44c0.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/perf2002.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/perf2002.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gong-2002-performance-modeling-44c0.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gu-2008-dynamic-meta-6f27.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gu-2008-dynamic-meta-6f27.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gujrati-2007-exploring-meta-8585.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gujrati-2007-exploring-meta-8585.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-accessing-telephony-c8bf.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GuSuICCCN03.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GuSuICCCN03.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2003-accessing-telephony-c8bf.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-internet-service-54ff.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GuSuIcin03.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GuSuIcin03.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2003-internet-service-54ff.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-services-spanning-75a3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GuSuIcc03.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GuSuIcc03.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2003-services-spanning-75a3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2004-extensions-internet-1a52.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/VijaySunGlobecome04.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/VijaySunGlobecome04.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2004-extensions-internet-1a52.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2004-terminating-telephony-bf19.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/VijaySunNetworking04.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/VijaySunNetworking04.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2004-terminating-telephony-bf19.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-inhibitors-ubiquitous-a804.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IEEE-ComMag-2005.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IEEE-ComMag-2005.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2005-inhibitors-ubiquitous-a804.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-systematic-approach-74bf.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IEEE-Network-2005.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IEEE-Network-2005.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2005-systematic-approach-74bf.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-ubiquitous-services-b0f5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Eurescom-2005.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Eurescom-2005.pdf
+Updated C:\Projects\IIT\GRC\data\publications\gurbani-2005-ubiquitous-services-b0f5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2015-ic-data-2676.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IC-Data.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IC-Data.pdf
+Updated C:\Projects\IIT\GRC\data\publications\haider-2015-ic-data-2676.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2015-lessons-post-0465.yaml
+Publication C:\Projects\IIT\GRC\data\publications\haider-2015-lessons-post-0465.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2018-horizon-8cad.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/haider_2018.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/haider_2018.pdf
+Updated C:\Projects\IIT\GRC\data\publications\haider-2018-horizon-8cad.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2002-qos-guided-b898.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GCC02_XHe.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GCC02_XHe.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2002-qos-guided-b898.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2003-qos-guided-cd3b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/jcst_XHe-5-28.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/jcst_XHe-5-28.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2003-qos-guided-cd3b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2005-incorporating-data-6b4a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/gcc-05.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/gcc-05.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2005-incorporating-data-6b4a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2011-layout-aware-981c.yaml
+Downloading PDF from http://mypages.iit.edu/~jhe24/papers/scala03-he.pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2011-pattern-aware-b8e7.yaml
+Downloading PDF from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.2559&rep=rep1&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2012-discovering-structure-e2be.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/plfs-index.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/plfs-index.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2012-discovering-structure-e2be.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2012-knowac-bea8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/KNOWAC_final.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/KNOWAC_final.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2012-knowac-bea8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-bps-003c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/shuibing_hpdic13.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/shuibing_hpdic13.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2013-bps-003c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-cost-aware-c52e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/shuibing_cluster13.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/shuibing_cluster13.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2013-cost-aware-c52e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-io-acceleration-157a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/jun_hpdc13.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/jun_hpdc13.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2013-io-acceleration-157a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-layout-aware-6328.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2013-layout-aware-6328.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-performance-aware-5536.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/padp.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/padp.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2014-performance-aware-5536.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-psa-957b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/psa-discs14.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/psa-discs14.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2014-psa-957b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-s4d-cache-3fc9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/s4d-cache-CR.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/s4d-cache-CR.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2014-s4d-cache-3fc9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2015-has-555a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/has_ipdps15.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/has_ipdps15.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2015-has-555a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2015-heterogeneity-aware-d995.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/harl-cr.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/harl-cr.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2015-heterogeneity-aware-d995.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-boosting-parallel-3d56.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-01.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-01.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2016-boosting-parallel-3d56.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-enhancing-hybrid-6427.yaml
+Downloading PDF from https://journals.sagepub.com/doi/pdf/10.1177/1094342016631610
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-improving-performance-2b32.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/71/7563479/07390309.pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-cost-aware-7e20.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Cost-Aware%20Region-Level%20Data%20Placement%20in%20Multi-Tiered%20Parallel%20IO%20Systems.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Cost-Aware%20Region-Level%20Data%20Placement%20in%20Multi-Tiered%20Parallel%20IO%20Systems.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2017-cost-aware-7e20.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-harl-f3c3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/HARL%20Optimizing%20Parallel%20File%20Systems%20with%20Heterogeneity-Aware%20Region-Level%20Data%20Layout.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/HARL%20Optimizing%20Parallel%20File%20Systems%20with%20Heterogeneity-Aware%20Region-Level%20Data%20Layout.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2017-harl-f3c3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-heterogeneity-aware-78c7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Heterogeneity-Aware%20Collective%20IO%20for%20Parallel%20IO%20Systems%20with%20Hybrid%20HDD_SSD%20Servers.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Heterogeneity-Aware%20Collective%20IO%20for%20Parallel%20IO%20Systems%20with%20Hybrid%20HDD_SSD%20Servers.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2017-heterogeneity-aware-78c7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-using-minmax-f6c6.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Sbing_MinMAX-Memory17.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Sbing_MinMAX-Memory17.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2017-using-minmax-f6c6.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2018-cost-effective-2ba9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/he2018cost.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/he2018cost.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2018-cost-effective-2ba9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2018-migratory-heterogeneity-b72b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/shuibing_ipdps2018.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/shuibing_ipdps2018.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2018-migratory-heterogeneity-b72b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2020-holistic-heterogeneity-5caa.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/he2019holicTPDs.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/he2019holicTPDs.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2020-holistic-heterogeneity-5caa.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\he-2020-optimizing-parallel-5527.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Opti_parallel_io.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Opti_parallel_io.pdf
+Updated C:\Projects\IIT\GRC\data\publications\he-2020-optimizing-parallel-5527.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\hou-1998-three-level-0c9a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/spacial98.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/spacial98.pdf
+Updated C:\Projects\IIT\GRC\data\publications\hou-1998-three-level-0c9a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2009-implementation-evaluation-3203.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2009-performance-failures-c6e7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/3622a236.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/3622a236.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2009-performance-failures-c6e7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2010-optimizing-hpc-5db2.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/icpp-jin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/icpp-jin.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2010-optimizing-hpc-5db2.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2010-remem-3b25.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cloudcom-Jin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cloudcom-Jin.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2010-remem-3b25.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2011-performance-failures-8e2a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/PID1705069.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/PID1705069.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2011-performance-failures-8e2a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-adapt-ff5c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/icdcs-12.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/icdcs-12.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2012-adapt-ff5c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-chaio-3b06.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/jin_icpp_12.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/jin_icpp_12.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2012-chaio-3b06.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-checkpointing-orchestration-0eba.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-jin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-jin.pdf
+Updated C:\Projects\IIT\GRC\data\publications\jin-2012-checkpointing-orchestration-0eba.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-performance-comparison-43e9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2012-performance-comparison-43e9.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2013-performance-comparison-3e6a.yaml
+Downloading PDF from http://www.sciencedirect.com/science/article/pii/S0167739X13000290
+Processing C:\Projects\IIT\GRC\data\publications\khettry-1999-virtual-collaboratory-9f76.yaml
+Publication C:\Projects\IIT\GRC\data\publications\khettry-1999-virtual-collaboratory-9f76.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\khettry-2000-windows-nt-464f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/dnasa.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/dnasa.pdf
+Updated C:\Projects\IIT\GRC\data\publications\khettry-2000-windows-nt-464f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2016-leveraging-burst-85be.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/eScience16.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/eScience16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2016-leveraging-burst-85be.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2016-towards-energy-6062.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Anthony_oed_pdsw16.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Anthony_oed_pdsw16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2016-towards-energy-6062.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-enosis-ea06.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Enosis.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Enosis.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2017-enosis-ea06.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-rethinking-key-02de.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Anthony_kvstore_journal.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Anthony_kvstore_journal.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2017-rethinking-key-02de.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-syndesis-d59c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Syndesis.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Syndesis.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2017-syndesis-d59c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-harmonia-5ca9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/kougkas2018harmonia.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/kougkas2018harmonia.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2018-harmonia-5ca9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-hermes-25f4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Hermes.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Hermes.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2018-hermes-25f4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-iris-f1a6.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IRIS.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IRIS.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2018-iris-f1a6.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2019-labios-8411.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/kougkas2019labios.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/kougkas2019labios.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2019-labios-8411.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-bridging-storage-5e1c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/kougkas2020bridging.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/kougkas2020bridging.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2020-bridging-storage-5e1c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-chronolog-c458.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/kougkas2020chronolog.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/kougkas2020chronolog.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2020-chronolog-c458.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-io-acceleration-4458.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IOaccel.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IOaccel.pdf
+Updated C:\Projects\IIT\GRC\data\publications\kougkas-2020-io-acceleration-4458.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2006-failure-aware-9031.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2006-failure-aware-9031.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2007-fault-diagnosis-c84c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2007-fault-diagnosis-c84c.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2008-adaptive-fault-15de.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/adaptive_fault_management.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/adaptive_fault_management.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lan-2008-adaptive-fault-15de.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2008-enhancing-application-c87d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2008-enhancing-application-c87d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2010-study-dynamic-318f.yaml
+Downloading PDF from https://www.sciencedirect.com/science/article/pii/S0743731510000377
+Processing C:\Projects\IIT\GRC\data\publications\lan-2010-toward-automated-70a8.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/71/5372118/04815224.pdf
+Processing C:\Projects\IIT\GRC\data\publications\laszewski-2003-file-transfer-fb11.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/alunbeu--gridftp.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/alunbeu--gridftp.pdf
+Updated C:\Projects\IIT\GRC\data\publications\laszewski-2003-file-transfer-fb11.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lee-2023-data-lifecycles-c393.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lee2023data.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lee2023data.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lee-2023-data-lifecycles-c393.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\leutenegger-1997-limitations-cycle-e48e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/limitation.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/limitation.pdf
+Updated C:\Projects\IIT\GRC\data\publications\leutenegger-1997-limitations-cycle-e48e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\li-1991-parallel-homotopy-c0d6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-1991-parallel-homotopy-c0d6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-1999-average-case-28a7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-1999-average-case-28a7.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2000-average-case-f9fd.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2000-average-case-f9fd.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2006-exploit-failure-c181.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2006-exploit-failure-c181.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2007-fault-driven-c3ad.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2007-fault-driven-c3ad.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2007-using-adaptive-b2c4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2007-using-adaptive-b2c4.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2008-fast-recovery-adc9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/dsn08_dccs.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/dsn08_dccs.pdf
+Updated C:\Projects\IIT\GRC\data\publications\li-2008-fast-recovery-adc9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\li-2009-fault-aware-63af.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/fault_aware_runtime_strategies.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/fault_aware_runtime_strategies.pdf
+Updated C:\Projects\IIT\GRC\data\publications\li-2009-fault-aware-63af.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\li-2016-efficient-design-6a44.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?id=2968457&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\li-2016-efficient-design-c3bb.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?id=2898012&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\li-2019-self-adaptive-68f2.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ISPA2019-ChundianLi.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ISPA2019-ChundianLi.pdf
+Updated C:\Projects\IIT\GRC\data\publications\li-2019-self-adaptive-68f2.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liao-1997-simulation-study-a5ca.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liao-1997-simulation-study-a5ca.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liao-1999-computer-simulation-02f6.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/simupac.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/simupac.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liao-1999-computer-simulation-02f6.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-c-2-6a2f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SC%20paper-pub.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SC%20paper-pub.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2015-c-2-6a2f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-fattreesim-5926.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/fattreesim.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/fattreesim.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2015-fattreesim-5926.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-lpm-215a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/LPM-pub.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/LPM-pub.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2015-lpm-215a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-massively-parallel-43a5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-massively-parallel-43a5.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-reevaluating-data-40a1.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Reevaluating%20Data%20Stall%20Time%20with%20the%20Consideration%20of%20Data%20Access.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Reevaluating%20Data%20Stall%20Time%20with%20the%20Consideration%20of%20Data%20Access.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2015-reevaluating-data-40a1.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-yarnsim-8320.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Ning_CCGrid15.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Ning_CCGrid15.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2015-yarnsim-8320.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2016-towards-optimizing-8e1c.yaml
+Downloading PDF from https://www.mcs.anl.gov/~kettimut/publications/BigData16.pdf
+Successfully downloaded and verified PDF from https://www.mcs.anl.gov/~kettimut/publications/BigData16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2016-towards-optimizing-8e1c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2017-evaluating-combined-e6c0.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/TOMPECS-liu.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/TOMPECS-liu.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2017-evaluating-combined-e6c0.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2017-modeling-simulation-056b.yaml
+Downloading PDF from http://publish.illinois.edu/science-of-security-lablet/files/2014/05/A-Modeling-and-Simulation-of-Extreme-Scale-Fat-Tree-Networks-for-HPC-Systems-and-Data-Centers.pdf
+Successfully downloaded and verified PDF from http://publish.illinois.edu/science-of-security-lablet/files/2014/05/A-Modeling-and-Simulation-of-Extreme-Scale-Fat-Tree-Networks-for-HPC-Systems-and-Data-Centers.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2017-modeling-simulation-056b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2018-cal-c95c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Cal.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Cal.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2018-cal-c95c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2019-lpm-e1f4.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/liu2019lpm.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/liu2019lpm.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2019-lpm-e1f4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2021-hcda-b697.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/hcda.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/hcda.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2021-hcda-b697.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2021-study-modeling-1bdd.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/liu2021study.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/liu2021study.pdf
+Updated C:\Projects\IIT\GRC\data\publications\liu-2021-study-modeling-1bdd.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2020-quantifying-overheads-cfc2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2020-quantifying-overheads-cfc2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2021-pmemcpy-f81c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy.pdf
+Updated C:\Projects\IIT\GRC\data\publications\logan-2021-pmemcpy-f81c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2021-utilizing-persistent-24d5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2021-utilizing-persistent-24d5.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2022-labstor-f69d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/logan2022labstor.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/logan2022labstor.pdf
+Updated C:\Projects\IIT\GRC\data\publications\logan-2022-labstor-f69d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2023-evaluation-daos-a960.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf
+Updated C:\Projects\IIT\GRC\data\publications\logan-2023-evaluation-daos-a960.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2024-evaluation-daos-6eb2.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf
+Updated C:\Projects\IIT\GRC\data\publications\logan-2024-evaluation-daos-6eb2.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2024-megammap-cbda.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/logan2024megammap.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/logan2024megammap.pdf
+Updated C:\Projects\IIT\GRC\data\publications\logan-2024-megammap-cbda.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2020-apac-66b5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lu2020apac.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lu2020apac.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lu-2020-apac-66b5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2021-premier-10f5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lu-2021-premier-10f5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2023-care-bc99.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lu2023care.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lu2023care.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lu-2023-care-bc99.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2024-aces-6fdd.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lu2024aces.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lu2024aces.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lu-2024-aces-6fdd.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2024-chrome-1321.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/lu2024chrome.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/lu2024chrome.pdf
+Updated C:\Projects\IIT\GRC\data\publications\lu-2024-chrome-1321.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\najafi-2022-generalized-model-3e33.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/najafi2022generalized.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/najafi2022generalized.pdf
+Updated C:\Projects\IIT\GRC\data\publications\najafi-2022-generalized-model-3e33.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\noelle-1998-communication-overhead-83d2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\noelle-1998-communication-overhead-83d2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\pan-2024-ambea-dc5e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pan2024ambea.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pan2024ambea.pdf
+Updated C:\Projects\IIT\GRC\data\publications\pan-2024-ambea-dc5e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\pan-2024-enumeration-billions-181b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pan2024bipartite.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pan2024bipartite.pdf
+Updated C:\Projects\IIT\GRC\data\publications\pan-2024-enumeration-billions-181b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2007-lqcd-workflow-5d7d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2008-lattice-qcd-08d3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/piccoli-LatticeWorkflow.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/piccoli-LatticeWorkflow.pdf
+Updated C:\Projects\IIT\GRC\data\publications\piccoli-2008-lattice-qcd-08d3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2008-tracking-lqcd-e527.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/LAT08-Poster.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/LAT08-Poster.pdf
+Updated C:\Projects\IIT\GRC\data\publications\piccoli-2008-tracking-lqcd-e527.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2020-characterizing-approximating-1de1.yaml
+Publication C:\Projects\IIT\GRC\data\publications\rajesh-2020-characterizing-approximating-1de1.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2021-apollo-dbd8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.pdf
+Using Gemini API with provided key
+Starting to process publications from C:\Projects\IIT\GRC\data\publications
+Γ£à Gemini API access verified
+Found 362 YAML files to process.
+Processing C:\Projects\IIT\GRC\data\publications\allcock-2017-experience-practice-4de2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\allcock-2017-experience-practice-4de2.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\anand-2003-flow-based-eb61.yaml
+Publication C:\Projects\IIT\GRC\data\publications\anand-2003-flow-based-eb61.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\bateman-2022-luxio-2487.yaml
+Publication C:\Projects\IIT\GRC\data\publications\bateman-2022-luxio-2487.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\bateman-2025-dtio-e77d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\bateman-2025-dtio-e77d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\berrocal-2014-exploring-void-4508.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/6957006/6968662/06968757.pdf
+Processing C:\Projects\IIT\GRC\data\publications\berrocal-2016-exploring-partial-5c3e.yaml
+Downloading PDF from https://pdfs.semanticscholar.org/19d6/86007a37f599b850bfbca391a5d7d869def8.pdf
+Processing C:\Projects\IIT\GRC\data\publications\byna-2003-improving-performance-468e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2003-improving-performance-468e.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2004-predicting-memory-696b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2004-predicting-memory-696b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2005-isolating-costs-496d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2005-isolating-costs-496d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2006-automatic-memory-49c5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2006-automatic-memory-49c5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2006-memory-servers-035f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2006-memory-servers-035f.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2008-parallel-io-6da7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2008-parallel-io-6da7.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2008-taxonomy-data-49d6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2008-taxonomy-data-49d6.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\byna-2009-taxonomy-data-5e3a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\byna-2009-taxonomy-data-5e3a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cai-2000-adaptive-wavelet-48e9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cai-2000-adaptive-wavelet-48e9.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cameron-2003-quantifying-locality-ce9b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cameron-2003-quantifying-locality-ce9b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cameron-2007-lognp-log3p-0232.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cameron-2007-lognp-log3p-0232.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2019-efficient-data-b08d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2019-efficient-data-b08d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2021-hflow-2f5b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2021-hflow-2f5b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-hades-e18c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2024-hades-e18c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-hstream-3043.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2024-hstream-3043.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\cernuda-2024-jarvis-3b52.yaml
+Publication C:\Projects\IIT\GRC\data\publications\cernuda-2024-jarvis-3b52.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-1996-mppvm-900a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-1996-mppvm-900a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-1998-memory-space-d612.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-1998-memory-space-d612.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2000-user-level-880a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2000-user-level-880a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-communication-state-e392.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2001-communication-state-e392.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-data-collection-91d4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2001-data-collection-91d4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2001-protocol-design-47be.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2001-protocol-design-47be.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2002-data-collection-b8cc.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2002-data-collection-b8cc.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2002-snow--6364.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2002-snow--6364.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chanchio-2004-communication-state-dd5a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chanchio-2004-communication-state-dd5a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2006-stas-c70d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2006-stas-c70d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2007-data-access-75aa.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2007-data-access-75aa.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-algorithm-system-cffa.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2008-algorithm-system-cffa.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-exploring-parallel-4054.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2008-exploring-parallel-4054.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2008-hiding-io-d98b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2008-hiding-io-d98b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-adaptive-data-404a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2010-adaptive-data-404a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-improving-effectiveness-139c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2010-improving-effectiveness-139c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-improving-parallel-38f5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2010-improving-parallel-38f5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2010-layout-aware-1fa0.yaml
+Downloading PDF from https://www.researchgate.net/profile/Huaiming_Song/publication/220717222_A_layout-aware_optimization_strategy_for_collective_IO/links/004635294810aadedb000000.pdf
+Processing C:\Projects\IIT\GRC\data\publications\chen-2011-global-aware-ea88.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2011-global-aware-ea88.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2011-lacio-8d94.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2011-lacio-8d94.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2012-algorithm-level-61d4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2012-algorithm-level-61d4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2012-decoupled-execution-e1b0.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2012-decoupled-execution-e1b0.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2014-decoupled-io-8543.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7101393/7103416/07103466.pdf
+Processing C:\Projects\IIT\GRC\data\publications\chen-2016-rethinking-high-a086.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2016-rethinking-high-a086.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2021-cswap-221d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2021-cswap-221d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2022-accelerating-tensor-ba35.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2022-accelerating-tensor-ba35.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chen-2023-icache-8b5d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chen-2023-icache-8b5d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\chien-2005-viewpoints-grid-ee73.yaml
+Publication C:\Projects\IIT\GRC\data\publications\chien-2005-viewpoints-grid-ee73.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\daftari-2003-design-framework-98b6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\daftari-2003-design-framework-98b6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\dang-2022-nvalloc-5298.yaml
+Publication C:\Projects\IIT\GRC\data\publications\dang-2022-nvalloc-5298.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\dang-2024-pmalloc-afaa.yaml
+Publication C:\Projects\IIT\GRC\data\publications\dang-2024-pmalloc-afaa.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2017-open-ethernet-e0f1.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2017-open-ethernet-e0f1.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2018-vidya-e65b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2018-vidya-e65b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2019-hfetch-980e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2019-hfetch-980e.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2019-intelligent--e9fd.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2019-intelligent--e9fd.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-dynamic-multi-ef19.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-dynamic-multi-ef19.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcl-d2f4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcl-d2f4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcompress-70f7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-hcompress-70f7.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hfetch-46e9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-hfetch-46e9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-hreplica-44a8.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-hreplica-44a8.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2020-understanding-io-755d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2020-understanding-io-755d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2021-dlio-0272.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2021-dlio-0272.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2022-stimulus-4b4c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2022-stimulus-4b4c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\devarajan-2024-dftracer-8fcb.yaml
+Publication C:\Projects\IIT\GRC\data\publications\devarajan-2024-dftracer-8fcb.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\du-2003-hpcm-6cdb.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2003-hpcm-6cdb.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\du-2004-runtime-system-87d8.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2004-runtime-system-87d8.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\du-2006-mpi-mitten-06cb.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2006-mpi-mitten-06cb.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\du-2007-dynamic-scheduling-fd3c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2007-dynamic-scheduling-fd3c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\du-2009-virtual-machines-858c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\du-2009-virtual-machines-858c.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\eslami-2015-efficient-disk-fda9.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?ftid=1643727&id=2831249
+Processing C:\Projects\IIT\GRC\data\publications\eswaradass-2005-neural-network-4294.yaml
+Publication C:\Projects\IIT\GRC\data\publications\eswaradass-2005-neural-network-4294.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\eswaradass-2006-network-bandwidth-15a5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\eswaradass-2006-network-bandwidth-15a5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\fahringer-2000-execution-driven-bc7f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\fahringer-2000-execution-driven-bc7f.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\fan-2017-trade-off-57e6.yaml
+Downloading PDF from http://www.cs.iit.edu/~zlan/publications/cluster17_final.pdf
+Processing C:\Projects\IIT\GRC\data\publications\fang-2009-core-aware-0364.yaml
+Publication C:\Projects\IIT\GRC\data\publications\fang-2009-core-aware-0364.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2013-runtime-system-77fc.yaml
+Downloading PDF from https://www.computer.org/csdl/proceedings/cluster/2013/9999/00/06702642.pdf
+Processing C:\Projects\IIT\GRC\data\publications\feng-2014-hpis3-74f3.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2014-hpis3-74f3.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-fast-fault-d4c7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2015-fast-fault-d4c7.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-iosig--5e1a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2015-iosig--5e1a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2015-lcindex--e3f4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2015-lcindex--e3f4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2018-scidp-cdc6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2018-scidp-cdc6.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\feng-2019-niobe-19f9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\feng-2019-niobe-19f9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gainaru-2024-derive-or-4aad.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gainaru-2024-derive-or-4aad.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ge-2010-assessing-energy-d006.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ge-2010-assessing-energy-d006.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ge-2010-characterizing-energy-0904.yaml
+Downloading PDF from https://www.researchgate.net/profile/Xizhou_Feng/publication/220950980_Characterizing_energy_efficiency_of_IO_intensive_parallel_applications_on_power-aware_clusters/links/0fcfd511907cc29784000000.pdf
+Processing C:\Projects\IIT\GRC\data\publications\ge-2012-sera-io-bb6c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ge-2012-sera-io-bb6c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gong-2002-performance-modeling-44c0.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gong-2002-performance-modeling-44c0.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gu-2008-dynamic-meta-6f27.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gu-2008-dynamic-meta-6f27.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gujrati-2007-exploring-meta-8585.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gujrati-2007-exploring-meta-8585.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-accessing-telephony-c8bf.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2003-accessing-telephony-c8bf.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-internet-service-54ff.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2003-internet-service-54ff.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2003-services-spanning-75a3.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2003-services-spanning-75a3.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2004-extensions-internet-1a52.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2004-extensions-internet-1a52.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2004-terminating-telephony-bf19.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2004-terminating-telephony-bf19.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-inhibitors-ubiquitous-a804.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2005-inhibitors-ubiquitous-a804.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-systematic-approach-74bf.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2005-systematic-approach-74bf.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\gurbani-2005-ubiquitous-services-b0f5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\gurbani-2005-ubiquitous-services-b0f5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2015-ic-data-2676.yaml
+Publication C:\Projects\IIT\GRC\data\publications\haider-2015-ic-data-2676.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2015-lessons-post-0465.yaml
+Publication C:\Projects\IIT\GRC\data\publications\haider-2015-lessons-post-0465.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\haider-2018-horizon-8cad.yaml
+Publication C:\Projects\IIT\GRC\data\publications\haider-2018-horizon-8cad.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2002-qos-guided-b898.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2002-qos-guided-b898.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2003-qos-guided-cd3b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2003-qos-guided-cd3b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2005-incorporating-data-6b4a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2005-incorporating-data-6b4a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2011-layout-aware-981c.yaml
+Downloading PDF from http://mypages.iit.edu/~jhe24/papers/scala03-he.pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2011-pattern-aware-b8e7.yaml
+Downloading PDF from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.2559&rep=rep1&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2012-discovering-structure-e2be.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2012-discovering-structure-e2be.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2012-knowac-bea8.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2012-knowac-bea8.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-bps-003c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2013-bps-003c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-cost-aware-c52e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2013-cost-aware-c52e.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-io-acceleration-157a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2013-io-acceleration-157a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2013-layout-aware-6328.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2013-layout-aware-6328.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-performance-aware-5536.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2014-performance-aware-5536.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-psa-957b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2014-psa-957b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2014-s4d-cache-3fc9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2014-s4d-cache-3fc9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2015-has-555a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2015-has-555a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2015-heterogeneity-aware-d995.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2015-heterogeneity-aware-d995.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-boosting-parallel-3d56.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2016-boosting-parallel-3d56.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-enhancing-hybrid-6427.yaml
+Downloading PDF from https://journals.sagepub.com/doi/pdf/10.1177/1094342016631610
+Processing C:\Projects\IIT\GRC\data\publications\he-2016-improving-performance-2b32.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/71/7563479/07390309.pdf
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-cost-aware-7e20.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2017-cost-aware-7e20.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-harl-f3c3.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2017-harl-f3c3.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-heterogeneity-aware-78c7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2017-heterogeneity-aware-78c7.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2017-using-minmax-f6c6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2017-using-minmax-f6c6.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2018-cost-effective-2ba9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2018-cost-effective-2ba9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2018-migratory-heterogeneity-b72b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2018-migratory-heterogeneity-b72b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2020-holistic-heterogeneity-5caa.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2020-holistic-heterogeneity-5caa.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\he-2020-optimizing-parallel-5527.yaml
+Publication C:\Projects\IIT\GRC\data\publications\he-2020-optimizing-parallel-5527.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\hou-1998-three-level-0c9a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\hou-1998-three-level-0c9a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2009-implementation-evaluation-3203.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2009-performance-failures-c6e7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2009-performance-failures-c6e7.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2010-optimizing-hpc-5db2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2010-optimizing-hpc-5db2.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2010-remem-3b25.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2010-remem-3b25.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2011-performance-failures-8e2a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2011-performance-failures-8e2a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-adapt-ff5c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2012-adapt-ff5c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-chaio-3b06.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2012-chaio-3b06.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-checkpointing-orchestration-0eba.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2012-checkpointing-orchestration-0eba.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2012-performance-comparison-43e9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\jin-2012-performance-comparison-43e9.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\jin-2013-performance-comparison-3e6a.yaml
+Downloading PDF from http://www.sciencedirect.com/science/article/pii/S0167739X13000290
+Processing C:\Projects\IIT\GRC\data\publications\khettry-1999-virtual-collaboratory-9f76.yaml
+Publication C:\Projects\IIT\GRC\data\publications\khettry-1999-virtual-collaboratory-9f76.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\khettry-2000-windows-nt-464f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\khettry-2000-windows-nt-464f.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2016-leveraging-burst-85be.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2016-leveraging-burst-85be.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2016-towards-energy-6062.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2016-towards-energy-6062.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-enosis-ea06.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2017-enosis-ea06.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-rethinking-key-02de.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2017-rethinking-key-02de.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2017-syndesis-d59c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2017-syndesis-d59c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-harmonia-5ca9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2018-harmonia-5ca9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-hermes-25f4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2018-hermes-25f4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2018-iris-f1a6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2018-iris-f1a6.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2019-labios-8411.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2019-labios-8411.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-bridging-storage-5e1c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2020-bridging-storage-5e1c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-chronolog-c458.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2020-chronolog-c458.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\kougkas-2020-io-acceleration-4458.yaml
+Publication C:\Projects\IIT\GRC\data\publications\kougkas-2020-io-acceleration-4458.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2006-failure-aware-9031.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2006-failure-aware-9031.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2007-fault-diagnosis-c84c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2007-fault-diagnosis-c84c.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2008-adaptive-fault-15de.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2008-adaptive-fault-15de.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2008-enhancing-application-c87d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lan-2008-enhancing-application-c87d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lan-2010-study-dynamic-318f.yaml
+Downloading PDF from https://www.sciencedirect.com/science/article/pii/S0743731510000377
+Processing C:\Projects\IIT\GRC\data\publications\lan-2010-toward-automated-70a8.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/71/5372118/04815224.pdf
+Processing C:\Projects\IIT\GRC\data\publications\laszewski-2003-file-transfer-fb11.yaml
+Publication C:\Projects\IIT\GRC\data\publications\laszewski-2003-file-transfer-fb11.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lee-2023-data-lifecycles-c393.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lee-2023-data-lifecycles-c393.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\leutenegger-1997-limitations-cycle-e48e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\leutenegger-1997-limitations-cycle-e48e.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-1991-parallel-homotopy-c0d6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-1991-parallel-homotopy-c0d6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-1999-average-case-28a7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-1999-average-case-28a7.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2000-average-case-f9fd.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2000-average-case-f9fd.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2006-exploit-failure-c181.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2006-exploit-failure-c181.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2007-fault-driven-c3ad.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2007-fault-driven-c3ad.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2007-using-adaptive-b2c4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2007-using-adaptive-b2c4.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2008-fast-recovery-adc9.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2008-fast-recovery-adc9.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2009-fault-aware-63af.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2009-fault-aware-63af.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\li-2016-efficient-design-6a44.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?id=2968457&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\li-2016-efficient-design-c3bb.yaml
+Downloading PDF from https://dl.acm.org/ft_gateway.cfm?id=2898012&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\li-2019-self-adaptive-68f2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\li-2019-self-adaptive-68f2.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liao-1997-simulation-study-a5ca.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liao-1997-simulation-study-a5ca.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liao-1999-computer-simulation-02f6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liao-1999-computer-simulation-02f6.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-c-2-6a2f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-c-2-6a2f.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-fattreesim-5926.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-fattreesim-5926.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-lpm-215a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-lpm-215a.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-massively-parallel-43a5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-massively-parallel-43a5.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-reevaluating-data-40a1.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-reevaluating-data-40a1.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2015-yarnsim-8320.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2015-yarnsim-8320.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2016-towards-optimizing-8e1c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2016-towards-optimizing-8e1c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2017-evaluating-combined-e6c0.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2017-evaluating-combined-e6c0.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2017-modeling-simulation-056b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2017-modeling-simulation-056b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2018-cal-c95c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2018-cal-c95c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2019-lpm-e1f4.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2019-lpm-e1f4.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2021-hcda-b697.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2021-hcda-b697.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\liu-2021-study-modeling-1bdd.yaml
+Publication C:\Projects\IIT\GRC\data\publications\liu-2021-study-modeling-1bdd.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2020-quantifying-overheads-cfc2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2020-quantifying-overheads-cfc2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2021-pmemcpy-f81c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2021-pmemcpy-f81c.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2021-utilizing-persistent-24d5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2021-utilizing-persistent-24d5.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2022-labstor-f69d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2022-labstor-f69d.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2023-evaluation-daos-a960.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2023-evaluation-daos-a960.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2024-evaluation-daos-6eb2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2024-evaluation-daos-6eb2.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\logan-2024-megammap-cbda.yaml
+Publication C:\Projects\IIT\GRC\data\publications\logan-2024-megammap-cbda.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2020-apac-66b5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lu-2020-apac-66b5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2021-premier-10f5.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lu-2021-premier-10f5.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2023-care-bc99.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lu-2023-care-bc99.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2024-aces-6fdd.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lu-2024-aces-6fdd.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\lu-2024-chrome-1321.yaml
+Publication C:\Projects\IIT\GRC\data\publications\lu-2024-chrome-1321.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\najafi-2022-generalized-model-3e33.yaml
+Publication C:\Projects\IIT\GRC\data\publications\najafi-2022-generalized-model-3e33.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\noelle-1998-communication-overhead-83d2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\noelle-1998-communication-overhead-83d2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\pan-2024-ambea-dc5e.yaml
+Publication C:\Projects\IIT\GRC\data\publications\pan-2024-ambea-dc5e.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\pan-2024-enumeration-billions-181b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\pan-2024-enumeration-billions-181b.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2007-lqcd-workflow-5d7d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2008-lattice-qcd-08d3.yaml
+Publication C:\Projects\IIT\GRC\data\publications\piccoli-2008-lattice-qcd-08d3.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\piccoli-2008-tracking-lqcd-e527.yaml
+Publication C:\Projects\IIT\GRC\data\publications\piccoli-2008-tracking-lqcd-e527.yaml already has an abstract. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2020-characterizing-approximating-1de1.yaml
+Publication C:\Projects\IIT\GRC\data\publications\rajesh-2020-characterizing-approximating-1de1.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2021-apollo-dbd8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.pdf
+Updated C:\Projects\IIT\GRC\data\publications\rajesh-2021-apollo-dbd8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2021-feature-reduction-4823.yaml
+Publication C:\Projects\IIT\GRC\data\publications\rajesh-2021-feature-reduction-4823.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\rajesh-2024-tunio-05a8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/rajesh2024tunio.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/rajesh2024tunio.pdf
+Updated C:\Projects\IIT\GRC\data\publications\rajesh-2024-tunio-05a8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\ranjan-2015-recent-advances-a344.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/auto_provision_tcc15.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/auto_provision_tcc15.pdf
+Updated C:\Projects\IIT\GRC\data\publications\ranjan-2015-recent-advances-a344.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2010-trace-based-3ec6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\song-2010-trace-based-3ec6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\song-2011-cost-intelligent-1b12.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/songhpdcp37.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/songhpdcp37.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2011-cost-intelligent-1b12.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2011-hybrid-shared-3908.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Hybrid-Poster-ccgrid.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Hybrid-Poster-ccgrid.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2011-hybrid-shared-3908.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2011-hybrid-shared-889a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Hybrid-Song-ispa11.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Hybrid-Song-ispa11.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2011-hybrid-shared-889a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2011-segment-level-b96a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/fine-grained_layout_ccgrid.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/fine-grained_layout_ccgrid.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2011-segment-level-b96a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2011-server-side-c1f4.yaml
+Downloading PDF from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.461.4037&rep=rep1&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\song-2012-cost-intelligent-af81.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cost-model-jrnl.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cost-model-jrnl.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2012-cost-intelligent-af81.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\song-2012-server-level-48b7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/server-level.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/server-level.pdf
+Updated C:\Projects\IIT\GRC\data\publications\song-2012-server-level-48b7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1991-toward-better-c4d7.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sun_perfmetric_parallelcomputing91.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sun_perfmetric_parallelcomputing91.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1991-toward-better-c4d7.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1992-augmenting-multikey-da23.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1992-augmenting-multikey-da23.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1992-efficient-tridiagonal-64f1.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1992-efficient-tridiagonal-64f1.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1992-preprocessing-predicates-4cc7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1992-preprocessing-predicates-4cc7.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1993-scalable-problems-ec6f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Sun_and_Ni_JPDC1993.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Sun_and_Ni_JPDC1993.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1993-scalable-problems-ec6f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1994-green-s-c2e8.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1994-green-s-c2e8.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1994-massively-parallel-5b27.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1994-massively-parallel-5b27.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1994-scalability-parallel-c618.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/scalability94.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/scalability94.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1994-scalability-parallel-c618.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1994-scalable-parallel-ee27.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1994-scalable-parallel-ee27.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1994-shared-virtual-b49b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1994-shared-virtual-b49b.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1995-application-accuracy-7067.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pdd95.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pdd95.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1995-application-accuracy-7067.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1995-performance-considerations-60ca.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ieee95.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ieee95.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1995-performance-considerations-60ca.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1995-performance-prediction-9d78.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1995-performance-prediction-9d78.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1995-simple-parallel-f414.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1995-simple-parallel-f414.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1996-performance-considerations-c13b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/performancePre1996.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/performancePre1996.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1996-performance-considerations-c13b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1996-relation-scalability-3a3f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1996-relation-scalability-3a3f.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1997-performance-comparison-b674.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1997-performance-comparison-b674.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1998-performance-range-311f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/icpp98.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/icpp98.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1998-performance-range-311f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1998-performance-range-5a26.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/mmcbs.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/mmcbs.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1998-performance-range-5a26.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1999-coordinated-approach-e058.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/siam99.ps
+Processing C:\Projects\IIT\GRC\data\publications\sun-1999-factorial-performance-0961.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-1999-factorial-performance-0961.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1999-integrated-range-778c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/range.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/range.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-1999-integrated-range-778c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-1999-scala-e339.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/llncs.ps
+Processing C:\Projects\IIT\GRC\data\publications\sun-2000-pdrs-f00d.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pdrsf.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pdrsf.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2000-pdrs-f00d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2000-statistical-empirical-eb77.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/europar.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/europar.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2000-statistical-empirical-eb77.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2001-adaptive-multivariate-7894.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/adaptive.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/adaptive.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2001-adaptive-multivariate-7894.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2001-scalable-parallel-bb68.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/scala01.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/scala01.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2001-scalable-parallel-bb68.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2002-parallel-two-9081.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sunzhang02.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sunzhang02.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2002-parallel-two-9081.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2002-scala-a00f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/HPC031071.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/HPC031071.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2002-scala-a00f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2002-scalability-versus-0dd3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/scalability2002.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/scalability2002.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2002-scalability-versus-0dd3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2003-grid-harvest-cb4e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SWipdps03.PDF
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SWipdps03.PDF
+Updated C:\Projects\IIT\GRC\data\publications\sun-2003-grid-harvest-cb4e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2004-middleware-4a78.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sunmiddleware.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sunmiddleware.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2004-parallel-two-bfb3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sunzhang04IPDS.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sunzhang04IPDS.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2004-parallel-two-bfb3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2005-ghs--1367.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ngs-ipdps05.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ngs-ipdps05.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2005-ghs--1367.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2005-scalability-heterogeneous-6339.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sunxh_scalability.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sunxh_scalability.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2005-scalability-heterogeneous-6339.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2007-improving-data-1868.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ngs07-sbc-.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ngs07-sbc-.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2007-improving-data-1868.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2007-quality-service-10c1.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GCC-SunWu-07.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GCC-SunWu-07.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2007-quality-service-10c1.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2007-server-based-8c74.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/jcst-07.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/jcst-07.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2007-server-based-8c74.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2008-scalable-computing-9362.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-2008-scalable-computing-9362.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2008-towards-fault-0769.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/hapcw_2008.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/hapcw_2008.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2008-towards-fault-0769.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2009-data-layout-d61b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pdsw09.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pdsw09.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2009-data-layout-d61b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2009-modeling-data-b47c.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-2009-modeling-data-b47c.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2009-v-mcs-9f53.yaml
+Publication C:\Projects\IIT\GRC\data\publications\sun-2009-v-mcs-9f53.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2010-reevaluating-amdahl-8130.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Reevaluating%20Amdahl's%20Law.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Reevaluating%20Amdahl's%20Law.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2010-reevaluating-amdahl-8130.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2011-memory-access-5d7d.yaml
+Downloading PDF from http://www.dcs.warwick.ac.uk/pmbs/pmbs11/PMBS11/Workshop_Schedule_files/rn-1730.pdf
+Successfully downloaded and verified PDF from http://www.dcs.warwick.ac.uk/pmbs/pmbs11/PMBS11/Workshop_Schedule_files/rn-1730.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2011-memory-access-5d7d.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2012-apc-ab9f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/APC-sun-CopyRight.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/APC-sun-CopyRight.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2012-apc-ab9f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2014-c-amat-8e40.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/C-AMAT_CCCF_JUNE_2014.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/C-AMAT_CCCF_JUNE_2014.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2014-c-amat-8e40.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2014-concurrent-amat-7fe7.yaml
+Downloading PDF from http://www.hpctoday.eu/state-of-the-art/c-amat-a-model-for-big-data-access/
+Processing C:\Projects\IIT\GRC\data\publications\sun-2014-concurrent-average-f9f1.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SUN-ConcurrentAMAT__IEEE_May2014.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SUN-ConcurrentAMAT__IEEE_May2014.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2014-concurrent-average-f9f1.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2016-utilizing-concurrency-bf57.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sluicegate-c2.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sluicegate-c2.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2016-utilizing-concurrency-bf57.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\sun-2023-memory-bounded-824c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/sun2023memory.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/sun2023memory.pdf
+Updated C:\Projects\IIT\GRC\data\publications\sun-2023-memory-bounded-824c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\tang-2009-fault-aware-5e47.yaml
+Publication C:\Projects\IIT\GRC\data\publications\tang-2009-fault-aware-5e47.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\tang-2010-analyzing-adjusting-de24.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/5465899/5470342/05470474.pdf
+Processing C:\Projects\IIT\GRC\data\publications\tang-2011-job-coscheduling-22c3.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/6046212/6047049/06047306.pdf
+Processing C:\Projects\IIT\GRC\data\publications\tang-2011-reducing-fragmentation-3949.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/wei-ipdps-11.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/wei-ipdps-11.pdf
+Updated C:\Projects\IIT\GRC\data\publications\tang-2011-reducing-fragmentation-3949.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\tang-2012-adaptive-metric-98d5.yaml
+Downloading PDF from https://www.mcs.anl.gov/events/workshops/p2s2/2012/slides/p2s2-2012-Tang-adaptive-sched-pres.pdf
+Successfully downloaded and verified PDF from https://www.mcs.anl.gov/events/workshops/p2s2/2012/slides/p2s2-2012-Tang-adaptive-sched-pres.pdf
+No abstract found in the paper.
+Processing C:\Projects\IIT\GRC\data\publications\tang-2024-dayu-f286.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/tang2024dayu.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/tang2024dayu.pdf
+Updated C:\Projects\IIT\GRC\data\publications\tang-2024-dayu-f286.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wallace-2016-data-driven-9eee.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/Wallace_SC_16.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/Wallace_SC_16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wallace-2016-data-driven-9eee.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wang-2011-ethspeeder-fc8d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\wang-2011-ethspeeder-fc8d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\wang-2014-apc-3490.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/APC_TC.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/APC_TC.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wang-2014-apc-3490.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wang-2015-dacache-057a.yaml
+Downloading PDF from https://www.cs.fsu.edu/~yuw/pubs/2015-ICS-Yu.pdf
+Successfully downloaded and verified PDF from https://www.cs.fsu.edu/~yuw/pubs/2015-ICS-Yu.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wang-2015-dacache-057a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wang-2015-overcoming-hadoop-3081.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7307300/7307539/07307589.pdf
+Processing C:\Projects\IIT\GRC\data\publications\wang-2018-trade-off-8259.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/xingwang_ipdps2018.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/xingwang_ipdps2018.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wang-2018-trade-off-8259.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wang-2019-cost-driven-f3e9.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/wang2019cost.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/wang2019cost.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wang-2019-cost-driven-f3e9.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-1994-optimal-cube-a31a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\wu-1994-optimal-cube-a31a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\wu-1999-design-implementation-37fd.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/pdcs99.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/pdcs99.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-1999-design-implementation-37fd.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-1999-java-based-5900.yaml
+Publication C:\Projects\IIT\GRC\data\publications\wu-1999-java-based-5900.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2000-performance-modeling-843a.yaml
+Publication C:\Projects\IIT\GRC\data\publications\wu-2000-performance-modeling-843a.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2002-design-development-1f3a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/5093440.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/5093440.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2002-design-development-1f3a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2003-general-self-6c80.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/cluster03_wusun.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/cluster03_wusun.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2003-general-self-6c80.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2004-memory-conscious-3c6b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/mwu-memory.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/mwu-memory.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2004-memory-conscious-3c6b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2004-self-adaptive-de5e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/IJHPCN-wusun-final.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/IJHPCN-wusun-final.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2004-self-adaptive-de5e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2006-ghs-grid-5880.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GHS-ngs-Sun.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GHS-ngs-Sun.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2006-ghs-grid-5880.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2006-grid-harvest-5ba8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/GHS-JPDC2006.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/GHS-JPDC2006.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2006-grid-harvest-5ba8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2006-qos-oriented-713c.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/wusunchen-QoSReservation.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/wusunchen-QoSReservation.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2006-qos-oriented-713c.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2007-performance-failure-c702.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SC07_wu.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SC07_wu.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2007-performance-failure-c702.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2009-qos-grid-110b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\wu-2009-qos-grid-110b.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\wu-2011-performance-emulation-dd2d.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/6059523/6061043/06061060.pdf
+Processing C:\Projects\IIT\GRC\data\publications\wu-2012-hierarchical-task-5c47.yaml
+Downloading PDF from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.713.5156&rep=rep1&type=pdf
+Processing C:\Projects\IIT\GRC\data\publications\wu-2015-hierarchical-task-3be5.yaml
+Downloading PDF from https://link.springer.com/article/10.1007/s11227-014-1324-5
+Processing C:\Projects\IIT\GRC\data\publications\wu-2024-autohet-51af.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/wu2024autohet.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/wu2024autohet.pdf
+Updated C:\Projects\IIT\GRC\data\publications\wu-2024-autohet-51af.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\xiao-2007-workflow-based-360d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\xiao-2007-workflow-based-360d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\xie-2009-performance-failure-a9e0.yaml
+Publication C:\Projects\IIT\GRC\data\publications\xie-2009-performance-failure-a9e0.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\xu-2016-memory-driven-bf2f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/baoyu.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/baoyu.pdf
+Updated C:\Projects\IIT\GRC\data\publications\xu-2016-memory-driven-bf2f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yan-2017-principles-memory-1f85.yaml
+Downloading PDF from https://dl.acm.org/citation.cfm?id=3158212
+Processing C:\Projects\IIT\GRC\data\publications\yan-2021-copim-a500.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yan2021COPIM.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yan2021COPIM.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yan-2021-copim-a500.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yan-2024-aceminer-c390.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yan2024aceminer.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yan2024aceminer.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yan-2024-aceminer-c390.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2013-integrating-dynamic-fbc4.yaml
+Downloading PDF from http://www.cs.iit.edu/~lan/publications/sc13_final.pdf
+Successfully downloaded and verified PDF from http://www.cs.iit.edu/~lan/publications/sc13_final.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2013-integrating-dynamic-fbc4.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2014-balancing-job-0fa0.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/6957006/6968662/06968751.pdf
+Processing C:\Projects\IIT\GRC\data\publications\yang-2014-scaler-0d41.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/SCALER_xyang.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/SCALER_xyang.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2014-scaler-0d41.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2015-dominoes-de0a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/dominoes.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/dominoes.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2015-dominoes-de0a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2015-porthadoop-1a7f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/PortHadoop_ieee.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/PortHadoop_ieee.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2015-porthadoop-1a7f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2016-minmax-memory-4c05.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7529829/7536347/07536575.pdf
+Processing C:\Projects\IIT\GRC\data\publications\yang-2016-visualization-adaptive-4cd5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/bdcloud16.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/bdcloud16.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2016-visualization-adaptive-4cd5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2016-watch-bully-894b.yaml
+Downloading PDF from http://mypages.iit.edu/~xyang56/papers/sc16-bully.pdf
+Processing C:\Projects\IIT\GRC\data\publications\yang-2021-auto-prune-e316.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yang2021autoprune.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yang2021autoprune.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yang-2021-auto-prune-e316.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yang-2025-gopim-c09b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\yang-2025-gopim-c09b.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ye-2021-hdf5-vol-4754.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ye-2021-hdf5-vol-4754.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ye-2021-sova-2de3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ye2020sova.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ye2020sova.pdf
+Updated C:\Projects\IIT\GRC\data\publications\ye-2021-sova-2de3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\ye-2024-uncover-overhead-3814.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ye-2024-uncover-overhead-3814.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\ye-2024-viper-0a1b.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ye2024viper.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ye2024viper.pdf
+Updated C:\Projects\IIT\GRC\data\publications\ye-2024-viper-0a1b.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\ye-2025-characterizing-behavior-f631.yaml
+Publication C:\Projects\IIT\GRC\data\publications\ye-2025-characterizing-behavior-f631.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\yildirim-2021-performance-analysis-f217.yaml
+Publication C:\Projects\IIT\GRC\data\publications\yildirim-2021-performance-analysis-f217.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\yildirim-2022-multifaceted-approach-da2d.yaml
+Publication C:\Projects\IIT\GRC\data\publications\yildirim-2022-multifaceted-approach-da2d.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\yildirim-2023-exploring-impacts-090b.yaml
+Publication C:\Projects\IIT\GRC\data\publications\yildirim-2023-exploring-impacts-090b.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\yildirim-2023-iomax-3919.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yildirim-2023-iomax-3919.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yildirim-2025-wisio-45f7.yaml
+Publication C:\Projects\IIT\GRC\data\publications\yildirim-2025-wisio-45f7.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\yin-2012-boosting-application-9c3f.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-yin.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ccgrid12-yin.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yin-2012-boosting-application-9c3f.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yin-2013-pattern-direct-320e.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yanlong_ipdps13.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yanlong_ipdps13.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yin-2013-pattern-direct-320e.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yin-2014-rethinking-key-484a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/KVStore-DISCS-2014.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/KVStore-DISCS-2014.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yin-2014-rethinking-key-484a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yin-2015-io-file-b827.yaml
+Downloading PDF from http://link.springer.com/chapter/10.1007/978-1-4939-2092-1_18
+Processing C:\Projects\IIT\GRC\data\publications\yu-2011-practical-online-aa52.yaml
+Downloading PDF from https://www.researchgate.net/profile/Zhiling_Lan/publication/252020321_Practical_online_failure_prediction_for_Blue_GeneP_Period-based_vs_event-driven/links/540f00260cf2df04e759db4a/Practical-online-failure-prediction-for-Blue-Gene-P-Period-based-vs-event-driven.pdf
+Processing C:\Projects\IIT\GRC\data\publications\yu-2012-filtering-log-eed5.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/DSN12.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/DSN12.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yu-2012-filtering-log-eed5.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\yu-2012-improving-parallel-652a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/yu_ipdps_2012.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/yu_ipdps_2012.pdf
+Updated C:\Projects\IIT\GRC\data\publications\yu-2012-improving-parallel-652a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhang-2011-pac-plru-2b89.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/kzhangccgrid11.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/kzhangccgrid11.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhang-2011-pac-plru-2b89.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhang-2017-evaluating-gpgpu-8dc8.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/C-AMAT_GPGPU.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/C-AMAT_GPGPU.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhang-2017-evaluating-gpgpu-8dc8.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhang-2020-performance-modeling-e735.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ning2020dismemsys.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ning2020dismemsys.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhang-2020-performance-modeling-e735.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhao-2016-towards-exploring-2094.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-dongfang.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-dongfang.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhao-2016-towards-exploring-2094.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2007-anomaly-localization-a6e2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zheng-2007-anomaly-localization-a6e2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2009-reliability-aware-9ce3.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zheng-2009-reliability-aware-9ce3.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2009-system-log-0604.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zheng-2009-system-log-0604.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2010-practical-failure-04f2.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zheng-2010-practical-failure-04f2.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2011-co-analysis-d637.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel5/6011824/6012804/06012893.pdf
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2012-3-dimensional-0698.yaml
+Downloading PDF from http://mypages.iit.edu/~lyu17/papers/icac.pdf
+Processing C:\Projects\IIT\GRC\data\publications\zheng-2015-reliability-aware-3b3d.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/12/7079452/06798722.pdf
+Processing C:\Projects\IIT\GRC\data\publications\zhou-2015-hadoop-based-62f3.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/framework_zhou.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/framework_zhou.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhou-2015-hadoop-based-62f3.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhou-2015-improving-batch-b43d.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7159926/7161257/07161532.pdf
+Processing C:\Projects\IIT\GRC\data\publications\zhou-2015-io-aware-e7fb.yaml
+Downloading PDF from https://ieeexplore.ieee.org/iel7/7307300/7307539/07307592.pdf
+Processing C:\Projects\IIT\GRC\data\publications\zhou-2016-improving-batch-1312.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-02.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-02.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhou-2016-improving-batch-1312.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhou-2016-io-aware-0a8f.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zhou-2016-io-aware-0a8f.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zhu-2010-timing-local-6a1a.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ICS_220.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ICS_220.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhu-2010-timing-local-6a1a.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-1999-domain-decomposition-e5c6.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zhuang-1999-domain-decomposition-e5c6.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-1999-high-order-3196.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zhuang-1999-high-order-3196.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-2000-high-order-f7f0.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/nasa00.ps
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/nasa00.ps
+Updated C:\Projects\IIT\GRC\data\publications\zhuang-2000-high-order-f7f0.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-2001-high-order-9cd0.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/highorder2001.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/highorder2001.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhuang-2001-high-order-9cd0.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-2001-stable--2116.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/seidd.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/seidd.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhuang-2001-stable--2116.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-2002-stabilized-explicit-5c66.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ZhSu02ST.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ZhSu02ST.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zhuang-2002-stabilized-explicit-5c66.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zhuang-2005-highly-parallel-fd59.yaml
+Publication C:\Projects\IIT\GRC\data\publications\zhuang-2005-highly-parallel-fd59.yaml has no PDF link. Skipping.
+Processing C:\Projects\IIT\GRC\data\publications\zou-2012-source-aware-3413.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/ipdps12-zou.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/ipdps12-zou.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zou-2012-source-aware-3413.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zou-2022-accelerating-graph-bc19.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/zou2022accelerating.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/zou2022accelerating.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zou-2022-accelerating-graph-bc19.yaml with abstract.
+Processing C:\Projects\IIT\GRC\data\publications\zou-2024-skyway-1ecc.yaml
+Downloading PDF from http://cs.iit.edu/~scs/assets/files/zou2024skyway.pdf
+Successfully downloaded and verified PDF from http://cs.iit.edu/~scs/assets/files/zou2024skyway.pdf
+Updated C:\Projects\IIT\GRC\data\publications\zou-2024-skyway-1ecc.yaml with abstract.
+Finished processing publications.

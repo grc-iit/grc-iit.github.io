@@ -1,0 +1,37 @@
+abstract: |-
+  Data volume grows dramatically in the era of big
+  data. To save capital cost on storage hardware, datacenters
+  currently prefer using erasure coding rather than simply
+  replication to resist data loss. Erasure coding can provide
+  equivalent three-way fault tolerance to HDFS's default three
+  replication mechanism but degrades data availability for task
+  scheduling. In an erasure-coded system, data reconstruction
+  time will be paid while tasks access the missing blocks during
+  MapReduce job processing. Tasks' accessing corrupt data
+  introduces task stragglers and degrades resource utilization.
+  To overcome these challenges, we propose a novel mechanism,
+  Dominoes, that coordinates lightweight data states checking
+  and job scheduling to hide such recovery penalty during job
+  processing and enhances job throughputs. The experimental
+  results confirm Dominoes' effectiveness and efficiency that
+  improves job throughput by 9% to 9.7% under failure at an
+  overhead of 2.6% for failure-free jobs.
+authors:
+  - X. Yang
+  - C. Feng
+  - Z. Xu
+  - X.-H. Sun
+date: December, 2015
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/yang2015dominoes.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yang2015dominoes.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/dominoes.pdf
+month: 12
+slug: yang-2015-dominoes-de0a
+tags: []
+title: 'Dominoes: Speculative Repair in Erasure Coded Hadoop System'
+type: Conference
+venue: >-
+  22nd annual IEEE International Conference on High Performance Computing (HiPC
+  2015), Bengaluru, India
+year: 2015
