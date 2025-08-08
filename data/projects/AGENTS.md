@@ -25,12 +25,18 @@ Optional fields
 - `isOurs` (boolean)
 - `sourceLink` (external repo URL)
 - `tutorialLink` (docs link)
+- `order` (number): controls display ordering. Lower numbers appear first; items without `order` appear after all ordered items and are sorted alphabetically by `name`.
 
 Rendering
 
 - Projects list page: `src/pages/research/projects/index.mdx` via `ProjectList`.
 - Project cards/items: `src/components/projects/`.
 - Data is loaded by `plugins/projects/` and available through global data.
+
+Ordering
+
+- Projects are ordered by ascending `order` when present, then by `name`.
+- The loader (`plugins/projects`) applies this sort globally; `ProjectList` also applies the same rule when `isSorted` is set.
 
 Per-project content (MDX)
 
@@ -56,6 +62,7 @@ sourceLink: https://github.com/grc-iit/chronolog
 status: active
 tutorialLink: /docs/category/chronolog
 type: funded
+order: 1
 ```
 
 Checklist

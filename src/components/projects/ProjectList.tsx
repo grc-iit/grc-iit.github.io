@@ -19,7 +19,17 @@ export default function ProjectList({
     <div className="container">
       <div className="row">
         {(isSorted
-          ? projects.sort((p1, p2) => p1.name.localeCompare(p2.name))
+          ? [...projects].sort((a, b) => {
+              const hasOrderA = typeof a.order === "number";
+              const hasOrderB = typeof b.order === "number";
+              if (hasOrderA && hasOrderB) {
+                if (a.order !== b.order) return (a.order as number) - (b.order as number);
+                return a.name.localeCompare(b.name);
+              }
+              if (hasOrderA) return -1;
+              if (hasOrderB) return 1;
+              return a.name.localeCompare(b.name);
+            })
           : projects
         ).map((project) => (
           <ProjectItem key={project.id} project={project} />
