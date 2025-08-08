@@ -321,6 +321,7 @@ const config = {
         path: "./newsletter",
       },
     ],
+    "./plugins/affiliations",
     "./plugins/faculty",
     "./plugins/members",
     "./plugins/projects",

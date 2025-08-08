@@ -12,7 +12,11 @@ export default function AffiliationItem({ affiliation }: AffiliationItemProps) {
     <div className="col col--4">
       <div className={styles.innerContainer}>
         <div className="padding-top--lg text--center">
-          <img alt={affiliation.name} className={styles.image} src={affiliation.image} />
+          <img
+            alt={affiliation.name}
+            className={styles.image}
+            src={`/img/affiliations/${affiliation.image}`}
+          />
         </div>
         <div className="padding-vert--sm text--center">
           <a href={affiliation.url} target="_blank">

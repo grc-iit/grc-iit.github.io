@@ -9,6 +9,7 @@ shortDescription: >-
 link: /research/projects/coeus
 isFeatured: true
 isOurs: true
+order: 7
 researchStatus: r&d
 status: active
 type: funded

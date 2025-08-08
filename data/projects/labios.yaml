@@ -7,6 +7,7 @@ shortDescription: >-
 link: /research/projects/labios
 isFeatured: false
 isOurs: true
+order: 5
 researchStatus: r&d
 sourceLink: https://github.com/grc-iit/labios
 status: active
