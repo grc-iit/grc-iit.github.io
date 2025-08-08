@@ -3,7 +3,6 @@ title: Network
 ---
 
 import AffiliationList from "@site/src/components/affiliations/AffiliationList";
-import affiliations from "@site/src/data/affiliations";
 
 # Network
 
@@ -13,16 +12,16 @@ Including:
 
 ## National Labs and Research Centers
 
-<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "laboratory")} />
+<AffiliationList type="laboratory" />
 
 ## Universities
 
-<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "university")} />
+<AffiliationList type="university" />
 
 ## Companies
 
-<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "company")} />
+<AffiliationList type="company" />
 
 ## Funding Partners
 
-<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "funding")} />
+<AffiliationList type="funding" />
