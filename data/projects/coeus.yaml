@@ -11,5 +11,6 @@ isFeatured: true
 isOurs: true
 order: 7
 researchStatus: r&d
+sourceLink: https://github.com/grc-iit/coeus-adapter
 status: active
 type: funded
