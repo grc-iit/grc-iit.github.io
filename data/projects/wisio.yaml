@@ -8,6 +8,7 @@ shortDescription: >-
 link: /research/projects/wisio
 isFeatured: false
 isOurs: true
+order: 8
 researchStatus: ready
 sourceLink: https://github.com/grc-iit/wisio
 status: active

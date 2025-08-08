@@ -8,6 +8,7 @@ shortDescription: >-
 link: /research/projects/hermes
 isFeatured: true
 isOurs: true
+order: 3
 researchStatus: ready
 sourceLink: https://github.com/HDFGroup/hermes
 status: active

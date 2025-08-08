@@ -112,7 +112,7 @@ module.exports = function membersPlugin(context, options) {
 
       // Create dynamic routes for member pages (only for researchers)
       for (const member of members) {
-        if (member.slug && member.type === 'researcher') {
+        if (member.slug && (member.type === 'researcher' || member.type === 'engineer')) {
           const authorShortName = getAuthorShortName(member.name);
           const memberPublications = getPublicationsByAuthorShortName(publications, authorShortName);
 

@@ -7,6 +7,7 @@ shortDescription: >-
 link: /research/projects/dtio
 isFeatured: false
 isOurs: true
+order: 6
 researchStatus: ready
 sourceLink: https://github.com/grc-iit/DTIO
 status: active

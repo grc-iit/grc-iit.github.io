@@ -80,6 +80,7 @@ export type Project = {
   status: "active" | "archived";
   tutorialLink?: string;
   type: "funded" | "student";
+  order?: number;
 };
 
 export type PublicationAuthor =
