@@ -5,13 +5,10 @@ bio: >-
   works under the guidance of Dr. Xian-He Sun. Mr. Gonzalez holds an M.S. in Computer Science with 
   a focus on Artificial Intelligence from the Illinois Institute of Technology in Chicago, as well 
   as an M.S. and B.S. in Telecommunications Engineering from the University of the Basque Country 
-  in Spain.
-
-  At the Gnosis Research Center, he is part of the engineering team developing ChronoLog, a 
-  distributed shared log system for high-performance computing and AI workflows. His work includes 
-  system architecture and integration, deployment tooling, correctness and performance testing, 
-  feature development, and technical documentation, all aimed at enabling scalable, parallel, and 
-  high-performance solutions for data-intensive applications.
+  in Spain. As part of the engineering team for ChronoLog, a distributed shared log system for 
+  high-performance computing and AI workflows, he contributes to its architecture, deployment, and 
+  optimization, all aimed at enabling scalable, parallel, and high-performance solutions for 
+  data-intensive applications.
 image: gonzalez.jpg
 links:
   email: egonzalez30@illinoistech.edu
