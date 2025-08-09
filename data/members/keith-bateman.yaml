@@ -6,11 +6,13 @@ bio: >-
 image: bateman.jpg
 links:
   email: kbateman@hawk.illinoistech.edu
-  website: http://mypages.iit.edu/~kbateman/
+  github: https://github.com/Keith-Bateman
+  linkedin: https://www.linkedin.com/in/keith-bateman-b0b2a0369/
 name: Keith Bateman
 researchInterests:
   - HPC
   - Distributed Storage
+  - Task Systems
 slug: keith-bateman
 title: PhD Candidate
 type: researcher
