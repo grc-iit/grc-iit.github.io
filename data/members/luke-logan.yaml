@@ -1,8 +1,13 @@
 advisor: Dr. Xian-He Sun
 bio: >-
-  Luke Logan is a PhD Candidate in the Department of Computer Science at the Illinois Institute of
+  Luke Logan is a PhD Candidate and HPC software engineer in the Department of Computer Science at the Illinois Institute of
   Technology and a member of the Gnosis Research Center. Luke Logan works under the guidance of Dr.
-  Xian-He Sun.
+  Xian-He Sun. His research aims to make distributed storage and operating systems more programmable, portable, and performant. 
+  HPC and AI applications perform massive data movements, putting extreme stress on storage systems to satisfy a wide variety of 
+  conflicting I/O and computational objectives. However, with rapidly evolving storage hardware and software,
+  the design of these systems need to be reconsidered, especially considering the dynamic nature of AI workloads and agents.
+
+
 image: logan.jpg
 links:
   email: llogan@hawk.illinoistech.edu
@@ -16,6 +21,7 @@ researchInterests:
   - Parallel and Distributed Systems
   - Parallel I/O
   - Operating Systems
+  - GPU Programming
 slug: luke-logan
 title: PhD Candidate
 type: researcher
