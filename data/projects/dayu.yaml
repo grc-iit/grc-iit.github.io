@@ -8,6 +8,7 @@ shortDescription: >-
 link: /research/projects/dayu
 isFeatured: false
 isOurs: true
+order: 4
 researchStatus: ready
 status: active
 type: funded

@@ -2,13 +2,13 @@ id: viper
 name: Viper
 title: 'Viper: A High-Performance I/O Framework for Transferring Deep Neural Network Models'
 shortDescription: >-
-  Within a DL workflow, exchanging DNN models through PFS may result in  high model update latency and discovery
-  latency. Moreover, model update frequency affects both training and inference performance. Viper is an I/O framework
-  aiming to accelerate model discovery and delivery, and to find an optimal model checkpoint schedule to balance the
-  trade-off.
+  Viper is a high-performance I/O framework that keeps synchronizing the DNN models between training applications
+  and inference servers. It learns a predictor to choose
+  a near-optimal checkpoint schedule balancing training cost and inference
+  quality, and uses memory-first (e.g.,GPU-to-GPU) transfer to reduce model update latency.
 link: /research/projects/viper
 isFeatured: false
 isOurs: true
-researchStatus: r&d
+researchStatus: ready
 status: active
 type: funded
