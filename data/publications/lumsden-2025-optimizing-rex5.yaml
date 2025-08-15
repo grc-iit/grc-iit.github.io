@@ -1,0 +1,33 @@
+authors:
+  - I. Lumsden
+  - H. Devarajan
+  - I. Yildirim
+  - S. Markidis
+  - A. Hu
+  - I. Peng
+  - L. Pennati
+  - D. Yokelson
+  - S. Brink
+  - O. Pearce
+  - T. Scogland
+  - B. R. de Supinski
+  - G. L. Delzanno
+  - A. Kougkas
+  - X.-H. Sun
+  - M. Taufer
+date: September, 2025
+links: {}
+month: 9
+slug: lumsden-2025-optimizing-rex5
+tags:
+  - HPC
+  - Rabbit Nodes
+  - I/O Accelerators
+  - I/O Optimization
+  - iPIC3D
+  - IOR
+title: >-
+  Optimizing I/O for an Exascale Implicit Kinetic Plasma Simulation using the Rabbit Storage System
+type: Workshop
+venue: REX-IO 2025 in conjunction with IEEE Cluster 2025 in Edinburgh, Scotland
+year: 2025
