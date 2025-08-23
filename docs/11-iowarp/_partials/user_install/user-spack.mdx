@@ -3,7 +3,8 @@
 cd ${HOME}
 git clone https://github.com/spack/spack.git -b v0.22.3
 cd spack
-echo ". ${HOME}/spack/share/spack/setup-env.sh" >> ~/.bashrc
+. share/spack/setup-env.sh
+echo ". ${PWD}/share/spack/setup-env.sh" >> ~/.bashrc
 ```
 
 ### Clone the IOWarp Spack Repo
