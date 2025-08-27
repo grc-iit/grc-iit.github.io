@@ -5,7 +5,10 @@ authors:
   - X. Chen
 date: February, 2025
 doi: 10.1109/TCAD.2025.3541487
-links: {}
+links:
+  bibtex: http://cs.iit.edu/~scs/assets/files/long2025remeltrix.bib
+  citation: http://cs.iit.edu/~scs/assets/files/long2025remeltrix.txt
+  pdf: http://cs.iit.edu/~scs/assets/files/long2025remeltrix.pdf
 month: 2
 slug: long-2025-re-meltrix-7694
 tags:
