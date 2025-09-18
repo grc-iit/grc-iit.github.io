@@ -21,8 +21,7 @@ tags:
   - AWS S3
   - Roofline Model
   - Performance Analysis
-links:
-  pdf: TBD # Add actual link when available
+links: {} # Add actual link when available
 abstract: >-
   High-performance computing facilities increasingly form hybrid environments that integrate cloud services.
   To avoid cumbersome network transfers when sharing data, a new class of storage gateways map a subset of facility storage to a cloud counterpart and automatically manage data mirroring.
