@@ -1,0 +1,24 @@
+# Journal publication — IEEE TCAD 2025
+
+title: ProMiner: Enhancing Locality, Parallelism, and Offloading for Graph Mining on Processing-in-Memory Systems
+authors:
+  - L. Yan
+  - X. Lu
+  - S. Xu
+  - X. Chen
+  - X. Zou
+  - Y. Han
+  - X.-H. Sun
+venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+type: Journal
+date: 2025
+# month: not required
+tags:
+  - Graph Mining
+  - Processing-in-Memory
+  - Computer Architecture
+  - Parallel Computing
+links:
+  pdf: Still pending
+  bibtex: http://cs.iit.edu/~scs/assets/files/yan2025_ProMiner.bib
+slug: yan-2025-prominer-graph-mining
