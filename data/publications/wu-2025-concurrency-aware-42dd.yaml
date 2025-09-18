@@ -5,7 +5,10 @@ authors:
   - Y. Han
   - X.-H. Sun
 date: June, 2025
-links: {}
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/wu2025_CAMP.pdf
+  bibtex: http://cs.iit.edu/~scs/assets/files/wu2025_CAMP.bib
+  citation: http://cs.iit.edu/~scs/assets/files/wu2025_CAMP.txt
 month: 6
 slug: wu-2025-concurrency-aware-42dd
 tags:

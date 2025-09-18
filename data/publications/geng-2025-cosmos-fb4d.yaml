@@ -8,7 +8,10 @@ authors:
   - M. Niemier
   - X. Hu
 date: October, 2025
-links: {}
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/geng2025_COSMOS.pdf
+  bibtex: http://cs.iit.edu/~scs/assets/files/geng2025_COSMOS.bib
+  citation: http://cs.iit.edu/~scs/assets/files/geng2025_COSMOS.txt
 month: 10
 slug: geng-2025-cosmos-fb4d
 tags:

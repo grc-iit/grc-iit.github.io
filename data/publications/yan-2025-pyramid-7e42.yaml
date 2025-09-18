@@ -5,7 +5,10 @@ authors:
   - Y. Han
   - X.-H. Sun
 date: April, 2025
-links: {}
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/yan2025_Pyramid.pdf
+  bibtex: http://cs.iit.edu/~scs/assets/files/yan2025_Pyramid.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yan2025_Pyramid.txt
 month: 4
 slug: yan-2025-pyramid-7e42
 tags:
