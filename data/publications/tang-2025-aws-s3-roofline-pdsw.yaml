@@ -29,4 +29,4 @@ abstract: >-
   This paper presents a roofline-based analysis of three S3 integration approaches: NFS-mounted AWS Storage Gateway, data migration through Storage Gateway, and direct S3 API transfers. We extend I/O roofline modeling to characterize operational intensity and bandwidth ceilings across varying data sizes and access patterns.
   Our experimental evaluation demonstrates significant performance differences between access methods, with POSIX I/O on NFS Storage Gateway achieving up to 6.4× higher bandwidth than other approaches for large transfers. The roofline analysis reveals distinct characteristics for each method, enabling informed selection of S3 integration strategies.
 # doi: not required
-slug: tang-2025-aws-s3-roofline-pdsw
+slug: slug: tang-2025-s3-roofline-c7bd
