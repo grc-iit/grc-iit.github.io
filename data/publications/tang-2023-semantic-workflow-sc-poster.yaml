@@ -1,0 +1,23 @@
+# Poster publication — SC'23
+
+title: Optimizing Workflow Performance by Elucidating Semantic Data Flow
+authors:
+  - M. Tang
+  - N. Tallent
+  - A. Kougkas
+  - X.-H. Sun
+venue: The International Conference for High Performance Computing, Networking, Storage and Analysis (SC'23)
+type: Poster
+date: November, 2023
+month: 11
+tags:
+  - HPC Analysis
+  - I/O
+  - Workflow Optimization
+  - Data Analytics
+  - Performance Measurement
+links:
+  poster: http://cs.iit.edu/~scs/assets/files/tang2023semantic_poster.pdf
+  bibtex: http://cs.iit.edu/~scs/assets/files/tang2023semantic.bib
+  citation: http://cs.iit.edu/~scs/assets/files/tang2023semantic.txt
+slug: tang-2023-semantic-workflow-sc-poster
