@@ -12,9 +12,9 @@ authors:
   - N. R. Tallent
 venue: PDSW 2025
 type: Workshop
-date: NOV 16 2025
-# month: not required
-# year: not required
+date: November, 2025
+month: 11
+year: 2025
 tags:
   - I/O
   - Cloud Storage
