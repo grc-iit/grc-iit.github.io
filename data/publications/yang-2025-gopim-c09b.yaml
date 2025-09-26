@@ -10,7 +10,10 @@ authors:
   - D. Feng
 date: March, 2025
 doi: 10.1109/hpca61900.2025.00056
-links: {}
+links:
+  pdf: http://cs.iit.edu/~scs/assets/files/yang2025_GoPIM.pdf
+  bibtex: http://cs.iit.edu/~scs/assets/files/yang2025_GoPIM.bib
+  citation: http://cs.iit.edu/~scs/assets/files/yang2025_GoPIM.txt
 month: 3
 slug: yang-2025-gopim-c09b
 tags: []
