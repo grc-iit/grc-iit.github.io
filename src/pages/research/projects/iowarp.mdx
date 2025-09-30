@@ -290,7 +290,7 @@ Features include:
 
 We evaluated ContextWarp (IOWarp's agentic framework) across multiple dimensions to understand the performance, correctness, and reliability of AI-driven scientific workflows. Experiments were conducted on Chameleon Cloud using compute nodes with 40GB A100 GPUs.
 
-#### Agentic Workflow Performance: EarthScope Dataset Analysis
+### Agentic Workflow Performance: EarthScope Dataset Analysis
 
 **Experiment**: Automated download and visualization of seismological data from the National Data Platform using AI agents.
 
@@ -306,7 +306,7 @@ We evaluated ContextWarp (IOWarp's agentic framework) across multiple dimensions
 
 This demonstrates that IOWarp Context (MCPs + system prompts) is essential for enabling AI agents to interact with scientific infrastructure effectively.
 
-#### Agent Configuration Performance: Jarvis IOR Deployment
+### Agent Configuration Performance: Jarvis IOR Deployment
 
 We compared eight agent-model combinations deploying the IOR parallel I/O benchmark using [**Jarvis**](https://github.com/grc-iit/jarvis-cd) (IOWarp's deployment automation system) across five distinct prompts to assess performance and correctness tradeoffs.
 
@@ -327,7 +327,7 @@ We compared eight agent-model combinations deploying the IOR parallel I/O benchm
 
 **Key Finding**: Agents using small, self-hosted LLMs for execution (like Devstral) with large cloud models only for planning achieved competitive or superior performance compared to using large models for all operations. This validates IOWarp's split planning-execution design for efficiency, cost reduction, and data security.
 
-#### Tool Call Success Rates
+### Tool Call Success Rates
 
 <center>
   <img
@@ -338,17 +338,7 @@ We compared eight agent-model combinations deploying the IOR parallel I/O benchm
   <p><em>Success rates for correctly identifying and invoking scientific tools across agent-model combinations</em></p>
 </center>
 
-**Tool Call Success Rates** (5 prompts):
-- **Claude Code + Sonnet 4**: ~**100%**
-- **Gemini CLI + Gemini 2.5 Pro**: ~**100%**
-- **OpenCode + Devstral**: **92.7%**
-- **Cursor + GPT-5**: ~**92.8%**
-- **Cursor + GPT-4o**: ~**91.8%**
-- **OpenCode + Sonic**: ~**91.7%**
-
-While tool success rates varied, all configurations eventually corrected mistakes and achieved correct IOR deployment. Notably, the OpenCode configuration using local Devstral model for execution maintained competitive success rates (92.7%) compared to large cloud-only models.
-
-#### Robustness Across Diverse Prompts
+### Robustness Across Diverse Prompts
 
 <center>
   <img
@@ -369,27 +359,6 @@ While tool success rates varied, all configurations eventually corrected mistake
 - **Cursor + GPT-5**: Lower success rate (struggled with parameter synonyms like "nprocs" vs "number of processes")
 
 **Key Finding**: IOWarp's agentic design is highly resilient to changes in prompt phrasing and information granularity. Configurations using local LLMs for execution achieved 100% success, demonstrating that the split plan-execution architecture effectively balances cost, security, and reliability.
-
-#### MCP Success Rates and Performance
-
-<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px" }}>
-  <div style={{ textAlign: "center" }}>
-    <img
-      src={require("@site/static/img/projects/iowarp/success_rate_chart.png").default}
-      alt="Success Rate Chart"
-      width="350"
-    />
-    <p><em>MCP task completion success rates</em></p>
-  </div>
-  <div style={{ textAlign: "center" }}>
-    <img
-      src={require("@site/static/img/projects/iowarp/success_rate_by_agent_model.png").default}
-      alt="Success Rate by Agent Model"
-      width="350"
-    />
-    <p><em>Success rates across different AI agent models</em></p>
-  </div>
-</div>
 
 ---
 
