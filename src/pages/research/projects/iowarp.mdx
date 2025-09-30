@@ -207,29 +207,6 @@ IOWarp provides a growing collection of **scientific MCPs** available at [github
 - **Slurm MCP**: Job scheduling, resource allocation, and queue management
 - **System Monitoring MCPs**: Real-time performance metrics and resource utilization tracking
 
-#### MCP Success Rates and Performance
-
-<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px" }}>
-  <div style={{ textAlign: "center" }}>
-    <img
-      src={require("@site/static/img/projects/iowarp/success_rate_chart.png").default}
-      alt="Success Rate Chart"
-      width="350"
-    />
-    <p><em>MCP task completion success rates</em></p>
-  </div>
-  <div style={{ textAlign: "center" }}>
-    <img
-      src={require("@site/static/img/projects/iowarp/success_rate_by_agent_model.png").default}
-      alt="Success Rate by Agent Model"
-      width="350"
-    />
-    <p><em>Success rates across different AI agent models</em></p>
-  </div>
-</div>
-
----
-
 ### Scientific Application Examples
 
 IOWarp supports a wide range of scientific applications through its flexible architecture and scientific MCPs, enabling researchers to interact with complex data using natural language.
@@ -255,15 +232,13 @@ IOWarp supports a wide range of scientific applications through its flexible arc
   </div>
 </div>
 
-Using IOWarp's Adios MCP, researchers can query simulation outputs with natural language:
+**Dataset**: LAMMPS molecular dynamics simulation output stored in Adios BP5 format with atom position data over time.
 
-> *"Can you write me a python script that plots the trajectory of a single atom over time. The atom of choice should be a parameter to the script. The output should be a PNG image with the results. Please run the script for atom 23."*
+**Execution**: Agents used **Adios-MCP**, which provides AI systems with the ability to read and query Adios BP5 files, to analyze the simulation data and generate visualizations.
 
-The MCP automatically:
-1. Reads the Adios BP5 file structure
-2. Extracts position data for the specified atom
-3. Generates Python visualization code
-4. Executes the script and produces the visualization
+**Prompt**: *"Can you write me a python script that plots the trajectory of a single atom over time. The atom of choice should be a parameter to the script. The output should be a PNG image with the results. Please run the script for atom 23."*
+
+**Result**: The Adios-MCP enabled the agent to automatically read the BP5 file structure, extract position data for the specified atom, generate Python visualization code, execute the script, and produce the trajectory visualization. This eliminates the need for researchers to manually parse the Adios file format or write custom analysis scripts.
 
 #### Pipe Flow Data Visualization via ParaView-MCP
 
@@ -333,9 +308,9 @@ We evaluated ContextWarp (IOWarp's agentic framework) across multiple dimensions
 
 This demonstrates that IOWarp Context (MCPs + system prompts) is essential for enabling AI agents to interact with scientific infrastructure effectively.
 
-#### Agent Configuration Performance: IOR Deployment
+#### Agent Configuration Performance: Jarvis IOR Deployment
 
-We compared eight agent-model combinations deploying the IOR parallel I/O benchmark across five distinct prompts to assess performance and correctness tradeoffs.
+We compared eight agent-model combinations deploying the IOR parallel I/O benchmark using [**Jarvis**](https://github.com/grc-iit/jarvis-cd) (IOWarp's deployment automation system) across five distinct prompts to assess performance and correctness tradeoffs.
 
 <center>
   <img
@@ -396,6 +371,27 @@ While tool success rates varied, all configurations eventually corrected mistake
 - **Cursor + GPT-5**: Lower success rate (struggled with parameter synonyms like "nprocs" vs "number of processes")
 
 **Key Finding**: IOWarp's agentic design is highly resilient to changes in prompt phrasing and information granularity. Configurations using local LLMs for execution achieved 100% success, demonstrating that the split plan-execution architecture effectively balances cost, security, and reliability.
+
+#### MCP Success Rates and Performance
+
+<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px" }}>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/success_rate_chart.png").default}
+      alt="Success Rate Chart"
+      width="350"
+    />
+    <p><em>MCP task completion success rates</em></p>
+  </div>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/success_rate_by_agent_model.png").default}
+      alt="Success Rate by Agent Model"
+      width="350"
+    />
+    <p><em>Success rates across different AI agent models</em></p>
+  </div>
+</div>
 
 ---
 
