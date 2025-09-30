@@ -194,8 +194,10 @@ Following Anthropic's November 2024 release of the Model Context Protocol (MCP),
     alt="Integration with Claude Code"
     width="700"
   />
-  <p><em>IOWarp's integration with Claude Code for scientific workflow automation</em></p>
+  <p><em>Warpio accessing the National Data Platform through Claude Code to download and analyze the latest EarthScope seismological datasets</em></p>
 </center>
+
+The screenshot above demonstrates how researchers can use natural language to interact with the **National Data Platform (NDP)**, automatically discovering, downloading, and preparing scientific datasets for analysis. In this example, an AI agent accesses EarthScope's seismological data repository, retrieves recent earthquake data, and prepares it for computational analysis—all through conversational commands rather than manual data management steps.
 
 IOWarp provides a growing collection of **scientific MCPs** available at [github.com/iowarp/iowarp-mcps](https://github.com/iowarp/iowarp-mcps):
 
@@ -271,8 +273,18 @@ The MCP automatically:
     alt="ParaView Pipeline"
     width="700"
   />
-  <p><em>IOWarp integration with ParaView for scientific visualization pipelines</em></p>
+  <p><em>IOWarp's Content Assimilation Engine enabling interoperability between I/O libraries and visualization toolkits</em></p>
 </center>
+
+IOWarp's **Content Assimilation Engine (CAE)** enables seamless interoperability between different I/O libraries and scientific toolkits. As demonstrated above, IOWarp can intercept simulation output (e.g., via HDF5 VOL connector) and convert it into a unified Content format. This abstraction allows visualization tools like ParaView—which may not natively support certain simulation output formats—to access and visualize the data without requiring format-specific adapters.
+
+The CAE acts as a bridge, enabling:
+- **Format-agnostic visualization**: Tools can work with data regardless of the original output format
+- **Real-time data access**: Visualization pipelines can operate on simulation data as it's being generated
+- **Unified data representation**: All scientific data flows through IOWarp's Content abstraction layer
+- **Automated pipeline creation**: AI agents can generate complete visualization workflows using natural language commands
+
+This approach eliminates the traditional bottleneck where scientists must manually convert between incompatible data formats, allowing them to focus on scientific insight rather than data plumbing.
 
 ---
 
