@@ -191,15 +191,15 @@ Following Anthropic's November 2024 release of the Model Context Protocol (MCP),
 <center>
   <img
     src={require("@site/static/img/projects/iowarp/ndp-claude.png").default}
-    alt="Integration with Claude Code"
+    alt="Warpio accessing National Data Platform"
     width="700"
   />
-  <p><em>Warpio accessing the National Data Platform through Claude Code to download and analyze the latest EarthScope seismological datasets</em></p>
+  <p><em>Warpio accessing the National Data Platform to download and analyze the latest EarthScope seismological datasets</em></p>
 </center>
 
-The screenshot above demonstrates how researchers can use natural language to interact with the **National Data Platform (NDP)**, automatically discovering, downloading, and preparing scientific datasets for analysis. In this example, an AI agent accesses EarthScope's seismological data repository, retrieves recent earthquake data, and prepares it for computational analysis—all through conversational commands rather than manual data management steps.
+The screenshot above demonstrates how researchers can use Warpio to interact with the **National Data Platform (NDP)**, automatically discovering, downloading, and preparing scientific datasets for analysis. In this example, an AI agent accesses EarthScope's seismological data repository, retrieves recent earthquake data (including GeoJSON metadata and CSV seismograph records), and prepares it for computational analysis—all through conversational commands rather than manual data management steps.
 
-IOWarp provides a growing collection of **scientific MCPs** available at [github.com/iowarp/iowarp-mcps](https://github.com/iowarp/iowarp-mcps):
+IOWarp provides a growing collection of **scientific MCPs** available at [github.com/iowarp/iowarp-mcps](https://github.com/iowarp/iowarp-mcps). Some examples include:
 
 - **Adios MCP**: Analyze and query Adios BP5 files from simulations like LAMMPS, WRF, and more
 - **HDF5 MCP**: Explore HDF5 datasets, read metadata, and extract scientific data
@@ -265,26 +265,30 @@ The MCP automatically:
 3. Generates Python visualization code
 4. Executes the script and produces the visualization
 
-#### Scientific Visualization Integration
+#### Pipe Flow Data Visualization via ParaView-MCP
 
 <center>
   <img
     src={require("@site/static/img/projects/iowarp/paraview_pipe.png").default}
-    alt="ParaView Pipeline"
+    alt="Pipe flow isosurface and orthogonal slices"
     width="700"
   />
-  <p><em>IOWarp's Content Assimilation Engine enabling interoperability between I/O libraries and visualization toolkits</em></p>
+  <p><em>3D flow visualization combining isosurface and orthogonal slice planes generated through natural language commands</em></p>
 </center>
 
-IOWarp's **Content Assimilation Engine (CAE)** enables seamless interoperability between different I/O libraries and scientific toolkits. As demonstrated above, IOWarp can intercept simulation output (e.g., via HDF5 VOL connector) and convert it into a unified Content format. This abstraction allows visualization tools like ParaView—which may not natively support certain simulation output formats—to access and visualize the data without requiring format-specific adapters.
+**Dataset**: Incompact3d pipe flow simulation (data.bp5) with pressure and velocity fields.
 
-The CAE acts as a bridge, enabling:
-- **Format-agnostic visualization**: Tools can work with data regardless of the original output format
-- **Real-time data access**: Visualization pipelines can operate on simulation data as it's being generated
-- **Unified data representation**: All scientific data flows through IOWarp's Content abstraction layer
-- **Automated pipeline creation**: AI agents can generate complete visualization workflows using natural language commands
+**Execution**: Agents used **ParaView-MCP**, a service that connects AI systems to the ParaView visualization engine, to load the dataset and generate the 3D visualization.
 
-This approach eliminates the traditional bottleneck where scientists must manually convert between incompatible data formats, allowing them to focus on scientific insight rather than data plumbing.
+**Prompt**: *"Explore the pipe flow data. Generate an isosurface of pressure at pp=0.1 plus three orthogonal slice planes (X, Y, Z)."*
+
+**Result**: Produced a combined 3D flow visualization without manual setup, highlighting internal flow structures. The ParaView-MCP enabled researchers to create complex visualizations through natural language, eliminating the need for manual ParaView configuration, Python scripting, or format conversion. The agent automatically:
+- Loaded the BP5 simulation data
+- Generated a pressure isosurface at the specified threshold
+- Created three orthogonal cutting planes
+- Composed the final visualization showing both surface and volumetric flow features
+
+This demonstrates how IOWarp's MCP ecosystem transforms scientific visualization from a multi-step manual process into a conversational workflow, allowing researchers to focus on interpreting results rather than configuring visualization pipelines.
 
 ---
 
