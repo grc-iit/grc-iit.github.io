@@ -315,49 +315,87 @@ Features include:
 
 ### Performance Results & Benchmarks
 
-IOWarp delivers significant performance improvements across diverse scientific workloads through intelligent I/O management, data tiering, and GPU-direct capabilities.
+We evaluated ContextWarp (IOWarp's agentic framework) across multiple dimensions to understand the performance, correctness, and reliability of AI-driven scientific workflows. Experiments were conducted on Chameleon Cloud using compute nodes with 40GB A100 GPUs.
 
-#### I/O Performance Improvements
+#### Agentic Workflow Performance: EarthScope Dataset Analysis
 
-<center>
-  <img
-    src={require("@site/static/img/projects/iowarp/figure_ior_performance_test.png").default}
-    alt="IOR Performance Benchmarks"
-    width="700"
-  />
-  <p><em>IOR benchmark results showing IOWarp performance improvements across different configurations</em></p>
-</center>
+**Experiment**: Automated download and visualization of seismological data from the National Data Platform using AI agents.
 
-#### Key Performance Metrics
+**Setup**: Claude Code with Sonnet 4 model, with and without IOWarp Context (MCPs and machine configuration).
 
-- **Memory Efficiency**: **2.6x less DRAM** usage while maintaining competitive speed through intelligent tiering
-- **I/O Performance**: Up to **5x performance** improvement over disk-based DDN systems
-- **Data Capacity**: **2x more data** processing capability than CuFile without memory crashes
-- **AI Training**: **17% improvement** in inference loss through reduced checkpoint latency
-- **Read Acceleration**: **95.5% reduction** in read time at 512 KiB with accelerated I/O resolution
-- **Write Overhead**: Minimal overhead (worst-case **12%**) for accelerated I/O resolution
+**Task**: *"Use the ndp mcp to find the latest dataset of the earthscope organization, find the url of the geojson and csv they contain, and download them. The geojson is metadata, the csv contains seismograph data. Plot a figure containing the data of each axis on their own subfigure."*
 
-#### Task Duration Analysis
+**Results**:
+- **With IOWarp Context**: Successfully completed in **2 minutes** with correct tool selection and visualization
+- **Without IOWarp Context**: Failed to execute (agent could not identify correct tools or access methods)
+- **Manual Process**: ~**15 minutes** (login, search, download, build visualization script)
+- **Speedup**: **7.5x faster** than manual workflow
+
+This demonstrates that IOWarp Context (MCPs + system prompts) is essential for enabling AI agents to interact with scientific infrastructure effectively.
+
+#### Agent Configuration Performance: IOR Deployment
+
+We compared eight agent-model combinations deploying the IOR parallel I/O benchmark across five distinct prompts to assess performance and correctness tradeoffs.
 
 <center>
   <img
     src={require("@site/static/img/projects/iowarp/duration_chart_w_OC.png").default}
-    alt="Performance Duration with Overhead Compensation"
+    alt="Average Deployment Duration by Agent-Model Configuration"
     width="600"
   />
-  <p><em>Task duration analysis showing overhead compensation in IOWarp workflows</em></p>
+  <p><em>Execution time comparison across different agent and model configurations</em></p>
 </center>
 
-#### Configuration Success Rates
+**Execution Time Results** (average across 5 prompts):
+- **OpenCode + Devstral** (local LLM for execution): **24.8 seconds** (fastest)
+- **Cursor + GPT-4o**: **37.7 seconds**
+- **Gemini CLI + Gemini 2.5 Pro**: **85.9 seconds**
+- **Claude Code + Sonnet 4**: **109.2 seconds**
+
+**Key Finding**: Agents using small, self-hosted LLMs for execution (like Devstral) with large cloud models only for planning achieved competitive or superior performance compared to using large models for all operations. This validates IOWarp's split planning-execution design for efficiency, cost reduction, and data security.
+
+#### Tool Call Success Rates
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/figure_ior_performance_test.png").default}
+    alt="IOR Tool Call Success Rate Comparisons"
+    width="700"
+  />
+  <p><em>Success rates for correctly identifying and invoking scientific tools across agent-model combinations</em></p>
+</center>
+
+**Tool Call Success Rates** (5 prompts):
+- **Claude Code + Sonnet 4**: ~**100%**
+- **Gemini CLI + Gemini 2.5 Pro**: ~**100%**
+- **OpenCode + Devstral**: **92.7%**
+- **Cursor + GPT-5**: ~**92.8%**
+- **Cursor + GPT-4o**: ~**91.8%**
+- **OpenCode + Sonic**: ~**91.7%**
+
+While tool success rates varied, all configurations eventually corrected mistakes and achieved correct IOR deployment. Notably, the OpenCode configuration using local Devstral model for execution maintained competitive success rates (92.7%) compared to large cloud-only models.
+
+#### Robustness Across Diverse Prompts
 
 <center>
   <img
     src={require("@site/static/img/projects/iowarp/config_success_rates.png").default}
-    alt="Configuration Success Rates"
+    alt="Robustness Evaluation Across 20 Prompt Variations"
     width="600"
   />
-  <p><em>Success rates for different IOWarp configuration strategies</em></p>
+  <p><em>Configuration success rates when tested with 20 different prompt styles ranging from simple to highly detailed</em></p>
 </center>
+
+**Robustness Test**: 20 prompts with varying detail levels for IOR deployment, from simple (*"Deploy ior with 8 processes using the deployment agent"*) to detailed bash scripts.
+
+**Configuration Success Rates** (20 prompts):
+- **Claude Code + Sonnet 4**: **100%**
+- **Gemini CLI + Gemini 2.5 Pro**: **100%**
+- **OpenCode CLI + Gemini 2.5 Pro**: **100%**
+- **OpenCode CLI + Devstral-2hl**: **100%**
+- **Cursor + GPT-5**: Lower success rate (struggled with parameter synonyms like "nprocs" vs "number of processes")
+
+**Key Finding**: IOWarp's agentic design is highly resilient to changes in prompt phrasing and information granularity. Configurations using local LLMs for execution achieved 100% success, demonstrating that the split plan-execution architecture effectively balances cost, security, and reliability.
 
 ---
 
