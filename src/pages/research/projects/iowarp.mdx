@@ -1,17 +1,15 @@
 ---
-title: "IOWarp: Advanced Data Management for Scientific Workflows"
+title: "IOWarp: Advanced Data Management Platform for AI-Augmented Scientific Workflows"
 ---
 
 import ProjectBadges from "@site/src/components/projects/ProjectBadges";
+import ProjectPublications from "@site/src/components/projects/ProjectPublications";
 
-# IOWarp: Advanced Data Management for Scientific Workflows
+# IOWarp: Advanced Data Management Platform for AI-Augmented Scientific Workflows
 
 <ProjectBadges projectId="iowarp" />
 
-**IOWarp** is a comprehensive data management platform designed to address the unique challenges in scientific
-workflows that integrate simulation, analytics, and Artificial Intelligence (AI). IOWarp builds on existing
-storage infrastructures, optimizing data flow and providing a scalable, adaptable platform for managing diverse
-data needs in modern scientific workflows, particularly those augmented by AI.
+**IOWarp** is a $5 million NSF-funded platform (Award #2411318, 2024-2029) that provides proven infrastructure for intelligent I/O orchestration in scientific computing. IOWarp is a comprehensive data management platform designed to address the unique challenges in scientific workflows that integrate simulation, analytics, and Artificial Intelligence (AI). IOWarp builds on existing storage infrastructures, optimizing data flow and providing a scalable, adaptable platform for managing diverse data needs in modern scientific workflows, particularly those augmented by AI.
 
 ---
 
@@ -27,7 +25,7 @@ IOWarp focuses on:
 
 ### Vision
 
-IOWarp envisions a **modular and flexible architecture** that adapts to the data demands of scientific research, particularly in High-Performance Computing (HPC). This platform aligns with NSF’s focus on sustainable, adaptable solutions that can support next-generation scientific workflows.
+IOWarp envisions a **modular and flexible architecture** that adapts to the data demands of scientific research, particularly in High-Performance Computing (HPC). This platform aligns with NSF's focus on sustainable, adaptable solutions that can support next-generation scientific workflows.
 
 ---
 
@@ -42,51 +40,93 @@ IOWarp envisions a **modular and flexible architecture** that adapts to the data
 
 ---
 
-## Objectives and Architecture Overview
+## From Current State to IOWarp: The Transformation
 
-### Modular Architecture
+IOWarp transforms how scientific data flows through modern HPC systems by introducing intelligent orchestration across the entire storage hierarchy.
 
-IOWarp's architecture comprises several core components designed to handle various aspects of data flow,
-integrity, and interoperability.
+<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px", alignItems: "center" }}>
+  <div style={{ textAlign: "center", flex: 1 }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/PFS-HourGlass.jpg").default}
+      alt="Current State: Traditional PFS Architecture"
+      width="400"
+    />
+    <h4>Current State</h4>
+    <p><em>Traditional parallel file system architecture with limited data management capabilities</em></p>
+  </div>
+  <div style={{ textAlign: "center", flex: 1 }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/IoWarp-HourGlass.jpg").default}
+      alt="Future State: IOWarp-Enhanced Architecture"
+      width="400"
+    />
+    <h4>Future State with IOWarp</h4>
+    <p><em>IOWarp-enhanced architecture with intelligent data orchestration and AI integration</em></p>
+  </div>
+</div>
 
-![IOWarp Architecture](/img/projects/iowarp/architecture.svg)
+**Traditional systems** rely on manual data management and static storage hierarchies, leading to inefficient data movement and underutilized resources. **IOWarp** introduces intelligent, automated data orchestration that adapts to workflow demands, dramatically improving performance and resource utilization.
 
 ---
 
-## Technical Architecture
+## Architecture
 
-This section describes the core components of IOWarp's data management platform and their functionality
-within scientific workflows.
+### Modular Architecture
 
-### Content Assimilation Engine (CAE)
+IOWarp's architecture comprises several core components designed to handle various aspects of data flow, integrity, and interoperability.
 
-The **Content Assimilation Engine (CAE)** transforms diverse format-specific data into IOWarp's unified
-data representation format, **Content**, optimized for data transfer. The CAE:
+![IOWarp Architecture](/img/projects/iowarp/architecture.svg)
+
+### Technical Architecture
+
+This section describes the core components of IOWarp's data management platform and their functionality within scientific workflows.
+
+#### Content Assimilation Engine (CAE)
+
+The **Content Assimilation Engine (CAE)** transforms diverse format-specific data into IOWarp's unified data representation format, **Content**, optimized for data transfer. The CAE:
 
 - Integrates with data sources (e.g., Globus, S3, PFS).
 - Applies data layout and semantic tagging, preserving context across workflow stages.
 - Exports data back to repositories post-processing, ensuring data longevity.
 
-### Content Transfer Engine (CTE)
+#### Content Transfer Engine (CTE)
 
 The **Content Transfer Engine (CTE)** manages efficient data flow across workflow stages and storage systems.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/cte-labios.jpg").default}
+    alt="Content Transfer Engine with LabIOS"
+    width="700"
+  />
+  <p><em>CTE architecture with LabIOS integration for multi-tiered storage management</em></p>
+</center>
+
 Key features include:
 
 - **Multi-tiered I/O**: Supports interactions with advanced storage hardware, including NVMe SSDs and CXL-powered devices.
 - **GPU Direct I/O**: Directly transfers data between GPUs for faster model training and inference.
 - **Secure Transfer Protocols**: Ensures data security during transfers.
 
-### Content Exploration Interface (CEI)
+#### Content Exploration Interface (CEI)
 
 The **Content Exploration Interface (CEI)** enables advanced data querying and retrieval, incorporating tools like:
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/architecture (2).png").default}
+    alt="Content Exploration Interface Architecture"
+    width="800"
+  />
+  <p><em>CEI architecture showing natural language query processing and integration</em></p>
+</center>
 
 - **WarpGPT**: A language model-driven interface for complex scientific queries, capable of handling anomaly detection, mathematical operations, and user-defined extensions.
 - **FAIR Compliance**: Implements principles to support Findable, Accessible, Interoperable, and Reusable data within scientific workflows.
 
-### Platform Plugins Interface (PPI)
+#### Platform Plugins Interface (PPI)
 
-The **Platform Plugins Interface (PPI)** extends IOWarp's functionality, allowing integration with external
-services, such as:
+The **Platform Plugins Interface (PPI)** extends IOWarp's functionality, allowing integration with external services, such as:
 
 - **Global Schedulers** (e.g., Slurm): For resource and task allocation.
 - **Workflow Managers** (e.g., Pegasus): For task orchestration and system telemetry.
@@ -94,10 +134,9 @@ services, such as:
 
 ---
 
-## High-Level Data Flow in IOWarp
+### High-Level Data Flow in IOWarp
 
-The data flow within IOWarp follows an organized pipeline from acquisition and transformation to storage and retrieval.
-Here's a typical data path:
+The data flow within IOWarp follows an organized pipeline from acquisition and transformation to storage and retrieval. Here's a typical data path:
 
 1. **Data Ingestion** via the **Content Assimilation Engine**.
 2. **Data Storage Optimization** through the **Content Transfer Engine** and hardware-optimized storage.
@@ -105,21 +144,316 @@ Here's a typical data path:
 
 ---
 
-## API Descriptions
+### API Descriptions
 
-### Core APIs
+#### Core APIs
 
 1. **Repository Connection API**: Manages connection to external data sources.
-
    - Example Methods: `link/unlink`, `upload/download`.
 
 2. **Content Management API**: Allows querying, editing, and locating content based on metadata and tags.
-
    - Example Methods: `queryContent`, `editContent`.
 
 3. **Content Exploration API**: Supports advanced data operations with low-latency retrieval.
-
    - Example Methods: `processQuery`, `executeDAG`.
 
 4. **AI/ML Integration APIs**: Facilitates data exchange for training and inference tasks within AI frameworks like TensorFlow or PyTorch.
    - Example Methods: `defineDataset`, `prefetchToGPU`.
+
+---
+
+## Towards Agentic-Driven Scientific Workflows
+
+Modern scientific computing is evolving towards **agentic-driven workflows**, where AI agents autonomously orchestrate complex computational tasks, interact with scientific data, and manage HPC resources through natural language interfaces. IOWarp is at the forefront of this transformation, providing the infrastructure and tools necessary to enable intelligent, automated scientific discovery.
+
+Our work on agentic-driven scientific workloads includes the development of **Warpio CLI** and integration with **Model Context Protocols (MCPs)**, enabling researchers to interact with HPC systems, scientific data formats, and computational workflows using natural language and AI-powered assistance.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/warpio-screenshot.png").default}
+    alt="Warpio CLI Interface"
+    width="700"
+  />
+  <p><em>Warpio CLI: Command-line interface for agentic scientific workflows</em></p>
+</center>
+
+### AI Agents for Scientific Computing
+
+Following Anthropic's November 2024 release of the Model Context Protocol (MCP), IOWarp has pioneered the integration of AI agents into scientific computing environments. These agents can:
+
+- **Understand Scientific Data**: Parse and analyze data from formats like HDF5, Adios BP5, NetCDF
+- **Orchestrate Workflows**: Submit jobs, manage resources, and coordinate multi-step computational pipelines
+- **Generate Insights**: Perform data analysis, create visualizations, and answer scientific queries
+- **Ensure Reproducibility**: Track provenance and enable replay of complex workflows
+
+### Model Context Protocols for Science
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/ndp-claude.png").default}
+    alt="Integration with Claude Code"
+    width="700"
+  />
+  <p><em>IOWarp's integration with Claude Code for scientific workflow automation</em></p>
+</center>
+
+IOWarp provides a growing collection of **scientific MCPs** available at [github.com/iowarp/iowarp-mcps](https://github.com/iowarp/iowarp-mcps):
+
+- **Adios MCP**: Analyze and query Adios BP5 files from simulations like LAMMPS, WRF, and more
+- **HDF5 MCP**: Explore HDF5 datasets, read metadata, and extract scientific data
+- **Jarvis MCP**: Automated application deployment, environment management, and orchestration
+- **Slurm MCP**: Job scheduling, resource allocation, and queue management
+- **System Monitoring MCPs**: Real-time performance metrics and resource utilization tracking
+
+#### MCP Success Rates and Performance
+
+<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px" }}>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/success_rate_chart.png").default}
+      alt="Success Rate Chart"
+      width="350"
+    />
+    <p><em>MCP task completion success rates</em></p>
+  </div>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/success_rate_by_agent_model.png").default}
+      alt="Success Rate by Agent Model"
+      width="350"
+    />
+    <p><em>Success rates across different AI agent models</em></p>
+  </div>
+</div>
+
+---
+
+### Scientific Application Examples
+
+IOWarp supports a wide range of scientific applications through its flexible architecture and scientific MCPs, enabling researchers to interact with complex data using natural language.
+
+#### LAMMPS Molecular Dynamics Simulation
+
+<div style={{ display: "flex", justifyContent: "space-around", marginTop: "20px" }}>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/atom_1000_trajectory.png").default}
+      alt="Atom Trajectory Visualization"
+      width="400"
+    />
+    <p><em>Atom trajectory analysis from LAMMPS simulation</em></p>
+  </div>
+  <div style={{ textAlign: "center" }}>
+    <img
+      src={require("@site/static/img/projects/iowarp/atom_1000_crop.png").default}
+      alt="Detailed Atom Analysis"
+      width="400"
+    />
+    <p><em>Detailed single-atom trajectory over time</em></p>
+  </div>
+</div>
+
+Using IOWarp's Adios MCP, researchers can query simulation outputs with natural language:
+
+> *"Can you write me a python script that plots the trajectory of a single atom over time. The atom of choice should be a parameter to the script. The output should be a PNG image with the results. Please run the script for atom 23."*
+
+The MCP automatically:
+1. Reads the Adios BP5 file structure
+2. Extracts position data for the specified atom
+3. Generates Python visualization code
+4. Executes the script and produces the visualization
+
+#### Scientific Visualization Integration
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/paraview_pipe.png").default}
+    alt="ParaView Pipeline"
+    width="700"
+  />
+  <p><em>IOWarp integration with ParaView for scientific visualization pipelines</em></p>
+</center>
+
+---
+
+### System Observability & Monitoring
+
+IOWarp provides comprehensive observability features for tracking system performance and resource utilization in real-time.
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/observability.png").default}
+    alt="IOWarp Observability Dashboard"
+    width="700"
+  />
+  <p><em>Real-time observability dashboard for monitoring IOWarp performance and resource utilization</em></p>
+</center>
+
+Features include:
+- **Real-time Metrics**: Performance tracking across all storage tiers
+- **Resource Monitoring**: DRAM, NVMe, GPU memory, and PFS utilization
+- **Workflow Visualization**: End-to-end workflow execution and bottleneck identification
+- **Reproducibility Tracking**: Full provenance capture for agentic workflows
+
+---
+
+### Performance Results & Benchmarks
+
+IOWarp delivers significant performance improvements across diverse scientific workloads through intelligent I/O management, data tiering, and GPU-direct capabilities.
+
+#### I/O Performance Improvements
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/figure_ior_performance_test.png").default}
+    alt="IOR Performance Benchmarks"
+    width="700"
+  />
+  <p><em>IOR benchmark results showing IOWarp performance improvements across different configurations</em></p>
+</center>
+
+#### Key Performance Metrics
+
+- **Memory Efficiency**: **2.6x less DRAM** usage while maintaining competitive speed through intelligent tiering
+- **I/O Performance**: Up to **5x performance** improvement over disk-based DDN systems
+- **Data Capacity**: **2x more data** processing capability than CuFile without memory crashes
+- **AI Training**: **17% improvement** in inference loss through reduced checkpoint latency
+- **Read Acceleration**: **95.5% reduction** in read time at 512 KiB with accelerated I/O resolution
+- **Write Overhead**: Minimal overhead (worst-case **12%**) for accelerated I/O resolution
+
+#### Task Duration Analysis
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/duration_chart_w_OC.png").default}
+    alt="Performance Duration with Overhead Compensation"
+    width="600"
+  />
+  <p><em>Task duration analysis showing overhead compensation in IOWarp workflows</em></p>
+</center>
+
+#### Configuration Success Rates
+
+<center>
+  <img
+    src={require("@site/static/img/projects/iowarp/config_success_rates.png").default}
+    alt="Configuration Success Rates"
+    width="600"
+  />
+  <p><em>Success rates for different IOWarp configuration strategies</em></p>
+</center>
+
+---
+
+### Demonstrations
+
+#### IOWarp-MCP Demo
+
+Full workflow showcase from scheduling to deployment, data collection, and analysis using IOWarp MCPs with Claude Code.
+
+<center>
+  <iframe
+    width="700"
+    height="394"
+    src="https://www.youtube.com/embed/bjQ8uks4b5s"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen>
+  </iframe>
+</center>
+
+#### IOWarp Reproducibility Demo
+
+Showcase of IOWarp's reproducibility visualizer for agentic workflows, enabling full provenance tracking and replay.
+
+<center>
+  <iframe
+    width="700"
+    height="394"
+    src="https://www.youtube.com/embed/AfS7xrYIRwc"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen>
+  </iframe>
+</center>
+
+#### IOWarp-MCP Adios Demo
+
+Showcase of IOWarp Adios MCP providing full analysis of a BP5 file generated by LAMMPS, demonstrating natural language queries on scientific data.
+
+<center>
+  <iframe
+    width="700"
+    height="394"
+    src="https://www.youtube.com/embed/2x6yAcCPJFc"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen>
+  </iframe>
+</center>
+
+---
+
+## Publications
+
+<ProjectPublications projectId="iowarp" />
+
+---
+
+## Resources & Links
+
+- **GitHub Organization**: [github.com/iowarp](https://github.com/iowarp/)
+- **IOWarp MCPs**: [github.com/iowarp/iowarp-mcps](https://github.com/iowarp/iowarp-mcps)
+- **Documentation**: [IOWarp Tutorial](/docs/iowarp/index)
+
+---
+
+## Collaborators
+
+<div className="row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 0' }}>
+  <div className="col-md-4 text-center">
+    <img
+      src={require("@site/static/img/affiliations/hdfgroup.jpg").default}
+      alt="HDF Group"
+      width="200"
+    />
+    <p><strong>HDF Group</strong></p>
+  </div>
+  <div className="col-md-4 text-center">
+    <img
+      src={require("@site/static/img/affiliations/utah.jpg").default}
+      alt="University of Utah"
+      width="200"
+    />
+    <p><strong>University of Utah</strong></p>
+  </div>
+</div>
+
+### Deployment Partners
+
+IOWarp is deployed and being evaluated at leading national laboratories:
+
+- **Argonne National Laboratory** - Advanced computing research and leadership computing facilities
+- **Lawrence Livermore National Laboratory** - High-performance computing systems and simulation science
+- **NERSC (National Energy Research Scientific Computing Center)** - DOE scientific computing facility
+
+---
+
+## Sponsor
+
+<center>
+  <div className="container">
+    <img
+      src={require("@site/static/img/affiliations/nsf.png").default}
+      alt="National Science Foundation"
+      width="300"
+    />
+    <h3 className="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+      National Science Foundation
+    </h3>
+    <h3 className="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+      Award #2411318 (2024-2029)
+    </h3>
+    <p><strong>$5 Million</strong></p>
+  </div>
+</center>
