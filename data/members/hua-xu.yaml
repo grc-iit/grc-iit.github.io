@@ -6,10 +6,13 @@ bio: >-
 image: xu.jpg
 links:
   email: hxu40@hawk.illinoistech.edu
+  github: https://github.com/hxu65
+  linkedin: https://www.linkedin.com/in/hua-xu-45a4b7120/
 name: Hua Xu
 researchInterests:
   - HPC
   - Distributed Storage
+  - Metadata Management
 slug: hua-xu
 title: PhD Candidate
 type: researcher
