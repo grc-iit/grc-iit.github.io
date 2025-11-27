@@ -14,62 +14,62 @@
             <guid>https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0</guid>
             <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We are excited to announce ChronoLog 1.0.0 Release!]]></description>
-            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong>We are excited to announce <a href="https://github.com/grc-iit/ChronoLog/releases/tag/1.0.0" target="_blank" rel="noopener noreferrer">ChronoLog 1.0.0 Release</a>!</strong>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong>We are excited to announce <a href="https://github.com/grc-iit/ChronoLog/releases/tag/1.0.0" target="_blank" rel="noopener noreferrer" class="">ChronoLog 1.0.0 Release</a>!</strong>
 This is the first public beta release of ChronoLog, and we are eager to get your feedback.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chronolog-project-overview">ChronoLog Project Overview<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#chronolog-project-overview" class="hash-link" aria-label="Direct link to ChronoLog Project Overview" title="Direct link to ChronoLog Project Overview">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chronolog-project-overview">ChronoLog Project Overview<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#chronolog-project-overview" class="hash-link" aria-label="Direct link to ChronoLog Project Overview" title="Direct link to ChronoLog Project Overview" translate="no">​</a></h2>
 <p>ChronoLog is a scalable, high-performance distributed shared log store designed to handle the
 ever-growing volume, velocity, and variety of modern activity data. It is tailored for applications
 ranging from edge computing to high-performance computing (HPC) systems, offering a
 versatile solution for managing log data across diverse domains. Find out more at
-<a href="https://chronolog.dev/" target="_blank" rel="noopener noreferrer">chronolog.dev</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="core-features">Core Features<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#core-features" class="hash-link" aria-label="Direct link to Core Features" title="Direct link to Core Features">​</a></h2>
+<a href="https://chronolog.dev/" target="_blank" rel="noopener noreferrer" class="">chronolog.dev</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-features">Core Features<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#core-features" class="hash-link" aria-label="Direct link to Core Features" title="Direct link to Core Features" translate="no">​</a></h2>
 <ul>
-<li><strong>Multi-Tiered Storage</strong>: Leverages multiple storage tiers (e.g., persistent memory, flash storage) to scale log capacity and optimize performance.</li>
-<li><strong>High Concurrency</strong>: Supports multiple writers and multiple readers (MWMR) for efficient concurrent access to the log.</li>
-<li><strong>Partial Data Retrieval</strong>: Enables efficient range queries for partial log processing, enhancing data exploration capabilities.</li>
-<li><strong>Total Ordering</strong>: Guarantees strict ordering of log entries across distributed environments, eliminating the need for costly synchronization.</li>
-<li><strong>Synchronization-Free</strong>: Employs physical time for log ordering, avoiding expensive synchronization operations.</li>
-<li><strong>Auto-Tiering</strong>: Automatically and transparently moves log data across storage tiers based on age and access patterns.</li>
-<li><strong>Elastic I/O</strong>: Adapts to varying I/O workloads, ensuring efficient resource utilization and performance.</li>
+<li class=""><strong>Multi-Tiered Storage</strong>: Leverages multiple storage tiers (e.g., persistent memory, flash storage) to scale log capacity and optimize performance.</li>
+<li class=""><strong>High Concurrency</strong>: Supports multiple writers and multiple readers (MWMR) for efficient concurrent access to the log.</li>
+<li class=""><strong>Partial Data Retrieval</strong>: Enables efficient range queries for partial log processing, enhancing data exploration capabilities.</li>
+<li class=""><strong>Total Ordering</strong>: Guarantees strict ordering of log entries across distributed environments, eliminating the need for costly synchronization.</li>
+<li class=""><strong>Synchronization-Free</strong>: Employs physical time for log ordering, avoiding expensive synchronization operations.</li>
+<li class=""><strong>Auto-Tiering</strong>: Automatically and transparently moves log data across storage tiers based on age and access patterns.</li>
+<li class=""><strong>Elastic I/O</strong>: Adapts to varying I/O workloads, ensuring efficient resource utilization and performance.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="applicability">Applicability<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#applicability" class="hash-link" aria-label="Direct link to Applicability" title="Direct link to Applicability">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="applicability">Applicability<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#applicability" class="hash-link" aria-label="Direct link to Applicability" title="Direct link to Applicability" translate="no">​</a></h2>
 <p>ChronoLog is designed to address the challenges of modern applications that generate and
 process vast amounts of log data. It is particularly well-suited for:</p>
 <ul>
-<li><strong>Scientific Applications</strong>: Astrophysics, geoscience, materials science, cosmology, and more.</li>
-<li><strong>Internet-of-Things (IoT)</strong>: Efficiently stores, indexes, queries, and analyzes data from IoT devices.</li>
-<li><strong>Financial Applications</strong>: Supports real-time monitoring, time-series analysis, and fraud protection.- HPC Resource Management: Optimizes resource utilization in large-scale HPC systems.</li>
-<li><strong>System Telemetry and Trace Recording</strong>: Captures and analyzes telemetry data from distributed systems.</li>
-<li><strong>Application Performance Analysis</strong>: Facilitates performance monitoring and analysis for complex applications.</li>
+<li class=""><strong>Scientific Applications</strong>: Astrophysics, geoscience, materials science, cosmology, and more.</li>
+<li class=""><strong>Internet-of-Things (IoT)</strong>: Efficiently stores, indexes, queries, and analyzes data from IoT devices.</li>
+<li class=""><strong>Financial Applications</strong>: Supports real-time monitoring, time-series analysis, and fraud protection.- HPC Resource Management: Optimizes resource utilization in large-scale HPC systems.</li>
+<li class=""><strong>System Telemetry and Trace Recording</strong>: Captures and analyzes telemetry data from distributed systems.</li>
+<li class=""><strong>Application Performance Analysis</strong>: Facilitates performance monitoring and analysis for complex applications.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-innovations">Key Innovations<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#key-innovations" class="hash-link" aria-label="Direct link to Key Innovations" title="Direct link to Key Innovations">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-innovations">Key Innovations<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#key-innovations" class="hash-link" aria-label="Direct link to Key Innovations" title="Direct link to Key Innovations" translate="no">​</a></h2>
 <ul>
-<li><strong>Physical Time-Based Ordering</strong>: A novel approach to achieving total ordering in distributed systems without synchronization overhead.</li>
-<li><strong>3D Log Distribution</strong>: A unique model that distributes log data horizontally across nodes and vertically across storage tiers.</li>
-<li><strong>Decoupled Server-Pull Architecture</strong>: Separates event ingestion from event persistence for enhanced performance and scalability.</li>
+<li class=""><strong>Physical Time-Based Ordering</strong>: A novel approach to achieving total ordering in distributed systems without synchronization overhead.</li>
+<li class=""><strong>3D Log Distribution</strong>: A unique model that distributes log data horizontally across nodes and vertically across storage tiers.</li>
+<li class=""><strong>Decoupled Server-Pull Architecture</strong>: Separates event ingestion from event persistence for enhanced performance and scalability.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chronolog-release-100">ChronoLog Release 1.0.0<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#chronolog-release-100" class="hash-link" aria-label="Direct link to ChronoLog Release 1.0.0" title="Direct link to ChronoLog Release 1.0.0">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="chronolog-release-100">ChronoLog Release 1.0.0<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#chronolog-release-100" class="hash-link" aria-label="Direct link to ChronoLog Release 1.0.0" title="Direct link to ChronoLog Release 1.0.0" translate="no">​</a></h2>
 <ul>
-<li><strong>ChronoLog Server</strong>
+<li class=""><strong>ChronoLog Server</strong>
 <ul>
-<li><strong>Implemented Components</strong>: ChronoVisor, ChronoKeeper, and ChronoGraph</li>
-<li><strong>Multi-Tiered Distributed Storage</strong>: The fully functional distributed 3-tier log recording system is implemented to efficiently handle and manage log event streams. The system supports configurable time-based log data management.</li>
-<li><strong>Event Ordering</strong>: Total log event ordering across the client nodes is guaranteed within the bounds of error inherited from the node synchronization protocol. The client identifiers and the event causality order of the client application are retained. (Pipeline Data Model)</li>
-<li><strong>Elasticity</strong>: The system supports dynamic Recording Group membership for ChronoKeeper and ChronoGrapher processes</li>
+<li class=""><strong>Implemented Components</strong>: ChronoVisor, ChronoKeeper, and ChronoGraph</li>
+<li class=""><strong>Multi-Tiered Distributed Storage</strong>: The fully functional distributed 3-tier log recording system is implemented to efficiently handle and manage log event streams. The system supports configurable time-based log data management.</li>
+<li class=""><strong>Event Ordering</strong>: Total log event ordering across the client nodes is guaranteed within the bounds of error inherited from the node synchronization protocol. The client identifiers and the event causality order of the client application are retained. (Pipeline Data Model)</li>
+<li class=""><strong>Elasticity</strong>: The system supports dynamic Recording Group membership for ChronoKeeper and ChronoGrapher processes</li>
 </ul>
 </li>
-<li><strong>ChronoLog Client API</strong>
+<li class=""><strong>ChronoLog Client API</strong>
 <ul>
-<li>Multi-threaded ChronoLog Client library implementation in C++ allows for highly concurrent log event ingestion and distributed recording</li>
-<li>A set of example client applications and a command-line admin tool utilizing the C++ library to simulate various logging workloads</li>
-<li>Python Bindings for C++ Client API</li>
+<li class="">Multi-threaded ChronoLog Client library implementation in C++ allows for highly concurrent log event ingestion and distributed recording</li>
+<li class="">A set of example client applications and a command-line admin tool utilizing the C++ library to simulate various logging workloads</li>
+<li class="">Python Bindings for C++ Client API</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="development-team">Development Team<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#development-team" class="hash-link" aria-label="Direct link to Development Team" title="Direct link to Development Team">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-team">Development Team<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#development-team" class="hash-link" aria-label="Direct link to Development Team" title="Direct link to Development Team" translate="no">​</a></h2>
 <p>ChronoLog is being developed by a team of researchers and engineers at Illinois Tech and the
 University of Chicago.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="acknowledgements">Acknowledgements<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#acknowledgements" class="hash-link" aria-label="Direct link to Acknowledgements" title="Direct link to Acknowledgements">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="acknowledgements">Acknowledgements<a href="https://grc.iit.edu/blog/2024/06/06/chronolog-1.0.0#acknowledgements" class="hash-link" aria-label="Direct link to Acknowledgements" title="Direct link to Acknowledgements" translate="no">​</a></h2>
 <p>We gratefully acknowledge the support of the National Science Foundation (NSF) for funding
 this project. We also thank our collaborators from various scientific and engineering domains for
 their valuable insights and feedback.</p>]]></content:encoded>
@@ -82,7 +82,7 @@ their valuable insights and feedback.</p>]]></content:encoded>
             <guid>https://grc.iit.edu/blog/2024/05/07/sun-ccgrid-keynote</guid>
             <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[From May 6 to May 9, 2024, the IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGRID)]]></description>
-            <content:encoded><![CDATA[<p>From May 6 to May 9, 2024, the <a href="https://2024.ccgrid-conference.org/" target="_blank" rel="noopener noreferrer">IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGRID)</a>
+            <content:encoded><![CDATA[<p>From May 6 to May 9, 2024, the <a href="https://2024.ccgrid-conference.org/" target="_blank" rel="noopener noreferrer" class="">IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGRID)</a>
 was held in Philadelphia, USA. On May 7, Professor Xian-He Sun, a distinguished professor at the Illinois Institute
 of Technology (IIT) and director of the Gnosis Research Center, delivered a keynote titled "AI &amp; Data: Challenges and
 Opportunities in Computer System Research."</p>
@@ -101,15 +101,15 @@ bottleneck in AI and big data computing.</p>
 <p>He highlighted how these new challenges present fundamental research tasks, and opportunities for computer scientists and engineers.
 To emphasizes these opportunities, Professor Sun highlighted some of the research performed here at the Gnosis Research Center:</p>
 <ul>
-<li><a href="http://cs.iit.edu/~scs/psfiles/SUN-ConcurrentAMAT__IEEE_May2014.pdf" target="_blank" rel="noopener noreferrer">Concurrent Average Memory Access Time (C-AMAT) Model</a>:
+<li class=""><a href="http://cs.iit.edu/~scs/psfiles/SUN-ConcurrentAMAT__IEEE_May2014.pdf" target="_blank" rel="noopener noreferrer" class="">Concurrent Average Memory Access Time (C-AMAT) Model</a>:
 This model accurately reflects memory performance in modern high-performance
 computing systems, emphasizing the importance of addressing unhidden miss penalties in high concurrency storage operations.</li>
-<li><a href="http://cs.iit.edu/~scs/assets/files/liu2019lpm.pdf" target="_blank" rel="noopener noreferrer">Layered Performance Matching (LPM)</a>: A method for optimizing storage systems
+<li class=""><a href="http://cs.iit.edu/~scs/assets/files/liu2019lpm.pdf" target="_blank" rel="noopener noreferrer" class="">Layered Performance Matching (LPM)</a>: A method for optimizing storage systems
 to achieve near-cache performance with large capacity. This method is implemented in the Hermes data input/output hierarchical
 management system, which significantly enhances performance in scientific computing, big data applications, cloud computing, and deep learning.</li>
-<li><a href="https://grc.iit.edu/research/projects/hermes">Hermes</a>: Supported by the National Science Foundation, Hermes leverages the C-AMAT model and LPM method,
+<li class=""><a class="" href="https://grc.iit.edu/research/projects/hermes">Hermes</a>: Supported by the National Science Foundation, Hermes leverages the C-AMAT model and LPM method,
 utilizing new storage technologies like NVRAM to enhance performance by 2-3 times. Hermes's success has led to collaboration projects such as
-<a href="https://grc.iit.edu/research/projects/chronolog">ChronoLog</a>, <a href="https://grc.iit.edu/research/projects/coeus">Coeus</a>, and <a href="https://grc.iit.edu/research/projects/dtio">DTIO</a>.</li>
+<a class="" href="https://grc.iit.edu/research/projects/chronolog">ChronoLog</a>, <a class="" href="https://grc.iit.edu/research/projects/coeus">Coeus</a>, and <a class="" href="https://grc.iit.edu/research/projects/dtio">DTIO</a>.</li>
 </ul>
 <p>Professor Sun's team continues to optimize storage systems to enhance performance across various computing fields, reflecting the
 significant shift from computation-centric to data-centric computing. This ongoing work is essential in addressing the evolving needs
