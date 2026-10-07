@@ -1,0 +1,56 @@
+# Gnosis Research Center
+
+> Gnosis Research Center studies high-performance computing, memory systems, parallel I/O, and intelligent data management. The public record contains 378 publications, 31 projects (14 active), 46 member profiles (43 current), and 7 patents.
+
+The publication record counts 350 publications from 1999 on; the 28 earlier records are kept in the Archive. Accepted and forthcoming publications may describe future events. Dates retain the precision recorded by their sources.
+
+## Public Collections
+
+- [Publications](https://grc.iit.edu/gnosis/publications): Scholarly records with authors, venues, dates, and lifecycle.
+- [Projects](https://grc.iit.edu/research/projects/): Active, winding down, and archived research.
+- [Team](https://grc.iit.edu/center/team): Member profiles, leadership, and alumni.
+- [Software](https://grc.iit.edu/research/software): Systems and tools for scientific data, storage, and AI workflows, with links to their repositories.
+- [Studio](https://grc.iit.edu/research/studio): Posters, slide decks, talks, and demos from the center's work in progress.
+- [Partners](https://grc.iit.edu/research/network): Institutions connected through projects, co-authored publications, and scientific computing.
+- [Patents](https://grc.iit.edu/gnosis/patents/): Patent records and inventors.
+- [News](https://grc.iit.edu/research/news): Research updates and announcements.
+- [Articles](https://grc.iit.edu/gnosis/articles): Authored research articles and announcements.
+- [Tutorials](https://grc.iit.edu/docs/): Technical documentation, courses, and computing guides.
+- [PAIDEIA](https://grc.iit.edu/gnosis/paideia): The center's framework for integrating AI into scientific research, coding, writing, and technical workflows.
+- [Resources](https://grc.iit.edu/center/resources/): Computing, collaboration tools, and research guidance for members and students.
+- [About GRC](https://grc.iit.edu/center/about): Center history, research scope, and contact information.
+
+## Leadership
+
+- [Dr. Xian-He Sun](https://grc.iit.edu/center/team/xian-he-sun): Founding Director. University Distinguished Professor & Ron Hochsprung Endowed Chair.
+- [Dr. Anthony Kougkas](https://grc.iit.edu/center/team/anthony-kougkas): Co-Founder & Executive Director. Associate Research Professor, Illinois Tech · Guest Research Faculty, Argonne National Lab.
+
+## Flagship Projects
+
+- [IOWarp](https://grc.iit.edu/research/projects/iowarp): Context management for AI-assisted scientific workflows across heterogeneous storage. Lifecycle: active.
+- [ChronoLog](https://grc.iit.edu/research/projects/chronolog): A time-ordered shared log with concurrent access and tiered capacity. Lifecycle: active.
+- [LABIOS](https://grc.iit.edu/research/projects/labios): A patented label-based I/O paradigm, rebuilt as an agent I/O runtime for HPC applications and AI agents. Lifecycle: active.
+- [DTIO](https://grc.iit.edu/research/projects/dtio): A task-based I/O runtime unifying HPC, Big Data, and ML data stacks through the DataTask abstraction. Lifecycle: active.
+- DOE Genesis Mission: The featured program comprises the following recorded collaborations.
+  - [Portus](https://grc.iit.edu/research/projects/portus): Workflow porting and performance tuning with PNNL. Lifecycle: active.
+  - [SPOTTER-AI](https://grc.iit.edu/research/projects/spotter-ai): Provenance and threat attribution for Genesis workflows with Argonne. Lifecycle: active.
+
+## Active Projects
+
+- [Hermes](https://grc.iit.edu/research/projects/hermes): Distributed buffering across deep memory and storage hierarchies. Lifecycle: active.
+- [Coeus](https://grc.iit.edu/research/projects/coeus): Accelerating scientific insight by embedding computation in the I/O path. Lifecycle: active.
+- [DeepIO](https://grc.iit.edu/research/projects/deepio): I/O methods for scientific AI, from training pipelines to KV cache scheduling. Lifecycle: active.
+- [WisIO](https://grc.iit.edu/research/projects/wisio): Multi-perspective I/O analysis that connects bottlenecks with root causes. Lifecycle: active.
+- [IRIS](https://grc.iit.edu/research/projects/iris): Unified access across file systems and object stores. Lifecycle: active.
+- [Memory Access Pattern Obfuscation](https://grc.iit.edu/research/projects/memory-access-obfuscation): This project combines cryptographic algorithms, application requirements, and memory architecture designs to protect memory access patterns from side channels. Lifecycle: active.
+- [MPI4AI](https://grc.iit.edu/research/projects/mpi4ai): Open MPI communication abstractions for large-scale AI training and inference. Lifecycle: active.
+- [UniMCC](https://grc.iit.edu/research/projects/unimcc): Cross-layer support for near-memory processing and disaggregated memory. Lifecycle: active.
+
+## Record Digests
+
+- [Complete public record digest](https://grc.iit.edu/llms-full.txt): All public projects, member profiles, publications with venues and DOI when recorded, and patents.
+- [Knowledge graph](https://grc.iit.edu/knowledge-graph.json): Machine-readable public project and current-member relationships.
+
+## Optional
+
+- [Opportunities](https://grc.iit.edu/center/opportunities/): Recorded openings and application information.

@@ -1,0 +1,1 @@
+Meng Tang, Luanzheng Guo, Anthony Kougkas, Xian-He Sun, and Nathan R. Tallent. 2026. Characterizing Dataflow for I/O-Aware Scheduling in HPC Workflows. In Proceedings of the 2026 IEEE International Parallel and Distributed Processing Symposium (IPDPS '26). IEEE, Piscataway, NJ, USA, 868–884.

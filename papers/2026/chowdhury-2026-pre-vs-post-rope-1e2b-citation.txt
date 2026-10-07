@@ -1,0 +1,2 @@
+Z. Chowdhury, J. Cernuda, J. Ye, A. Kougkas and X.-H. Sun, "Pre-RoPE versus Post-RoPE Trading Per-Step
+Compute for KVCache Survivability" in Greater Chicago Area Systems Research (GCASR), Chicago, USA, May 2026, Poster presentation.

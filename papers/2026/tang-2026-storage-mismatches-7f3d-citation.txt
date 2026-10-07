@@ -1,0 +1,1 @@
+Meng Tang, Luanzheng Guo, Nathan R. Tallent, Anthony Kougkas, and Xian-He Sun. 2026. The Hidden Cost of Storage Mismatches: Why Faster I/O Per Task Can Slow Down Entire Workflows. Poster, 13th Greater Chicago Area Systems Research Workshop (GCASR 2026), Evanston, IL.

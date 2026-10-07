@@ -1,0 +1,1 @@
+J. Ye, A. Maurya, K. T. Chitty-Venkata, B. Nicolae, A. Kougkas, and X.-H. Sun, "PKAS: Predictive KVCache-Aware Scheduling for Faster LLM and Transformer Inferences," in Proc. 35th Int. Symp. on High-Performance Parallel and Distributed Computing, 2026, pp. 402-414.

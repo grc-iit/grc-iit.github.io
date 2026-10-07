@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="UniMCC">
+  <g transform="translate(128 128) scale(0.92) translate(-128 -128)">
+  <g fill="none" stroke="#d6e1e7" stroke-width="16" stroke-linejoin="round">
+    <rect x="34" y="34" width="188" height="188" rx="28"/>
+    <rect x="76" y="76" width="104" height="104" rx="18"/>
+  </g>
+  <g fill="none" stroke="#00b4e6" stroke-width="12" stroke-linecap="round">
+    <path d="M128 34V222"/>
+  </g>
+  <circle cx="128" cy="128" r="22" fill="#00b4e6"/>
+  </g>
+</svg>

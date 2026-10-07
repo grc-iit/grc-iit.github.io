@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgrc||=[]).push([[12378],{49836(e){e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"IIT","slug":"/category/iit","permalink":"/docs/category/iit","sidebar":"tutorialSidebar","navigation":{"previous":{"title":"Ares FAQ","permalink":"/docs/ares/faq"},"next":{"title":"Reimbursement","permalink":"/docs/iit/reimbursement"}}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgrc||=[]).push([[46706],{85174(e){e.exports=JSON.parse('{"metadata":{"permalink":"/gnosis/articles","page":1,"postsPerPage":34,"totalPages":1,"totalCount":34,"blogDescription":"Project announcements, technical deep-dives, and insights from the Gnosis Research Center.","blogTitle":"Research Highlights"}}')}}]);

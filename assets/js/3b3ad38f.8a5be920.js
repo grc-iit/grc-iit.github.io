@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgrc||=[]).push([[72377],{58124(s,r,t){t.r(r),t.d(r,{default:()=>n});t(96540);var u=t(56347),i=t(74848);function n(){return(0,i.jsx)(u.rd,{to:"/gnosis/publications"})}}}]);

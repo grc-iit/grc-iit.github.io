@@ -1,0 +1,1 @@
+X. Lu, L. Hu, H. Huang, P. Jiang, and X.-H. Sun, “I/O-Aware PIM Acceleration for Long-Sequence LLM Inference with Hybrid Sparse Attention,” in Proceedings of the 40th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2026), New Orleans, LA, USA, May 25–29, 2026, pp. 445–457.

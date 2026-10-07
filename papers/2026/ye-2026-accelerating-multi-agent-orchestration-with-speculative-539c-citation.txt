@@ -1,0 +1,1 @@
+Jie Ye, Shazzadul Islam, Jaime Cernuda, Xian-He Sun, and Anthony Kougkas. 2026. Accelerating Multi-Agent Orchestration with Speculative Dispatching. Poster, 13th Greater Chicago Area Systems Research Workshop (GCASR 2026), Evanston, IL.

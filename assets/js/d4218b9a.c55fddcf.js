@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgrc||=[]).push([[81192],{18213(e){e.exports=JSON.parse('{"name":"grc-plugin-knowledge-graph","id":"default"}')}}]);

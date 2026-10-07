@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /search
+
+Sitemap: https://grc.iit.edu/sitemap.xml
+Sitemap: https://grc.iit.edu/sitemap-moved.xml
+
+# LLM discovery
+# https://grc.iit.edu/llms.txt
+# https://grc.iit.edu/llms-full.txt
+# https://grc.iit.edu/knowledge-graph.json

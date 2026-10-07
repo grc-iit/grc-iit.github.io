@@ -1,0 +1,1 @@
+Izzet Yildirim, Jie Ye, Jaime Cernuda, Xian-He Sun, and Anthony Kougkas. "Correct Is Not I/O Efficient: Characterizing I/O Behavior of LLM Agents on Scientific Data." Poster presented at the 13th Greater Chicago Area Systems Research Workshop (GCASR 2026), May 2026.

@@ -1,0 +1,4241 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Gnosis Research Center",
+  "url": "https://grc.iit.edu",
+  "sameAs": [
+    "https://github.com/grc-iit",
+    "https://www.linkedin.com/company/gnosis-research-center/"
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/ainara-garcia",
+      "url": "https://grc.iit.edu/center/team/ainara-garcia",
+      "name": "Ainara Garcia",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/agarcia.webp",
+      "sameAs": [
+        "https://github.com/ainarag"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/mpi4ai"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/alexander-ichetovkin",
+      "url": "https://grc.iit.edu/center/team/alexander-ichetovkin",
+      "name": "Alexander Ichetovkin",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/alexichetov.webp",
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/unimcc"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/ana-gainaru",
+      "url": "https://grc.iit.edu/center/team/ana-gainaru",
+      "name": "Dr. Ana Gainaru",
+      "jobTitle": "Research Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/gainaru.webp",
+      "knowsAbout": [
+        "Scientific Data Management",
+        "Metadata Intelligence",
+        "HPC"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=YR3x8gkAAAAJ",
+        "https://orcid.org/0000-0002-1375-9468",
+        "https://github.com/anagainaru",
+        "https://ana-gainaru.com"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gainaru-2024-derive-or-4aad"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hades-e18c"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/anna-monso-rodriguez",
+      "url": "https://grc.iit.edu/center/team/anna-monso-rodriguez",
+      "name": "Anna Monso Rodriguez",
+      "jobTitle": "MS Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/placeholder.webp",
+      "knowsAbout": [
+        "Multi-Agent Systems",
+        "Observability",
+        "Log Storage"
+      ],
+      "sameAs": [
+        "https://github.com/annamonso"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/anthony-kougkas",
+      "url": "https://grc.iit.edu/center/team/anthony-kougkas",
+      "name": "Dr. Anthony Kougkas",
+      "jobTitle": "Associate Research Professor, Illinois Tech · Guest Research Faculty, Argonne National Lab",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/kougkas.webp",
+      "knowsAbout": [
+        "Agentic AI for Systems",
+        "Context Engineering",
+        "Parallel and Distributed I/O",
+        "HPC Storage Systems",
+        "Intelligent I/O Buffering",
+        "Storage Semantics and Data Labels",
+        "Deep Learning I/O",
+        "Computational Storage",
+        "Data-Centric Middleware",
+        "Scientific Workflow Optimization"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=hiNO0EEAAAAJ",
+        "https://orcid.org/0000-0003-3943-663X",
+        "https://dblp.org/pid/161/6670.html",
+        "https://github.com/akougkas",
+        "https://www.linkedin.com/in/anthony-kougkas",
+        "https://x.com/kougkas",
+        "https://akougkas.io"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/fernandes-2026-gpuh5-9b21"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-gdsight-4e6a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-stageonce-6b8e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-toolfuse-4a7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-gnns-beyond-hbm-3f56"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-agentstage-7c4a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-acropolis-1f2a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-pkas-predictive-kvcache-aware-scheduling-for-81cf"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chowdhury-2026-pre-vs-post-rope-1e2b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2026-agentic-search-9f3c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2026-dataflow-workflow-b4e1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2026-storage-mismatches-7f3d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-accelerating-multi-agent-orchestration-with-speculative-539c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-correct-is-not-io-efficient-9d2f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agentrecall-339d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gonzalez-2026-chronolog-tiered-log-ff8c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-applications-do-io-8560"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-semantic-search-agent-discovery-577f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chitty-venkata-2026-pagedeviction-3f8a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tallent-2026-dataflowdrs-5e21"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-s3-roofline-c7bd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2025-towards-ai-driven-01ae"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lumsden-2025-optimizing-rex5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-ioworkflows-a9f3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2025-rich-operators-a3f2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-characterizing-behavior-f631"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2025-wisio-45f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sonar-2025-chronolog-ai-78fe"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2025-eris-a1a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-accelerate-llm-inference-1ae6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gainaru-2024-derive-or-4aad"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-megammap-cbda"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-uncover-overhead-3814"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2024-dayu-f286"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-evaluation-daos-6eb2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hades-e18c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lee-2023-data-lifecycles-c393"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2023-semantic-workflow-e12d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-exploring-impacts-090b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2023-evaluation-daos-a960"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2022-multifaceted-approach-da2d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-utilizing-persistent-24d5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-feature-reduction-4823"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2021-hdf5-vol-4754"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2021-performance-analysis-f217"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-pmemcpy-f81c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hreplica-44a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-dynamic-multi-ef19"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-bridging-storage-5e1c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2020-quantifying-overheads-cfc2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2020-characterizing-approximating-1de1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-chronolog-c458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcl-d2f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcompress-70f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hfetch-46e9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-io-acceleration-4458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2019-niobe-19f9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2019-efficient-data-b08d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-hfetch-980e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-intelligent--e9fd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2018-vidya-e65b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-harmonia-5ca9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-hermes-25f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-iris-f1a6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2017-open-ethernet-e0f1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-enosis-ea06"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-syndesis-d59c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-rethinking-key-02de"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2016-leveraging-burst-85be"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2016-towards-energy-6062"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/eslami-2015-efficient-disk-fda9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2015-heterogeneity-aware-d995"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yin-2014-rethinking-key-484a"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/portus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/spotter-ai"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/storehub"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/wisio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/anwar-benhnini",
+      "url": "https://grc.iit.edu/center/team/anwar-benhnini",
+      "name": "Anwar Benhnini",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/abenhnini.webp",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=Bf6c5dsAAAAJ&hl=en",
+        "https://github.com/abenhnini",
+        "https://www.linkedin.com/in/anwarbenhnini/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/unimcc"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/behzad-imanian",
+      "url": "https://grc.iit.edu/center/team/behzad-imanian",
+      "name": "Dr. Behzad Imanian",
+      "jobTitle": "Research Associate Professor & Director, HTS Core",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/imanian.webp",
+      "knowsAbout": [
+        "Genomics",
+        "Bioinformatics",
+        "High-Throughput Sequencing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=iToVQWsAAAAJ",
+        "https://orcid.org/0000-0002-8768-0453",
+        "https://www.iit.edu/directory/people/behzad-imanian"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/bogdan-nicolae",
+      "url": "https://grc.iit.edu/center/team/bogdan-nicolae",
+      "name": "Dr. Bogdan Nicolae",
+      "jobTitle": "Computer Scientist, Argonne National Lab · Assistant Research Professor, Illinois Tech",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/nicolae.webp",
+      "knowsAbout": [
+        "Distributed Systems",
+        "Resilience",
+        "Cloud Computing",
+        "Deep Learning I/O"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=HMNY1JIAAAAJ",
+        "https://orcid.org/0000-0002-0661-7509",
+        "https://dblp.org/pid/85/4553.html",
+        "https://github.com/bnicolae",
+        "https://www.bnicolae.net/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-pkas-predictive-kvcache-aware-scheduling-for-81cf"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/nguyen-2026-streamguard-c378"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chitty-venkata-2026-pagedeviction-3f8a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-characterizing-behavior-f631"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-accelerate-llm-inference-1ae6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-uncover-overhead-3814"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/mpi4ai"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/spotter-ai"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/franck-cappello",
+      "url": "https://grc.iit.edu/center/team/franck-cappello",
+      "name": "Dr. Franck Cappello",
+      "jobTitle": "Senior Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/cappello.webp",
+      "knowsAbout": [
+        "Fault Tolerance",
+        "Data Compression",
+        "Resilience"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=z5u02kIAAAAJ",
+        "https://orcid.org/0000-0002-7890-3934"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/gerd-heber",
+      "url": "https://grc.iit.edu/center/team/gerd-heber",
+      "name": "Dr. Gerd Heber",
+      "jobTitle": "Executive Director",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/heber.webp",
+      "knowsAbout": [
+        "Data Modeling",
+        "Data Integration",
+        "Large-Scale Data Management",
+        "HDF5"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=HRxQJx8AAAAJ&hl=en",
+        "https://orcid.org/0000-0002-7577-6140",
+        "https://github.com/gheber",
+        "https://www.hdfgroup.org/team_department/director/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2020-characterizing-approximating-1de1"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/hariharan-devarajan",
+      "url": "https://grc.iit.edu/center/team/hariharan-devarajan",
+      "name": "Dr. Hariharan Devarajan",
+      "jobTitle": "Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/devarajan.webp",
+      "knowsAbout": [
+        "High Performance Computing",
+        "I/O Performance",
+        "Distributed Storage",
+        "AI-Driven Workflows"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=3B6sHUcAAAAJ&hl=en",
+        "https://orcid.org/0000-0001-5625-3494",
+        "https://github.com/hariharan-devarajan",
+        "https://hariharan-devarajan.github.io/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-orion-1c17"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-datacrumbs-11c5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lumsden-2025-optimizing-rex5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2025-wisio-45f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-exploring-impacts-090b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2022-multifaceted-approach-da2d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hreplica-44a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-dynamic-multi-ef19"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-understanding-io-755d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-bridging-storage-5e1c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-chronolog-c458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcl-d2f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcompress-70f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hfetch-46e9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-io-acceleration-4458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2019-niobe-19f9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2019-efficient-data-b08d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-hfetch-980e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-intelligent--e9fd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2018-vidya-e65b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-harmonia-5ca9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-hermes-25f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-iris-f1a6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2017-open-ethernet-e0f1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-enosis-ea06"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-syndesis-d59c"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/wisio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/harry-agyropoylos",
+      "url": "https://grc.iit.edu/center/team/harry-agyropoylos",
+      "name": "Dr. Charalampos (Harry) Agiropoulos",
+      "jobTitle": "Assistant Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/agyropoylos.webp",
+      "knowsAbout": [
+        "Computational Finance",
+        "Computational Econometrics",
+        "HPC"
+      ],
+      "sameAs": [
+        "https://scholar.google.gr/citations?hl=en&user=WUaMX8oAAAAJ",
+        "https://orcid.org/0000-0002-4443-4498",
+        "https://www.linkedin.com/in/harrisagyropoulos/",
+        "https://www.unipi.gr/en/people/agiropoulos-charalampos/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/hua-xu",
+      "url": "https://grc.iit.edu/center/team/hua-xu",
+      "name": "Hua Xu",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/xu.webp",
+      "knowsAbout": [
+        "HPC",
+        "Distributed Storage",
+        "Metadata Management"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0009-7110-3940",
+        "https://github.com/hxu65",
+        "https://www.linkedin.com/in/hua-xu-45a4b7120/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-poster-4c63"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2025-rich-operators-a3f2"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/huihuo-zheng",
+      "url": "https://grc.iit.edu/center/team/huihuo-zheng",
+      "name": "Dr. Huihuo Zheng",
+      "jobTitle": "Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/placeholder.webp",
+      "knowsAbout": [
+        "Deep Learning I/O",
+        "High Performance Computing",
+        "AI Benchmarking",
+        "Scientific Computing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=dd7fUtEAAAAJ&hl=en",
+        "https://orcid.org/0000-0001-9008-9552",
+        "https://github.com/zhenghh04"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-understanding-io-755d"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/isa-muradli",
+      "url": "https://grc.iit.edu/center/team/isa-muradli",
+      "name": "Isa Muradli",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/muradli.webp",
+      "knowsAbout": [
+        "HPC",
+        "GPU-Accelerated Storage",
+        "I/O Characterization"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=CNTQP3QAAAAJ",
+        "https://orcid.org/0009-0000-7257-3965",
+        "https://github.com/isamuradli",
+        "https://www.linkedin.com/in/isamuradly/",
+        "https://isamuradli.github.io/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2025-towards-ai-driven-01ae"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/izzet-yildirim",
+      "url": "https://grc.iit.edu/center/team/izzet-yildirim",
+      "name": "Izzet Yildirim",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/yildirim.webp",
+      "knowsAbout": [
+        "HPC",
+        "Distributed Storage",
+        "I/O Characterization",
+        "I/O Bottleneck Detection"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=FmMwmlUAAAAJ&hl=en",
+        "https://orcid.org/0000-0003-3513-0764",
+        "https://github.com/izzet",
+        "https://www.linkedin.com/in/izzetcyildirim/",
+        "https://iyildirim.com/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-gdsight-4e6a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-stageonce-6b8e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-toolfuse-4a7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-orion-1c17"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-agentstage-7c4a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-correct-is-not-io-efficient-9d2f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lumsden-2025-optimizing-rex5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2025-wisio-45f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-exploring-impacts-090b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2022-multifaceted-approach-da2d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2021-performance-analysis-f217"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/wisio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/jacob-hochhalter",
+      "url": "https://grc.iit.edu/center/team/jacob-hochhalter",
+      "name": "Dr. Jacob Hochhalter",
+      "jobTitle": "Associate Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/hochhalter.webp",
+      "knowsAbout": [
+        "Materials Science",
+        "Structural Mechanics",
+        "Digital Twin"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=InGKXZIAAAAJ",
+        "https://orcid.org/0000-0003-3607-4573",
+        "https://prognosis.mech.utah.edu/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/jaime-cernuda",
+      "url": "https://grc.iit.edu/center/team/jaime-cernuda",
+      "name": "Dr. Jaime Cernuda Garcia",
+      "jobTitle": "Assistant Research Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/cernuda.webp",
+      "knowsAbout": [
+        "Streaming Systems",
+        "Hierarchical Storage",
+        "Data Flow",
+        "HPC Deployment"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=sKe6n3kAAAAJ",
+        "https://orcid.org/0000-0002-1694-6541",
+        "https://github.com/JaimeCernuda",
+        "https://www.linkedin.com/in/jaime-cernuda",
+        "https://jcernuda.com"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/spotter-ai"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/jay-lofstead",
+      "url": "https://grc.iit.edu/center/team/jay-lofstead",
+      "name": "Dr. Jay Lofstead",
+      "jobTitle": "Principal Member of Technical Staff",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/lofstead.webp",
+      "knowsAbout": [
+        "High Performance Computing",
+        "I/O Performance",
+        "Portability"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=oZQTwfsAAAAJ",
+        "https://orcid.org/0000-0002-4697-2919",
+        "https://github.com/gflofst",
+        "https://www.lofstead.org/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-datacrumbs-11c5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gainaru-2024-derive-or-4aad"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-evaluation-daos-6eb2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hades-e18c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2023-evaluation-daos-a960"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-utilizing-persistent-24d5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-pmemcpy-f81c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-harmonia-5ca9"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/jie-ye",
+      "url": "https://grc.iit.edu/center/team/jie-ye",
+      "name": "Jie Ye",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/ye.webp",
+      "knowsAbout": [
+        "Distributed Storage",
+        "Parallel and Distributed Systems",
+        "LLM/DNN Inference Optimization",
+        "LLM KV Cache management",
+        "LLM/DNN Training Optimization"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=soDY1YgAAAAJ",
+        "https://orcid.org/0009-0003-3985-7896",
+        "https://github.com/Jye-525",
+        "https://www.linkedin.com/in/jie-ye-275b08252/",
+        "https://jye-525.github.io/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-pkas-predictive-kvcache-aware-scheduling-for-81cf"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chowdhury-2026-pre-vs-post-rope-1e2b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-accelerating-multi-agent-orchestration-with-speculative-539c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-correct-is-not-io-efficient-9d2f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chitty-venkata-2026-pagedeviction-3f8a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-characterizing-behavior-f631"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-accelerate-llm-inference-1ae6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-uncover-overhead-3814"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2024-dayu-f286"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2021-hdf5-vol-4754"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/joe-lee",
+      "url": "https://grc.iit.edu/center/team/joe-lee",
+      "name": "Joe Lee",
+      "jobTitle": "Software Engineer",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/lee.webp",
+      "knowsAbout": [
+        "HDF5",
+        "Data Management"
+      ],
+      "sameAs": [
+        "https://github.com/hyoklee",
+        "https://www.hdfgroup.org/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/kathryn-mohror",
+      "url": "https://grc.iit.edu/center/team/kathryn-mohror",
+      "name": "Dr. Kathryn Mohror",
+      "jobTitle": "Director, CASC",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/mohror.webp",
+      "knowsAbout": [
+        "High Performance Computing",
+        "I/O Performance",
+        "Portability"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=O9xR5EYAAAAJ",
+        "https://orcid.org/0000-0002-1366-1655",
+        "https://github.com/kathrynmohror",
+        "https://people.llnl.gov/mohror1"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2025-wisio-45f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-exploring-impacts-090b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2022-multifaceted-approach-da2d"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/wisio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/keith-bateman",
+      "url": "https://grc.iit.edu/center/team/keith-bateman",
+      "name": "Keith Bateman",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/bateman.webp",
+      "knowsAbout": [
+        "HPC",
+        "Distributed Storage",
+        "Task Systems",
+        "Data Management for AI"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-4023-3485",
+        "https://github.com/Keith-Bateman",
+        "https://www.linkedin.com/in/keith-bateman-b0b2a0369/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agentrecall-339d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2025-eris-a1a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-chronolog-c458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcl-d2f4"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/kun-feng",
+      "url": "https://grc.iit.edu/center/team/kun-feng",
+      "name": "Dr. Kun Feng",
+      "jobTitle": "Research Software Engineer",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/feng.webp",
+      "knowsAbout": [
+        "HPC Storage",
+        "I/O Buffering",
+        "Data Management",
+        "Software Engineering"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=mWi5rmAAAAAJ",
+        "https://github.com/fkengun",
+        "https://www.linkedin.com/in/kun-feng-a7693660/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gonzalez-2026-chronolog-tiered-log-ff8c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2019-niobe-19f9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2018-scidp-cdc6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yang-2016-visualization-adaptive-4cd5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/eslami-2015-efficient-disk-fda9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2015-fast-fault-d4c7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2015-iosig--5e1a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yin-2014-rethinking-key-484a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2014-decoupled-io-8543"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2014-performance-aware-5536"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2013-runtime-system-77fc"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2013-cost-aware-c52e"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/kyle-chard",
+      "url": "https://grc.iit.edu/center/team/kyle-chard",
+      "name": "Dr. Kyle Chard",
+      "jobTitle": "Research Associate Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/chard.webp",
+      "knowsAbout": [
+        "Distributed Computing",
+        "Scientific Workflows",
+        "Data Management",
+        "Cloud Computing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=-EKotCgAAAAJ",
+        "https://orcid.org/0000-0002-7370-4805",
+        "https://github.com/kylechard",
+        "https://kylechard.com/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gonzalez-2026-chronolog-tiered-log-ff8c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/nguyen-2026-streamguard-c378"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/luanzheng-guo",
+      "url": "https://grc.iit.edu/center/team/luanzheng-guo",
+      "name": "Dr. Luanzheng Guo",
+      "jobTitle": "Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/guo.webp",
+      "knowsAbout": [
+        "Scientific Workflows",
+        "I/O Performance Analysis",
+        "Data Lifecycle Optimization"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-8266-0923",
+        "https://github.com/kakulo",
+        "https://www.pnnl.gov/people/luanzheng-guo"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2026-dataflow-workflow-b4e1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2026-storage-mismatches-7f3d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tallent-2026-dataflowdrs-5e21"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-s3-roofline-c7bd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-ioworkflows-a9f3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2024-dayu-f286"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lee-2023-data-lifecycles-c393"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/luke-logan",
+      "url": "https://grc.iit.edu/center/team/luke-logan",
+      "name": "Dr. Luke Logan",
+      "jobTitle": "Assistant Research Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/logan.webp",
+      "knowsAbout": [
+        "Heterogeneous Storage",
+        "I/O Optimization",
+        "Persistent Memory",
+        "Distributed Systems"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=Ljn7CmYAAAAJ",
+        "https://orcid.org/0000-0002-7487-1947",
+        "https://github.com/lukemartinlogan",
+        "https://www.linkedin.com/in/luke-logan",
+        "https://lukemartinlogan.github.io/professional-website/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/fernandes-2026-gpuh5-9b21"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-gnns-beyond-hbm-3f56"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-acropolis-1f2a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-semantic-search-agent-discovery-577f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sathwara-2025-bridging-llms-hpc-deac"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2025-scaling-data-tokenization-118b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-megammap-cbda"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-evaluation-daos-6eb2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hades-e18c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2023-evaluation-daos-a960"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-utilizing-persistent-24d5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-pmemcpy-f81c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2020-quantifying-overheads-cfc2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcompress-70f7"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/portus"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/manish-parashar",
+      "url": "https://grc.iit.edu/center/team/manish-parashar",
+      "name": "Dr. Manish Parashar",
+      "jobTitle": "Executive Director, SCI Institute",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/parashar.webp",
+      "knowsAbout": [
+        "Cyberinfrastructure",
+        "Parallel Computing",
+        "Scientific Computing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=BGNzBsUAAAAJ",
+        "https://orcid.org/0000-0003-0983-7408",
+        "https://github.com/parasharmanish",
+        "https://www.manishparashar.org/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/matthew-larson",
+      "url": "https://grc.iit.edu/center/team/matthew-larson",
+      "name": "Matthew Larson",
+      "jobTitle": "Software Engineer",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/larson.webp",
+      "knowsAbout": [
+        "Cloud Storage",
+        "HSDS",
+        "HDF5"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0002-4487-0246",
+        "https://github.com/mattjala",
+        "https://www.hdfgroup.org/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/nathan-tallent",
+      "url": "https://grc.iit.edu/center/team/nathan-tallent",
+      "name": "Dr. Nathan Tallent",
+      "jobTitle": "Senior Computer Scientist & Team Leader",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/tallent.webp",
+      "knowsAbout": [
+        "High Performance Computing",
+        "Performance Analysis"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=cnEIj_kAAAAJ",
+        "https://orcid.org/0000-0003-4297-3057",
+        "https://dblp.org/pid/54/5039",
+        "https://github.com/nathantallent",
+        "https://nathantallent.github.io"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-ioworkflows-a9f3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2024-dayu-f286"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lee-2023-data-lifecycles-c393"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2023-semantic-workflow-e12d"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/portus"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/neeraj-rajesh",
+      "url": "https://grc.iit.edu/center/team/neeraj-rajesh",
+      "name": "Neeraj Rajesh",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/rajesh.webp",
+      "knowsAbout": [
+        "Parallel and Distributed Systems",
+        "HPC",
+        "ML-Assisted Systems",
+        "AI for I/O Optimization"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-9719-9567",
+        "https://github.com/nrj5k",
+        "https://www.linkedin.com/in/neeraj-rajesh-8248b29a/",
+        "https://neeraj.stax.xyz"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-datacrumbs-11c5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-applications-do-io-8560"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-unified-data-stack-8de5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2025-eris-a1a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-feature-reduction-4823"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2020-characterizing-approximating-1de1"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-chronolog-c458"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/nikoli-dryden",
+      "url": "https://grc.iit.edu/center/team/nikoli-dryden",
+      "name": "Dr. Nikoli Dryden",
+      "jobTitle": "Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/dryden.webp",
+      "knowsAbout": [
+        "Distributed Deep Learning",
+        "Scalable ML",
+        "High Performance Computing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=nRhl3Q4AAAAJ&hl=en",
+        "https://github.com/ndryden",
+        "https://ndryden.com/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2026-orion-1c17"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/rajni-pawar",
+      "url": "https://grc.iit.edu/center/team/rajni-pawar",
+      "name": "Rajni Pawar",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/pawar.webp",
+      "knowsAbout": [
+        "HPC"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0003-2280-3226",
+        "https://github.com/rajnipawar",
+        "https://www.linkedin.com/in/raznaee/",
+        "https://rajnipawar.github.io/professional-website/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-gnns-beyond-hbm-3f56"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-acropolis-1f2a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-semantic-search-agent-discovery-577f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2025-scaling-data-tokenization-118b"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/scott-klasky",
+      "url": "https://grc.iit.edu/center/team/scott-klasky",
+      "name": "Dr. Scott Klasky",
+      "jobTitle": "Distinguished Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/klasky.webp",
+      "knowsAbout": [
+        "Scientific Data Management",
+        "High Performance Computing",
+        "I/O Middleware"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=D1pLa94AAAAJ",
+        "https://orcid.org/0000-0003-3559-5772",
+        "https://github.com/sklasky",
+        "https://www.ornl.gov/staff-profile/scott-klasky"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gainaru-2024-derive-or-4aad"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/shazzadul-islam",
+      "url": "https://grc.iit.edu/center/team/shazzadul-islam",
+      "name": "Shazzadul Islam",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/islam.webp",
+      "knowsAbout": [
+        "AI-Driven Scientific Workflows",
+        "Model Context Protocol (MCP) for HPC",
+        "Agentic Systems for Scientific Computing",
+        "High-Performance Computing",
+        "ML-Assisted Systems"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?hl=en&user=HlWiDFYAAAAJ",
+        "https://orcid.org/0009-0009-0924-6035",
+        "https://github.com/SIslamMun",
+        "https://www.linkedin.com/in/shazzadulislammun",
+        "https://sites.google.com/view/shazzadulislam"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2026-agentic-search-9f3c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-accelerating-multi-agent-orchestration-with-speculative-539c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2025-towards-ai-driven-01ae"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/shivalika-chaudhary",
+      "url": "https://grc.iit.edu/center/team/shivalika-chaudhary",
+      "name": "Shivalika Chaudhary",
+      "jobTitle": "Summer Resident (2025)",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/placeholder.webp",
+      "knowsAbout": [
+        "Distributed Systems",
+        "Log Storage"
+      ],
+      "sameAs": [
+        "https://github.com/shivalikac"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/suren-byna",
+      "url": "https://grc.iit.edu/center/team/suren-byna",
+      "name": "Dr. Suren Byna",
+      "jobTitle": "Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/byna.webp",
+      "knowsAbout": [
+        "Parallel I/O",
+        "HDF5",
+        "Extreme-Scale Computing"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=EnK8668AAAAJ",
+        "https://orcid.org/0000-0003-3048-3448",
+        "https://github.com/sbyna",
+        "https://sbyna.github.io"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-feature-reduction-4823"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yin-2012-boosting-application-9c3f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2009-modeling-data-b47c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2009-taxonomy-data-5e3a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/fang-2009-core-aware-0364"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/piccoli-2008-lattice-qcd-08d3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2008-parallel-io-6da7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2008-hiding-io-d98b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2008-exploring-parallel-4054"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2008-scalable-computing-9362"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2008-taxonomy-data-49d6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2007-data-access-75aa"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2007-improving-data-1868"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2007-server-based-8c74"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2006-automatic-memory-49c5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2006-memory-servers-035f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2005-isolating-costs-496d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2004-predicting-memory-696b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2003-improving-performance-468e"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/vadim-biryukov",
+      "url": "https://grc.iit.edu/center/team/vadim-biryukov",
+      "name": "Vadim Biryukov",
+      "jobTitle": "PhD Candidate",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/biryukov.webp",
+      "knowsAbout": [
+        "System memory architecture",
+        "Memory hierarchy optimization",
+        "Hardware prefetchers",
+        "Computing systems"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=nhDMwK0AAAAJ",
+        "https://orcid.org/0009-0009-9321-7578",
+        "https://github.com/VadimBir",
+        "https://www.linkedin.com/in/vadim-biryukov"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/biryukov-2026-zion-a1b2"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/unimcc"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/venkatram-vishwanath",
+      "url": "https://grc.iit.edu/center/team/venkatram-vishwanath",
+      "name": "Dr. Venkatram Vishwanath",
+      "jobTitle": "Computer Scientist",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/vishwanath.webp",
+      "knowsAbout": [
+        "High Performance Computing",
+        "Data Analytics",
+        "Visualization",
+        "Deep Learning"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-7248-6116"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chitty-venkata-2026-pagedeviction-3f8a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-understanding-io-755d"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/vivek-srikumar",
+      "url": "https://grc.iit.edu/center/team/vivek-srikumar",
+      "name": "Dr. Vivek Srikumar",
+      "jobTitle": "Associate Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/srikumar.webp",
+      "knowsAbout": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Scalable ML Systems"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=TsTUfOIAAAAJ",
+        "https://orcid.org/0000-0003-0419-6568",
+        "https://dblp.uni-trier.de/pers/hd/s/Srikumar:Vivek",
+        "https://github.com/svivek",
+        "https://svivek.com/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/xian-he-sun",
+      "url": "https://grc.iit.edu/center/team/xian-he-sun",
+      "name": "Dr. Xian-He Sun",
+      "jobTitle": "University Distinguished Professor & Ron Hochsprung Endowed Chair",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/sun.webp",
+      "knowsAbout": [
+        "Parallel and Distributed Processing",
+        "Memory and I/O Systems",
+        "Data-Centric Computing",
+        "Performance Evaluation"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=9h3JX7MAAAAJ",
+        "https://dblp.org/pid/s/XianHeSun.html",
+        "http://www.cs.iit.edu/~sun/"
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/chronolog"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/coeus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/deepio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/direcmr"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/dtio"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/hermes"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/ides"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/iris"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/memory-access-obfuscation"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/optmem"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/portus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/smc2-planning"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/spotter-ai"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/storehub"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/unimcc"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/wisio"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/xiaoyang-lu",
+      "url": "https://grc.iit.edu/center/team/xiaoyang-lu",
+      "name": "Dr. Xiaoyang Lu",
+      "jobTitle": "Assistant Research Professor",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/lu.webp",
+      "knowsAbout": [
+        "Computer Architecture",
+        "Memory Systems",
+        "Processing-in-Memory",
+        "Cache Optimization"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=54-lMHUAAAAJ",
+        "https://orcid.org/0009-0005-9481-7234",
+        "https://github.com/Xiaoyang-Lu",
+        "https://www.linkedin.com/in/xiaoyang-lu-698943137/",
+        "https://xiaoyang-lu.github.io/"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/hu-2026-improving-data-reuse-3e1f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2026-io-aware-ri45"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2026-hypim-c05e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/biryukov-2026-zion-a1b2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2026-io-analysis-b2c3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/geng-2025-cosmos-fb4d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2025-concurrency-aware-42dd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yan-2025-prominer-7dc6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yan-2025-pyramid-7e42"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yan-2024-aceminer-c390"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2024-aces-6fdd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2024-chrome-1321"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2023-care-bc99"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2023-memory-bounded-824c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/najafi-2022-generalized-model-3e33"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2021-premier-10f5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yan-2021-copim-a500"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2020-apac-66b5"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/optmem"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/portus"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/unimcc"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://grc.iit.edu/center/team/zia-uddin-chowdhury",
+      "url": "https://grc.iit.edu/center/team/zia-uddin-chowdhury",
+      "name": "Zia Uddin Chowdhury",
+      "jobTitle": "PhD Student",
+      "affiliation": "Gnosis Research Center, Illinois Institute of Technology",
+      "image": "https://grc.iit.edu/img/members/chowdhury.webp",
+      "knowsAbout": [
+        "HPC",
+        "Systems"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0000-2087-0634",
+        "https://github.com/RifatXia"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chowdhury-2026-pre-vs-post-rope-1e2b"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://grc.iit.edu/research/projects/iowarp"
+        },
+        {
+          "@id": "https://grc.iit.edu/research/projects/labios"
+        }
+      ]
+    }
+  ],
+  "project": [
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/chronolog",
+      "url": "https://grc.iit.edu/research/projects/chronolog",
+      "name": "ChronoLog",
+      "description": "A time-ordered shared log with concurrent access and tiered capacity",
+      "sameAs": "https://github.com/grc-iit/chronolog",
+      "codeRepository": "https://github.com/grc-iit/chronolog",
+      "startDate": "2021-06-01",
+      "endDate": "2027-05-31",
+      "keywords": [
+        "distributed-systems",
+        "storage-systems",
+        "middleware",
+        "streaming",
+        "indexing",
+        "data-placement",
+        "hpc",
+        "ai-ml",
+        "time-series",
+        "key-value",
+        "scientific-computing"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "OAC-2104013"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2104013"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kyle-chard"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kun-feng"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/shivalika-chaudhary"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-chronolog-c458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gonzalez-2026-chronolog-tiered-log-ff8c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sonar-2025-chronolog-ai-78fe"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Cloud Library",
+      "description": "Cloud Library provided data management and visualization capabilities for cloud-resolving models running on Spark and Hadoop platforms, bridging scientific computing with big data frameworks.",
+      "startDate": "2014-01-01",
+      "endDate": "2018-12-31",
+      "keywords": [
+        "data-systems"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2018-scidp-cdc6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yang-2016-visualization-adaptive-4cd5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/zhou-2015-hadoop-based-62f3"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/coeus",
+      "url": "https://grc.iit.edu/research/projects/coeus",
+      "name": "Coeus",
+      "description": "Accelerating scientific insight by embedding computation in the I/O path",
+      "sameAs": "https://github.com/grc-iit/coeus-adapter",
+      "codeRepository": "https://github.com/grc-iit/coeus-adapter",
+      "startDate": "2022-09-01",
+      "endDate": "2026-08-31",
+      "keywords": [
+        "storage-systems",
+        "derived-quantities",
+        "metadata-enrichment",
+        "data-placement",
+        "buffering",
+        "adios",
+        "hpc",
+        "scientific-computing",
+        "ai-ml"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOE award number",
+            "value": "DE-SC0023263"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "DOE"
+          }
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/jay-lofstead"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/scott-klasky"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/ana-gainaru"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hua-xu"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hades-e18c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gainaru-2024-derive-or-4aad"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2025-rich-operators-a3f2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2025-eris-a1a8"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/deepio",
+      "url": "https://grc.iit.edu/research/projects/deepio",
+      "name": "DeepIO",
+      "description": "I/O methods for scientific AI, from training pipelines to KV cache scheduling",
+      "startDate": "2020-11-01",
+      "endDate": "2026-09-30",
+      "keywords": [
+        "llm-inference",
+        "kv-cache",
+        "model-checkpointing",
+        "gpu-data-transfer",
+        "ai-benchmarking",
+        "deep-learning",
+        "scientific-computing",
+        "hpc",
+        "hdf5",
+        "i-o-tuning",
+        "distributed-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "LLNL award number",
+            "value": "A26-0059"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "LLNL"
+          }
+        },
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "ANL award number",
+            "value": "3J-60004-0013A"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "ANL"
+          }
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/bogdan-nicolae"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jie-ye"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/isa-muradli"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/venkatram-vishwanath"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/huihuo-zheng"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/nikoli-dryden"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-characterizing-behavior-f631"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-pkas-predictive-kvcache-aware-scheduling-for-81cf"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-uncover-overhead-3814"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2021-hdf5-vol-4754"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-understanding-io-755d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2023-evaluation-daos-a960"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-evaluation-daos-6eb2"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "DEP",
+      "description": "DEP proposed a decoupled execution paradigm that separates compute-intensive operations from data-intensive operations, enabling more efficient utilization of heterogeneous computing resources.",
+      "startDate": "2012-01-01",
+      "endDate": "2016-12-31",
+      "keywords": [
+        "hpc-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-1162540"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1162540"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/eslami-2015-efficient-disk-fda9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2013-runtime-system-77fc"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2012-decoupled-execution-e1b0"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/direcmr",
+      "url": "https://grc.iit.edu/research/projects/direcmr",
+      "name": "DiRecMR",
+      "description": "DiRecMR studies differences between map and reduce phases to improve task speculation, resource management, and resilience in MapReduce systems.",
+      "startDate": "2017-08-01",
+      "endDate": "2018-12-31",
+      "keywords": [
+        "data-systems",
+        "distributed-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-1744317"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1744317"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/dtio",
+      "url": "https://grc.iit.edu/research/projects/dtio",
+      "name": "DTIO",
+      "description": "A task-based I/O runtime unifying HPC, Big Data, and ML data stacks through the DataTask abstraction",
+      "sameAs": "https://github.com/grc-iit/DTIO",
+      "codeRepository": "https://github.com/grc-iit/DTIO",
+      "startDate": "2023-08-01",
+      "endDate": "2026-07-31",
+      "keywords": [
+        "distributed-systems",
+        "storage-systems",
+        "middleware",
+        "runtime-systems",
+        "scheduling",
+        "data-placement",
+        "buffering",
+        "caching",
+        "hpc",
+        "ai-ml",
+        "streaming"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOE award number",
+            "value": "DE-SC0024593"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "DOE"
+          }
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/franck-cappello"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/bogdan-nicolae"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/rajni-pawar"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2025-dtio-e77d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agent-error-simulator-3c7d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agentrecall-339d"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "FENCE",
+      "description": "FENCE was a hybrid fault-tolerance framework combining proactive fault avoidance with traditional checkpointing to improve resilience in high-performance computing environments.",
+      "startDate": "2007-01-01",
+      "endDate": "2012-12-31",
+      "keywords": [
+        "hpc-systems"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/jin-2012-checkpointing-orchestration-0eba"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/jin-2010-remem-3b25"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/jin-2010-optimizing-hpc-5db2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/jin-2010-checkpointing-performance-beac"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/li-2009-fault-aware-63af"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2008-towards-fault-0769"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2007-performance-failure-c702"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "GHS",
+      "description": "GHS was a QoS-guaranteed task scheduling system for Grid computing, providing performance evaluation and resource harvesting capabilities. Source code was publicly released (v1.1).",
+      "startDate": "2002-01-01",
+      "endDate": "2012-12-31",
+      "keywords": [
+        "distributed-computing"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/du-2007-dynamic-scheduling-fd3c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2006-ghs-grid-5880"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2006-grid-harvest-5ba8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/eswaradass-2005-neural-network-4294"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2005-ghs--1367"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2005-incorporating-data-6b4a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2004-memory-conscious-3c6b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2004-self-adaptive-de5e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/wu-2003-general-self-6c80"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2003-grid-harvest-cb4e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2003-qos-guided-cd3b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/he-2002-qos-guided-b898"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/hermes",
+      "url": "https://grc.iit.edu/research/projects/hermes",
+      "name": "Hermes",
+      "description": "Distributed buffering across deep memory and storage hierarchies",
+      "sameAs": "https://github.com/HDFGroup/hermes",
+      "codeRepository": "https://github.com/HDFGroup/hermes",
+      "startDate": "2018-11-01",
+      "endDate": "2023-10-31",
+      "keywords": [
+        "storage-systems",
+        "memory-systems",
+        "middleware",
+        "buffering",
+        "caching",
+        "data-placement",
+        "profiling",
+        "compression",
+        "hpc",
+        "scientific-computing",
+        "hdf5",
+        "nvme",
+        "parallel-io"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "OAC-1835764"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1835764"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/gerd-heber"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kun-feng"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jie-ye"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/izzet-yildirim"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-hermes-25f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-io-acceleration-4458"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hfetch-46e9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-hfetch-980e"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcompress-70f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hreplica-44a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2019-efficient-data-b08d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2018-vidya-e65b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2019-intelligent--e9fd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-dynamic-multi-ef19"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcl-d2f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-pmemcpy-f81c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2021-utilizing-persistent-24d5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-megammap-cbda"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-harmonia-5ca9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-bridging-storage-5e1c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2016-leveraging-burst-85be"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-semantic-search-agent-discovery-577f"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "HPCM",
+      "description": "HPCM was a heterogeneous process migration middleware enabling legacy code migration across different computing platforms, supporting mobility in high-performance computing environments.",
+      "startDate": "2000-01-01",
+      "endDate": "2006-12-31",
+      "keywords": [
+        "distributed-computing"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/du-2006-mpi-mitten-06cb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/du-2004-runtime-system-87d8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chanchio-2004-communication-state-dd5a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/du-2003-hpcm-6cdb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chanchio-2002-snow--6364"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chanchio-2001-communication-state-e392"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chanchio-2000-user-level-880a"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/ides",
+      "url": "https://grc.iit.edu/research/projects/ides",
+      "name": "IDES",
+      "description": "IDES integrates campus microgrid data with high-performance computing, storage, and networking for energy-system analytics and cybersecurity research.",
+      "startDate": "2017-08-01",
+      "endDate": "2021-07-31",
+      "keywords": [
+        "community-infrastructure",
+        "data-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-1730488"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1730488"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Integrated Data Management",
+      "description": "This project bridged high-performance computing storage systems (Lustre, PVFS2, GPFS) with big data frameworks (HDFS, MapReduce), enabling unified data management across heterogeneous storage environments.",
+      "startDate": "2013-01-01",
+      "endDate": "2017-12-31",
+      "keywords": [
+        "storage-systems",
+        "data-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-1526887"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1526887"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/haider-2015-ic-data-2676"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yang-2015-dominoes-de0a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yang-2015-porthadoop-1a7f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yang-2014-scaler-0d41"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/iowarp",
+      "url": "https://grc.iit.edu/research/projects/iowarp",
+      "name": "IOWarp",
+      "description": "Context management for AI-assisted scientific workflows across heterogeneous storage",
+      "sameAs": "https://github.com/iowarp",
+      "codeRepository": "https://github.com/iowarp",
+      "startDate": "2024-08-01",
+      "endDate": "2029-07-31",
+      "keywords": [
+        "storage-systems",
+        "middleware",
+        "runtime-systems",
+        "buffering",
+        "data-placement",
+        "streaming",
+        "profiling",
+        "hpc",
+        "ai-ml",
+        "scientific-computing",
+        "hdf5",
+        "gpu-computing",
+        "nvme",
+        "parallel-io",
+        "cloud-computing",
+        "context-engineering",
+        "agentic-ai",
+        "model-context-protocol"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "OAC-2411318"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2411318"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jacob-hochhalter"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/vivek-srikumar"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jie-ye"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/isa-muradli"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/shazzadul-islam"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/zia-uddin-chowdhury"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/matthew-larson"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/joe-lee"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/gerd-heber"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/rajni-pawar"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hua-xu"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2025-towards-ai-driven-01ae"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-megammap-cbda"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-jarvis-3b52"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/muradli-2025-insights-gpudirect-02b4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-s3-roofline-c7bd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2024-tunio-05a8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lee-2023-data-lifecycles-c393"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-evaluation-daos-6eb2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-ioworkflows-a9f3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lumsden-2025-optimizing-rex5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-llm-agents-c360"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/xu-2026-rich-io-centric-derived-quantity-8c30"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-agentstage-7c4a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-acropolis-1f2a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/islam-2026-agentic-search-9f3c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2026-accelerating-multi-agent-orchestration-with-speculative-539c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2026-correct-is-not-io-efficient-9d2f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2026-agentrecall-339d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-semantic-search-agent-discovery-577f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sathwara-2025-bridging-llms-hpc-deac"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/iris",
+      "url": "https://grc.iit.edu/research/projects/iris",
+      "name": "IRIS",
+      "description": "Unified access across file systems and object stores",
+      "sameAs": "https://github.com/grc-iit/iris",
+      "codeRepository": "https://github.com/grc-iit/iris",
+      "startDate": "2017-11-01",
+      "keywords": [
+        "storage-systems",
+        "distributed-systems",
+        "middleware",
+        "file-systems",
+        "hpc",
+        "big-data",
+        "cloud-computing",
+        "data-placement",
+        "key-value",
+        "parallel-io"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CSR-1814872"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1814872"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kun-feng"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/izzet-yildirim"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2018-iris-f1a6"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2019-niobe-19f9"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-bridging-storage-5e1c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-enosis-ea06"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2017-syndesis-d59c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2020-hcl-d2f4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2021-hflow-2f5b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-apollo-dbd8"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2021-dlio-0272"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2022-stimulus-4b4c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2022-labstor-f69d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/bateman-2022-luxio-2487"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/labios",
+      "url": "https://grc.iit.edu/research/projects/labios",
+      "name": "LABIOS",
+      "description": "A patented label-based I/O paradigm, rebuilt as an agent I/O runtime for HPC applications and AI agents",
+      "sameAs": "https://github.com/grc-iit/labios",
+      "codeRepository": "https://github.com/grc-iit/labios",
+      "startDate": "2023-08-01",
+      "endDate": "2027-07-31",
+      "keywords": [
+        "agentic-ai",
+        "model-context-protocol",
+        "distributed-systems",
+        "storage-systems",
+        "middleware",
+        "buffering",
+        "scheduling",
+        "data-placement",
+        "hpc",
+        "big-data",
+        "parallel-io",
+        "key-value"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "OAC-2313154"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2313154"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/keith-bateman"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jie-ye"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kathryn-mohror"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jay-lofstead"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/shazzadul-islam"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/izzet-yildirim"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/rajni-pawar"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/neeraj-rajesh"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hua-xu"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/zia-uddin-chowdhury"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2019-labios-8411"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2020-bridging-storage-5e1c"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2024-megammap-cbda"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/cernuda-2024-hstream-3043"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2024-viper-0a1b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-characterizing-behavior-f631"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/pawar-2026-acropolis-1f2a"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/memory-access-obfuscation",
+      "url": "https://grc.iit.edu/research/projects/memory-access-obfuscation",
+      "name": "Memory Access Pattern Obfuscation",
+      "description": "This project combines cryptographic algorithms, application requirements, and memory architecture designs to protect memory access patterns from side channels.",
+      "startDate": "2022-08-01",
+      "endDate": "2027-07-31",
+      "keywords": [
+        "memory-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-2152497"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2152497"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Memory Parallelism",
+      "description": "This project explored memory concurrency across hierarchy layers, developing techniques to exploit parallelism in modern memory systems for improved application performance.",
+      "startDate": "2010-01-01",
+      "endDate": "2016-12-31",
+      "keywords": [
+        "memory-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-1536079"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1536079"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/sun-2016-memory-sluice-gate-3053"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/liu-2015-c-2-6a2f"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/liu-2015-reevaluating-data-40a1"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/mpi4ai",
+      "url": "https://grc.iit.edu/research/projects/mpi4ai",
+      "name": "MPI4AI",
+      "description": "Open MPI communication abstractions for large-scale AI training and inference",
+      "startDate": "2025-09-15",
+      "endDate": "2029-08-31",
+      "keywords": [
+        "distributed-systems",
+        "ai-ml",
+        "hpc",
+        "middleware",
+        "runtime-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "OAC-2514056"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2514056"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/bogdan-nicolae"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/ainara-garcia"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Multicore Scheduling",
+      "description": "This project developed core-aware scheduling algorithms, data access history caching, and prefetching mechanisms optimized for multicore processor architectures.",
+      "startDate": "2009-01-01",
+      "endDate": "2015-12-31",
+      "keywords": [
+        "hpc-systems",
+        "memory-systems"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chen-2012-algorithm-level-61d4"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/byna-2009-taxonomy-data-5e3a"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/fang-2009-core-aware-0364"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/optmem",
+      "url": "https://grc.iit.edu/research/projects/optmem",
+      "name": "OptMem",
+      "description": "Concurrency-aware models and control methods for modern memory hierarchies",
+      "startDate": "2020-07-01",
+      "endDate": "2024-06-30",
+      "keywords": [
+        "memory-systems",
+        "hpc-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-2008907"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2008907"
+        },
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-2008000"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2008000"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xiaoyang-lu"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2020-apac-66b5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2021-premier-10f5"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2023-care-bc99"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2024-chrome-1321"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/portus",
+      "url": "https://grc.iit.edu/research/projects/portus",
+      "name": "Portus",
+      "description": "Workflow porting and performance tuning with PNNL",
+      "startDate": "2026-08-01",
+      "keywords": [
+        "hpc",
+        "scientific-computing",
+        "profiling",
+        "scheduling",
+        "data-placement",
+        "agentic-ai",
+        "model-context-protocol"
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/nathan-tallent"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xiaoyang-lu"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/luke-logan"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2024-dayu-f286"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2023-semantic-workflow-e12d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lee-2023-data-lifecycles-c393"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-ioworkflows-a9f3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/tang-2025-s3-roofline-c7bd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/feng-2019-niobe-19f9"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Push I/O",
+      "description": "Push I/O developed a server-push I/O architecture for application-specific optimization, conducted jointly with Argonne National Laboratory and the University of Illinois at Urbana-Champaign.",
+      "startDate": "2010-01-01",
+      "endDate": "2015-12-31",
+      "keywords": [
+        "storage-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-0937877"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=0937877"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/smc2-planning",
+      "url": "https://grc.iit.edu/research/projects/smc2-planning",
+      "name": "SMC2 Planning",
+      "description": "SMC2 planning combines near-memory processors and a shared remote memory pool in a system design for graph-mining applications.",
+      "startDate": "2021-01-01",
+      "endDate": "2022-12-31",
+      "keywords": [
+        "memory-systems",
+        "high-performance-computing"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CCF-2029014"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2029014"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "SNOW",
+      "description": "SNOW was a distributed metacomputing platform that enabled scalable computing across networks of heterogeneous workstations, laying the groundwork for later research in distributed systems and process migration.",
+      "startDate": "1999-01-01",
+      "endDate": "2005-12-31",
+      "keywords": [
+        "distributed-computing"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/gong-2002-performance-modeling-44c0"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/chanchio-2002-snow--6364"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/spotter-ai",
+      "url": "https://grc.iit.edu/research/projects/spotter-ai",
+      "name": "SPOTTER-AI",
+      "description": "Provenance and threat attribution for Genesis workflows with Argonne",
+      "startDate": "2026-08-01",
+      "keywords": [
+        "provenance",
+        "scientific-computing",
+        "agentic-ai",
+        "hpc"
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/bogdan-nicolae"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/jaime-cernuda"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/storehub",
+      "url": "https://grc.iit.edu/research/projects/storehub",
+      "name": "StoreHub",
+      "description": "Community findings and a staged design for national data storage research infrastructure",
+      "sameAs": "https://github.com/grc-iit/storehub",
+      "codeRepository": "https://github.com/grc-iit/storehub",
+      "startDate": "2024-05-01",
+      "endDate": "2026-04-30",
+      "keywords": [
+        "storage-systems",
+        "hpc",
+        "profiling",
+        "distributed-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-2346504"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2346504"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/ye-2025-accelerate-llm-inference-1ae6"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/unimcc",
+      "url": "https://grc.iit.edu/research/projects/unimcc",
+      "name": "UniMCC",
+      "description": "Cross-layer support for near-memory processing and disaggregated memory",
+      "startDate": "2023-10-01",
+      "keywords": [
+        "memory-systems",
+        "hpc-systems"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-2310422"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2310422"
+        },
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "NSF award number",
+            "value": "CNS-2310423"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "NSF"
+          },
+          "url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2310423"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xiaoyang-lu"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/vadim-biryukov"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/alexander-ichetovkin"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/anwar-benhnini"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2024-chrome-1321"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2024-aces-6fdd"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yan-2024-aceminer-c390"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2026-io-aware-ri45"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/biryukov-2026-zion-a1b2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/lu-2026-io-analysis-b2c3"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "VCNS",
+      "description": "VCNS was a sister project of SNOW, providing a virtual collaboratory environment for numerical simulation across distributed computing resources.",
+      "startDate": "1999-01-01",
+      "endDate": "2005-12-31",
+      "keywords": [
+        "distributed-computing"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/khettry-2000-windows-nt-464f"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects/wisio",
+      "url": "https://grc.iit.edu/research/projects/wisio",
+      "name": "WisIO",
+      "description": "Multi-perspective I/O analysis that connects bottlenecks with root causes",
+      "sameAs": "https://github.com/grc-iit/wisio",
+      "codeRepository": "https://github.com/grc-iit/wisio",
+      "startDate": "2022-01-01",
+      "endDate": "2025-12-31",
+      "keywords": [
+        "distributed-systems",
+        "profiling",
+        "hpc",
+        "scientific-computing",
+        "parallel-io",
+        "streaming"
+      ],
+      "funding": [
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "LLNL award number",
+            "value": "A23-0111"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "LLNL"
+          }
+        },
+        {
+          "@type": "Grant",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "LLNL award number",
+            "value": "A24-0078"
+          },
+          "funder": {
+            "@type": "Organization",
+            "name": "LLNL"
+          }
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://grc.iit.edu/center/team/anthony-kougkas"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/xian-he-sun"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/kathryn-mohror"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/hariharan-devarajan"
+        },
+        {
+          "@id": "https://grc.iit.edu/center/team/izzet-yildirim"
+        }
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2025-wisio-45f7"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2022-multifaceted-approach-da2d"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-iomax-3919"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2023-exploring-impacts-090b"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/yildirim-2021-performance-analysis-f217"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/devarajan-2024-dftracer-8fcb"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/rajesh-2021-feature-reduction-4823"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/logan-2020-quantifying-overheads-cfc2"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/kougkas-2016-towards-energy-6062"
+        }
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://grc.iit.edu/research/projects",
+      "url": "https://grc.iit.edu/research/projects",
+      "name": "Workflow",
+      "description": "This project developed scientific workflow management capabilities for Lattice QCD computations on dedicated clusters, conducted jointly with Fermi National Accelerator Laboratory (Fermilab).",
+      "startDate": "2005-01-01",
+      "endDate": "2010-12-31",
+      "keywords": [
+        "hpc-systems"
+      ],
+      "publication": [
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/piccoli-2008-lattice-qcd-08d3"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/piccoli-2008-tracking-lqcd-e527"
+        },
+        {
+          "@id": "https://grc.iit.edu/gnosis/publications/piccoli-2007-lqcd-workflow-5d7d"
+        }
+      ]
+    }
+  ]
+}
