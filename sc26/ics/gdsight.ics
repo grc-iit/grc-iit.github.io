@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: GDSight
+BEGIN:VEVENT
+UID:sc26-gdsight@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T173000Z
+DTEND:20261116T175000Z
+SUMMARY:GDSight: Per-Operation Cross-Layer Attribution for GPUDirect Storag
+ e
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\nI. Yildirim\, X.-H. Sun\, A. Kougkas\nPaper: 
+ https://grc.iit.edu/gnosis/publications/yildirim-2026-gdsight-4e6a/\nSC26 
+ program: https://sc26.conference-program.com/presentation/?id=ws_pdsw125&s
+ ess=sess129
+URL:https://grc.iit.edu/sc26/#gdsight
+END:VEVENT
+END:VCALENDAR

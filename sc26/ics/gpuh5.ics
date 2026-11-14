@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: GPUH5
+BEGIN:VEVENT
+UID:sc26-gpuh5@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T165000Z
+DTEND:20261116T171000Z
+SUMMARY:GPUH5: A GPU-first I/O Library for Scientific Data
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\nJ. Fernandes\, L. Logan\, X.-H. Sun\, A. Koug
+ kas\nPaper: https://grc.iit.edu/gnosis/publications/fernandes-2026-gpuh5-9
+ b21/\nSC26 program: https://sc26.conference-program.com/presentation/?id=w
+ s_pdsw111&sess=sess129
+URL:https://grc.iit.edu/sc26/#gpuh5
+END:VEVENT
+END:VCALENDAR

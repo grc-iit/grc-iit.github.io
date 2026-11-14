@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /search
 
 Sitemap: https://grc.iit.edu/sitemap.xml
 Sitemap: https://grc.iit.edu/sitemap-moved.xml

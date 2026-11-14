@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: SPOTTER-AI demo
+BEGIN:VEVENT
+UID:sc26-spotter-ai-demo@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T180000Z
+DTEND:20261118T190000Z
+SUMMARY:SPOTTER-AI: Provenance-Driven Detection and Forensic Attribution of
+  Integrity Attacks on Scientific AI Workflows
+LOCATION:DOE booth 4829\, station 2\, McCormick Place\, 2301 S Martin Luthe
+ r King Dr\, Chicago\, IL 60616
+DESCRIPTION:Live demonstration at the Department of Energy booth\, repeated
+  through the hour\nBogdan Nicolae\, Jaime Cernuda\nPaper: https://grc.iit.
+ edu/research/projects/spotter-ai
+URL:https://grc.iit.edu/sc26/#spotter-ai-demo
+END:VEVENT
+END:VCALENDAR

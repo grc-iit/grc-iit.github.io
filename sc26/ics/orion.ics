@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: Orion
+BEGIN:VEVENT
+UID:sc26-orion@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T163000Z
+DTEND:20261116T165400Z
+SUMMARY:Orion: Observability framework for hybrid workflow-centric I/O moni
+ toring in HPC systems
+LOCATION:W176c\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:ProTools'26 workshop\nH. Devarajan\, R. A. O. Sinurat\, I. Yild
+ irim\, O. Kogiou\, A. Marathe\, N. Dryden\nPaper: https://grc.iit.edu/gnos
+ is/publications/devarajan-2026-orion-1c17/\nSC26 program: https://sc26.con
+ ference-program.com/presentation/?id=ws_prot104&sess=sess131
+URL:https://grc.iit.edu/sc26/#orion
+END:VEVENT
+END:VCALENDAR

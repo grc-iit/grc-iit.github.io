@@ -1,0 +1,203 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26
+BEGIN:VEVENT
+UID:sc26-orion@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T163000Z
+DTEND:20261116T165400Z
+SUMMARY:Orion: Observability framework for hybrid workflow-centric I/O moni
+ toring in HPC systems
+LOCATION:W176c\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:ProTools'26 workshop\nH. Devarajan\, R. A. O. Sinurat\, I. Yild
+ irim\, O. Kogiou\, A. Marathe\, N. Dryden\nPaper: https://grc.iit.edu/gnos
+ is/publications/devarajan-2026-orion-1c17/\nSC26 program: https://sc26.con
+ ference-program.com/presentation/?id=ws_prot104&sess=sess131
+URL:https://grc.iit.edu/sc26/#orion
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-gpuh5@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T165000Z
+DTEND:20261116T171000Z
+SUMMARY:GPUH5: A GPU-first I/O Library for Scientific Data
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\nJ. Fernandes\, L. Logan\, X.-H. Sun\, A. Koug
+ kas\nPaper: https://grc.iit.edu/gnosis/publications/fernandes-2026-gpuh5-9
+ b21/\nSC26 program: https://sc26.conference-program.com/presentation/?id=w
+ s_pdsw111&sess=sess129
+URL:https://grc.iit.edu/sc26/#gpuh5
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-datacrumbs@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T165400Z
+DTEND:20261116T171800Z
+SUMMARY:DataCrumbs: Efficient Cross-Layer Data Capture for Explainable I/O 
+ Performance in HPC Storage Stacks
+LOCATION:W176c\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:ProTools'26 workshop\nH. Devarajan\, S. Neuwirth\, C. Wang\, R.
+  A. O. Sinurat\, N. Rajesh\, J. Lofstead\, V. Sochat\, D. Milroy\, T. Scog
+ land\nPaper: https://grc.iit.edu/gnosis/publications/devarajan-2026-datacr
+ umbs-11c5/\nSC26 program: https://sc26.conference-program.com/presentation
+ /?id=ws_prot105&sess=sess131
+URL:https://grc.iit.edu/sc26/#datacrumbs
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-gdsight@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T173000Z
+DTEND:20261116T175000Z
+SUMMARY:GDSight: Per-Operation Cross-Layer Attribution for GPUDirect Storag
+ e
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\nI. Yildirim\, X.-H. Sun\, A. Kougkas\nPaper: 
+ https://grc.iit.edu/gnosis/publications/yildirim-2026-gdsight-4e6a/\nSC26 
+ program: https://sc26.conference-program.com/presentation/?id=ws_pdsw125&s
+ ess=sess129
+URL:https://grc.iit.edu/sc26/#gdsight
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-trigger-gated@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T181500Z
+DTEND:20261116T182000Z
+SUMMARY:Trigger-Gated Multimodal LLM Agents for In-situ Scientific Simulati
+ on Monitoring
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\, work-in-progress talk\nH. Xu\, J. Cernuda\, 
+ A. Kougkas\, A. Gainaru\, S. Klasky\, X.-H. Sun\, J. Lofstead\nPaper: http
+ s://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84/
+ \nSC26 program: https://sc26.conference-program.com/presentation/?id=ws_pd
+ swwip113&sess=sess129
+URL:https://grc.iit.edu/sc26/#trigger-gated
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-type-safe-metadata@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T224500Z
+DTEND:20261116T225000Z
+SUMMARY:Type-Safe\, Dynamically Defined Metadata Support for Scientific App
+ lications
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\, work-in-progress talk\nJ. Teves\, C. Brinker
+ \, A. Kougkas\, A. Gainaru\, S. Klasky\, X.-H. Sun\, J. Lofstead\nPaper: h
+ ttps://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0/
+ \nSC26 program: https://sc26.conference-program.com/presentation/?id=ws_pd
+ swwip105&sess=sess129
+URL:https://grc.iit.edu/sc26/#type-safe-metadata
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-toolfuse@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:ToolFuse: Provenance-Aware In-Flight Coalescing of Redundant Agent 
+ Tool Calls
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost306\nI. Yildirim\, X.-H. Sun\, A. Kougkas\
+ nPaper: https://grc.iit.edu/gnosis/publications/yildirim-2026-toolfuse-4a7
+ d/\nSC26 program: https://sc26.conference-program.com/presentation/?id=rpo
+ st306&sess=sess313
+URL:https://grc.iit.edu/sc26/#toolfuse
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-stageonce@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:StageOnce: Speculative Cross-Job Data Staging for LLM Agent Fleets
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost305\nI. Yildirim\, X.-H. Sun\, A. Kougkas\
+ nPaper: https://grc.iit.edu/gnosis/publications/yildirim-2026-stageonce-6b
+ 8e/\nSC26 program: https://sc26.conference-program.com/presentation/?id=rp
+ ost305&sess=sess313
+URL:https://grc.iit.edu/sc26/#stageonce
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-io-explainability@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:Extending I/O Observability to Explainability for Targeted Optimiza
+ tion
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost229\nN. Rajesh\, S. Neuwirth\, J. Lofstead
+ \, A. Kougkas\, X.-H. Sun\, N. Dryden\, H. Devarajan\nPaper: https://grc.i
+ it.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb
+ 9/\nSC26 program: https://sc26.conference-program.com/presentation/?id=rpo
+ st229&sess=sess313
+URL:https://grc.iit.edu/sc26/#io-explainability
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-gnns-beyond-hbm@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:GNNs Beyond HBM: Compressed\, Bit-Exact Feature Streaming for Out-o
+ f-Core Training
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost258\nR. Pawar\, L. Logan\, X.-H. Sun\, A. 
+ Kougkas\nPaper: https://grc.iit.edu/gnosis/publications/pawar-2026-gnns-be
+ yond-hbm-3f56/\nSC26 program: https://sc26.conference-program.com/presenta
+ tion/?id=rpost258&sess=sess313
+URL:https://grc.iit.edu/sc26/#gnns-beyond-hbm
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-spotter-ai-demo@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T180000Z
+DTEND:20261118T190000Z
+SUMMARY:SPOTTER-AI: Provenance-Driven Detection and Forensic Attribution of
+  Integrity Attacks on Scientific AI Workflows
+LOCATION:DOE booth 4829\, station 2\, McCormick Place\, 2301 S Martin Luthe
+ r King Dr\, Chicago\, IL 60616
+DESCRIPTION:Live demonstration at the Department of Energy booth\, repeated
+  through the hour\nBogdan Nicolae\, Jaime Cernuda\nPaper: https://grc.iit.
+ edu/research/projects/spotter-ai
+URL:https://grc.iit.edu/sc26/#spotter-ai-demo
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-trigger-render-reason@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T223000Z
+DTEND:20261118T230000Z
+SUMMARY:Trigger\, Render\, Reason: Multimodal LLM Agents for Science-Aware 
+ Scientific Simulation Monitoring
+LOCATION:W181abc\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago
+ \, IL 60616
+DESCRIPTION:Paper\, Papers in Conversation: Scientific AI at Extreme Scale.
+  The session closes with an author panel and is livestreamed.\nH. Xu\, J. 
+ Cernuda\, A. Gainaru\, S. Klasky\, A. Kougkas\, X.-H. Sun\nPaper: https://
+ grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-l
+ lm-agents-c360/\nSC26 program: https://sc26.conference-program.com/present
+ ation/?id=pap1039&sess=sess236
+URL:https://grc.iit.edu/sc26/#trigger-render-reason
+END:VEVENT
+BEGIN:VEVENT
+UID:sc26-hdf5-bof@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T181500Z
+DTEND:20261119T191500Z
+SUMMARY:Trustworthy Data at Scale: HDF5 in the Age of AI-Driven Science
+LOCATION:W185d\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:Birds of a Feather\, with a CLIO demo\nMichael Breitenfeld\, El
+ ena Pourmal\, Suren Byna\, Quincey Koziol\, Anthony Kougkas\nSC26 program:
+  https://sc26.conference-program.com/presentation/?id=bof168&sess=sess428
+URL:https://grc.iit.edu/sc26/#hdf5-bof
+END:VEVENT
+END:VCALENDAR

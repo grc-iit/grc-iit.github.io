@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: Trigger-gated LLM agents
+BEGIN:VEVENT
+UID:sc26-trigger-gated@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T181500Z
+DTEND:20261116T182000Z
+SUMMARY:Trigger-Gated Multimodal LLM Agents for In-situ Scientific Simulati
+ on Monitoring
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\, work-in-progress talk\nH. Xu\, J. Cernuda\, 
+ A. Kougkas\, A. Gainaru\, S. Klasky\, X.-H. Sun\, J. Lofstead\nPaper: http
+ s://grc.iit.edu/gnosis/publications/xu-2026-trigger-gated-multimodal-1a84/
+ \nSC26 program: https://sc26.conference-program.com/presentation/?id=ws_pd
+ swwip113&sess=sess129
+URL:https://grc.iit.edu/sc26/#trigger-gated
+END:VEVENT
+END:VCALENDAR

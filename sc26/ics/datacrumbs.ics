@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: DataCrumbs
+BEGIN:VEVENT
+UID:sc26-datacrumbs@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T165400Z
+DTEND:20261116T171800Z
+SUMMARY:DataCrumbs: Efficient Cross-Layer Data Capture for Explainable I/O 
+ Performance in HPC Storage Stacks
+LOCATION:W176c\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:ProTools'26 workshop\nH. Devarajan\, S. Neuwirth\, C. Wang\, R.
+  A. O. Sinurat\, N. Rajesh\, J. Lofstead\, V. Sochat\, D. Milroy\, T. Scog
+ land\nPaper: https://grc.iit.edu/gnosis/publications/devarajan-2026-datacr
+ umbs-11c5/\nSC26 program: https://sc26.conference-program.com/presentation
+ /?id=ws_prot105&sess=sess131
+URL:https://grc.iit.edu/sc26/#datacrumbs
+END:VEVENT
+END:VCALENDAR

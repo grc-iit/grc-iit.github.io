@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgrc||=[]).push([[81903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/gnosis/articles","blogTitle":"Articles & Insights","authorsListPath":"/gnosis/articles/authors"}')}}]);

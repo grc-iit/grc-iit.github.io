@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: Trigger\, Render\, Reason
+BEGIN:VEVENT
+UID:sc26-trigger-render-reason@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T223000Z
+DTEND:20261118T230000Z
+SUMMARY:Trigger\, Render\, Reason: Multimodal LLM Agents for Science-Aware 
+ Scientific Simulation Monitoring
+LOCATION:W181abc\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago
+ \, IL 60616
+DESCRIPTION:Paper\, Papers in Conversation: Scientific AI at Extreme Scale.
+  The session closes with an author panel and is livestreamed.\nH. Xu\, J. 
+ Cernuda\, A. Gainaru\, S. Klasky\, A. Kougkas\, X.-H. Sun\nPaper: https://
+ grc.iit.edu/gnosis/publications/xu-2026-trigger-render-reason-multimodal-l
+ lm-agents-c360/\nSC26 program: https://sc26.conference-program.com/present
+ ation/?id=pap1039&sess=sess236
+URL:https://grc.iit.edu/sc26/#trigger-render-reason
+END:VEVENT
+END:VCALENDAR

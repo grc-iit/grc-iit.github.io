@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: I/O observability to explainability
+BEGIN:VEVENT
+UID:sc26-io-explainability@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:Extending I/O Observability to Explainability for Targeted Optimiza
+ tion
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost229\nN. Rajesh\, S. Neuwirth\, J. Lofstead
+ \, A. Kougkas\, X.-H. Sun\, N. Dryden\, H. Devarajan\nPaper: https://grc.i
+ it.edu/gnosis/publications/rajesh-2026-io-observability-explainability-2bb
+ 9/\nSC26 program: https://sc26.conference-program.com/presentation/?id=rpo
+ st229&sess=sess313
+URL:https://grc.iit.edu/sc26/#io-explainability
+END:VEVENT
+END:VCALENDAR

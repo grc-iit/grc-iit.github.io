@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: Type-safe metadata
+BEGIN:VEVENT
+UID:sc26-type-safe-metadata@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T224500Z
+DTEND:20261116T225000Z
+SUMMARY:Type-Safe\, Dynamically Defined Metadata Support for Scientific App
+ lications
+LOCATION:W179b\, McCormick Place\, 2301 S Martin Luther King Dr\, Chicago\,
+  IL 60616
+DESCRIPTION:PDSW'26 workshop\, work-in-progress talk\nJ. Teves\, C. Brinker
+ \, A. Kougkas\, A. Gainaru\, S. Klasky\, X.-H. Sun\, J. Lofstead\nPaper: h
+ ttps://grc.iit.edu/gnosis/publications/teves-2026-type-safe-metadata-d6f0/
+ \nSC26 program: https://sc26.conference-program.com/presentation/?id=ws_pd
+ swwip105&sess=sess129
+URL:https://grc.iit.edu/sc26/#type-safe-metadata
+END:VEVENT
+END:VCALENDAR

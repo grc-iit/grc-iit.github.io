@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Gnosis Research Center news</title>
+    <link>https://grc.iit.edu/research/news/</link>
+    <description>Research, software releases, publications, grants, awards, talks, and people from GRC at Illinois Tech.</description>
+    <language>en-us</language>
+    <atom:link href="https://grc.iit.edu/research/news/rss.xml" rel="self" type="application/rss+xml"/>
+    <ttl>60</ttl>
+    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>CLIO autumn releases add Intel GPU support and a data agent</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/13/clio-in-2026-agent-to-marketplace/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-11-13-clio-autumn-release-wave</guid>
+      <description>CLIO components shipped between October 8 and November 13, 2026. CLIO Core 2.3 brings its GPU runtime up on Intel GPUs, CLIO Agent 0.9.6 runs scripts against its own tools and keeps long jobs in the background, and Agent Marketplace 0.7 adds CLIO Data for HDF5, netCDF-4, ADIOS2 and Parquet. The latest versions are Agent 0.9.7, GACT TUI 0.13 and Marketplace 0.8.</description>
+      <content:encoded>&lt;p&gt;CLIO components shipped between October 8 and November 13, 2026. CLIO Core 2.3 brings its GPU runtime up on Intel GPUs, CLIO Agent 0.9.6 runs scripts against its own tools and keeps long jobs in the background, and Agent Marketplace 0.7 adds CLIO Data for HDF5, netCDF-4, ADIOS2 and Parquet. The latest versions are Agent 0.9.7, GACT TUI 0.13 and Marketplace 0.8.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-11-13-clio-autumn-release-wave&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>AI agents</category>
+      <category>GPU I/O</category>
+    </item>
+    <item>
+      <title>ChronoLog 3.3 to 3.5 add durable writes and a new dependency stack</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/12/chronolog-2026-from-2-5-to-3-5/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-11-12-chronolog-v3-5</guid>
+      <description>Three releases followed 3.2 between October 15 and November 12, 2026. Version 3.3 indexes the HDF5 archive through per-ChronoGrapher manifest logs, and 3.4 adds opt-in durable writes that return only after the event is on disk in ChronoKeeper&apos;s write-ahead log. Version 3.5 moves to Spack 1.2.2, Mercury 2.4.1 and Margo 0.24.4, so all servers and clients must upgrade together.</description>
+      <content:encoded>&lt;p&gt;Three releases followed 3.2 between October 15 and November 12, 2026. Version 3.3 indexes the HDF5 archive through per-ChronoGrapher manifest logs, and 3.4 adds opt-in durable writes that return only after the event is on disk in ChronoKeeper&amp;apos;s write-ahead log. Version 3.5 moves to Spack 1.2.2, Mercury 2.4.1 and Margo 0.24.4, so all servers and clients must upgrade together.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-11-12-chronolog-v3-5&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Logging</category>
+    </item>
+    <item>
+      <title>GRC presents data reuse for block-sparse transformers at PACT 2026</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/10/22/autumn-papers-escience-pact-2026/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-10-22-pact26-block-sparse-reuse</guid>
+      <description>The paper by Lihan Hu, Xiaoyang Lu, Xian-He Sun and Peng Jiang was presented on October 22, 2026, at the 35th International Conference on Parallel Architectures and Compilation Techniques, held at the Discovery Partners Institute in Chicago. It improves data reuse across blocks so that block-sparse transformers run more efficiently on GPUs.</description>
+      <content:encoded>&lt;p&gt;The paper by Lihan Hu, Xiaoyang Lu, Xian-He Sun and Peng Jiang was presented on October 22, 2026, at the 35th International Conference on Parallel Architectures and Compilation Techniques, held at the Discovery Partners Institute in Chicago. It improves data reuse across blocks so that block-sparse transformers run more efficiently on GPUs.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-10-22-pact26-block-sparse-reuse&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>PACT</category>
+      <category>Deep learning</category>
+      <category>Memory systems</category>
+    </item>
+    <item>
+      <title>GRC brings eleven works, a BoF and a SPOTTER-AI demo to SC26</title>
+      <link>https://grc.iit.edu/sc26/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-10-04-grc-at-sc26</guid>
+      <description>At SC26 in Chicago, November 16 to 19, GRC will give six workshop talks, four posters and one paper, all on the SC26 page. Bogdan Nicolae and Jaime Cernuda will demo SPOTTER-AI live on Wednesday, November 18, 12:00 to 1:00 PM CST, at DOE booth #4829, demo station 2. &quot;Trigger, Render, Reason&quot; is in a livestreamed Papers in Conversation session closing with an author panel, and Anthony Kougkas will co-lead an HDF5 BoF with a CLIO demo.</description>
+      <content:encoded>&lt;p&gt;At SC26 in Chicago, November 16 to 19, GRC will give six workshop talks, four posters and one paper, all on the SC26 page. Bogdan Nicolae and Jaime Cernuda will demo SPOTTER-AI live on Wednesday, November 18, 12:00 to 1:00 PM CST, at DOE booth #4829, demo station 2. &amp;quot;Trigger, Render, Reason&amp;quot; is in a livestreamed Papers in Conversation session closing with an author panel, and Anthony Kougkas will co-lead an HDF5 BoF with a CLIO demo.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-10-04-grc-at-sc26&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Roundup</category>
+      <category>SC</category>
+      <category>HDF5</category>
+      <category>AI agents</category>
+      <category>DOE</category>
+    </item>
+    <item>
+      <title>ChronoLog 3.2 keeps every chunk until it is archived</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/12/chronolog-2026-from-2-5-to-3-5/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-10-02-chronolog-v3-2</guid>
+      <description>Released October 2, 2026, after 3.1.0 and 3.1.1 in September, the version has each ChronoKeeper hold a sealed chunk until ChronoGrapher confirms it is in the HDF5 archive, and replays read unarchived events directly from the keepers. Clients built against 3.1 must be rebuilt because the protocol version changed.</description>
+      <content:encoded>&lt;p&gt;Released October 2, 2026, after 3.1.0 and 3.1.1 in September, the version has each ChronoKeeper hold a sealed chunk until ChronoGrapher confirms it is in the HDF5 archive, and replays read unarchived events directly from the keepers. Clients built against 3.1 must be rebuilt because the protocol version changed.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-10-02-chronolog-v3-2&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Logging</category>
+    </item>
+    <item>
+      <title>GRC presents four papers at eScience 2026</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/10/22/autumn-papers-escience-pact-2026/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-10-02-escience26-four-papers</guid>
+      <description>The papers appeared in the main track of the 22nd IEEE International Conference on eScience in Naples, Italy, from September 28 to October 2, 2026. They cover fault injection for testing recovery in agentic workflows, portable semantic search for HPC, data staging while an agent is still reasoning, and derived-quantity operators for in situ processing in I/O libraries.</description>
+      <content:encoded>&lt;p&gt;The papers appeared in the main track of the 22nd IEEE International Conference on eScience in Naples, Italy, from September 28 to October 2, 2026. They cover fault injection for testing recovery in agentic workflows, portable semantic search for HPC, data staging while an agent is still reasoning, and derived-quantity operators for in situ processing in I/O libraries.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-10-02-escience26-four-papers&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Paper</category>
+      <category>eScience</category>
+      <category>AI agents</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>GRC presents CLIO and ChronoLog posters at the 2026 NSF CSSI PI meeting</title>
+      <link>https://confmeet.github.io/ccs2026/assignments/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-09-13-nsf-cssi-pi-meeting-posters</guid>
+      <description>Jaime Cernuda and Anthony Kougkas brought two posters to the annual meeting of NSF CSSI, CyberTraining and SCIPE principal investigators, held September 13 to 15 in Rockville, Maryland. One covers IOWarp CLIO, a context layer for I/O; the other covers ChronoLog, the log and activity store funded by NSF award OAC-2104013.</description>
+      <content:encoded>&lt;p&gt;Jaime Cernuda and Anthony Kougkas brought two posters to the annual meeting of NSF CSSI, CyberTraining and SCIPE principal investigators, held September 13 to 15 in Rockville, Maryland. One covers IOWarp CLIO, a context layer for I/O; the other covers ChronoLog, the log and activity store funded by NSF award OAC-2104013.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-09-13-nsf-cssi-pi-meeting-posters&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>Storage systems</category>
+      <category>NSF</category>
+    </item>
+    <item>
+      <title>GRC joins two DOE Genesis Mission projects with Argonne and PNNL</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/08/26/grc-joins-genesis-mission/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-08-26-doe-genesis-projects</guid>
+      <description>Both projects were selected in July 2026, with GRC as a full co-principal investigator. SPOTTER-AI, led by Bogdan Nicolae at Argonne National Laboratory, traces provenance and attributes threats in Genesis workflows; PORTUS, led by Nathan Tallent at Pacific Northwest National Laboratory, builds performance models that help coding agents port workflows across HPC and cloud. GRC contributes the CLIO stack from IOWarp.</description>
+      <content:encoded>&lt;p&gt;Both projects were selected in July 2026, with GRC as a full co-principal investigator. SPOTTER-AI, led by Bogdan Nicolae at Argonne National Laboratory, traces provenance and attributes threats in Genesis workflows; PORTUS, led by Nathan Tallent at Pacific Northwest National Laboratory, builds performance models that help coding agents port workflows across HPC and cloud. GRC contributes the CLIO stack from IOWarp.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-08-26-doe-genesis-projects&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>DOE</category>
+      <category>Provenance</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>CLIO August releases harden remote execution and provenance</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/13/clio-in-2026-agent-to-marketplace/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-08-24-clio-release-wave</guid>
+      <description>Eight CLIO components shipped new versions in August 2026, led by CLIO Core 2.2.1, CLIO Kit 2.10.5 and CLIO Agent 0.9.1.1. Together they harden remote execution, MCP server mounting, provenance and packaging across the agent stack.</description>
+      <content:encoded>&lt;p&gt;Eight CLIO components shipped new versions in August 2026, led by CLIO Core 2.2.1, CLIO Kit 2.10.5 and CLIO Agent 0.9.1.1. Together they harden remote execution, MCP server mounting, provenance and packaging across the agent stack.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-08-24-clio-release-wave&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>AI agents</category>
+    </item>
+    <item>
+      <title>Jarvis-CD 1.8 adds maintained profiles for scientific workflows</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/13/clio-in-2026-agent-to-marketplace/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-08-06-jarvis-v1-8</guid>
+      <description>Version 1.8 ships execution profiles, kept current by the maintainers, for scientific applications, services and I/O interceptors, the same ones used in a cross-cluster evaluation campaign. It also reconciles Slurm jobs that never reached the Jarvis runtime against live and accounting state.</description>
+      <content:encoded>&lt;p&gt;Version 1.8 ships execution profiles, kept current by the maintainers, for scientific applications, services and I/O interceptors, the same ones used in a cross-cluster evaluation campaign. It also reconciles Slurm jobs that never reached the Jarvis runtime against live and accounting state.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-08-06-jarvis-v1-8&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>IEEE TPDS publishes DataFlowDrs for tuning data flow in HPC workflows</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/07/08/journal-articles-nvrec-dataflowdrs/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-08-tpds-dataflowdrs</guid>
+      <description>The article by Nathan Tallent of PNNL, Meng Tang, Anthony Kougkas, Xian-He Sun and coauthors appears in volume 37, issue 12 of IEEE Transactions on Parallel and Distributed Systems. DataFlowDrs automates performance optimization of the data that moves between tasks in HPC workflows.</description>
+      <content:encoded>&lt;p&gt;The article by Nathan Tallent of PNNL, Meng Tang, Anthony Kougkas, Xian-He Sun and coauthors appears in volume 37, issue 12 of IEEE Transactions on Parallel and Distributed Systems. DataFlowDrs automates performance optimization of the data that moves between tasks in HPC workflows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-08-tpds-dataflowdrs&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TPDS</category>
+      <category>Workflows</category>
+      <category>Data movement</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>WisIO 0.2 runs on current Python and analyzes traces faster</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/07/14/hpdc-2026-pkas-metis/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-07-29-wisio-v0-2</guid>
+      <description>Version 0.2.0 of the workflow I/O analysis tool moves to Python 3.10 through 3.13, since every interpreter 0.1.1 supported had reached end of life. Small views now compute in pandas instead of Dask, cutting one DFTracer analysis from 68 to 19 seconds, and the release adds a web app.</description>
+      <content:encoded>&lt;p&gt;Version 0.2.0 of the workflow I/O analysis tool moves to Python 3.10 through 3.13, since every interpreter 0.1.1 supported had reached end of life. Small views now compute in pandas instead of Dask, cutting one DFTracer analysis from 68 to 19 seconds, and the release adds a web app.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-07-29-wisio-v0-2&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>I/O performance</category>
+      <category>Observability</category>
+    </item>
+    <item>
+      <title>GRC presents PKAS and Metis at HPDC 2026</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/07/14/hpdc-2026-pkas-metis/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-07-14-hpdc26-pkas-metis</guid>
+      <description>Both papers appear in the proceedings of the 35th International Symposium on High-Performance Parallel and Distributed Computing, held in Cleveland from July 13 to 16, 2026. PKAS, led by Jie Ye and presented on July 14, schedules LLM and transformer inference by predicting KV cache use; Metis, coauthored by Neeraj Rajesh, uses agents to synthesize knowledge that explains I/O performance in HPC systems.</description>
+      <content:encoded>&lt;p&gt;Both papers appear in the proceedings of the 35th International Symposium on High-Performance Parallel and Distributed Computing, held in Cleveland from July 13 to 16, 2026. PKAS, led by Jie Ye and presented on July 14, schedules LLM and transformer inference by predicting KV cache use; Metis, coauthored by Neeraj Rajesh, uses agents to synthesize knowledge that explains I/O performance in HPC systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-07-14-hpdc26-pkas-metis&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>HPDC</category>
+      <category>LLM inference</category>
+      <category>KV cache</category>
+    </item>
+    <item>
+      <title>ACM TOS publishes NVREC, a recoverable recommendation system for NVM</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/07/08/journal-articles-nvrec-dataflowdrs/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-07-08-tos-nvrec</guid>
+      <description>The article, coauthored by Xian-He Sun, was published online on July 8, 2026, in ACM Transactions on Storage. NVREC is a recommendation system built for non-volatile memory that can recover after a failure while keeping high performance.</description>
+      <content:encoded>&lt;p&gt;The article, coauthored by Xian-He Sun, was published online on July 8, 2026, in ACM Transactions on Storage. NVREC is a recommendation system built for non-volatile memory that can recover after a failure while keeping high performance.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-07-08-tos-nvrec&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TOS</category>
+      <category>Persistent memory</category>
+    </item>
+    <item>
+      <title>ChronoLog 3.0 adds SQL queries, publish-subscribe and MCP access</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/12/chronolog-2026-from-2-5-to-3-5/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-05-29-chronolog-v3</guid>
+      <description>Released May 29, 2026, the major version finalizes the 3.0 client API and adds a recording service for ChronoPlayer. Two new plugins, ChronoSQL and ChronoPubSub, run SQL-style queries over stored events and deliver events by publish-subscribe, and the ChronoLog MCP server now lives in the main repository.</description>
+      <content:encoded>&lt;p&gt;Released May 29, 2026, the major version finalizes the 3.0 client API and adds a recording service for ChronoPlayer. Two new plugins, ChronoSQL and ChronoPubSub, run SQL-style queries over stored events and deliver events by publish-subscribe, and the ChronoLog MCP server now lives in the main repository.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-05-29-chronolog-v3&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Logging</category>
+    </item>
+    <item>
+      <title>GRC presents two I/O-aware papers at IPDPS 2026</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/05/25/spring-papers-llm-memory/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-05-25-ipdps26-two-papers</guid>
+      <description>Both papers appeared at the 40th IEEE International Parallel and Distributed Processing Symposium in New Orleans, May 25 to 29, 2026. Xiaoyang Lu and coauthors accelerate long-sequence LLM inference with processing-in-memory and hybrid sparse attention, and Meng Tang and coauthors, with Nathan Tallent of PNNL, characterize task-to-data exchange to guide I/O-aware scheduling of HPC workflows.</description>
+      <content:encoded>&lt;p&gt;Both papers appeared at the 40th IEEE International Parallel and Distributed Processing Symposium in New Orleans, May 25 to 29, 2026. Xiaoyang Lu and coauthors accelerate long-sequence LLM inference with processing-in-memory and hybrid sparse attention, and Meng Tang and coauthors, with Nathan Tallent of PNNL, characterize task-to-data exchange to guide I/O-aware scheduling of HPC workflows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-05-25-ipdps26-two-papers&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>IPDPS</category>
+      <category>Processing-in-memory</category>
+      <category>Scheduling</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas gives keynote on IOWarp for food safety genomics</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/02/17/context-engineering-scientific-ai/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-05-20-ifsh-iowarp-genomics-talk</guid>
+      <description>Kougkas spoke on May 20, 2026, the second day of the 7th IFSH High-Throughput Sequencing Symposium in Burr Ridge, Illinois, organized by Illinois Tech&apos;s Institute for Food Safety and Health. His talk, &quot;IOWarp: Intelligent Data Management to Accelerate Food Safety Genomic Research&quot;, showed how IOWarp speeds up data handling in genomic analysis.</description>
+      <content:encoded>&lt;p&gt;Kougkas spoke on May 20, 2026, the second day of the 7th IFSH High-Throughput Sequencing Symposium in Burr Ridge, Illinois, organized by Illinois Tech&amp;apos;s Institute for Food Safety and Health. His talk, &amp;quot;IOWarp: Intelligent Data Management to Accelerate Food Safety Genomic Research&amp;quot;, showed how IOWarp speeds up data handling in genomic analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-05-20-ifsh-iowarp-genomics-talk&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>IFSH</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>GRC presents twelve posters at GCASR 2026</title>
+      <link>https://grc.iit.edu/events/gcasr-2026/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-05-11-gcasr26-posters</guid>
+      <description>The posters were shown at the 13th Greater Chicago Area Systems Research Workshop on May 11, 2026, at Northwestern University in Evanston. Topics ranged from the I/O behavior of LLM agents and speculative multi-agent dispatch to KV cache survivability, tiered logging with ChronoLog and resilience for real-time HPC data streams.</description>
+      <content:encoded>&lt;p&gt;The posters were shown at the 13th Greater Chicago Area Systems Research Workshop on May 11, 2026, at Northwestern University in Evanston. Topics ranged from the I/O behavior of LLM agents and speculative multi-agent dispatch to KV cache survivability, tiered logging with ChronoLog and resilience for real-time HPC data streams.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-05-11-gcasr26-posters&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Roundup</category>
+      <category>GCASR</category>
+      <category>AI agents</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>FITS-HDF5-VOL lets HDF5 applications read FITS astronomy data</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/11/13/clio-in-2026-agent-to-marketplace/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-05-06-fits-hdf5-vol</guid>
+      <description>The open-source connector is a read-only HDF5 Virtual Object Layer plugin, so unmodified HDF5 programs can open FITS files without converting them. The public repository documents validation against HDF5 1.14.x and 2.1.x and a 162-test suite.</description>
+      <content:encoded>&lt;p&gt;The open-source connector is a read-only HDF5 Virtual Object Layer plugin, so unmodified HDF5 programs can open FITS files without converting them. The public repository documents validation against HDF5 1.14.x and 2.1.x and a 162-test suite.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-05-06-fits-hdf5-vol&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>HDF5</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas presents context engineering at the ESIP monthly meeting</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/02/17/context-engineering-scientific-ai/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-02-17-esip-context-engineering-talk</guid>
+      <description>The invited talk to Earth Science Information Partners, &quot;From Storage Optimization to Context Orchestration: Context Engineering for Environmental Data Systems&quot;, covered context engineering for HDF5, NetCDF and Zarr data, CLIO Kit, and MCP servers for environmental data integration. ESIP published the recording.</description>
+      <content:encoded>&lt;p&gt;The invited talk to Earth Science Information Partners, &amp;quot;From Storage Optimization to Context Orchestration: Context Engineering for Environmental Data Systems&amp;quot;, covered context engineering for HDF5, NetCDF and Zarr data, CLIO Kit, and MCP servers for environmental data integration. ESIP published the recording.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-02-17-esip-context-engineering-talk&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Invited talk</category>
+      <category>ESIP</category>
+      <category>AI agents</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas argues for context engineering at an Illinois Tech seminar</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/02/17/context-engineering-scientific-ai/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-02-11-cs695-doctoral-seminar</guid>
+      <description>The February 11, 2026 talk in the computer science doctoral seminar, &quot;From Storage Optimization to Context Orchestration: Why Your AI Infrastructure is Already Obsolete&quot;, argued that context quality, not model size, decides whether AI agents succeed in scientific computing. A live demonstration contrasted a chatbot with a multi-agent system, and the talk drew on IOWarp for four context strategies: write, select, compress and isolate.</description>
+      <content:encoded>&lt;p&gt;The February 11, 2026 talk in the computer science doctoral seminar, &amp;quot;From Storage Optimization to Context Orchestration: Why Your AI Infrastructure is Already Obsolete&amp;quot;, argued that context quality, not model size, decides whether AI agents succeed in scientific computing. A live demonstration contrasted a chatbot with a multi-agent system, and the talk drew on IOWarp for four context strategies: write, select, compress and isolate.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-02-11-cs695-doctoral-seminar&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Lecture</category>
+      <category>AI agents</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Jaime Cernuda and Luke Logan named assistant research professors</title>
+      <link>https://grc.iit.edu/gnosis/articles/2026/01/05/cernuda-logan-research-faculty/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-01-cernuda-logan-faculty</guid>
+      <description>Both appointments at Illinois Institute of Technology took effect in January 2026. Cernuda and Logan began as students in the Scalable Computing Software Lab and defended their dissertations in 2025; Logan&apos;s degree was conferred in December 2025 and Cernuda&apos;s in May 2026.</description>
+      <content:encoded>&lt;p&gt;Both appointments at Illinois Institute of Technology took effect in January 2026. Cernuda and Logan began as students in the Scalable Computing Software Lab and defended their dissertations in 2025; Logan&amp;apos;s degree was conferred in December 2025 and Cernuda&amp;apos;s in May 2026.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-01-cernuda-logan-faculty&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>Hire</category>
+    </item>
+    <item>
+      <title>LLNL funds IntentIO to extract I/O intent with machine learning</title>
+      <link>https://akougkas.io/work/deepio/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2026-intentio-llnl-grant</guid>
+      <description>The 2026 subcontract from Lawrence Livermore National Laboratory extends the DeepIO line of lab-funded work, with Nikoli Dryden of LLNL as partner. IntentIO develops machine learning methods that extract the I/O intent of deep learning training jobs to make deep learning training more efficient.</description>
+      <content:encoded>&lt;p&gt;The 2026 subcontract from Lawrence Livermore National Laboratory extends the DeepIO line of lab-funded work, with Nikoli Dryden of LLNL as partner. IntentIO develops machine learning methods that extract the I/O intent of deep learning training jobs to make deep learning training more efficient.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2026-intentio-llnl-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>LLNL</category>
+      <category>Deep learning</category>
+      <category>I/O performance</category>
+    </item>
+    <item>
+      <title>Jaime Cernuda Garcia defends PhD dissertation at Illinois Tech</title>
+      <link>https://grc.iit.edu/research/news/#2025-12-cernuda-phd-defense</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-12-cernuda-phd-defense</guid>
+      <description>Cernuda Garcia defended in late 2025, and the degree was conferred in May 2026. His doctoral work produced HFlow (Cluster 2021), Hades (CCGrid 2024), HStream (ICPP 2024) and Jarvis (PDSW 2024), on data forwarding, active storage, hierarchical streaming and reproducible HPC deployment, within the Hermes and IOWarp projects.</description>
+      <content:encoded>&lt;p&gt;Cernuda Garcia defended in late 2025, and the degree was conferred in May 2026. His doctoral work produced HFlow (Cluster 2021), Hades (CCGrid 2024), HStream (ICPP 2024) and Jarvis (PDSW 2024), on data forwarding, active storage, hierarchical streaming and reproducible HPC deployment, within the Hermes and IOWarp projects.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-12-cernuda-phd-defense&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>PhD defense</category>
+    </item>
+    <item>
+      <title>Zion hardware prefetcher paper accepted to DATE 2026</title>
+      <link>https://doi.org/10.23919/DATE69613.2026.11539299</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-11-29-biryukov-date26-accepted</guid>
+      <description>Vadim Biryukov&apos;s paper, with Xiaoyang Lu, Xian-He Sun and coauthors, appeared at DATE 2026 in Verona, Italy, in April 2026. Zion combines independent temporal and spatial prefetching modules with runtime feedback to stay effective for memory-intensive workloads under memory pressure.</description>
+      <content:encoded>&lt;p&gt;Vadim Biryukov&amp;apos;s paper, with Xiaoyang Lu, Xian-He Sun and coauthors, appeared at DATE 2026 in Verona, Italy, in April 2026. Zion combines independent temporal and spatial prefetching modules with runtime feedback to stay effective for memory-intensive workloads under memory pressure.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-11-29-biryukov-date26-accepted&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>DATE</category>
+      <category>Prefetching</category>
+      <category>Memory systems</category>
+    </item>
+    <item>
+      <title>Long-sequence attention I/O analysis paper accepted to ASPLOS 2026</title>
+      <link>https://doi.org/10.1145/3779212.3790174</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-11-29-lu-asplos26-accepted</guid>
+      <description>The paper by Xiaoyang Lu, Xian-He Sun and coauthors appeared at ASPLOS 2026 in Pittsburgh in March 2026. Its I/O analysis of tall-and-skinny matrix multiplication guides AttenIO, an I/O-driven accelerator for exact long-sequence self-attention.</description>
+      <content:encoded>&lt;p&gt;The paper by Xiaoyang Lu, Xian-He Sun and coauthors appeared at ASPLOS 2026 in Pittsburgh in March 2026. Its I/O analysis of tall-and-skinny matrix multiplication guides AttenIO, an I/O-driven accelerator for exact long-sequence self-attention.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-11-29-lu-asplos26-accepted&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>ASPLOS</category>
+      <category>Memory systems</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>ProMiner speeds graph mining on processing-in-memory systems in IEEE TCAD</title>
+      <link>https://doi.org/10.1109/TCAD.2025.3570164</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-11-29-yan-prominer-tcad</guid>
+      <description>The article by Liang Yan, Xiaoyang Lu, Xian-He Sun and coauthors appears in volume 44, issue 12. ProMiner improves locality, parallelism and the offloading of work between processing-in-memory units and the CPU, the three main obstacles to running memory-bound graph mining in memory.</description>
+      <content:encoded>&lt;p&gt;The article by Liang Yan, Xiaoyang Lu, Xian-He Sun and coauthors appears in volume 44, issue 12. ProMiner improves locality, parallelism and the offloading of work between processing-in-memory units and the CPU, the three main obstacles to running memory-bound graph mining in memory.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-11-29-yan-prominer-tcad&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TCAD</category>
+      <category>Processing-in-memory</category>
+    </item>
+    <item>
+      <title>Meng Tang applies the roofline model to AWS S3 I/O at PDSW 2025</title>
+      <link>https://grc.iit.edu/research/news/#2025-11-17-tang-s3-roofline-pdsw</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-11-17-tang-s3-roofline-pdsw</guid>
+      <description>The paper at the 10th International Parallel Data Systems Workshop, held with SC25, extends I/O roofline modeling to three ways of integrating S3 storage and finds up to 6.4x bandwidth differences between them. The analysis, with Nathan Tallent of Pacific Northwest National Laboratory, guides S3 integration choices in hybrid cloud environments.</description>
+      <content:encoded>&lt;p&gt;The paper at the 10th International Parallel Data Systems Workshop, held with SC25, extends I/O roofline modeling to three ways of integrating S3 storage and finds up to 6.4x bandwidth differences between them. The analysis, with Nathan Tallent of Pacific Northwest National Laboratory, guides S3 integration choices in hybrid cloud environments.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-11-17-tang-s3-roofline-pdsw&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Workshop</category>
+      <category>PDSW</category>
+      <category>Cloud storage</category>
+      <category>I/O performance</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas gives Ohio State guest lecture on data management for AI</title>
+      <link>https://grc.iit.edu/research/news/#2025-11-15-osu-guest-lecture</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-11-15-osu-guest-lecture</guid>
+      <description>Suren Byna hosted the lecture in CSE 5449, Intermediate Studies in Scientific Data Management, in November 2025. Its title was &quot;Data Management in the Age of AI: Bridging Scientific Workflows with Intelligent Systems&quot;.</description>
+      <content:encoded>&lt;p&gt;Suren Byna hosted the lecture in CSE 5449, Intermediate Studies in Scientific Data Management, in November 2025. Its title was &amp;quot;Data Management in the Age of AI: Bridging Scientific Workflows with Intelligent Systems&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-11-15-osu-guest-lecture&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>knowledge-sharing</category>
+      <category>Lecture</category>
+      <category>AI agents</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas gives ICL lunch talk on AI coding tools for HPC</title>
+      <link>https://icl.utk.edu/icl-lunch-talks</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-10-24-utk-icl-ai-coding-talk</guid>
+      <description>The October 24 talk at the Innovative Computing Laboratory, University of Tennessee, Knoxville, &quot;From Chatbots to Autonomous Agents: A Practical Guide to AI Coding Tools for HPC Researchers&quot;, laid out an adoption roadmap, MCP integration and agent skills, with live demonstrations on real HPC codebases.</description>
+      <content:encoded>&lt;p&gt;The October 24 talk at the Innovative Computing Laboratory, University of Tennessee, Knoxville, &amp;quot;From Chatbots to Autonomous Agents: A Practical Guide to AI Coding Tools for HPC Researchers&amp;quot;, laid out an adoption roadmap, MCP integration and agent skills, with live demonstrations on real HPC codebases.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-10-24-utk-icl-ai-coding-talk&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Invited talk</category>
+      <category>AI agents</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas presents data management for AI science agents at Argonne</title>
+      <link>https://www.anl.gov/event/data-management-for-aipowered-science-agents-from-storage-optimization-to-context</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-09-30-argonne-seminar</guid>
+      <description>Speaking in the Computer Science Seminar Series of Argonne&apos;s Mathematics and Computer Science Division on September 30, Kougkas introduced IOWarp, which delivers data, metadata and computational state to AI agents as a unified context. The talk was titled &quot;Data Management for AI-Powered Science Agents: From Storage Optimization to Context&quot;.</description>
+      <content:encoded>&lt;p&gt;Speaking in the Computer Science Seminar Series of Argonne&amp;apos;s Mathematics and Computer Science Division on September 30, Kougkas introduced IOWarp, which delivers data, metadata and computational state to AI agents as a unified context. The talk was titled &amp;quot;Data Management for AI-Powered Science Agents: From Storage Optimization to Context&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-09-30-argonne-seminar&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Invited talk</category>
+      <category>Argonne</category>
+      <category>AI agents</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Shazzadul Islam&apos;s eScience 2025 poster uses LLM agents to run HPC workflows</title>
+      <link>https://grc.iit.edu/research/news/#2025-09-15-islam-ai-workflow-escience</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-09-15-islam-ai-workflow-escience</guid>
+      <description>The poster &quot;IOWarp-AI: Towards an AI-driven Scientific Workflow&quot;, shown at the 21st IEEE International Conference on eScience, September 15 to 18, examines how LLM agents can design, execute and tune computational workflows on HPC systems.</description>
+      <content:encoded>&lt;p&gt;The poster &amp;quot;IOWarp-AI: Towards an AI-driven Scientific Workflow&amp;quot;, shown at the 21st IEEE International Conference on eScience, September 15 to 18, examines how LLM agents can design, execute and tune computational workflows on HPC systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-09-15-islam-ai-workflow-escience&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Poster</category>
+      <category>eScience</category>
+      <category>AI agents</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>Isa Muradli benchmarks GPUDirect transfers with NIXL at eScience 2025</title>
+      <link>https://grc.iit.edu/research/news/#2025-09-15-muradli-gpudirect-escience</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-09-15-muradli-gpudirect-escience</guid>
+      <description>The poster at the 21st IEEE International Conference on eScience measures GPU-direct storage transfer performance with the NIXL framework. Its results help HPC teams tune data pipelines for GPU-accelerated scientific and AI workloads.</description>
+      <content:encoded>&lt;p&gt;The poster at the 21st IEEE International Conference on eScience measures GPU-direct storage transfer performance with the NIXL framework. Its results help HPC teams tune data pipelines for GPU-accelerated scientific and AI workloads.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-09-15-muradli-gpudirect-escience&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>eScience</category>
+      <category>GPU I/O</category>
+      <category>Benchmarking</category>
+    </item>
+    <item>
+      <title>GRC coauthors REX-IO 2025 paper on Rabbit storage for exascale plasma I/O</title>
+      <link>https://grc.iit.edu/research/news/#2025-09-08-lumsden-rabbit-rexio-collaboration</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-09-08-lumsden-rabbit-rexio-collaboration</guid>
+      <description>The paper, first-authored by Ian Lumsden of the University of Tennessee, Knoxville, with Lawrence Livermore National Laboratory, KTH Royal Institute of Technology and other partners, was presented at the REX-IO workshop of IEEE Cluster 2025 in Edinburgh. It shows how the Rabbit storage system speeds up I/O for an exascale implicit kinetic plasma simulation.</description>
+      <content:encoded>&lt;p&gt;The paper, first-authored by Ian Lumsden of the University of Tennessee, Knoxville, with Lawrence Livermore National Laboratory, KTH Royal Institute of Technology and other partners, was presented at the REX-IO workshop of IEEE Cluster 2025 in Edinburgh. It shows how the Rabbit storage system speeds up I/O for an exascale implicit kinetic plasma simulation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-09-08-lumsden-rabbit-rexio-collaboration&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+      <category>power-partnership</category>
+      <category>Workshop</category>
+      <category>REX-IO</category>
+      <category>I/O performance</category>
+      <category>Storage systems</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>Xian-He Sun gives HPCC 2025 keynote on concurrent data access</title>
+      <link>https://grc.iit.edu/gnosis/articles/2025/08/13/sun-hpcc-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-08-13-hpcc-keynote</guid>
+      <description>Sun&apos;s keynote at the 27th IEEE International Conference on High Performance Computing and Communications in Exeter, UK, held August 13 to 15, was titled &quot;From Parallel Computing to Concurrent Data Access: The Dataflow under von Neumann Machine Approach&quot;. It traced the shift from computation-centric to data-centric system design.</description>
+      <content:encoded>&lt;p&gt;Sun&amp;apos;s keynote at the 27th IEEE International Conference on High Performance Computing and Communications in Exeter, UK, held August 13 to 15, was titled &amp;quot;From Parallel Computing to Concurrent Data Access: The Dataflow under von Neumann Machine Approach&amp;quot;. It traced the shift from computation-centric to data-centric system design.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-08-13-hpcc-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>HPCC</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas gives AI4Sys 2025 keynote on data management for agentic AI</title>
+      <link>https://ai4sys.github.io/2025/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-07-20-ai4sys-keynote</guid>
+      <description>The keynote, &quot;Data Management Challenges in the Age of Agentic AI&quot;, opened the 3rd Workshop on AI for Systems at ACM HPDC 2025 in Notre Dame, Indiana, on July 20. It covered the demands AI-driven research places on storage systems and how agentic AI in system management can make them adapt.</description>
+      <content:encoded>&lt;p&gt;The keynote, &amp;quot;Data Management Challenges in the Age of Agentic AI&amp;quot;, opened the 3rd Workshop on AI for Systems at ACM HPDC 2025 in Notre Dame, Indiana, on July 20. It covered the demands AI-driven research places on storage systems and how agentic AI in system management can make them adapt.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-07-20-ai4sys-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>AI4Sys</category>
+      <category>AI agents</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>Xian-He Sun gives PERMAVOST 2025 keynote on dataflow computing</title>
+      <link>https://grc.iit.edu/gnosis/articles/2025/07/20/sun-permavost-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-07-20-permavost-keynote</guid>
+      <description>The keynote at the 5th PERMAVOST workshop, held with ACM HPDC 2025 in Notre Dame, Indiana, on July 20, was titled &quot;Dataflow under the von Neumann Machine: A New Paradigm for Computing Systems&quot;. Sun argued that data-centric computing needs a paradigm shift in I/O and storage design.</description>
+      <content:encoded>&lt;p&gt;The keynote at the 5th PERMAVOST workshop, held with ACM HPDC 2025 in Notre Dame, Indiana, on July 20, was titled &amp;quot;Dataflow under the von Neumann Machine: A New Paradigm for Computing Systems&amp;quot;. Sun argued that data-centric computing needs a paradigm shift in I/O and storage design.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-07-20-permavost-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>PERMAVOST</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>Xian-He Sun gives SSDBM 2025 keynote on data-centric computing</title>
+      <link>https://grc.iit.edu/gnosis/articles/2025/06/24/sun-ssdbm-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-24-ssdbm-keynote</guid>
+      <description>&quot;The Data-Centric Imperative: from Hermes to StoreHub&quot; was the third keynote at the 37th International Conference on Scalable Scientific Data Management, held June 23 to 25 in Columbus, Ohio. Sun covered the C-AMAT memory model, the LPM framework and storage designs for AI and big data applications.</description>
+      <content:encoded>&lt;p&gt;&amp;quot;The Data-Centric Imperative: from Hermes to StoreHub&amp;quot; was the third keynote at the 37th International Conference on Scalable Scientific Data Management, held June 23 to 25 in Columbus, Ohio. Sun covered the C-AMAT memory model, the LPM framework and storage designs for AI and big data applications.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-24-ssdbm-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>SSDBM</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>DTIO paper at SSDBM 2025 unifies I/O stacks for AI-driven workflows</title>
+      <link>https://grc.iit.edu/research/news/#2025-06-23-bateman-dtio-ssdbm</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-23-bateman-dtio-ssdbm</guid>
+      <description>Keith Bateman&apos;s paper at the 37th International Conference on Scalable Scientific Data Management introduces the DataTask abstraction, which serves HPC, big data and machine learning workloads through one data stack. Online translation and DataTask caching improve performance by 49.6% over offline methods.</description>
+      <content:encoded>&lt;p&gt;Keith Bateman&amp;apos;s paper at the 37th International Conference on Scalable Scientific Data Management introduces the DataTask abstraction, which serves HPC, big data and machine learning workloads through one data stack. Online translation and DataTask caching improve performance by 49.6% over offline methods.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-23-bateman-dtio-ssdbm&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>SSDBM</category>
+      <category>Workflows</category>
+      <category>Data movement</category>
+    </item>
+    <item>
+      <title>NSF funds MPI4AI to extend Open MPI for AI workloads</title>
+      <link>https://grc.iit.edu/research/news/#2025-06-23-mpi4ai-nsf-grant</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-23-mpi4ai-nsf-grant</guid>
+      <description>The collaborative Frameworks award (OAC-2514056), led at Illinois Tech by Bogdan Nicolae, joins Tennessee Tech, the University of Tennessee, Knoxville and Stony Brook University. The project adds native GPU communication, AI-specific collectives and fault tolerance to Open MPI and proposes the extensions for future MPI standards.</description>
+      <content:encoded>&lt;p&gt;The collaborative Frameworks award (OAC-2514056), led at Illinois Tech by Bogdan Nicolae, joins Tennessee Tech, the University of Tennessee, Knoxville and Stony Brook University. The project adds native GPU communication, AI-specific collectives and fault tolerance to Open MPI and proposes the extensions for future MPI standards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-23-mpi4ai-nsf-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>NSF</category>
+      <category>Deep learning</category>
+      <category>Data movement</category>
+    </item>
+    <item>
+      <title>Meng Tang&apos;s SSDBM 2025 poster analyzes I/O patterns in HPC workflows</title>
+      <link>https://grc.iit.edu/research/news/#2025-06-23-tang-io-workflows-ssdbm</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-23-tang-io-workflows-ssdbm</guid>
+      <description>The poster, with Luanzheng Guo and Nathan Tallent of Pacific Northwest National Laboratory, characterizes I/O patterns and the flow of data between tasks in HPC workflows as a basis for I/O optimization.</description>
+      <content:encoded>&lt;p&gt;The poster, with Luanzheng Guo and Nathan Tallent of Pacific Northwest National Laboratory, characterizes I/O patterns and the flow of data between tasks in HPC workflows as a basis for I/O optimization.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-23-tang-io-workflows-ssdbm&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SSDBM</category>
+      <category>Workflows</category>
+      <category>I/O performance</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>WisIO automates I/O bottleneck detection for HPC workflows at ICS 2025</title>
+      <link>https://grc.iit.edu/research/news/#2025-06-08-yildirim-wisio-ics</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-08-yildirim-wisio-ics</guid>
+      <description>The paper at the 39th ACM International Conference on Supercomputing describes a parallel, distributed analysis framework that looks at workflow traces from several perspectives at once. It raises bottleneck coverage by up to 805x, processes 340,000 bottlenecks per second and runs up to 11x faster than existing tools.</description>
+      <content:encoded>&lt;p&gt;The paper at the 39th ACM International Conference on Supercomputing describes a parallel, distributed analysis framework that looks at workflow traces from several perspectives at once. It raises bottleneck coverage by up to 805x, processes 340,000 bottlenecks per second and runs up to 11x faster than existing tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-08-yildirim-wisio-ics&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>ICS</category>
+      <category>I/O performance</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>Jie Ye measures KV caching under concurrent transformer inference at IPDPS 2025</title>
+      <link>https://grc.iit.edu/research/news/#2025-06-02-ye-kv-caching-ipdps</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-02-ye-kv-caching-ipdps</guid>
+      <description>The paper at the 39th IEEE International Parallel and Distributed Processing Symposium reports fine-grained measurements of token throughput, memory access patterns and load balancing across the stages of LLM inference serving. It shows how KV cache behavior shapes throughput and latency when many requests run at once on HPC systems.</description>
+      <content:encoded>&lt;p&gt;The paper at the 39th IEEE International Parallel and Distributed Processing Symposium reports fine-grained measurements of token throughput, memory access patterns and load balancing across the stages of LLM inference serving. It shows how KV cache behavior shapes throughput and latency when many requests run at once on HPC systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-02-ye-kv-caching-ipdps&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>IPDPS</category>
+      <category>KV cache</category>
+      <category>LLM inference</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas promoted to associate research professor</title>
+      <link>https://akougkas.io/cv/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-06-kougkas-promotion</guid>
+      <description>The promotion at Illinois Institute of Technology took effect in June 2025. Kougkas is deputy director of the Gnosis Research Center.</description>
+      <content:encoded>&lt;p&gt;The promotion at Illinois Institute of Technology took effect in June 2025. Kougkas is deputy director of the Gnosis Research Center.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-06-kougkas-promotion&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>Promotion</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas hosts HDF Group webinar on bringing AI to HDF5 data</title>
+      <link>https://forum.hdfgroup.org/t/bringing-ai-to-your-data-introducing-the-smart-folder-concept-with-sfa-hdf5-anthony-kougkas-guest-hosts-call-the-doctor-3-4-25/13087</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-03-04-hdf-group-webinar</guid>
+      <description>As guest host of The HDF Group&apos;s &quot;Call the Doctor&quot; series on March 4, 2025, Kougkas introduced the smart folder concept with SFA-HDF5, a single-file Python agent that works directly with HDF5 data.</description>
+      <content:encoded>&lt;p&gt;As guest host of The HDF Group&amp;apos;s &amp;quot;Call the Doctor&amp;quot; series on March 4, 2025, Kougkas introduced the smart folder concept with SFA-HDF5, a single-file Python agent that works directly with HDF5 data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-03-04-hdf-group-webinar&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Webinar</category>
+      <category>The HDF Group</category>
+      <category>HDF5</category>
+      <category>AI agents</category>
+    </item>
+    <item>
+      <title>Xian-He Sun gives invited talk on dataflow computing at HPC Asia 2025</title>
+      <link>https://grc.iit.edu/gnosis/articles/2025/02/20/sun-hpcasia-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-02-20-hpcasia-invited-talk</guid>
+      <description>The program of the conference in Hsinchu, Taiwan, lists the talk as &quot;Dataflow under the Von Neumann machine: A Destructive New under Existing Systems&quot;. It opened Sun&apos;s 2025 series on data-centric computing, which continued at PERMAVOST and HPCC.</description>
+      <content:encoded>&lt;p&gt;The program of the conference in Hsinchu, Taiwan, lists the talk as &amp;quot;Dataflow under the Von Neumann machine: A Destructive New under Existing Systems&amp;quot;. It opened Sun&amp;apos;s 2025 series on data-centric computing, which continued at PERMAVOST and HPCC.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-02-20-hpcasia-invited-talk&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Invited talk</category>
+      <category>HPC Asia</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>Luke Logan defends PhD dissertation at Illinois Tech</title>
+      <link>https://grc.iit.edu/research/news/#2025-logan-phd-defense</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2025-logan-phd-defense</guid>
+      <description>Logan defended in 2025, and the degree was conferred in December 2025. His doctoral research produced LabStor (SC 2022), MegaMmap (SC 2024) and pMEMCPY, on programmable storage, distributed shared memory and persistent memory; he first joined the lab as an undergraduate researcher in 2017.</description>
+      <content:encoded>&lt;p&gt;Logan defended in 2025, and the degree was conferred in December 2025. His doctoral research produced LabStor (SC 2022), MegaMmap (SC 2024) and pMEMCPY, on programmable storage, distributed shared memory and persistent memory; he first joined the lab as an undergraduate researcher in 2017.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2025-logan-phd-defense&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>PhD defense</category>
+    </item>
+    <item>
+      <title>Southland Marquee covers Illinois Tech&apos;s NSF grant for IOWarp</title>
+      <link>https://southlandmarquee.com/illinois-tech-receives-4m-nsf-grant-for-innovative-scientific-data-management-project</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-12-19-southland-marquee-iowarp</guid>
+      <description>The local news site reported the IOWarp award, a scientific data management project with the University of Utah and The HDF Group, in December 2024.</description>
+      <content:encoded>&lt;p&gt;The local news site reported the IOWarp award, a scientific data management project with the University of Utah and The HDF Group, in December 2024.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-12-19-southland-marquee-iowarp&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Media</category>
+      <category>NSF</category>
+    </item>
+    <item>
+      <title>Xian-He Sun opens NPC 2024 with a keynote on big data I/O systems</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/12/07/sun-npc-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-12-07-npc-keynote</guid>
+      <description>The first keynote of the IFIP International Conference on Network and Parallel Computing in Haikou, China, &quot;Hermes, Coeus, and ChronoLog: Some Big Data I/O Systems for Network, Parallel and Distributed Computing&quot;, surveyed three GRC systems.</description>
+      <content:encoded>&lt;p&gt;The first keynote of the IFIP International Conference on Network and Parallel Computing in Haikou, China, &amp;quot;Hermes, Coeus, and ChronoLog: Some Big Data I/O Systems for Network, Parallel and Distributed Computing&amp;quot;, surveyed three GRC systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-12-07-npc-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>NPC</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>GRC brings two papers, a poster and Jarvis to SC24 in Atlanta</title>
+      <link>https://grc.iit.edu/research/news/#2024-11-20-grc-at-sc24</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-20-grc-at-sc24</guid>
+      <description>Hariharan Devarajan&apos;s DFTracer, built with LLNL, and Luke Logan&apos;s MegaMmap were the two papers; Jie Ye presented a poster on KV cache overflow, and Jaime Cernuda Garcia presented Jarvis at the PDSW workshop. ACM SIGHPC also recognized the SC23 data flow lifecycles paper during the conference, November 17 to 22.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s DFTracer, built with LLNL, and Luke Logan&amp;apos;s MegaMmap were the two papers; Jie Ye presented a poster on KV cache overflow, and Jaime Cernuda Garcia presented Jarvis at the PDSW workshop. ACM SIGHPC also recognized the SC23 data flow lifecycles paper during the conference, November 17 to 22.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-20-grc-at-sc24&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Roundup</category>
+      <category>SC</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>Jarvis at PDSW 2024 makes HPC deployments shareable and reproducible</title>
+      <link>https://grc.iit.edu/research/news/#2024-11-18-cernuda-jarvis-pdsw</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-18-cernuda-jarvis-pdsw</guid>
+      <description>Jaime Cernuda Garcia&apos;s paper presents an extensible Python framework for deploying, managing and monitoring software pipelines across heterogeneous HPC clusters. Its resource graph schema lets the same deployment move between hardware configurations with little user effort.</description>
+      <content:encoded>&lt;p&gt;Jaime Cernuda Garcia&amp;apos;s paper presents an extensible Python framework for deploying, managing and monitoring software pipelines across heterogeneous HPC clusters. Its resource graph schema lets the same deployment move between hardware configurations with little user effort.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-18-cernuda-jarvis-pdsw&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Workshop</category>
+      <category>PDSW</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>DFTracer paper at SC24 traces data flow across AI workflow layers</title>
+      <link>https://grc.iit.edu/research/news/#2024-11-18-sc24-dftracer</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-18-sc24-dftracer</guid>
+      <description>Hariharan Devarajan led the paper with Lawrence Livermore National Laboratory colleagues. DFTracer captures traces across several software stack layers through one interface, with 1.44x lower runtime overhead and 1.3 to 7.1x smaller traces than Score-P, Recorder and Darshan, and it follows dynamically spawned processes.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan led the paper with Lawrence Livermore National Laboratory colleagues. DFTracer captures traces across several software stack layers through one interface, with 1.44x lower runtime overhead and 1.3 to 7.1x smaller traces than Score-P, Recorder and Darshan, and it follows dynamically spawned processes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-18-sc24-dftracer&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>SC</category>
+      <category>Observability</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>MegaMmap at SC24 blurs the line between memory and storage</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/11/17/logan-megammap-sc24/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-17-sc24-megammap</guid>
+      <description>Luke Logan&apos;s paper presents a distributed shared memory system that enlarges usable memory by managing DRAM and storage as tiers, so applications can work on datasets larger than memory. Workload-aware data organization, eviction and prefetching keep its performance competitive.</description>
+      <content:encoded>&lt;p&gt;Luke Logan&amp;apos;s paper presents a distributed shared memory system that enlarges usable memory by managing DRAM and storage as tiers, so applications can work on datasets larger than memory. Workload-aware data organization, eviction and prefetching keep its performance competitive.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-17-sc24-megammap&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>SC</category>
+      <category>Memory systems</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>Jie Ye&apos;s SC24 poster measures the cost of KV cache overflow in LLM inference</title>
+      <link>https://grc.iit.edu/research/news/#2024-11-17-ye-kvcache-sc24-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-17-ye-kvcache-sc24-poster</guid>
+      <description>Working with Bogdan Nicolae, Anthony Kougkas and Xian-He Sun, Ye quantified the overhead and resource usage that LLM serving systems incur when the KV cache outgrows its memory. The results inform how inference frameworks handle that case.</description>
+      <content:encoded>&lt;p&gt;Working with Bogdan Nicolae, Anthony Kougkas and Xian-He Sun, Ye quantified the overhead and resource usage that LLM serving systems incur when the KV cache outgrows its memory. The results inform how inference frameworks handle that case.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-17-ye-kvcache-sc24-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>KV cache</category>
+      <category>LLM inference</category>
+    </item>
+    <item>
+      <title>GRC coauthors SBAC-PAD 2024 paper on derived quantities in I/O libraries</title>
+      <link>https://grc.iit.edu/research/news/#2024-11-15-gainaru-derived-quantities-sbacpad</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-15-gainaru-derived-quantities-sbacpad</guid>
+      <description>Ana Gainaru of Oak Ridge National Laboratory led the paper with ORNL, Sandia National Laboratories and GRC colleagues, presented in Hawaii. It moves the computation of derived variables into I/O libraries, cutting redundant work and data movement for large climate and combustion simulations.</description>
+      <content:encoded>&lt;p&gt;Ana Gainaru of Oak Ridge National Laboratory led the paper with ORNL, Sandia National Laboratories and GRC colleagues, presented in Hawaii. It moves the computation of derived variables into I/O libraries, cutting redundant work and data movement for large climate and combustion simulations.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-15-gainaru-derived-quantities-sbacpad&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <category>power-partnership</category>
+      <category>Paper</category>
+      <category>SBAC-PAD</category>
+      <category>Data movement</category>
+      <category>ORNL</category>
+    </item>
+    <item>
+      <title>GRC and the University of Utah bring IOWarp to the National Data Platform</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/11/01/utah-ndp-partnership/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-01-utah-ndp-partnership</guid>
+      <description>The work with Manish Parashar&apos;s group began in November 2024 and is not separately funded. It has since produced an NDP server in CLIO Kit, and the two groups are working to deploy CLIO within the platform.</description>
+      <content:encoded>&lt;p&gt;The work with Manish Parashar&amp;apos;s group began in November 2024 and is not separately funded. It has since produced an NDP server in CLIO Kit, and the two groups are working to deploy CLIO within the platform.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-01-utah-ndp-partnership&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+      <category>power-partnership</category>
+      <category>Partnership</category>
+      <category>Utah</category>
+      <category>AI agents</category>
+    </item>
+    <item>
+      <title>ACM SIGHPC recognizes the data flow lifecycles paper at SC24</title>
+      <link>https://www.sighpc.org/sc24</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-11-sighpc-certificate-appreciation</guid>
+      <description>The certificate of appreciation went to Hyungro Lee, Luanzheng Guo, Meng Tang, Jesun Firoz, Nathan Tallent, Anthony Kougkas and Xian-He Sun for reproducible methods that became a task in the SC24 Student Cluster Competition. The paper, &quot;Data Flow Lifecycles for Optimizing Workflow Coordination&quot;, appeared at SC23.</description>
+      <content:encoded>&lt;p&gt;The certificate of appreciation went to Hyungro Lee, Luanzheng Guo, Meng Tang, Jesun Firoz, Nathan Tallent, Anthony Kougkas and Xian-He Sun for reproducible methods that became a task in the SC24 Student Cluster Competition. The paper, &amp;quot;Data Flow Lifecycles for Optimizing Workflow Coordination&amp;quot;, appeared at SC23.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-11-sighpc-certificate-appreciation&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>SC</category>
+      <category>Workflows</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>HStream paper at ICPP 2024 cuts streaming latency for HPC applications</title>
+      <link>https://grc.iit.edu/research/news/#2024-08-12-cernuda-hstream-icpp</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-08-12-cernuda-hstream-icpp</guid>
+      <description>Jaime Cernuda Garcia&apos;s paper at the 53rd International Conference on Parallel Processing separates data and compute planes at the task level, so the engine can adapt parallelism and manage memory tiers under bursty HPC I/O. It reduces latency by up to 1.5x under high data loads compared with existing HPC streaming engines.</description>
+      <content:encoded>&lt;p&gt;Jaime Cernuda Garcia&amp;apos;s paper at the 53rd International Conference on Parallel Processing separates data and compute planes at the task level, so the engine can adapt parallelism and manage memory tiers under bursty HPC I/O. It reduces latency by up to 1.5x under high data loads compared with existing HPC streaming engines.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-08-12-cernuda-hstream-icpp&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>ICPP</category>
+      <category>Data movement</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>Viper speeds model updates between training and inference at ICPP 2024</title>
+      <link>https://grc.iit.edu/research/news/#2024-08-12-ye-viper-icpp</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-08-12-ye-viper-icpp</guid>
+      <description>Jie Ye&apos;s paper at the 53rd International Conference on Parallel Processing keeps training and inference model replicas in sync for real-time scientific workflows. GPU-to-GPU transfer cuts model update latency by about 9x and DRAM-to-DRAM transfer by about 3x, and a checkpoint schedule predictor balances training slowdown against inference quality.</description>
+      <content:encoded>&lt;p&gt;Jie Ye&amp;apos;s paper at the 53rd International Conference on Parallel Processing keeps training and inference model replicas in sync for real-time scientific workflows. GPU-to-GPU transfer cuts model update latency by about 9x and DRAM-to-DRAM transfer by about 3x, and a checkpoint schedule predictor balances training slowdown against inference quality.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-08-12-ye-viper-icpp&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>ICPP</category>
+      <category>Deep learning</category>
+      <category>Data movement</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>NSF funds IOWarp, a data management platform for AI-infused science</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/08/05/iowarp-nsf-grant/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-08-05-iowarp-nsf-grant</guid>
+      <description>The collaborative Frameworks award (OAC-2411318), led by Illinois Tech with the University of Utah (OAC-2411319), names Xian-He Sun as principal investigator, with Anthony Kougkas and Gerd Heber of The HDF Group as co-principal investigators. The companion article covers the project&apos;s goals and team.</description>
+      <content:encoded>&lt;p&gt;The collaborative Frameworks award (OAC-2411318), led by Illinois Tech with the University of Utah (OAC-2411319), names Xian-He Sun as principal investigator, with Anthony Kougkas and Gerd Heber of The HDF Group as co-principal investigators. The companion article covers the project&amp;apos;s goals and team.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-08-05-iowarp-nsf-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>NSF</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>DFTracer 1.0 traces I/O in deep learning and AI-driven workflows</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/06/26/dftracer-release/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-06-26-dftracer-release</guid>
+      <description>Hariharan Devarajan of LLNL published version 1.0.0 on GitHub on June 26, 2024, with the Python package on PyPI as pydftracer. Its design is described in the SC24 paper by Devarajan, Izzet Yildirim, Anthony Kougkas, Xian-He Sun and LLNL colleagues.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan of LLNL published version 1.0.0 on GitHub on June 26, 2024, with the Python package on PyPI as pydftracer. Its design is described in the SC24 paper by Devarajan, Izzet Yildirim, Anthony Kougkas, Xian-He Sun and LLNL colleagues.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-06-26-dftracer-release&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Observability</category>
+      <category>Deep learning</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>ChronoLog 1.0 is the first public beta of the distributed shared log</title>
+      <link>https://grc.iit.edu/gnosis/articles/chronolog-1-0-0/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-01-15-chronolog-1.0-release</guid>
+      <description>Released June 6, 2024, the version implements the ChronoVisor, ChronoKeeper and ChronoGrapher services as a three-tier log recording system with total event ordering across client nodes. It ships a multi-threaded C++ client library, Python bindings and a command-line admin tool.</description>
+      <content:encoded>&lt;p&gt;Released June 6, 2024, the version implements the ChronoVisor, ChronoKeeper and ChronoGrapher services as a three-tier log recording system with total event ordering across client nodes. It ships a multi-threaded C++ client library, Python bindings and a command-line admin tool.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-01-15-chronolog-1.0-release&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Logging</category>
+    </item>
+    <item>
+      <title>Luke Logan evaluates DAOS for simulation and deep learning in ACM OSR</title>
+      <link>https://grc.iit.edu/research/news/#2024-06-01-logan-daos-evaluation-osr</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-06-01-logan-daos-evaluation-osr</guid>
+      <description>The article in ACM SIGOPS Operating Systems Review, with Jay Lofstead of Sandia National Laboratories, tests DAOS, a distributed storage system rebuilt around modern hardware. Matching each workload to its best-suited DAOS interface improved real scientific applications by up to 6x.</description>
+      <content:encoded>&lt;p&gt;The article in ACM SIGOPS Operating Systems Review, with Jay Lofstead of Sandia National Laboratories, tests DAOS, a distributed storage system rebuilt around modern hardware. Matching each workload to its best-suited DAOS interface improved real scientific applications by up to 6x.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-06-01-logan-daos-evaluation-osr&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>OSR</category>
+      <category>Storage systems</category>
+      <category>Benchmarking</category>
+    </item>
+    <item>
+      <title>Eneko Gonzalez joins GRC as a research software engineer</title>
+      <link>https://grc.iit.edu/research/news/#2024-06-01-gonzalez-engineer</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-06-01-gonzalez-engineer</guid>
+      <description>Gonzalez started in June 2024 on the ChronoLog engineering team, and he later published the ChronoLog 3.0 release in May 2026.</description>
+      <content:encoded>&lt;p&gt;Gonzalez started in June 2024 on the ChronoLog engineering team, and he later published the ChronoLog 3.0 release in May 2026.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-06-01-gonzalez-engineer&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>Hire</category>
+    </item>
+    <item>
+      <title>Xiaoyang Lu joins GRC as assistant research professor</title>
+      <link>https://grc.iit.edu/research/news/#2024-06-lu-faculty</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-06-lu-faculty</guid>
+      <description>Lu, who earned his PhD at Illinois Institute of Technology in 2024, started in June 2024. He works on processing-in-memory architectures, cache optimization and concurrent memory access modeling.</description>
+      <content:encoded>&lt;p&gt;Lu, who earned his PhD at Illinois Institute of Technology in 2024, started in June 2024. He works on processing-in-memory architectures, cache optimization and concurrent memory access modeling.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-06-lu-faculty&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>Hire</category>
+      <category>Memory systems</category>
+      <category>Processing-in-memory</category>
+    </item>
+    <item>
+      <title>Xian-He Sun&apos;s CCGrid 2024 keynote looks at AI and data in systems research</title>
+      <link>https://grc.iit.edu/gnosis/articles/2024/05/07/sun-ccgrid-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-05-07-ccgrid-keynote</guid>
+      <description>The talk at the 24th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing in Philadelphia was titled &quot;AI &amp; Data: Challenges and Opportunities in Computer System Research&quot;.</description>
+      <content:encoded>&lt;p&gt;The talk at the 24th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing in Philadelphia was titled &amp;quot;AI &amp;amp; Data: Challenges and Opportunities in Computer System Research&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-05-07-ccgrid-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>CCGrid</category>
+    </item>
+    <item>
+      <title>Hades paper at CCGrid 2024 analyzes simulation data while in transit</title>
+      <link>https://grc.iit.edu/research/news/#2024-05-06-cernuda-hades-ccgrid</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-05-06-cernuda-hades-ccgrid</guid>
+      <description>Jaime Cernuda Garcia&apos;s paper at the 24th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing presents a context-aware active storage layer that derives insights from simulation output asynchronously. It speeds up real producer-consumer scientific workflows by 3 to 4x.</description>
+      <content:encoded>&lt;p&gt;Jaime Cernuda Garcia&amp;apos;s paper at the 24th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing presents a context-aware active storage layer that derives insights from simulation output asynchronously. It speeds up real producer-consumer scientific workflows by 3 to 4x.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-05-06-cernuda-hades-ccgrid&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>CCGrid</category>
+      <category>Storage systems</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>TunIO uses reinforcement learning to tune HPC I/O at IPDPS 2024</title>
+      <link>https://grc.iit.edu/research/news/#2024-05-06-rajesh-tunio-ipdps</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-05-06-rajesh-tunio-ipdps</guid>
+      <description>Neeraj Rajesh&apos;s paper at the 38th IEEE International Parallel and Distributed Processing Symposium combines source code analysis with parameter selection to narrow the I/O stack settings worth tuning. It reaches the same performance gain as H5Tuner with up to 73% less tuning time.</description>
+      <content:encoded>&lt;p&gt;Neeraj Rajesh&amp;apos;s paper at the 38th IEEE International Parallel and Distributed Processing Symposium combines source code analysis with parameter selection to narrow the I/O stack settings worth tuning. It reaches the same performance gain as H5Tuner with up to 73% less tuning time.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-05-06-rajesh-tunio-ipdps&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>IPDPS</category>
+      <category>I/O performance</category>
+    </item>
+    <item>
+      <title>NSF funds StoreHub planning for a storage research community infrastructure</title>
+      <link>https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2346504</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2024-05-03-storehub-nsf-planning-grant</guid>
+      <description>The CIRC Planning-C award (CNS-2346504) to Illinois Tech, collaborative with The Ohio State University (CNS-2346505), plans a shared research infrastructure for the data storage community. Xian-He Sun&apos;s SSDBM 2025 keynote later laid out the StoreHub vision.</description>
+      <content:encoded>&lt;p&gt;The CIRC Planning-C award (CNS-2346504) to Illinois Tech, collaborative with The Ohio State University (CNS-2346505), plans a shared research infrastructure for the data storage community. Xian-He Sun&amp;apos;s SSDBM 2025 keynote later laid out the StoreHub vision.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2024-05-03-storehub-nsf-planning-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>NSF</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>BenchCouncil lists the CARE cache management framework in Chip100</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/12/07/care-benchcouncil-chip100/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-12-07-care-benchcouncil-chip100</guid>
+      <description>Chip100 names top chip achievements of 2022 and 2023. CARE, by Xiaoyang Lu, Rujia Wang and Xian-He Sun, appeared at HPCA 2023 in Montreal and manages caches with awareness of concurrent memory accesses.</description>
+      <content:encoded>&lt;p&gt;Chip100 names top chip achievements of 2022 and 2023. CARE, by Xiaoyang Lu, Rujia Wang and Xian-He Sun, appeared at HPCA 2023 in Montreal and manages caches with awareness of concurrent memory accesses.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-12-07-care-benchcouncil-chip100&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>Caching</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>GRC coauthors SC23 paper on data flow lifecycles for workflow coordination</title>
+      <link>https://grc.iit.edu/research/news/#2023-11-14-lee-data-lifecycles-sc23-collaboration</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-11-14-lee-data-lifecycles-sc23-collaboration</guid>
+      <description>Hyungro Lee of Pacific Northwest National Laboratory led the paper with Luanzheng Guo, Jesun Firoz and Nathan Tallent. Lifecycle analysis guides task placement and cuts data movement, improving the case-study workflows by 1.9x to 30x, and ACM SIGHPC recognized its methods at SC24.</description>
+      <content:encoded>&lt;p&gt;Hyungro Lee of Pacific Northwest National Laboratory led the paper with Luanzheng Guo, Jesun Firoz and Nathan Tallent. Lifecycle analysis guides task placement and cuts data movement, improving the case-study workflows by 1.9x to 30x, and ACM SIGHPC recognized its methods at SC24.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-11-14-lee-data-lifecycles-sc23-collaboration&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 GMT</pubDate>
+      <category>power-partnership</category>
+      <category>Paper</category>
+      <category>SC</category>
+      <category>Workflows</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>Meng Tang&apos;s SC23 poster uses semantic data flow to tune workflows</title>
+      <link>https://grc.iit.edu/research/news/#2023-11-13-tang-semantic-dataflow-sc23-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-11-13-tang-semantic-dataflow-sc23-poster</guid>
+      <description>The poster, with Nathan Tallent of Pacific Northwest National Laboratory, was Tang&apos;s first publication at GRC. It studies how datasets move between workflow tasks to find where workflow I/O can be reorganized, work that led to the DaYu analysis tool.</description>
+      <content:encoded>&lt;p&gt;The poster, with Nathan Tallent of Pacific Northwest National Laboratory, was Tang&amp;apos;s first publication at GRC. It studies how datasets move between workflow tasks to find where workflow I/O can be reorganized, work that led to the DaYu analysis tool.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-11-13-tang-semantic-dataflow-sc23-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Workflows</category>
+      <category>PNNL</category>
+    </item>
+    <item>
+      <title>Izzet Yildirim&apos;s SC23 poster combines I/O metrics to locate bottlenecks</title>
+      <link>https://grc.iit.edu/research/news/#2023-11-13-yildirim-io-metrics-sc23-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-11-13-yildirim-io-metrics-sc23-poster</guid>
+      <description>The poster, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, studies how several metrics interact when diagnosing slow application I/O. It laid the groundwork for WisIO&apos;s multi-perspective analysis.</description>
+      <content:encoded>&lt;p&gt;The poster, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, studies how several metrics interact when diagnosing slow application I/O. It laid the groundwork for WisIO&amp;apos;s multi-perspective analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-11-13-yildirim-io-metrics-sc23-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>I/O performance</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>IOMax at PDSW 2023 speeds out-of-core I/O trace analysis</title>
+      <link>https://grc.iit.edu/research/news/#2023-11-13-yildirim-iomax-pdsw</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-11-13-yildirim-iomax-pdsw</guid>
+      <description>Izzet Yildirim&apos;s paper, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, applies query optimization to trace analysis: 8.6x faster with an 11x smaller memory footprint. Data transformations speed up slicing by up to 11.4x on LLNL&apos;s Lassen supercomputer.</description>
+      <content:encoded>&lt;p&gt;Izzet Yildirim&amp;apos;s paper, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, applies query optimization to trace analysis: 8.6x faster with an 11x smaller memory footprint. Data transformations speed up slicing by up to 11.4x on LLNL&amp;apos;s Lassen supercomputer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-11-13-yildirim-iomax-pdsw&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Workshop</category>
+      <category>PDSW</category>
+      <category>I/O performance</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>GRC brings a paper, two posters and a PDSW paper to SC23</title>
+      <link>https://grc.iit.edu/research/news/#2023-11-12-sc23-presentations</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-11-12-sc23-presentations</guid>
+      <description>GRC exhibited at booth 2189 in Denver, November 12 to 17. The program included the PNNL-led data flow lifecycles paper, posters by Meng Tang and Izzet Yildirim, and Yildirim&apos;s IOMax paper at the PDSW workshop.</description>
+      <content:encoded>&lt;p&gt;GRC exhibited at booth 2189 in Denver, November 12 to 17. The program included the PNNL-led data flow lifecycles paper, posters by Meng Tang and Izzet Yildirim, and Yildirim&amp;apos;s IOMax paper at the PDSW workshop.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-11-12-sc23-presentations&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Roundup</category>
+      <category>SC</category>
+    </item>
+    <item>
+      <title>DOE funds DTIO, a task-based runtime for computational storage</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/08/07/dtio-doe-grant/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-08-07-dtio-doe-grant</guid>
+      <description>The award from the DOE FAIR program names Xian-He Sun as principal investigator. DTIO&apos;s DataTask abstraction expresses data movement, ordering and dependencies as tasks, so the runtime can schedule format translation, staging, caching and replay.</description>
+      <content:encoded>&lt;p&gt;The award from the DOE FAIR program names Xian-He Sun as principal investigator. DTIO&amp;apos;s DataTask abstraction expresses data movement, ordering and dependencies as tasks, so the runtime can schedule format translation, staging, caching and replay.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-08-07-dtio-doe-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>DOE</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>ICPP names Xian-He Sun among its top 50 contributors in 50 years</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/08/07/sun-icpp-wall-of-fame/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-08-07-sun-icpp-wall-of-fame</guid>
+      <description>The International Conference on Parallel Processing added Sun to its Wall of Fame. He was a general chair of the 50th ICPP in 2021, and his record there includes the ICPP 2001 Best Paper Award with Kasidit Chanchio.</description>
+      <content:encoded>&lt;p&gt;The International Conference on Parallel Processing added Sun to its Wall of Fame. He was a general chair of the 50th ICPP in 2021, and his record there includes the ICPP 2001 Best Paper Award with Kasidit Chanchio.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-08-07-sun-icpp-wall-of-fame&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>ICPP</category>
+    </item>
+    <item>
+      <title>DAOS evaluation at CHEOPS 2023 finds up to 6x gains from bypassing the kernel</title>
+      <link>https://grc.iit.edu/research/news/#2023-05-22-logan-daos-evaluation-cheops</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-05-22-logan-daos-evaluation-cheops</guid>
+      <description>Luke Logan presented the workshop paper, written with Jay Lofstead of Sandia National Laboratories, at EuroSys 2023 in Rome. The study ran real simulation and deep learning HPC workloads on DAOS, a distributed storage system designed for modern hardware.</description>
+      <content:encoded>&lt;p&gt;Luke Logan presented the workshop paper, written with Jay Lofstead of Sandia National Laboratories, at EuroSys 2023 in Rome. The study ran real simulation and deep learning HPC workloads on DAOS, a distributed storage system designed for modern hardware.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-05-22-logan-daos-evaluation-cheops&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Workshop</category>
+      <category>CHEOPS</category>
+      <category>Storage systems</category>
+      <category>Sandia</category>
+    </item>
+    <item>
+      <title>Xian-He Sun and Anthony Kougkas found the Gnosis Research Center</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/10/25/introducing-grc/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-04-01-grc-official-founding</guid>
+      <description>Sun&apos;s Scalable Computing Software Laboratory, at Illinois Tech since 1999, took the new name on April 23, 2023, with Sun as founding director and Kougkas as executive director. Gnosis is Greek for knowledge gained through investigation.</description>
+      <content:encoded>&lt;p&gt;Sun&amp;apos;s Scalable Computing Software Laboratory, at Illinois Tech since 1999, took the new name on April 23, 2023, with Sun as founding director and Kougkas as executive director. Gnosis is Greek for knowledge gained through investigation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-04-01-grc-official-founding&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
+      <category>people-milestone</category>
+      <category>Founding</category>
+    </item>
+    <item>
+      <title>Illinois Tech patents the label-based I/O method behind LABIOS</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/04/18/labios-patent/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-04-18-labios-patent-granted</guid>
+      <description>U.S. Patent 11,630,834 B2, granted April 18, 2023, names Anthony Kougkas, Hariharan Devarajan and Xian-He Sun as inventors. It covers separating each I/O request&apos;s operation from its data as a label, which a distributed queue then dispatches to worker nodes.</description>
+      <content:encoded>&lt;p&gt;U.S. Patent 11,630,834 B2, granted April 18, 2023, names Anthony Kougkas, Hariharan Devarajan and Xian-He Sun as inventors. It covers separating each I/O request&amp;apos;s operation from its data as a label, which a distributed queue then dispatches to worker nodes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-04-18-labios-patent-granted&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Patent</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>Hermes 0.9.8 beta groups related data with tags and traits</title>
+      <link>https://grc.iit.edu/gnosis/articles/2023/03/06/hermes-0.9.8-beta/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-03-06-hermes-0.9.8-beta</guid>
+      <description>Luke Logan published the release on March 6, 2023. A trait attached to a tag acts on every blob in the group, for example to compress and encrypt them together, and client programs no longer have to follow MPI design patterns.</description>
+      <content:encoded>&lt;p&gt;Luke Logan published the release on March 6, 2023. A trait attached to a tag acts on every blob in the group, for example to compress and encrypt them together, and client programs no longer have to follow MPI design patterns.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-03-06-hermes-0.9.8-beta&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Data buffering</category>
+    </item>
+    <item>
+      <title>LLNL subcontract starts GRC&apos;s work on I/O bottlenecks in HPC workflows</title>
+      <link>https://akougkas.io/work/deepio/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2023-llnl-collaboration</guid>
+      <description>Lawrence Livermore National Laboratory funded WisIO from 2023, part of the DeepIO line of national laboratory subcontracts that Anthony Kougkas leads. Livermore funded the follow-on IntentIO work in 2026.</description>
+      <content:encoded>&lt;p&gt;Lawrence Livermore National Laboratory funded WisIO from 2023, part of the DeepIO line of national laboratory subcontracts that Anthony Kougkas leads. Livermore funded the follow-on IntentIO work in 2026.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2023-llnl-collaboration&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>power-partnership</category>
+      <category>Partnership</category>
+      <category>LLNL</category>
+      <category>I/O performance</category>
+    </item>
+    <item>
+      <title>LuxIO at HiPC 2022 provisions and configures storage services automatically</title>
+      <link>https://grc.iit.edu/research/news/#2022-12-19-bateman-luxio-hipc</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-12-19-bateman-luxio-hipc</guid>
+      <description>Keith Bateman&apos;s paper at the 29th IEEE International Conference on High Performance Computing, Data, and Analytics builds storage deployments matched to an application&apos;s I/O requirements, replacing manual provisioning. It reports up to 2x higher performance and up to 25% better resource utilization.</description>
+      <content:encoded>&lt;p&gt;Keith Bateman&amp;apos;s paper at the 29th IEEE International Conference on High Performance Computing, Data, and Analytics builds storage deployments matched to an application&amp;apos;s I/O requirements, replacing manual provisioning. It reports up to 2x higher performance and up to 25% better resource utilization.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-12-19-bateman-luxio-hipc&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>HiPC</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>DLIO 1.0 benchmarks the I/O of scientific deep learning applications</title>
+      <link>https://github.com/argonne-lcf/dlio_benchmark/releases/tag/v1.0.0</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-06-10-dlio-v1.0-release</guid>
+      <description>Huihuo Zheng of the Argonne Leadership Computing Facility published version 1.0.0 on November 16, 2022. The benchmark, created by Hariharan Devarajan with ALCF and GRC colleagues, emulates the data loading of real scientific training workloads.</description>
+      <content:encoded>&lt;p&gt;Huihuo Zheng of the Argonne Leadership Computing Facility published version 1.0.0 on November 16, 2022. The benchmark, created by Hariharan Devarajan with ALCF and GRC colleagues, emulates the data loading of real scientific training workloads.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-06-10-dlio-v1.0-release&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Benchmarking</category>
+      <category>Deep learning</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>Izzet Yildirim&apos;s SC22 poster automates I/O bottleneck detection</title>
+      <link>https://grc.iit.edu/research/news/#2022-11-15-yildirim-first-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-11-15-yildirim-first-publication</guid>
+      <description>The poster, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, takes a multifaceted approach to finding why HPC workloads perform poorly at I/O. It was Yildirim&apos;s first publication and the first result of the WisIO project.</description>
+      <content:encoded>&lt;p&gt;The poster, with Hariharan Devarajan and Kathryn Mohror of Lawrence Livermore National Laboratory, takes a multifaceted approach to finding why HPC workloads perform poorly at I/O. It was Yildirim&amp;apos;s first publication and the first result of the WisIO project.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-11-15-yildirim-first-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>I/O performance</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>DOE funds Coeus to compute derived quantities in the I/O path</title>
+      <link>https://grc.iit.edu/gnosis/articles/2022/09/01/coeus-doe-grant/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-09-01-coeus-doe-grant</guid>
+      <description>The DOE Office of Advanced Scientific Computing Research chose the project, which pairs Xian-He Sun at Illinois Tech with Jay Lofstead of Sandia and Scott Klasky of Oak Ridge National Laboratory, in its 2022 data management awards. An ADIOS2 plugin computes results while a simulation writes, and scientists query the enriched metadata.</description>
+      <content:encoded>&lt;p&gt;The DOE Office of Advanced Scientific Computing Research chose the project, which pairs Xian-He Sun at Illinois Tech with Jay Lofstead of Sandia and Scott Klasky of Oak Ridge National Laboratory, in its 2022 data management awards. An ADIOS2 plugin computes results while a simulation writes, and scientists query the enriched metadata.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-09-01-coeus-doe-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>DOE</category>
+      <category>Metadata</category>
+    </item>
+    <item>
+      <title>Stimulus at CCGrid 2022 connects scientific data formats to AI frameworks</title>
+      <link>https://grc.iit.edu/research/news/#2022-05-16-devarajan-stimulus-ccgrid</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-05-16-devarajan-stimulus-ccgrid</guid>
+      <description>Hariharan Devarajan&apos;s paper, with Huihuo Zheng and Venkatram Vishwanath of Argonne, accelerates data management for scientific AI applications in HPC. It outperforms existing solutions by up to 5.3x and shows ideal I/O scaling to 768 GPUs on the Summit supercomputer.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s paper, with Huihuo Zheng and Venkatram Vishwanath of Argonne, accelerates data management for scientific AI applications in HPC. It outperforms existing solutions by up to 5.3x and shows ideal I/O scaling to 768 GPUs on the Summit supercomputer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-05-16-devarajan-stimulus-ccgrid&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+      <category>ai-data-science</category>
+      <category>Paper</category>
+      <category>CCGrid</category>
+      <category>Deep learning</category>
+      <category>HDF5</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>Michigan State University honors Xian-He Sun as a distinguished alumnus</title>
+      <link>https://grc.iit.edu/gnosis/articles/2022/05/07/sun-msu-distinguished-alumni/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-05-07-sun-msu-distinguished-alumni</guid>
+      <description>The MSU College of Engineering presented its Computer Science and Engineering Distinguished Alumni Award to Sun, who earned his PhD there, at a ceremony on May 7, 2022.</description>
+      <content:encoded>&lt;p&gt;The MSU College of Engineering presented its Computer Science and Engineering Distinguished Alumni Award to Sun, who earned his PhD there, at a ceremony on May 7, 2022.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-05-07-sun-msu-distinguished-alumni&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 07 May 2022 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+    </item>
+    <item>
+      <title>Bogdan Nicolae joins Illinois Tech with a joint Argonne appointment</title>
+      <link>https://www.iit.edu/news/argonne-computer-scientists-join-faculty-boosting-research-opportunities</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2022-02-07-nicolae-faculty-appointment</guid>
+      <description>Illinois Tech announced that Nicolae, a computer scientist at Argonne National Laboratory, would join the Department of Computer Science as research faculty in spring 2022. His research covers resilience, fault-tolerant infrastructure and the convergence of HPC and AI.</description>
+      <content:encoded>&lt;p&gt;Illinois Tech announced that Nicolae, a computer scientist at Argonne National Laboratory, would join the Department of Computer Science as research faculty in spring 2022. His research covers resilience, fault-tolerant infrastructure and the convergence of HPC and AI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2022-02-07-nicolae-faculty-appointment&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 GMT</pubDate>
+      <category>people-milestone</category>
+      <category>Hire</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>The HDF Group hosts a webinar on the Hermes beta</title>
+      <link>https://www.hdfgroup.org/2021/12/07/webinar-follow-up-hermes-0-1-0-beta-release/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-12-01-hermes-beta-webinar</guid>
+      <description>Members of the Hermes team showed version 0.1.0-beta running and discussed plans for future development. The HDF Group posted a follow-up on the session on December 7, 2021.</description>
+      <content:encoded>&lt;p&gt;Members of the Hermes team showed version 0.1.0-beta running and discussed plans for future development. The HDF Group posted a follow-up on the session on December 7, 2021.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-12-01-hermes-beta-webinar&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Webinar</category>
+      <category>Data buffering</category>
+      <category>The HDF Group</category>
+    </item>
+    <item>
+      <title>Luke Logan&apos;s SC21 poster tests persistent memory in parallel I/O libraries</title>
+      <link>https://grc.iit.edu/research/news/#2021-11-15-logan-pmem-sc21-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-11-15-logan-pmem-sc21-poster</guid>
+      <description>The poster, with Jay Lofstead and Scott Levy of Sandia National Laboratories, measures how persistent memory performs as a storage tier for HPC applications. It builds on the pMEMCPY library, which ran up to 2x faster than other parallel I/O libraries.</description>
+      <content:encoded>&lt;p&gt;The poster, with Jay Lofstead and Scott Levy of Sandia National Laboratories, measures how persistent memory performs as a storage tier for HPC applications. It builds on the pMEMCPY library, which ran up to 2x faster than other parallel I/O libraries.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-11-15-logan-pmem-sc21-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Persistent memory</category>
+      <category>Sandia</category>
+    </item>
+    <item>
+      <title>Neeraj Rajesh&apos;s SC21 poster trims Darshan counters with evolutionary algorithms</title>
+      <link>https://grc.iit.edu/research/news/#2021-11-15-rajesh-darshan-sc21-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-11-15-rajesh-darshan-sc21-poster</guid>
+      <description>Working with Quincey Koziol, Suren Byna, Houjun Tang and Jean Luca Bez of Lawrence Berkeley National Laboratory, Rajesh used evolutionary algorithms to cut the number of I/O counters needed in analysis, which makes large trace collections cheaper to study.</description>
+      <content:encoded>&lt;p&gt;Working with Quincey Koziol, Suren Byna, Houjun Tang and Jean Luca Bez of Lawrence Berkeley National Laboratory, Rajesh used evolutionary algorithms to cut the number of I/O counters needed in analysis, which makes large trace collections cheaper to study.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-11-15-rajesh-darshan-sc21-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>I/O performance</category>
+    </item>
+    <item>
+      <title>Jie Ye&apos;s SC21 poster connects HDF5 to Apache Arrow</title>
+      <link>https://grc.iit.edu/research/news/#2021-11-15-ye-hdf5-vol-sc21-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-11-15-ye-hdf5-vol-sc21-poster</guid>
+      <description>Ye&apos;s VOL connector lets applications written to the HDF5 API store and read data in a columnar format, which suits analyses that read a few fields across many records.</description>
+      <content:encoded>&lt;p&gt;Ye&amp;apos;s VOL connector lets applications written to the HDF5 API store and read data in a columnar format, which suits analyses that read a few fields across many records.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-11-15-ye-hdf5-vol-sc21-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>HDF5</category>
+    </item>
+    <item>
+      <title>The first Hermes beta adds POSIX and HDF5 support</title>
+      <link>https://github.com/HDFGroup/hermes/releases/tag/v0.1.0-beta</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-11-08-hermes-beta-release</guid>
+      <description>Gerd Heber of The HDF Group published version 0.1.0-beta of the multi-tiered buffering system on November 8, 2021. It includes the native API, stdio and POSIX adapters, an experimental MPI-IO adapter for MPICH, and an HDF5 virtual file driver.</description>
+      <content:encoded>&lt;p&gt;Gerd Heber of The HDF Group published version 0.1.0-beta of the multi-tiered buffering system on November 8, 2021. It includes the native API, stdio and POSIX adapters, an experimental MPI-IO adapter for MPICH, and an HDF5 virtual file driver.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-11-08-hermes-beta-release&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Data buffering</category>
+      <category>HDF5</category>
+      <category>The HDF Group</category>
+    </item>
+    <item>
+      <title>Argonne describes the DLIO benchmark built with Illinois Tech researchers</title>
+      <link>https://grc.iit.edu/gnosis/articles/2021/09/16/alcf-dlio-benchmark/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-09-16-dlio-alcf-benchmark</guid>
+      <description>The Argonne Leadership Computing Facility explained how Huihuo Zheng and Venkatram Vishwanath built DLIO with Hariharan Devarajan, Anthony Kougkas and Xian-He Sun. The benchmark, maintained in the ALCF GitHub organization, helps developers find the I/O bottlenecks in deep learning training.</description>
+      <content:encoded>&lt;p&gt;The Argonne Leadership Computing Facility explained how Huihuo Zheng and Venkatram Vishwanath built DLIO with Hariharan Devarajan, Anthony Kougkas and Xian-He Sun. The benchmark, maintained in the ALCF GitHub organization, helps developers find the I/O bottlenecks in deep learning training.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-09-16-dlio-alcf-benchmark&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 GMT</pubDate>
+      <category>power-partnership</category>
+      <category>Media</category>
+      <category>Deep learning</category>
+      <category>Benchmarking</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>HFlow at Cluster 2021 forwards data across elastic storage layers</title>
+      <link>https://grc.iit.edu/research/news/#2021-09-07-cernuda-hflow-cluster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-09-07-cernuda-hflow-cluster</guid>
+      <description>Jaime Cernuda&apos;s paper introduces ByteFlow, a data-independent task model that provisions and releases intermediate storage as demand changes. Applications ran up to 3x faster under HFlow than under the data forwarders it was compared with.</description>
+      <content:encoded>&lt;p&gt;Jaime Cernuda&amp;apos;s paper introduces ByteFlow, a data-independent task model that provisions and releases intermediate storage as demand changes. Applications ran up to 3x faster under HFlow than under the data forwarders it was compared with.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-09-07-cernuda-hflow-cluster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>Cluster</category>
+      <category>Data movement</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>A small library at REX-IO 2021 stores HPC data in persistent memory</title>
+      <link>https://grc.iit.edu/research/news/#2021-09-07-logan-pmemcpy-rexio</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-09-07-logan-pmemcpy-rexio</guid>
+      <description>Luke Logan&apos;s paper on pMEMCPY, written with Jay Lofstead and Scott Levy of Sandia National Laboratories and Patrick Widener, presents a lightweight, portable I/O library for persistent memory. In the evaluation it ran up to 2x faster than HDF5 and pNetCDF.</description>
+      <content:encoded>&lt;p&gt;Luke Logan&amp;apos;s paper on pMEMCPY, written with Jay Lofstead and Scott Levy of Sandia National Laboratories and Patrick Widener, presents a lightweight, portable I/O library for persistent memory. In the evaluation it ran up to 2x faster than HDF5 and pNetCDF.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-09-07-logan-pmemcpy-rexio&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Workshop</category>
+      <category>REX-IO</category>
+      <category>Persistent memory</category>
+      <category>Sandia</category>
+    </item>
+    <item>
+      <title>Kun Feng joins the SCS Lab as a research software engineer</title>
+      <link>https://grc.iit.edu/research/news/#2021-06-01-feng-engineer</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-06-01-feng-engineer</guid>
+      <description>Feng started at Illinois Tech in June 2021, a year after completing his PhD. His engineering work includes the Hermes multi-tiered buffering system.</description>
+      <content:encoded>&lt;p&gt;Feng started at Illinois Tech in June 2021, a year after completing his PhD. His engineering work includes the Hermes multi-tiered buffering system.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-06-01-feng-engineer&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>Hire</category>
+    </item>
+    <item>
+      <title>NSF funds ChronoLog, a storage system for activity and log data</title>
+      <link>https://grc.iit.edu/gnosis/articles/2021/05/11/chronolog-nsf-grant/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-05-11-chronolog-nsf-grant</guid>
+      <description>The collaborative CSSI Frameworks award (OAC-2104013), with Xian-He Sun as principal investigator and Anthony Kougkas as co-principal investigator, began on June 1, 2021. ChronoLog orders log entries by physical time without synchronization and spreads each log across memory and flash tiers.</description>
+      <content:encoded>&lt;p&gt;The collaborative CSSI Frameworks award (OAC-2104013), with Xian-He Sun as principal investigator and Anthony Kougkas as co-principal investigator, began on June 1, 2021. ChronoLog orders log entries by physical time without synchronization and spreads each log across memory and flash tiers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-05-11-chronolog-nsf-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>Logging</category>
+      <category>Storage systems</category>
+      <category>NSF</category>
+    </item>
+    <item>
+      <title>DLIO wins the best paper award at CCGrid 2021</title>
+      <link>https://grc.iit.edu/gnosis/articles/2021/05/10/dlio-best-paper/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-05-10-dlio-best-paper-ccgrid</guid>
+      <description>The paper by Hariharan Devarajan, Huihuo Zheng, Anthony Kougkas, Xian-He Sun and Venkatram Vishwanath took first prize. DLIO emulates the I/O of scientific deep learning workloads profiled on the Theta supercomputer at Argonne, and the paper reports training times lowered by up to 6.7x.</description>
+      <content:encoded>&lt;p&gt;The paper by Hariharan Devarajan, Huihuo Zheng, Anthony Kougkas, Xian-He Sun and Venkatram Vishwanath took first prize. DLIO emulates the I/O of scientific deep learning workloads profiled on the Theta supercomputer at Argonne, and the paper reports training times lowered by up to 6.7x.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-05-10-dlio-best-paper-ccgrid&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>CCGrid</category>
+      <category>Deep learning</category>
+      <category>Benchmarking</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>Illinois Tech and The HDF Group launch the Hermes I/O buffering system</title>
+      <link>https://www.iit.edu/news/fast-just-got-faster-researchers-launch-hermes-supercomputer-software</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-04-06-hermes-software-launch</guid>
+      <description>Anthony Kougkas, lead researcher on the NSF-funded project, led a launch webinar on March 26, 2021, with Hariharan Devarajan and HDF Group engineers Christopher Hogan, Kimmy Hu and Gerd Heber. Hermes moves data across memory and storage tiers so that scientific applications wait less on I/O.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, lead researcher on the NSF-funded project, led a launch webinar on March 26, 2021, with Hariharan Devarajan and HDF Group engineers Christopher Hogan, Kimmy Hu and Gerd Heber. Hermes moves data across memory and storage tiers so that scientific applications wait less on I/O.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-04-06-hermes-software-launch&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+      <category>software-drop</category>
+      <category>Release</category>
+      <category>Data buffering</category>
+      <category>Storage systems</category>
+      <category>The HDF Group</category>
+    </item>
+    <item>
+      <title>Hariharan Devarajan defends his PhD dissertation</title>
+      <link>https://grc.iit.edu/research/news/#2021-devarajan-phd-defense</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2021-devarajan-phd-defense</guid>
+      <description>His dissertation, Towards a Self-Programmable Storage Solution in Extreme-Scale Environments, was advised by Xian-He Sun. He then joined Lawrence Livermore National Laboratory as a computer scientist.</description>
+      <content:encoded>&lt;p&gt;His dissertation, Towards a Self-Programmable Storage Solution in Extreme-Scale Environments, was advised by Xian-He Sun. He then joined Lawrence Livermore National Laboratory as a computer scientist.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2021-devarajan-phd-defense&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>PhD defense</category>
+      <category>LLNL</category>
+    </item>
+    <item>
+      <title>Xian-He Sun is named the Ron Hochsprung Endowed Chair in Computer Science</title>
+      <link>https://grc.iit.edu/gnosis/articles/2020/12/16/sun-endowed-chair/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-12-16-sun-endowed-chair</guid>
+      <description>Illinois Tech recognized Sun, a distinguished professor who directs the SCS Lab, with the named professorship in December 2020.</description>
+      <content:encoded>&lt;p&gt;Illinois Tech recognized Sun, a distinguished professor who directs the SCS Lab, with the named professorship in December 2020.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-12-16-sun-endowed-chair&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+    </item>
+    <item>
+      <title>HReplica at BigData 2020 pairs replication with adaptive compression</title>
+      <link>https://grc.iit.edu/research/news/#2020-12-10-hreplica-bigdata-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-12-10-hreplica-bigdata-publication</guid>
+      <description>Hariharan Devarajan&apos;s engine selects a replication scheme, a compression library and a storage tier together to keep data available in heterogeneous storage. In the evaluation it ran up to 5.2x faster than the replication schemes it was compared with.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s engine selects a replication scheme, a compression library and a storage tier together to keep data available in heterogeneous storage. In the evaluation it ran up to 5.2x faster than the replication schemes it was compared with.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-12-10-hreplica-bigdata-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>BigData</category>
+      <category>Compression</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>An SC20 poster profiles the I/O of scientific deep learning applications</title>
+      <link>https://grc.iit.edu/research/news/#2020-11-16-deep-learning-io-sc-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-11-16-deep-learning-io-sc-poster</guid>
+      <description>Hariharan Devarajan, with Huihuo Zheng and Venkatram Vishwanath of Argonne, studied how scientific deep learning workloads read their training data on HPC systems. The same team released the DLIO benchmark the following year.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan, with Huihuo Zheng and Venkatram Vishwanath of Argonne, studied how scientific deep learning workloads read their training data on HPC systems. The same team released the DLIO benchmark the following year.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-11-16-deep-learning-io-sc-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Deep learning</category>
+      <category>I/O performance</category>
+      <category>Argonne</category>
+    </item>
+    <item>
+      <title>Hariharan Devarajan&apos;s SC20 poster manages storage tiers dynamically</title>
+      <link>https://grc.iit.edu/research/news/#2020-11-16-devarajan-dynamic-storage-sc20-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-11-16-devarajan-dynamic-storage-sc20-poster</guid>
+      <description>The poster describes a multi-tiered storage system, built on the Hermes buffering platform, that adjusts how it uses memory and storage tiers for extreme-scale applications.</description>
+      <content:encoded>&lt;p&gt;The poster describes a multi-tiered storage system, built on the Hermes buffering platform, that adjusts how it uses memory and storage tiers for extreme-scale applications.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-11-16-devarajan-dynamic-storage-sc20-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Storage systems</category>
+      <category>Data buffering</category>
+    </item>
+    <item>
+      <title>Luke Logan&apos;s SC20 poster measures the overheads of the Linux I/O stack</title>
+      <link>https://grc.iit.edu/research/news/#2020-11-16-logan-linux-io-sc20-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-11-16-logan-linux-io-sc20-poster</guid>
+      <description>The poster quantifies where time is lost between an application and the storage device in the modern kernel I/O path, a motivation for storage software that runs in user space.</description>
+      <content:encoded>&lt;p&gt;The poster quantifies where time is lost between an application and the storage device in the modern kernel I/O path, a motivation for storage software that runs in user space.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-11-16-logan-linux-io-sc20-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>I/O performance</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>Neeraj Rajesh&apos;s SC20 poster models the I/O behavior of HDF5 applications</title>
+      <link>https://grc.iit.edu/research/news/#2020-11-16-rajesh-hdf5-sc20-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-11-16-rajesh-hdf5-sc20-poster</guid>
+      <description>Working with Gerd Heber of The HDF Group, Rajesh characterized the access patterns of scientific applications that use the library and built models that approximate them, as a basis for tuning and system design.</description>
+      <content:encoded>&lt;p&gt;Working with Gerd Heber of The HDF Group, Rajesh characterized the access patterns of scientific applications that use the library and built models that approximate them, as a basis for tuning and system design.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-11-16-rajesh-hdf5-sc20-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>HDF5</category>
+      <category>I/O performance</category>
+      <category>The HDF Group</category>
+    </item>
+    <item>
+      <title>ChronoLog at MSST 2020 orders a distributed log by physical time</title>
+      <link>https://grc.iit.edu/research/news/#2020-05-01-chronolog-msst-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-05-01-chronolog-msst-publication</guid>
+      <description>Anthony Kougkas presented the design, written with Hariharan Devarajan, Keith Bateman, Jaime Cernuda, Neeraj Rajesh and Xian-He Sun, at the virtual conference on October 29 and 30, 2020. ChronoLog avoids synchronization when appending entries and spreads each log across storage tiers.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas presented the design, written with Hariharan Devarajan, Keith Bateman, Jaime Cernuda, Neeraj Rajesh and Xian-He Sun, at the virtual conference on October 29 and 30, 2020. ChronoLog avoids synchronization when appending entries and spreads each log across storage tiers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-05-01-chronolog-msst-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>MSST</category>
+      <category>Logging</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>HCL at Cluster 2020 distributes parallel data structures over RDMA</title>
+      <link>https://grc.iit.edu/research/news/#2020-09-14-hcl-cluster-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-09-14-hcl-cluster-publication</guid>
+      <description>Hariharan Devarajan&apos;s library builds shared containers such as maps and queues on remote procedure calls. The paper reports HCL programs running 2x to 12x faster than the same programs written with BCL.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s library builds shared containers such as maps and queues on remote procedure calls. The paper reports HCL programs running 2x to 12x faster than the same programs written with BCL.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-09-14-hcl-cluster-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>Cluster</category>
+      <category>Data movement</category>
+    </item>
+    <item>
+      <title>NSF funds planning for a memory-centric computing system</title>
+      <link>https://www.iit.edu/news/new-computer-architecture-method-aims-break-big-data-bottleneck</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-09-30-big-data-bottleneck-nsf</guid>
+      <description>Rujia Wang, Kyle Hale and Xian-He Sun of Illinois Tech received the collaborative PPoSS planning award 2029014. The team will process data in memory before it moves to the processor, cutting the time and energy spent on large data sets.</description>
+      <content:encoded>&lt;p&gt;Rujia Wang, Kyle Hale and Xian-He Sun of Illinois Tech received the collaborative PPoSS planning award 2029014. The team will process data in memory before it moves to the processor, cutting the time and energy spent on large data sets.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-09-30-big-data-bottleneck-nsf&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>Processing-in-memory</category>
+      <category>Computer architecture</category>
+      <category>NSF</category>
+    </item>
+    <item>
+      <title>Xian-He Sun&apos;s ACA 2020 keynote looks at dataflow in conventional architectures</title>
+      <link>https://grc.iit.edu/gnosis/articles/2020/08/13/sun-aca-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-08-13-aca-keynote</guid>
+      <description>At the 13th CCF National Computer Architecture Conference, Sun spoke on Data Flow under the von Neumann Computer Architecture, which asks how dataflow ideas can ease the memory and I/O bottlenecks of today&apos;s machines.</description>
+      <content:encoded>&lt;p&gt;At the 13th CCF National Computer Architecture Conference, Sun spoke on Data Flow under the von Neumann Computer Architecture, which asks how dataflow ideas can ease the memory and I/O bottlenecks of today&amp;apos;s machines.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-08-13-aca-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>ACA</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>Illinois Tech and the University of Chicago begin work on ChronoLog</title>
+      <link>https://grc.iit.edu/research/news/#2020-06-01-uchicago-chronolog-partnership</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-06-01-uchicago-chronolog-partnership</guid>
+      <description>Kyle Chard&apos;s group at the University of Chicago began working with the SCS Lab on the distributed log store in June 2020. The NSF partner award OAC-2104008 followed in 2021.</description>
+      <content:encoded>&lt;p&gt;Kyle Chard&amp;apos;s group at the University of Chicago began working with the SCS Lab on the distributed log store in June 2020. The NSF partner award OAC-2104008 followed in 2021.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-06-01-uchicago-chronolog-partnership&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>power-partnership</category>
+      <category>Partnership</category>
+      <category>Logging</category>
+      <category>UChicago</category>
+    </item>
+    <item>
+      <title>Xian-He Sun&apos;s HPBD&amp;IS 2020 keynote presents label-based data representation</title>
+      <link>https://grc.iit.edu/gnosis/articles/2020/05/23/sun-hpbdis-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-05-23-hpbdis-keynote</guid>
+      <description>The talk introduced dLABEL, which attaches labels to data so that large storage systems can decide where to place it and how to serve each request.</description>
+      <content:encoded>&lt;p&gt;The talk introduced dLABEL, which attaches labels to data so that large storage systems can decide where to place it and how to serve each request.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-05-23-hpbdis-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>HPBD&amp;IS</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>HCompress at IPDPS 2020 matches compression to each storage tier</title>
+      <link>https://grc.iit.edu/research/news/#2020-05-18-hcompress-ipdps-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-05-18-hcompress-ipdps-publication</guid>
+      <description>Hariharan Devarajan&apos;s paper presents an algorithm that picks a compression library for each tier of a multi-tiered storage system. In the evaluation it ran up to 7x faster than the solutions it was compared with.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s paper presents an algorithm that picks a compression library for each tier of a multi-tiered storage system. In the evaluation it ran up to 7x faster than the solutions it was compared with.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-05-18-hcompress-ipdps-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>IPDPS</category>
+      <category>Compression</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>HFetch at IPDPS 2020 pushes prefetched data through storage tiers</title>
+      <link>https://grc.iit.edu/research/news/#2020-05-18-hfetch-ipdps-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-05-18-hfetch-ipdps-publication</guid>
+      <description>Hariharan Devarajan&apos;s paper uses a server-push model to prefetch data hierarchically for scientific workflows. It improved performance by 10 to 35% over existing prefetchers and by more than 50% over runs with no prefetching.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s paper uses a server-push model to prefetch data hierarchically for scientific workflows. It improved performance by 10 to 35% over existing prefetchers and by more than 50% over runs with no prefetching.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-05-18-hfetch-ipdps-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>IPDPS</category>
+      <category>Prefetching</category>
+      <category>Workflows</category>
+    </item>
+    <item>
+      <title>A JCST article combines multi-tiered buffering with hierarchical prefetching</title>
+      <link>https://grc.iit.edu/research/news/#2020-01-15-io-acceleration-jcst-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-01-15-io-acceleration-jcst-publication</guid>
+      <description>Anthony Kougkas, Hariharan Devarajan and Xian-He Sun describe how Hermes places data across memory and storage tiers and moves it ahead of demand, so that applications read from the fastest tier that holds their data.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, Hariharan Devarajan and Xian-He Sun describe how Hermes places data across memory and storage tiers and moves it ahead of demand, so that applications read from the fastest tier that holds their data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-01-15-io-acceleration-jcst-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>JCST</category>
+      <category>Data buffering</category>
+      <category>Prefetching</category>
+    </item>
+    <item>
+      <title>Kun Feng defends his PhD dissertation</title>
+      <link>https://web.archive.org/web/20250617233455/https://repository.iit.edu/islandora/object/islandora%3A1024994</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2020-feng-phd-defense</guid>
+      <description>His dissertation, advised by Xian-He Sun, covered data-intensive applications and the I/O bridging systems NIOBE and SciDP.</description>
+      <content:encoded>&lt;p&gt;His dissertation, advised by Xian-He Sun, covered data-intensive applications and the I/O bridging systems NIOBE and SciDP.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2020-feng-phd-defense&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>PhD defense</category>
+    </item>
+    <item>
+      <title>Kun Feng&apos;s BigData 2019 paper bridges I/O between HPC and big data workflows</title>
+      <link>https://grc.iit.edu/research/news/#2019-12-09-feng-niobe-bigdata</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-12-09-feng-niobe-bigdata</guid>
+      <description>NIOBE, an I/O bridging engine, gives integrated scientific workflows access to data in both kinds of environment. It accelerated these workflows by up to 10x and improved on the integration solutions it was compared with by up to 133%.</description>
+      <content:encoded>&lt;p&gt;NIOBE, an I/O bridging engine, gives integrated scientific workflows access to data in both kinds of environment. It accelerated these workflows by up to 10x and improved on the integration solutions it was compared with by up to 133%.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-12-09-feng-niobe-bigdata&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>BigData</category>
+      <category>Workflows</category>
+      <category>Data movement</category>
+    </item>
+    <item>
+      <title>Jaime Cernuda&apos;s SC19 poster studies data eviction across storage tiers</title>
+      <link>https://grc.iit.edu/research/news/#2019-11-18-cernuda-data-eviction-sc19-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-11-18-cernuda-data-eviction-sc19-poster</guid>
+      <description>The poster presents strategies for moving data out of fast storage tiers as they fill, work that fed into data placement in the Hermes buffering platform.</description>
+      <content:encoded>&lt;p&gt;The poster presents strategies for moving data out of fast storage tiers as they fill, work that fed into data placement in the Hermes buffering platform.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-11-18-cernuda-data-eviction-sc19-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Data buffering</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>HFetch, a best poster nominee at SC19, prefetches data across storage tiers</title>
+      <link>https://grc.iit.edu/research/news/#2019-11-18-devarajan-hfetch-sc19-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-11-18-devarajan-hfetch-sc19-poster</guid>
+      <description>HFetch has servers push data into faster tiers ahead of reads, so clients do not need to recognize access patterns themselves. The full paper appeared at IPDPS 2020.</description>
+      <content:encoded>&lt;p&gt;HFetch has servers push data into faster tiers ahead of reads, so clients do not need to recognize access patterns themselves. The full paper appeared at IPDPS 2020.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-11-18-devarajan-hfetch-sc19-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Poster</category>
+      <category>SC</category>
+      <category>Prefetching</category>
+    </item>
+    <item>
+      <title>A TPDS article applies layered performance matching to concurrent data access</title>
+      <link>https://grc.iit.edu/research/news/#2019-11-01-lpm-tpds-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-11-01-lpm-tpds-publication</guid>
+      <description>Yu-Hang Liu and Xian-He Sun present LPM, a methodology that finds and removes mismatches between data request rates and supply rates at each layer of a memory hierarchy.</description>
+      <content:encoded>&lt;p&gt;Yu-Hang Liu and Xian-He Sun present LPM, a methodology that finds and removes mismatches between data request rates and supply rates at each layer of a memory hierarchy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-11-01-lpm-tpds-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TPDS</category>
+      <category>Memory systems</category>
+    </item>
+    <item>
+      <title>Xian-He Sun&apos;s HPC China 2019 keynote on deep memory and storage hierarchies</title>
+      <link>https://grc.iit.edu/gnosis/articles/2019/08/22/sun-hpcchina-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-08-22-hpcchina-keynote</guid>
+      <description>In a plenary talk at the National Annual Conference on High Performance Computing in Hohhot, China, Sun described the DMSH approach, which treats memory and storage as one deep hierarchy for fast data access.</description>
+      <content:encoded>&lt;p&gt;In a plenary talk at the National Annual Conference on High Performance Computing in Hohhot, China, Sun described the DMSH approach, which treats memory and storage as one deep hierarchy for fast data access.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-08-22-hpcchina-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>HPC China</category>
+      <category>Memory systems</category>
+    </item>
+    <item>
+      <title>An Illinois Tech video features the team behind Hermes</title>
+      <link>https://www.iit.edu/news/building-software-tomorrows-big-data-challenges</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-07-07-building-software-big-data</guid>
+      <description>Xian-He Sun and Anthony Kougkas describe how the lab builds software for the data challenges of high-performance computing, with Hermes as the main example.</description>
+      <content:encoded>&lt;p&gt;Xian-He Sun and Anthony Kougkas describe how the lab builds software for the data challenges of high-performance computing, with Hermes as the main example.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-07-07-building-software-big-data&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Media</category>
+      <category>Data buffering</category>
+    </item>
+    <item>
+      <title>LABIOS wins the Karsten Schwan best paper award at HPDC 2019</title>
+      <link>https://grc.iit.edu/gnosis/articles/2019/06/24/labios-best-paper/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-06-24-hpdc-best-paper-award</guid>
+      <description>Anthony Kougkas, Hariharan Devarajan, Jay Lofstead of Sandia National Laboratories and Xian-He Sun wrote the paper, which describes a distributed I/O system that represents data as labels.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, Hariharan Devarajan, Jay Lofstead of Sandia National Laboratories and Xian-He Sun wrote the paper, which describes a distributed I/O system that represents data as labels.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-06-24-hpdc-best-paper-award&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>HPDC</category>
+      <category>Storage systems</category>
+      <category>Sandia</category>
+    </item>
+    <item>
+      <title>Xian-He Sun&apos;s keynote at ACM TURC 2019 covers data access for big data</title>
+      <link>https://grc.iit.edu/gnosis/articles/2019/05/19/sun-turc-keynote/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-05-19-turc-keynote</guid>
+      <description>Sun spoke at the SIGMOBILE symposium of the ACM Turing Celebration Conference in Chengdu, China, on solving the system bottleneck that slows access to large data sets.</description>
+      <content:encoded>&lt;p&gt;Sun spoke at the SIGMOBILE symposium of the ACM Turing Celebration Conference in Chengdu, China, on solving the system bottleneck that slows access to large data sets.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-05-19-turc-keynote&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sun, 19 May 2019 00:00:00 GMT</pubDate>
+      <category>knowledge-sharing</category>
+      <category>Keynote</category>
+      <category>TURC</category>
+    </item>
+    <item>
+      <title>Ares at CCGrid 2019 picks a compression library for each workload</title>
+      <link>https://grc.iit.edu/research/news/#2019-05-14-ares-ccgrid-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-05-14-ares-ccgrid-publication</guid>
+      <description>Hariharan Devarajan&apos;s modular framework chooses among compression libraries based on the data and the workload. In the evaluation it ran 2x to 6x faster than the solutions it was compared with, at an overhead of about 10%.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s modular framework chooses among compression libraries based on the data and the workload. In the evaluation it ran 2x to 6x faster than the solutions it was compared with, at an overhead of about 10%.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-05-14-ares-ccgrid-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 14 May 2019 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>CCGrid</category>
+      <category>Compression</category>
+    </item>
+    <item>
+      <title>Anthony Kougkas defends his PhD dissertation</title>
+      <link>https://grc.iit.edu/research/news/#2019-kougkas-phd-defense</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2019-kougkas-phd-defense</guid>
+      <description>His dissertation, Accelerating I/O Using Data Labels, was advised by Xian-He Sun. The research introduced Hermes, LABIOS and IRIS, systems that manage data across heterogeneous storage hierarchies.</description>
+      <content:encoded>&lt;p&gt;His dissertation, Accelerating I/O Using Data Labels, was advised by Xian-He Sun. The research introduced Hermes, LABIOS and IRIS, systems that manage data across heterogeneous storage hierarchies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2019-kougkas-phd-defense&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>people-milestone</category>
+      <category>PhD defense</category>
+    </item>
+    <item>
+      <title>Vidya at HiPC 2018 profiles the I/O of individual code blocks</title>
+      <link>https://grc.iit.edu/research/news/#2018-12-17-vidya-hipc-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-12-17-vidya-hipc-publication</guid>
+      <description>Hariharan Devarajan&apos;s framework characterizes code blocks to predict how I/O-intensive an application will be, which guides data access optimization.</description>
+      <content:encoded>&lt;p&gt;Hariharan Devarajan&amp;apos;s framework characterizes code blocks to predict how I/O-intensive an application will be, which guides data access optimization.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-12-17-vidya-hipc-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>HiPC</category>
+      <category>I/O performance</category>
+    </item>
+    <item>
+      <title>A TC article presents a cost-effective data replication scheme for parallel I/O</title>
+      <link>https://grc.iit.edu/research/news/#2018-10-01-ceda-tc-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-10-01-ceda-tc-publication</guid>
+      <description>Shuibing He and Xian-He Sun describe CEDA, which places replicas according to how data is distributed across file servers, to improve parallel I/O performance at a modest storage cost.</description>
+      <content:encoded>&lt;p&gt;Shuibing He and Xian-He Sun describe CEDA, which places replicas according to how data is distributed across file servers, to improve parallel I/O performance at a modest storage cost.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-10-01-ceda-tc-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TC</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>NSF funds Hermes to add intelligent I/O buffering to HDF5</title>
+      <link>https://grc.iit.edu/gnosis/articles/2018/09/12/hermes-nsf-grant/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-09-12-hermes-nsf-grant</guid>
+      <description>The collaborative Framework award (OAC-1835764), with Xian-He Sun as principal investigator and Gerd Heber of The HDF Group as co-principal investigator, began on November 1, 2018. Hermes extends the HDF5 library with buffering across deep memory and storage hierarchies.</description>
+      <content:encoded>&lt;p&gt;The collaborative Framework award (OAC-1835764), with Xian-He Sun as principal investigator and Gerd Heber of The HDF Group as co-principal investigator, began on November 1, 2018. Hermes extends the HDF5 library with buffering across deep memory and storage hierarchies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-09-12-hermes-nsf-grant&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 GMT</pubDate>
+      <category>funding-win</category>
+      <category>Grant</category>
+      <category>Data buffering</category>
+      <category>HDF5</category>
+      <category>NSF</category>
+    </item>
+    <item>
+      <title>Kun Feng&apos;s Cluster 2018 paper runs HPC and big data analysis on shared data</title>
+      <link>https://grc.iit.edu/research/news/#2018-09-10-scidp-cluster-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-09-10-scidp-cluster-publication</guid>
+      <description>SciDP integrates parallel file systems, HDFS and R analysis so that HPC simulations and big data applications can process the same scientific data.</description>
+      <content:encoded>&lt;p&gt;SciDP integrates parallel file systems, HDFS and R analysis so that HPC simulations and big data applications can process the same scientific data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-09-10-scidp-cluster-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>Cluster</category>
+      <category>Workflows</category>
+      <category>Scientific data management</category>
+    </item>
+    <item>
+      <title>Harmonia at Cluster 2018 schedules I/O on shared burst buffers</title>
+      <link>https://grc.iit.edu/research/news/#2018-10-01-harmonia-cluster-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-10-01-harmonia-cluster-publication</guid>
+      <description>Anthony Kougkas, Hariharan Devarajan, Xian-He Sun and Jay Lofstead of Sandia National Laboratories describe a dynamic scheduler that reduces interference between applications sharing non-volatile burst buffers.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, Hariharan Devarajan, Xian-He Sun and Jay Lofstead of Sandia National Laboratories describe a dynamic scheduler that reduces interference between applications sharing non-volatile burst buffers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-10-01-harmonia-cluster-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>Cluster</category>
+      <category>Scheduling</category>
+      <category>Sandia</category>
+    </item>
+    <item>
+      <title>IRIS at ICS 2018 connects file systems and object stores</title>
+      <link>https://grc.iit.edu/research/news/#2018-06-12-iris-ics-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-06-12-iris-ics-publication</guid>
+      <description>Anthony Kougkas, Hariharan Devarajan and Xian-He Sun built a unified storage access layer that bridges the semantic gap between the two kinds of storage. The paper reports more than 7x better performance.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, Hariharan Devarajan and Xian-He Sun built a unified storage access layer that bridges the semantic gap between the two kinds of storage. The paper reports more than 7x better performance.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-06-12-iris-ics-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>ICS</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>Hermes at HPDC 2018 buffers I/O across deep memory and storage hierarchies</title>
+      <link>https://grc.iit.edu/research/news/#2018-06-11-hermes-hpdc-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-06-11-hermes-hpdc-publication</guid>
+      <description>Anthony Kougkas, Hariharan Devarajan and Xian-He Sun present a distributed buffering system that is aware of heterogeneous hardware and places data across memory, flash, burst buffers and the parallel file system.</description>
+      <content:encoded>&lt;p&gt;Anthony Kougkas, Hariharan Devarajan and Xian-He Sun present a distributed buffering system that is aware of heterogeneous hardware and places data across memory, flash, burst buffers and the parallel file system.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-06-11-hermes-hpdc-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Paper</category>
+      <category>HPDC</category>
+      <category>Data buffering</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>A TBD article extends data locality to account for concurrency</title>
+      <link>https://grc.iit.edu/research/news/#2018-06-01-cal-tbdata-publication</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2018-06-01-cal-tbdata-publication</guid>
+      <description>Yu-Hang Liu and Xian-He Sun define concurrency-aware locality (CaL), which measures how well a memory system serves data accesses that overlap in time, and use it to guide performance optimization.</description>
+      <content:encoded>&lt;p&gt;Yu-Hang Liu and Xian-He Sun define concurrency-aware locality (CaL), which measures how well a memory system serves data accesses that overlap in time, and use it to guide performance optimization.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2018-06-01-cal-tbdata-publication&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 GMT</pubDate>
+      <category>storage-breakthrough</category>
+      <category>Journal</category>
+      <category>TBD</category>
+      <category>Memory systems</category>
+    </item>
+    <item>
+      <title>Xian-He Sun receives the IEEE Computer Society Golden Core Award</title>
+      <link>https://today.iit.edu/sun-receives-2016-golden-core-award-from-ieee-computer-society/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2017-02-27-ieee-golden-core-award</guid>
+      <description>The 2016 award recognizes members who have given many years of volunteer service to the society, and Illinois Tech reported it in February 2017.</description>
+      <content:encoded>&lt;p&gt;The 2016 award recognizes members who have given many years of volunteer service to the society, and Illinois Tech reported it in February 2017.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2017-02-27-ieee-golden-core-award&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+    </item>
+    <item>
+      <title>A study of HPC architecture for big data wins the best paper award at ISPA 2016</title>
+      <link>https://grc.iit.edu/research/news/#2016-06-01-ispa-best-paper</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2016-06-01-ispa-best-paper</guid>
+      <description>Yong Chen, Chao Chen, Yanlong Yin, Xian-He Sun, Rajeev Thakur and William Gropp proposed changes to the architecture of HPC systems so that they better serve data-intensive scientific applications.</description>
+      <content:encoded>&lt;p&gt;Yong Chen, Chao Chen, Yanlong Yin, Xian-He Sun, Rajeev Thakur and William Gropp proposed changes to the architecture of HPC systems so that they better serve data-intensive scientific applications.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2016-06-01-ispa-best-paper&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>ISPA</category>
+      <category>Computer architecture</category>
+    </item>
+    <item>
+      <title>Xian-He Sun is recognized for meritorious service to the IEEE Computer Society</title>
+      <link>https://www.computer.org/volunteering/awards/meritorious-service</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2016-08-ieee-meritorious-service</guid>
+      <description>A Meritorious Service Certificate recognized his work as general chair of the 2016 International Parallel and Distributed Processing Symposium.</description>
+      <content:encoded>&lt;p&gt;A Meritorious Service Certificate recognized his work as general chair of the 2016 International Parallel and Distributed Processing Symposium.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2016-08-ieee-meritorious-service&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>IPDPS</category>
+    </item>
+    <item>
+      <title>FatTreeSim wins the best paper award at PADS 2015</title>
+      <link>https://grc.iit.edu/research/news/#2015-06-10-pads-best-paper-fattreesim</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2015-06-10-pads-best-paper-fattreesim</guid>
+      <description>Ning Liu, Adnan Haider, Xian-He Sun and Dong Jin built a parallel discrete event simulation of large fat-tree networks for HPC systems and data centers. Liu, a PhD student advised by Sun, also won the conference&apos;s best PhD colloquium award for this line of work.</description>
+      <content:encoded>&lt;p&gt;Ning Liu, Adnan Haider, Xian-He Sun and Dong Jin built a parallel discrete event simulation of large fat-tree networks for HPC systems and data centers. Liu, a PhD student advised by Sun, also won the conference&amp;apos;s best PhD colloquium award for this line of work.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2015-06-10-pads-best-paper-fattreesim&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>PADS</category>
+    </item>
+    <item>
+      <title>Xian-He Sun is named a Distinguished Professor of Computer Science</title>
+      <link>https://www.iit.edu/news/xian-he-sun-appointed-distinguished-professor</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2014-03-12-sun-distinguished-professor</guid>
+      <description>Illinois Tech gave Sun the title in recognition of his research in parallel computing, memory systems and high-performance I/O.</description>
+      <content:encoded>&lt;p&gt;Illinois Tech gave Sun the title in recognition of his research in parallel computing, memory systems and high-performance I/O.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2014-03-12-sun-distinguished-professor&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Wed, 12 Mar 2014 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Promotion</category>
+    </item>
+    <item>
+      <title>An SCS Lab student works with Los Alamos on I/O pattern detection</title>
+      <link>http://www.cs.iit.edu/~scs/archive_news.html</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2012-05-lanl-plfs-collaboration</guid>
+      <description>From May 2012 to August 2013, the student worked with John Bent and Gary Grider of Los Alamos National Laboratory on the PLFS parallel log-structured file system. The work appeared at PDSW 2012 and HPDC 2013.</description>
+      <content:encoded>&lt;p&gt;From May 2012 to August 2013, the student worked with John Bent and Gary Grider of Los Alamos National Laboratory on the PLFS parallel log-structured file system. The work appeared at PDSW 2012 and HPDC 2013.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2012-05-lanl-plfs-collaboration&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>power-partnership</category>
+      <category>Partnership</category>
+      <category>I/O performance</category>
+      <category>LANL</category>
+    </item>
+    <item>
+      <title>Xian-He Sun is elected an IEEE Fellow</title>
+      <link>https://grc.iit.edu/gnosis/articles/2012/01/05/sun-ieee-fellow/</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2012-01-05-sun-ieee-fellow</guid>
+      <description>The IEEE elevated Sun, then chair of the Department of Computer Science at Illinois Tech, for contributions to memory-bounded performance metrics and scalable parallel computing.</description>
+      <content:encoded>&lt;p&gt;The IEEE elevated Sun, then chair of the Department of Computer Science at Illinois Tech, for contributions to memory-bounded performance metrics and scalable parallel computing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2012-01-05-sun-ieee-fellow&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Thu, 05 Jan 2012 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+    </item>
+    <item>
+      <title>A hybrid storage scheme wins the best paper award at ISPA 2011</title>
+      <link>https://grc.iit.edu/research/news/#2011-05-01-ispa-best-paper-hybrid-storage</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2011-05-01-ispa-best-paper-hybrid-storage</guid>
+      <description>Huaiming Song, Xian-He Sun and Yong Chen combined shared-nothing and shared-data storage so that large-scale data processing can draw on the strengths of both.</description>
+      <content:encoded>&lt;p&gt;Huaiming Song, Xian-He Sun and Yong Chen combined shared-nothing and shared-data storage so that large-scale data processing can draw on the strengths of both.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2011-05-01-ispa-best-paper-hybrid-storage&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>ISPA</category>
+      <category>Storage systems</category>
+    </item>
+    <item>
+      <title>A prefetching paper is a best paper finalist at SC08</title>
+      <link>https://grc.iit.edu/research/news/#2008-11-01-sc08-best-paper-finalist</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2008-11-01-sc08-best-paper-finalist</guid>
+      <description>Yong Chen, Suren Byna, Xian-He Sun, Rajeev Thakur and William Gropp hid I/O latency in parallel applications by running ahead of the program to fetch the data it will need. The conference took place in Austin, Texas.</description>
+      <content:encoded>&lt;p&gt;Yong Chen, Suren Byna, Xian-He Sun, Rajeev Thakur and William Gropp hid I/O latency in parallel applications by running ahead of the program to fetch the data it will need. The conference took place in Austin, Texas.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2008-11-01-sc08-best-paper-finalist&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 15 Nov 2008 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>SC</category>
+      <category>Prefetching</category>
+    </item>
+    <item>
+      <title>Process migration for MPI earns an honorable mention in a 2006 HPC challenge</title>
+      <link>http://web.archive.org/web/20080408011219/http://www.hpcwire.com:80/hpc/1083757.html</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2006-11-10-vtech-hec-honorable-mention</guid>
+      <description>Cong Du and Xian-He Sun received the mention in the Virginia Tech High-End Computing Challenge for MPI-Mitten, which lets MPI applications move processes between nodes while they run.</description>
+      <content:encoded>&lt;p&gt;Cong Du and Xian-He Sun received the mention in the Virginia Tech High-End Computing Challenge for MPI-Mitten, which lets MPI applications move processes between nodes while they run.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2006-11-10-vtech-hec-honorable-mention&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Fri, 10 Nov 2006 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+    </item>
+    <item>
+      <title>Suren Byna&apos;s poster on MPI datatypes wins best student poster at SC03</title>
+      <link>https://grc.iit.edu/research/news/#2003-11-15-sc03-best-poster</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2003-11-15-sc03-best-poster</guid>
+      <description>Byna, Xian-He Sun, William Gropp and Rajeev Thakur showed how optimizing memory-access cost speeds up MPI derived datatypes. The conference took place in Phoenix, Arizona.</description>
+      <content:encoded>&lt;p&gt;Byna, Xian-He Sun, William Gropp and Rajeev Thakur showed how optimizing memory-access cost speeds up MPI derived datatypes. The conference took place in Phoenix, Arizona.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2003-11-15-sc03-best-poster&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Sat, 15 Nov 2003 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>SC</category>
+    </item>
+    <item>
+      <title>A process mobility paper wins the best paper award at ICPP 2001</title>
+      <link>https://grc.iit.edu/research/news/#2001-09-03-icpp-best-paper</link>
+      <guid isPermaLink="true">https://grc.iit.edu/research/news/#2001-09-03-icpp-best-paper</guid>
+      <description>Kasidit Chanchio and Xian-He Sun were honored for Communication State Transfer for the Mobility of Concurrent Heterogeneous Computing, which moves running processes between machines while keeping their communication state intact.</description>
+      <content:encoded>&lt;p&gt;Kasidit Chanchio and Xian-He Sun were honored for Communication State Transfer for the Mobility of Concurrent Heterogeneous Computing, which moves running processes between machines while keeping their communication state intact.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grc.iit.edu/research/news/#2001-09-03-icpp-best-paper&quot;&gt;Read this update at GRC&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <dc:creator>Gnosis Research Center</dc:creator>
+      <pubDate>Mon, 03 Sep 2001 00:00:00 GMT</pubDate>
+      <category>awards-glory</category>
+      <category>Award</category>
+      <category>ICPP</category>
+    </item>
+  </channel>
+</rss>

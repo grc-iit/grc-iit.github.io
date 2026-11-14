@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gnosis Research Center//GRC at SC26//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GRC at SC26: ToolFuse
+BEGIN:VEVENT
+UID:sc26-toolfuse@grc.iit.edu
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T230000Z
+SUMMARY:ToolFuse: Provenance-Aware In-Flight Coalescing of Redundant Agent 
+ Tool Calls
+LOCATION:Skyline Ballroom North Pre-Function\, McCormick Place\, 2301 S Mar
+ tin Luther King Dr\, Chicago\, IL 60616
+DESCRIPTION:Research poster rpost306\nI. Yildirim\, X.-H. Sun\, A. Kougkas\
+ nPaper: https://grc.iit.edu/gnosis/publications/yildirim-2026-toolfuse-4a7
+ d/\nSC26 program: https://sc26.conference-program.com/presentation/?id=rpo
+ st306&sess=sess313
+URL:https://grc.iit.edu/sc26/#toolfuse
+END:VEVENT
+END:VCALENDAR
